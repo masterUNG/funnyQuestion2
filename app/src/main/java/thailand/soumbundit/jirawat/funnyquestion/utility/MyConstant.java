@@ -1,5 +1,7 @@
 package thailand.soumbundit.jirawat.funnyquestion.utility;
 
+import java.security.PrivateKey;
+
 public class MyConstant {
 
 //    #########################################################################
@@ -13,7 +15,7 @@ public class MyConstant {
 
 //    Practice
     private String[] practice1True = new String[]{"keyboard","touch screen","data collection", "aa"};
-
+    private int [] practise3Ints = new int[]{1,1,2,2,3,3};
 
 //    #########################################################################
 
@@ -152,6 +154,11 @@ public class MyConstant {
 
 
 //    Getter
+
+
+    public int[] getPractise3Ints() {
+        return practise3Ints;
+    }
 
     public String[] getPractice1TrueString() {
         return practice1True;

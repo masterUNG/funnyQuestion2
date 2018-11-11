@@ -210,27 +210,32 @@
                 android:textStyle="bold" />
 
             <RadioGroup
+                android:id="@+id/ragCpuStamd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:orientation="vertical">
 
                 <RadioButton
+                    android:id="@+id/radA"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="a.Central Processing Unity" />
 
                 <RadioButton
+                    android:id="@+id/radB"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="b.Central Processing United" />
 
                 <RadioButton
+                    android:id="@+id/radC"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="c.Central Processing Unit" />
 
                 <RadioButton
+                    android:id="@+id/radD"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="d.Central Programming Unit" />

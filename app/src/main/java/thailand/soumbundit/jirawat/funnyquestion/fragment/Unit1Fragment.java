@@ -15,6 +15,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioGroup;
 import android.widget.Spinner;
 
 import java.text.DateFormat;
@@ -32,6 +33,7 @@ public class Unit1Fragment extends Fragment {
     private String tag = "11NovV1";
     private String tag2 = "11NovV2";
     private int[] scoreWarmUpInts = new int[]{0, 0, 0};
+    private int[] scorePractise3Ints = new int[]{0,0,0,0,0,0};
 
     public static Unit1Fragment unit1Instance(String uidString) {
         Unit1Fragment unit1Fragment = new Unit1Fragment();
@@ -58,7 +60,7 @@ public class Unit1Fragment extends Fragment {
 //        Answer Controller
         answer4Controller();
 
-
+//      Practise3
         item1Spinner();
         item2Spinner();
         item3Spinner();
@@ -129,15 +131,45 @@ public class Unit1Fragment extends Fragment {
             public void onClick(DialogInterface dialog, int which) {
 
                 dialog.dismiss();
-                findTimeTest();
-                calculateWarmUp();
-                calculatePractice1();
-
+                processCheckScore();
             }
         });
         builder.show();
 
 
+    }
+
+    public void processCheckScore() {
+        findTimeTest();
+        calculateWarmUp();
+        calculatePractice1();
+        calculatePractice2();
+        calculatePractice3();
+    }
+
+    private void calculatePractice3() {
+        int sumScorePractise3 = 0;
+        for(int i =0; i<scorePractise3Ints.length; i+=1){
+            sumScorePractise3 = sumScorePractise3+ scorePractise3Ints[i];
+        }
+        Log.d(tag2,"scorePractise3 ==>"+ sumScorePractise3);
+    }
+
+    private void calculatePractice2() {
+
+        final int trueInt = R.id.radC; //Choice C is true
+        final int[] ints = {0};
+
+        RadioGroup radioGroup = getView().findViewById(R.id.ragCpuStamd);
+        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup group, int i) {
+                if(i == trueInt){
+                    ints[0] = 1;
+                }
+            }
+        });
+        int scorePratice2 = ints[0];
     }
 
     private void calculatePractice1() {
@@ -392,12 +424,33 @@ public class Unit1Fragment extends Fragment {
     }//Play Media Clip1
 
 
+    private void checkScorePractise3(int indexSpinner, int position) {
+        int[] answerTrueInts = myConstant.getPractise3Ints();
+
+        if(position == answerTrueInts[indexSpinner]){
+            scorePractise3Ints[indexSpinner] =1;
+        }else {
+            scorePractise3Ints[indexSpinner] =0;
+        }
+    }
+
     private void item1Spinner() {
         Spinner spinner = getView().findViewById(R.id.spinnerItem1);
         String[] strings = myConstant.getChioceSpinnerItemStrings();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                checkScorePractise3(0, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
     }
 
     private void item2Spinner() {
@@ -406,6 +459,17 @@ public class Unit1Fragment extends Fragment {
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                checkScorePractise3(1, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
     }
 
     private void item3Spinner() {
@@ -414,6 +478,17 @@ public class Unit1Fragment extends Fragment {
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                checkScorePractise3(2, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
     }
 
     private void item4Spinner() {
@@ -422,6 +497,17 @@ public class Unit1Fragment extends Fragment {
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                checkScorePractise3(3, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
     }
 
     private void item5Spinner() {
@@ -430,6 +516,17 @@ public class Unit1Fragment extends Fragment {
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                checkScorePractise3(4, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
     }
 
     private void item6Spinner() {
@@ -438,6 +535,17 @@ public class Unit1Fragment extends Fragment {
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                checkScorePractise3(5, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
     }
 
 
