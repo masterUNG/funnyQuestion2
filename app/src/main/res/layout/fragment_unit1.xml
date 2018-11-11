@@ -6,9 +6,7 @@
     <!--Contents-->
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -411,9 +409,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -438,9 +436,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -465,9 +463,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -491,9 +489,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -518,9 +516,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -663,8 +661,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
                 android:layout_marginBottom="@dimen/padding"
+                android:layout_marginTop="@dimen/padding"
                 android:text="Structure: Wh-question-The simple present tense"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
@@ -681,32 +679,32 @@
                     android:background="@drawable/table_row_bg">
 
                     <TextView
-                        android:background="@drawable/table_cell_bg"
                         android:layout_gravity="center"
+                        android:background="@drawable/table_cell_bg"
                         android:text="WhQuestion"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:background="@drawable/table_cell_bg"
                         android:layout_gravity="center"
+                        android:background="@drawable/table_cell_bg"
                         android:text="Auxilary Verb"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:background="@drawable/table_cell_bg"
                         android:layout_gravity="center"
+                        android:background="@drawable/table_cell_bg"
                         android:text="Subject"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:background="@drawable/table_cell_bg"
                         android:layout_gravity="center"
+                        android:background="@drawable/table_cell_bg"
                         android:text="Verb"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:background="@drawable/table_cell_bg"
                         android:layout_gravity="center"
+                        android:background="@drawable/table_cell_bg"
                         android:text="others"
                         android:textStyle="bold" />
                 </TableRow>
@@ -716,38 +714,37 @@
                     android:layout_height="wrap_content">
 
                     <TextView
-                        android:background="@drawable/table_cell_bg"
                         android:layout_gravity="center"
+                        android:background="@drawable/table_cell_bg"
                         android:text="Where"
                         android:textStyle="normal" />
 
                     <TextView
-                        android:background="@drawable/table_cell_bg"
                         android:layout_gravity="center"
+                        android:background="@drawable/table_cell_bg"
                         android:text="do"
                         android:textStyle="normal" />
 
                     <TextView
-                        android:background="@drawable/table_cell_bg"
                         android:layout_gravity="center"
+                        android:background="@drawable/table_cell_bg"
                         android:text="you"
                         android:textStyle="normal" />
 
                     <TextView
-                        android:background="@drawable/table_cell_bg"
                         android:layout_gravity="center"
+                        android:background="@drawable/table_cell_bg"
                         android:text="go"
                         android:textStyle="normal" />
 
                     <TextView
-                        android:background="@drawable/table_cell_bg"
                         android:layout_gravity="center"
+                        android:background="@drawable/table_cell_bg"
                         android:text="to?"
                         android:textStyle="normal" />
                 </TableRow>
 
             </TableLayout>
-
 
 
             <!--These whquestion words areat the beginning of...-->
@@ -856,8 +853,7 @@
             <!--Language work: Practice#1-->
             <TableLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                >
+                android:layout_height="match_parent">
                 <!--Roll 1-->
                 <TableRow>
 
@@ -866,16 +862,19 @@
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginTop="@dimen/padding4" />
+
                     <Spinner
                         android:id="@+id/languagework2spinner"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginTop="@dimen/padding4" />
+
                     <Spinner
                         android:id="@+id/languagework3spinner"
                         android:layout_width="wrap_content"
                         android:layout_height="match_parent"
                         android:layout_marginTop="@dimen/padding4" />
+
                     <Spinner
                         android:id="@+id/languagework4spinner"
                         android:layout_width="wrap_content"
@@ -925,81 +924,81 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_marginTop="@dimen/padding4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
                 android:text="The ability of tiny computing devices to control complex operations has transformed the way many tasks are performed, ranging from scientific research to producing consumer products. Tiny 'computers on a chip' are used in medical equipment, home appliances, cars and toys. Workers use handheld computing devices to collect data at a customer site, to generate forms, to control inventory, and to serve as desktop organizers."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginTop="@dimen/padding4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
                 android:text="Not only is computing equipment getting smaller, it is getting more sophisticated. Computers are part of many machines and devices that once required continual human supervision and control. Today, computers in security systems result in safer environments, computers in cars improve energy efficiency, and computers in phones provide features such as call forwarding, call monitoring, and20call answering."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginTop="@dimen/padding4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
                 android:text="These smart machines are designed to take over some of the basic tasks previously performed by people; by so doing, they make life a little easier and a little more pleasant."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginTop="@dimen/padding4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
                 android:text="Smart cards store vital information such as health records, drivers' licenses, bank balances, and so on. Smart phones, cars, and appliances with built in computers can be programmed to better meet individual needs. A smart house has a built-in monitoring system that can turn lights on and off, open and close windows, operate the oven, and more."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginTop="@dimen/padding4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
                 android:text="With small computing devices available for performing smart tasks like cooking dinner, programming the DVD recorder, and controlling the flow of information in an organization, people are able to spend more time doing what they often do best -being creative. Computers can help people work more creatively."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginTop="@dimen/padding4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
                 android:text="Multimedia systems are known for their educational and entertainment value, which we call 'edutainment'. Multimedia combines text with sound, video, animation, and graphics, which greatly enhances the interaction between user and machine and can make information more interesting and appealing to people. Expert systems software enables"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginTop="@dimen/padding4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
                 android:text="computers to 'think' like experts. Medical diagnosis expert systems, for example, can help doctors pinpoint a patient's illness, suggest further tests, and prescribe appropriate drugs."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginTop="@dimen/padding4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
                 android:text="Connectivity enables computers and software that might otherwise be incompatible to communicate and to share resources. Now that computers are proliferating in many areas and networks are available for people to access data and communicate with others, personal computers are becoming interpersonal PCs. They have the potential to significantly improve the way we relate to each other. Many people today telecommute -that is, use their computers to stay in touch 65 with the office while they are working at home. With the proper tools, hospital staff can get a diagnosis from a medical expert hundreds or thousands of miles away. Similarly, the disabled can communicate more 70 effectively with others using computers."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginTop="@dimen/padding4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
                 android:text="Distance learning and videoconferencing are concepts made possible with the use of an electronic classroom or boardroom accessible to people in remote locations. Vast databases 75 of information are currently available to users of the Internet, all of whom can send mail messages to each other. The information superhighway is designed to significantly expand this interactive connectivity so that 80 people all over the world will have free access to all these resources."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginTop="@dimen/padding4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
                 android:text="People power is critical to ensuring that hardware, software, and connectivity are effectively integrated in a socially responsible 85 way. People -computer users and computer professionals -are the ones who will decide which hardware, software, and networks endure and how great an impact they will have on our lives. Ultimately people power must be exercised to ensure that computers are used not only efficiently but in a socially responsible way."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
@@ -1015,9 +1014,9 @@
 
             <!--1. Name some types of devices that use 'computers on a chip'.-->
             <TextView
-                android:layout_marginTop="@dimen/padding4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
                 android:text="1. Name some types of devices that use 'computers on a chip'"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
@@ -1045,9 +1044,9 @@
 
             <!--2. Which is not the use of handheld computers are mentioned in the text?-->
             <TextView
-                android:layout_marginTop="@dimen/padding4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
                 android:text="2. Which is not the use of handheld computers are mentioned in the text?"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
@@ -1081,9 +1080,9 @@
 
             <!--3. What are smart cards used for?-->
             <TextView
-                android:layout_marginTop="@dimen/padding4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
                 android:text="3. What are smart cards used for?"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
@@ -1117,33 +1116,33 @@
 
             <!--4: What are the benefits of using computers with the following item?-->
             <TextView
-                android:layout_marginTop="@dimen/padding4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
                 android:text="4: What are the benefits of using computers with the following item?"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginLeft="@dimen/padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding"
                 android:text="1. Security system"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginLeft="@dimen/padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding"
                 android:text="2. Cars"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginLeft="@dimen/padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding"
                 android:text="3. Phones"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
@@ -1173,34 +1172,34 @@
 
             <!--B: Re-read the text to find the answers to these question.-->
             <TextView
-                android:layout_marginTop="@dimen/padding4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
                 android:text="B: Re-read the text to find the answers to these question."
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_marginLeft="@dimen/padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding"
                 android:text="Edutainment     MultimediaExpert      system"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginLeft="@dimen/padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding"
                 android:text="Telecommute      Information Superhighway"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <!--1. Multimedia materials with a combination of educational and entertainment context.-->
             <TextView
-                android:layout_marginLeft="@dimen/padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding"
                 android:text="1. Multimedia materials with a combination of educational and entertainment context."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
@@ -1213,9 +1212,9 @@
 
             <!--2. A combination of text with sound, video, animation, and graphics.-->
             <TextView
-                android:layout_marginLeft="@dimen/padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding"
                 android:text="2. A combination of text with sound, video, animation, and graphics."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
@@ -1228,9 +1227,9 @@
 
             <!--3. Use computer to stay in touch with the office while working at home.-->
             <TextView
-                android:layout_marginLeft="@dimen/padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding"
                 android:text="3. Use computer to stay in touch with the office while working at home."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
@@ -1243,9 +1242,9 @@
 
             <!--4. Software that enables computers to “think” like experts-->
             <TextView
-                android:layout_marginLeft="@dimen/padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding"
                 android:text="4. Software that enables computers to “think” like experts"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
@@ -1258,9 +1257,9 @@
 
             <!--5. Internet system designed to provide free interactive access to vast resources for people all over the world..-->
             <TextView
-                android:layout_marginLeft="@dimen/padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding"
                 android:text="5. Internet system designed to provide free interactive access to vast resources for people all over the world."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
@@ -1273,9 +1272,9 @@
 
             <!--Choose the following statements as True or False.-->
             <TextView
-                android:layout_marginTop="@dimen/padding4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
                 android:text="Choose the following statements as True or False."
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
@@ -1296,9 +1295,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1323,9 +1322,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1350,9 +1349,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1377,9 +1376,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1404,9 +1403,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1431,9 +1430,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1458,9 +1457,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1485,9 +1484,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1512,9 +1511,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1539,9 +1538,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1556,5 +1555,14 @@
 
     </ScrollView>
 
+    <!--Floating-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingCheck"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_action_check"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>
