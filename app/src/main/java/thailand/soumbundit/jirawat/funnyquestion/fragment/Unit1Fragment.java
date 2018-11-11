@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -19,10 +20,8 @@ import android.widget.Spinner;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.zip.Inflater;
 
 import thailand.soumbundit.jirawat.funnyquestion.R;
-import thailand.soumbundit.jirawat.funnyquestion.ServiceActivity;
 import thailand.soumbundit.jirawat.funnyquestion.utility.MyConstant;
 
 public class Unit1Fragment extends Fragment {
@@ -31,6 +30,7 @@ public class Unit1Fragment extends Fragment {
     private MediaPlayer mediaPlayer1;
     private String uidString, nameUnitString, timeTestString, warmUpString, presentString, practiseString;
     private String tag = "11NovV1";
+    private int[] scoreWarmUpInts = new int[]{0, 0, 0};
 
     public static Unit1Fragment unit1Instance(String uidString) {
         Unit1Fragment unit1Fragment = new Unit1Fragment();
@@ -47,16 +47,13 @@ public class Unit1Fragment extends Fragment {
 //        Find UID, Find UnitName of User
         findUidNameUnit();
 
-//        Find TimeRest
-        findTimeRest();
-
-
-        //        First Spinner
+        // About Warm Up
         firstSpinner();
 
         secondSpinner();
 
         thirdSpinner();
+
 //        Answer Controller
         answer4Controller();
 
@@ -98,16 +95,20 @@ public class Unit1Fragment extends Fragment {
         Reading5spinner();
 
 //        Check Floating
+        checkFloating();
+
+    } //Main Method
+
+    public void checkFloating() {
         FloatingActionButton floatingActionButton = getView().findViewById(R.id.floatingCheck);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d(tag,"You click floating");
+                Log.d(tag, "You click floating");
                 myAlertDialog();
             }
         });
-
-    } //Main Method
+    }
 
     private void myAlertDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
@@ -125,17 +126,29 @@ public class Unit1Fragment extends Fragment {
         builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
+
+
                 dialog.dismiss();
+                findTimeTest();
+                calculateWarmUp();
 
             }
         });
         builder.show();
 
 
-
     }
 
-    public void findTimeRest() {
+    private void calculateWarmUp() {
+        int sumScoreInt =0;
+        for(int i=0; i<scoreWarmUpInts.length; i+=1){
+            sumScoreInt = sumScoreInt+scoreWarmUpInts[i];
+        }
+        warmUpString = Integer.toString(sumScoreInt);
+        Log.d(tag,"warmUpString ==>"+ warmUpString);
+    }
+
+    public void findTimeTest() {
         Calendar calendar = Calendar.getInstance();
         DateFormat dateFormat = new SimpleDateFormat("dd/MM/yy HH:mm");
         timeTestString = dateFormat.format(calendar.getTime());
@@ -402,12 +415,36 @@ public class Unit1Fragment extends Fragment {
 
     }
 
+
+    private void checkScore(int indexSpinner, int position, int[] answerTrueInts) {
+        for(int i=0;i < answerTrueInts.length; i+=1){
+            if(position == answerTrueInts[i]){
+                scoreWarmUpInts[indexSpinner] = 1;
+                break;
+            }else{
+                scoreWarmUpInts[indexSpinner] = 0;
+            }//for
+        }//checkScore
+    }
+
+
     private void firstSpinner() {
         Spinner spinner = getView().findViewById(R.id.spinner1);
         String[] strings = myConstant.getChioceSpinner1Strings();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                checkScore (0,position, myConstant.getAnswer1TrueInts());
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
     }
 
     private void secondSpinner() {
@@ -416,6 +453,18 @@ public class Unit1Fragment extends Fragment {
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                checkScore (1,position, myConstant.getAnswer2TrueInts());
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
     }
 
     private void thirdSpinner() {
@@ -424,6 +473,19 @@ public class Unit1Fragment extends Fragment {
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                checkScore (2,position, myConstant.getAnswer3TrueInts());
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+
+            }
+        });
+
     }
 
 

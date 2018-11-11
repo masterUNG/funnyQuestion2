@@ -1,6 +1,19 @@
 package thailand.soumbundit.jirawat.funnyquestion.utility;
 
 public class MyConstant {
+
+//    #########################################################################
+//    About Unit1
+//    #########################################################################
+
+    //       Warm Up
+    private int[] answer1TrueInts = new int[]{2, 8, 13, 24};
+    private int[] answer2TrueInts = new int[]{2, 3};
+    private int[] answer3TrueInts = new int[]{2, 4};
+
+
+//    #########################################################################
+
     //    item
     private String[] chioceSpinnerItemStrings = new String[]{
             "????",
@@ -10,11 +23,12 @@ public class MyConstant {
             "external drive",
             "headset",
             "joystick"};
+
     //    Choice Spinner 1
     private String[] chioceSpinner1Strings = new String[]{
             "1)..........",
             "To listen to music",
-            "xxx",
+            "xxx ",
             "To listen music",
             "xxx",
             "Listen to music",
@@ -82,7 +96,7 @@ public class MyConstant {
             "Communication device",
             "Communication Devices",
             "Communication Device"
-            };
+    };
 
 
     private String[] unitTitleStrings = new String[]{
@@ -93,7 +107,6 @@ public class MyConstant {
             "Unit5",
             "Unit6"
     };
-
 
 
     private String[] chioceSpinner5Strings = new String[]{
@@ -108,7 +121,6 @@ public class MyConstant {
             "To encourage young students, to tell stories",
 
     }; //Practice: Listening
-
 
 
     private String[] chioceSpinner6Strings = new String[]{
@@ -126,7 +138,6 @@ public class MyConstant {
     }; //Language work: Practice
 
 
-
     private String[] chioceSpinner7Strings = new String[]{
             "Answer:.........",
             "Edutainment",
@@ -137,9 +148,20 @@ public class MyConstant {
     }; //B: Re-read the text to find the answers to these question.
 
 
-
 //    Getter
 
+
+    public int[] getAnswer1TrueInts() {
+        return answer1TrueInts;
+    }
+
+    public int[] getAnswer2TrueInts() {
+        return answer2TrueInts;
+    }
+
+    public int[] getAnswer3TrueInts() {
+        return answer3TrueInts;
+    }
 
     public String[] getChioceSpinner7Strings() {
         return chioceSpinner7Strings;

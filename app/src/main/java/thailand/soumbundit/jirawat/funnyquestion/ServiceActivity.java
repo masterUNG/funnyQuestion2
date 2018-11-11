@@ -19,6 +19,7 @@ import com.google.firebase.auth.FirebaseUser;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.ServiceFragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.Unit1Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.Unit4Fragment;
+import thailand.soumbundit.jirawat.funnyquestion.utility.MyConstant;
 
 public class ServiceActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -56,12 +57,22 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
     }
 
     private void unitController() {
+
         unit1TextView = findViewById(R.id.txtUnit1);
         unit2TextView = findViewById(R.id.txtUnit2);
         unit3TextView = findViewById(R.id.txtUnit3);
         unit4TextView = findViewById(R.id.txtUnit4);
         unit5TextView = findViewById(R.id.txtUnit5);
         unit6TextView = findViewById(R.id.txtUnit6);
+
+        MyConstant myConstant = new MyConstant();
+        String[] strings = myConstant.getUnitTitleStrings();
+        unit1TextView.setText(strings[0]);
+        unit2TextView.setText(strings[1]);
+        unit3TextView.setText(strings[2]);
+        unit4TextView.setText(strings[3]);
+        unit5TextView.setText(strings[4]);
+        unit6TextView.setText(strings[5]);
 
         unit1TextView.setOnClickListener(ServiceActivity.this);
         unit2TextView.setOnClickListener(ServiceActivity.this);
@@ -172,7 +183,6 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
 
                 break;
         }
-
 
 
     } //onClick
