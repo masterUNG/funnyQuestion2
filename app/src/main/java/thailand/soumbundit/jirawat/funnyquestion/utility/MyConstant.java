@@ -11,6 +11,9 @@ public class MyConstant {
     private int[] answer2TrueInts = new int[]{2, 3};
     private int[] answer3TrueInts = new int[]{2, 4};
 
+//    Practice
+    private String[] practice1True = new String[]{"keyboard","touch screen","data collection", "aa"};
+
 
 //    #########################################################################
 
@@ -150,6 +153,9 @@ public class MyConstant {
 
 //    Getter
 
+    public String[] getPractice1TrueString() {
+        return practice1True;
+    }
 
     public int[] getAnswer1TrueInts() {
         return answer1TrueInts;

@@ -170,30 +170,36 @@
                 android:textStyle="bold" />
 
             <EditText
+                android:id="@+id/edtPractice1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:focusable="false" />
+                android:focusable="auto" />
 
             <EditText
+                android:id="@+id/edtPractice2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="auto" />
+
+            <EditText
+                android:id="@+id/edtPractice3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="auto" />
+
+            <EditText
+                android:id="@+id/edtPractice4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="auto" />
+
+            <EditText
+                android:id="@+id/edtPractice5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="false" />
 
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:focusable="false" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:focusable="false" />
-
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:focusable="false" />
             <!--2. What does CPU stand for?-->
             <TextView
                 android:layout_width="wrap_content"

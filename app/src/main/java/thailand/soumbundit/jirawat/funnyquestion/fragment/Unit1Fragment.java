@@ -28,8 +28,9 @@ public class Unit1Fragment extends Fragment {
     //    Explicit
     private MyConstant myConstant = new MyConstant();
     private MediaPlayer mediaPlayer1;
-    private String uidString, nameUnitString, timeTestString, warmUpString, presentString, practiseString;
+    private String uidString, nameUnitString, timeTestString, warmUpString, presentString = "non", practiseString;
     private String tag = "11NovV1";
+    private String tag2 = "11NovV2";
     private int[] scoreWarmUpInts = new int[]{0, 0, 0};
 
     public static Unit1Fragment unit1Instance(String uidString) {
@@ -127,10 +128,10 @@ public class Unit1Fragment extends Fragment {
             @Override
             public void onClick(DialogInterface dialog, int which) {
 
-
                 dialog.dismiss();
                 findTimeTest();
                 calculateWarmUp();
+                calculatePractice1();
 
             }
         });
@@ -139,13 +140,43 @@ public class Unit1Fragment extends Fragment {
 
     }
 
+    private void calculatePractice1() {
+        int scorePractise1Int =0;
+        String[] trueAnswerStrings = myConstant.getPractice1TrueString();
+
+        EditText practise1EditText = getView().findViewById(R.id.edtPractice1);
+        EditText practise2EditText = getView().findViewById(R.id.edtPractice2);
+        EditText practise3EditText = getView().findViewById(R.id.edtPractice3);
+        EditText practise4EditText = getView().findViewById(R.id.edtPractice4);
+        EditText practise5EditText = getView().findViewById(R.id.edtPractice5);
+
+        String[] strings = new String[5];
+        strings[0] = practise1EditText.getText().toString().trim();
+        strings[1] = practise2EditText.getText().toString().trim();
+        strings[2] = practise3EditText.getText().toString().trim();
+        strings[3] = practise4EditText.getText().toString().trim();
+        strings[4] = practise5EditText.getText().toString().trim();
+
+
+        for(int i=0;i < strings.length; i +=1){
+            for(int i1=0; i1<trueAnswerStrings.length; i1 +=1){
+
+                if(strings[i].equals(trueAnswerStrings[i1])){
+                    scorePractise1Int +=1;
+                }
+            } //for2
+        } //for1
+
+        Log.d(tag2,"scorePractise1 ==>"+ scorePractise1Int);
+    } //CalculatePractise1
+
     private void calculateWarmUp() {
-        int sumScoreInt =0;
-        for(int i=0; i<scoreWarmUpInts.length; i+=1){
-            sumScoreInt = sumScoreInt+scoreWarmUpInts[i];
+        int sumScoreInt = 0;
+        for (int i = 0; i < scoreWarmUpInts.length; i += 1) {
+            sumScoreInt = sumScoreInt + scoreWarmUpInts[i];
         }
         warmUpString = Integer.toString(sumScoreInt);
-        Log.d(tag,"warmUpString ==>"+ warmUpString);
+        Log.d(tag, "warmUpString ==>" + warmUpString);
     }
 
     public void findTimeTest() {
@@ -417,11 +448,11 @@ public class Unit1Fragment extends Fragment {
 
 
     private void checkScore(int indexSpinner, int position, int[] answerTrueInts) {
-        for(int i=0;i < answerTrueInts.length; i+=1){
-            if(position == answerTrueInts[i]){
+        for (int i = 0; i < answerTrueInts.length; i += 1) {
+            if (position == answerTrueInts[i]) {
                 scoreWarmUpInts[indexSpinner] = 1;
                 break;
-            }else{
+            } else {
                 scoreWarmUpInts[indexSpinner] = 0;
             }//for
         }//checkScore
@@ -437,7 +468,7 @@ public class Unit1Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                checkScore (0,position, myConstant.getAnswer1TrueInts());
+                checkScore(0, position, myConstant.getAnswer1TrueInts());
             }
 
             @Override
@@ -457,7 +488,7 @@ public class Unit1Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                checkScore (1,position, myConstant.getAnswer2TrueInts());
+                checkScore(1, position, myConstant.getAnswer2TrueInts());
             }
 
             @Override
@@ -477,7 +508,7 @@ public class Unit1Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                checkScore (2,position, myConstant.getAnswer3TrueInts());
+                checkScore(2, position, myConstant.getAnswer3TrueInts());
             }
 
             @Override
