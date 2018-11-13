@@ -142,12 +142,12 @@ public class Unit1Fragment extends Fragment {
     public void processCheckScore() {
         findTimeTest();
         calculateWarmUp();
-        calculatePractice1();
-        calculatePractice2();
-        calculatePractice3();
+        calculatePractise1();
+        calculatePractise2();
+        calculatePractise3();
     }
 
-    private void calculatePractice3() {
+    private void calculatePractise3() {
         int sumScorePractise3 = 0;
         for(int i =0; i<scorePractise3Ints.length; i+=1){
             sumScorePractise3 = sumScorePractise3+ scorePractise3Ints[i];
@@ -155,12 +155,12 @@ public class Unit1Fragment extends Fragment {
         Log.d(tag2,"scorePractise3 ==>"+ sumScorePractise3);
     }
 
-    private void calculatePractice2() {
+    private void calculatePractise2() {
 
         final int trueInt = R.id.radC; //Choice C is true
         final int[] ints = {0};
 
-        RadioGroup radioGroup = getView().findViewById(R.id.ragCpuStamd);
+        RadioGroup radioGroup = getView().findViewById(R.id.ragCpuStand);
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int i) {
@@ -169,10 +169,11 @@ public class Unit1Fragment extends Fragment {
                 }
             }
         });
-        int scorePratice2 = ints[0];
-    }
+        int scorePractise2int = ints[0];
+        Log.d(tag2,"trueInt==>"+Integer.toString(trueInt));
+    }//calculatePractice2
 
-    private void calculatePractice1() {
+    private void calculatePractise1() {
         int scorePractise1Int =0;
         String[] trueAnswerStrings = myConstant.getPractice1TrueString();
 
