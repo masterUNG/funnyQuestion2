@@ -7,8 +7,7 @@ public class MyConstant {
 //    #########################################################################
 //    About Unit1
 //    #########################################################################
-
-    //       Warm Up
+//    Warm Up
     private int[] answer1TrueInts = new int[]{2, 8, 13, 24};
     private int[] answer2TrueInts = new int[]{2, 3};
     private int[] answer3TrueInts = new int[]{2, 4};
@@ -27,13 +26,31 @@ public class MyConstant {
             "CPU",
             "external drive",
             "headset",
-            "joystick"};
+            "joystick",
+            "keyboard",
+            "speaker",
+            "microphone",
+            "laptop",
+            "Flash drive",
+            "USB",
+            "data collection device",
+            "gamepad",
+            "headset",
+            "mobile phone",
+            "mouse",
+            "mp3",
+            "PDA",
+            "printer",
+            "scanner",
+            "Screen",
+            "tablet (pad)"
+            };
 
     //    Choice Spinner 1
     private String[] chioceSpinner1Strings = new String[]{
             "1)..........",
             "To listen to music",
-            "xxx ",
+            "xxx",
             "To listen music",
             "xxx",
             "Listen to music",
@@ -55,31 +72,81 @@ public class MyConstant {
             "To play a game",
             "xxx",
             "Playing games",
-            "xxx"};
-
-    private String[] chioceSpinner2Strings = new String[]{
-            "2)..........",
+            "Playing a game",
+            "xxx",
             "To play computer games",
             "Playing computer games",
             "To shop online",
             "Shopping online",
             "xxx",
-            "xxx",
-            "xxx",
-            "xxx",
             "xxx"};
+
+    private String[] chioceSpinner2Strings = new String[]{
+            "2)..........",
+            "xxx",
+            "xxx",
+            "Buying things",
+            "xxx",
+            "xxx",
+            "To buy things",
+            "Buy things",
+            "Buy a thing",
+            "xxx",
+            "xxx",
+            "xxx",
+            "xxx",
+            "To search information",
+            "Searching information",
+            "To present projects",
+            "xxx",
+            "xxx",
+            "xxx",
+            "Projects presenting",
+            "To present a project",
+            "To download music",
+            "xxx",
+            "xxx",
+            "To present projects",
+            "Downloading music",
+            "xxx",
+            "xxx",
+            "xxx",
+            "To download songs",
+            "xxx",
+            "Downloading songs"};
 
     private String[] chioceSpinner3Strings = new String[]{
             "3)..........",
-            "To search information",
-            "Searching information",
+            "xxx",
+            "xxx",
+            "To make website",
+            "xxx",
+            "Making website",
+            "Website making",
             "xxx",
             "xxx",
             "xxx",
             "xxx",
+            "To do project",
             "xxx",
             "xxx",
-            "To present projects"};
+            "Doing project",
+            "xxx",
+            "Doing a project",
+            "To do projects",
+            "xxx",
+            "xxx",
+            "Doing projects",
+            "xxx",
+            "xxx",
+            "xxx",
+            "To do homework",
+            "Doing homework",
+            "xxx",
+            "xxx",
+            "To sell things",
+            "Selling things"
+            };
 
     private String[] chioceSpinner4Strings = new String[]{
             "..........",
@@ -113,7 +180,6 @@ public class MyConstant {
             "Unit6"
     };
 
-
     private String[] chioceSpinner5Strings = new String[]{
             "..........",
             "To add a sound track",
@@ -141,7 +207,6 @@ public class MyConstant {
             "?",
 
     }; //Language work: Practice
-
 
     private String[] chioceSpinner7Strings = new String[]{
             "Answer:.........",

@@ -6,7 +6,9 @@
     <!--Contents-->
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -123,6 +125,7 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
+            <!--Presentation - input-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -152,6 +155,118 @@
                 android:scaleType="centerInside"
                 android:src="@drawable/device2" />
 
+            <!--Presentation - Output Devices-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Output Devices"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="An output device is any hardware component that conveys information to one or more people. Three commonly used output devices are a printer, a monitor and speakers."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A printer produces text and graphics on a physical medium such as paper. A monitor displays text, graphics, and videos on a screen. Speakers allow you to hear music, voice and other audio (sounds)"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/device1" />
+
+            <!--Presentation - System Unit-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="System Unit"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The system unit is a cast that contains the electronic components of the computer that are used to process data. The circuitry of the system unit usually is part of or is connected to a circuit board called the motherboard."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Two main components on the motherboard are the processor and memory: The process also called a CPU ( central processing unit) , is the electronic component that interprets and carries out the basic instructions that operate the computer. Memory consisted of electronic component, most memory keeps data and instructions temporarily, which means its contents are erased when the computer is shut off.)"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--Presentation - Storage Devices-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Storage Devices"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Storage holds data, instructions, and information for future use. For example, computers can store hundred or millions of customer names and address. Storage holds these items permanently."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A computer keeps data, instructions, and information on storage media. Examples of storage media are USB flash drives, hard disks, optical discs, and memory cards. A storage device records (writes( and / or retrieves (reads) items to and from storage media. Drives and readers/ writers, which are ty0es of storage devices."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/device2" />
+
+            <!--Presentation - Communication devices-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Communication devices"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A communication device is a hardware component that enables a computer to sent (transmit) and receive data, instructions, and information to and from one or more computers or mobile devices. A widely used communications device is a modern."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Communications occur over cables, telephone lines, cellular radio networks, satellites and other transmission media. Some transmission media such as satellites and cellular radio networks, are wireless, which means they have no physical lines or wires."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/device2" />
 
             <!--Practice-->
             <TextView
@@ -220,6 +335,7 @@
                     android:id="@+id/radA"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:checked="true"
                     android:text="a.Central Processing Unity" />
 
                 <RadioButton
@@ -679,79 +795,361 @@
                 android:textStyle="bold" />
 
             <TableLayout
-
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <!--Roll 1-->
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+                <!--header-->
                 <TableRow
+                    android:background="@drawable/table_row_bg"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/table_row_bg">
+                    android:layout_height="match_parent"
+                    android:padding="5dp">
 
                     <TextView
-                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="WhQuestion"
+                        android:text="Wh word"
+                        android:textAlignment="center"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="Auxilary Verb"
+                        android:text="AUX"
+                        android:textAlignment="center"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:text="Subject"
+                        android:textAlignment="center"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:text="Verb"
+                        android:textAlignment="center"
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_gravity="center"
-                        android:background="@drawable/table_cell_bg"
-                        android:text="others"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Other"
+                        android:textAlignment="center"
                         android:textStyle="bold" />
                 </TableRow>
-                <!--Roll 2-->
+                <!--row1-->
                 <TableRow
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_bg"
+                    android:padding="5dp">
 
                     <TextView
-                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:text="Where"
+                        android:textAlignment="center"
                         android:textStyle="normal" />
 
                     <TextView
-                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
+                        android:paddingRight="0dp"
                         android:text="do"
+                        android:textAlignment="center"
                         android:textStyle="normal" />
 
                     <TextView
-                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
+                        android:paddingRight="0dp"
                         android:text="you"
+                        android:textAlignment="center"
                         android:textStyle="normal" />
 
                     <TextView
-                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
+                        android:paddingRight="0dp"
                         android:text="go"
+                        android:textAlignment="center"
                         android:textStyle="normal" />
 
                     <TextView
-                        android:layout_gravity="center"
-                        android:background="@drawable/table_cell_bg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
                         android:text="to?"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+                </TableRow>
+                <!--row2-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_bg"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:text="What"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingRight="0dp"
+                        android:text="does"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingRight="0dp"
+                        android:text="she"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingRight="0dp"
+                        android:text="watch"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        android:text="on TV?"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+                </TableRow>
+                <!--row3-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_bg"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:text="When"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingRight="0dp"
+                        android:text="does"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingRight="0dp"
+                        android:text="Mike"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingRight="0dp"
+                        android:text="leave"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        android:text="school?"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+                </TableRow>
+                <!--row4-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_bg"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:text="Who"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingRight="0dp"
+                        android:text="do"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingRight="0dp"
+                        android:text="you"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingRight="0dp"
+                        android:text="like"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        android:text="much?"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+                </TableRow>
+                <!--row5-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_bg"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:text="Why"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingRight="0dp"
+                        android:text="does"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingRight="0dp"
+                        android:text="he"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingRight="0dp"
+                        android:text="say"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        android:text="that?"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+                </TableRow>
+                <!--row6 -last row-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_last_bg"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingRight="0dp"
+                        android:text="How"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingRight="0dp"
+                        android:text="do"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingRight="0dp"
+                        android:text="we"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingRight="0dp"
+                        android:text="reach"
+                        android:textAlignment="center"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        android:text="him?"
+                        android:textAlignment="center"
                         android:textStyle="normal" />
                 </TableRow>
 
@@ -1194,7 +1592,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/padding"
-                android:text="Edutainment     MultimediaExpert      system"
+                android:text="Edutainment, Multimedia,"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1202,15 +1600,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/padding"
-                android:text="Telecommute      Information Superhighway"
+                android:text="Expert system, Telecommute,"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding"
+                android:text="Information Superhighway"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <!--1. Multimedia materials with a combination of educational and entertainment context.-->
             <TextView
+                android:layout_marginTop="@dimen/padding8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/padding"
                 android:text="1. Multimedia materials with a combination of educational and entertainment context."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
@@ -1225,7 +1631,6 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/padding"
                 android:text="2. A combination of text with sound, video, animation, and graphics."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
@@ -1240,7 +1645,6 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/padding"
                 android:text="3. Use computer to stay in touch with the office while working at home."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
@@ -1255,7 +1659,6 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/padding"
                 android:text="4. Software that enables computers to “think” like experts"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
@@ -1270,7 +1673,6 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/padding"
                 android:text="5. Internet system designed to provide free interactive access to vast resources for people all over the world."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
@@ -1569,11 +1971,11 @@
     <!--Floating-->
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/floatingCheck"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:src="@drawable/ic_action_check"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_action_check"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
 </RelativeLayout>

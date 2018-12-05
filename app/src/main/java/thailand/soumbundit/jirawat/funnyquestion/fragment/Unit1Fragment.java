@@ -1,6 +1,7 @@
 package thailand.soumbundit.jirawat.funnyquestion.fragment;
 
 import android.content.DialogInterface;
+import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -15,6 +16,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 
@@ -33,7 +35,7 @@ public class Unit1Fragment extends Fragment {
     private String tag = "11NovV1";
     private String tag2 = "11NovV2";
     private int[] scoreWarmUpInts = new int[]{0, 0, 0};
-    private int[] scorePractise3Ints = new int[]{0,0,0,0,0,0};
+    private int[] scorePractise3Ints = new int[]{0, 0, 0, 0, 0, 0};
 
     public static Unit1Fragment unit1Instance(String uidString) {
         Unit1Fragment unit1Fragment = new Unit1Fragment();
@@ -97,6 +99,7 @@ public class Unit1Fragment extends Fragment {
         Reading4spinner();
         Reading5spinner();
 
+
 //        Check Floating
         checkFloating();
 
@@ -123,20 +126,16 @@ public class Unit1Fragment extends Fragment {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();
-
             }
         });
         builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-
                 dialog.dismiss();
                 processCheckScore();
             }
         });
         builder.show();
-
-
     }
 
     public void processCheckScore() {
@@ -149,11 +148,11 @@ public class Unit1Fragment extends Fragment {
 
     private void calculatePractise3() {
         int sumScorePractise3 = 0;
-        for(int i =0; i<scorePractise3Ints.length; i+=1){
-            sumScorePractise3 = sumScorePractise3+ scorePractise3Ints[i];
+        for (int i = 0; i < scorePractise3Ints.length; i += 1) {
+            sumScorePractise3 = sumScorePractise3 + scorePractise3Ints[i];
         }
-        Log.d(tag2,"scorePractise3 ==>"+ sumScorePractise3);
-    }
+        Log.d(tag2, "scorePractise3 ==>" + sumScorePractise3);
+    }//calculatePractise3
 
     private void calculatePractise2() {
 
@@ -161,6 +160,7 @@ public class Unit1Fragment extends Fragment {
         final int[] ints = {0};
 
         RadioGroup radioGroup = getView().findViewById(R.id.ragCpuStand);
+        radioGroup.clearCheck();
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int i) {
@@ -168,13 +168,15 @@ public class Unit1Fragment extends Fragment {
                     ints[0] = 1;
                 }
             }
-        });
-        int scorePractise2int = ints[0];
-        Log.d(tag2,"trueInt==>"+Integer.toString(trueInt));
+          });
+
+        Log.d(tag2,"scorePractise2==>"+ints[0]);
+
+
     }//calculatePractice2
 
     private void calculatePractise1() {
-        int scorePractise1Int =0;
+        int scorePractise1Int = 0;
         String[] trueAnswerStrings = myConstant.getPractice1TrueString();
 
         EditText practise1EditText = getView().findViewById(R.id.edtPractice1);
@@ -191,16 +193,16 @@ public class Unit1Fragment extends Fragment {
         strings[4] = practise5EditText.getText().toString().trim();
 
 
-        for(int i=0;i < strings.length; i +=1){
-            for(int i1=0; i1<trueAnswerStrings.length; i1 +=1){
+        for (int i = 0; i < strings.length; i += 1) {
+            for (int i1 = 0; i1 < trueAnswerStrings.length; i1 += 1) {
 
-                if(strings[i].equals(trueAnswerStrings[i1])){
-                    scorePractise1Int +=1;
+                if (strings[i].equals(trueAnswerStrings[i1])) {
+                    scorePractise1Int += 1;
                 }
             } //for2
         } //for1
 
-        Log.d(tag2,"scorePractise1 ==>"+ scorePractise1Int);
+        Log.d(tag2, "scorePractise1 ==>" + scorePractise1Int);
     } //CalculatePractise1
 
     private void calculateWarmUp() {
@@ -428,10 +430,10 @@ public class Unit1Fragment extends Fragment {
     private void checkScorePractise3(int indexSpinner, int position) {
         int[] answerTrueInts = myConstant.getPractise3Ints();
 
-        if(position == answerTrueInts[indexSpinner]){
-            scorePractise3Ints[indexSpinner] =1;
-        }else {
-            scorePractise3Ints[indexSpinner] =0;
+        if (position == answerTrueInts[indexSpinner]) {
+            scorePractise3Ints[indexSpinner] = 1;
+        } else {
+            scorePractise3Ints[indexSpinner] = 0;
         }
     }
 

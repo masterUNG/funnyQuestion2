@@ -147,7 +147,7 @@
                         android:id="@+id/choice1spinner"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:minWidth="150dp" />
+                        android:minWidth="200dp" />
                 </TableRow>
 
                 <TableRow
@@ -163,8 +163,7 @@
                     <Spinner
                         android:id="@+id/choice2spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:minWidth="150dp" />
+                        android:layout_height="wrap_content" />
                 </TableRow>
 
                 <TableRow
@@ -180,8 +179,7 @@
                     <Spinner
                         android:id="@+id/choice3spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:minWidth="150dp" />
+                        android:layout_height="wrap_content" />
                 </TableRow>
 
                 <TableRow
@@ -197,8 +195,7 @@
                     <Spinner
                         android:id="@+id/choice4spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:minWidth="150dp" />
+                        android:layout_height="wrap_content" />
                 </TableRow>
 
                 <TableRow
@@ -214,8 +211,7 @@
                     <Spinner
                         android:id="@+id/choice5spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:minWidth="150dp" />
+                        android:layout_height="wrap_content" />
                 </TableRow>
 
                 <TableRow
@@ -231,8 +227,7 @@
                     <Spinner
                         android:id="@+id/choice6spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:minWidth="150dp" />
+                        android:layout_height="wrap_content" />
                 </TableRow>
 
                 <TableRow
@@ -248,8 +243,7 @@
                     <Spinner
                         android:id="@+id/choice7spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:minWidth="150dp" />
+                        android:layout_height="wrap_content"/>
                 </TableRow>
 
                 <TableRow
@@ -260,13 +254,12 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• Watch and post videos" />
+                        android:text="• Watch and post videos"/>
 
                     <Spinner
                         android:id="@+id/choice8spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:minWidth="150dp" />
+                        android:layout_height="wrap_content"/>
                 </TableRow>
 
                 <TableRow
@@ -282,8 +275,7 @@
                     <Spinner
                         android:id="@+id/choice9spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:minWidth="150dp" />
+                        android:layout_height="wrap_content"/>
                 </TableRow>
 
                 <TableRow
@@ -294,13 +286,12 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• Gas pricesl" />
+                        android:text="• Gas prices" />
 
                     <Spinner
                         android:id="@+id/choice10spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:minWidth="150dp" />
+                        android:layout_height="wrap_content"/>
                 </TableRow>
 
                 <TableRow
@@ -311,13 +302,12 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• Gamesl" />
+                        android:text="• Games" />
 
                     <Spinner
                         android:id="@+id/choice11spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:minWidth="150dp" />
+                        android:layout_height="wrap_content"/>
                 </TableRow>
 
                 <TableRow
@@ -333,8 +323,7 @@
                     <Spinner
                         android:id="@+id/choice12spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:minWidth="150dp" />
+                        android:layout_height="wrap_content"/>
                 </TableRow>
 
                 <TableRow
@@ -350,8 +339,7 @@
                     <Spinner
                         android:id="@+id/choice13spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:minWidth="150dp" />
+                        android:layout_height="wrap_content"/>
                 </TableRow>
 
                 <TableRow
@@ -367,8 +355,7 @@
                     <Spinner
                         android:id="@+id/choice14spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:minWidth="150dp" />
+                        android:layout_height="wrap_content"/>
                 </TableRow>
 
                 <TableRow
@@ -384,8 +371,7 @@
                     <Spinner
                         android:id="@+id/choice15spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:minWidth="150dp" />
+                        android:layout_height="wrap_content"/>
                 </TableRow>
 
             </TableLayout>
@@ -670,22 +656,20 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/table_row_bg"
-                    android:gravity="center"
                     android:padding="5dp">
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="85dp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:paddingRight="10dp"
-                        android:text="Generic TLD"
+                        android:textAlignment="center"
+                        android:text="TLD"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingLeft="10dp"
-                        android:paddingRight="10dp"
+                        android:textAlignment="center"
                         android:text="Intended Purpose"
                         android:textStyle="bold" />
                 </TableRow>
@@ -694,14 +678,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/table_row_bg"
-                    android:gravity="center"
                     android:padding="5dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:paddingRight="10dp"
+                        android:textAlignment="center"
                         android:text="aero"
                         android:textStyle="normal" />
 
@@ -709,7 +692,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:paddingRight="0dp"
                         android:text="Aviation community members"
                         android:textStyle="normal" />
                 </TableRow>
@@ -718,14 +700,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/table_row_bg"
-                    android:gravity="center"
                     android:padding="5dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:paddingRight="10dp"
+                        android:textAlignment="center"
                         android:text="biz"
                         android:textStyle="normal" />
 
@@ -733,7 +714,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:paddingRight="0dp"
                         android:text="Businesses of all sizes"
                         android:textStyle="normal" />
                 </TableRow>
@@ -742,14 +722,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/table_row_bg"
-                    android:gravity="center"
                     android:padding="5dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:paddingRight="10dp"
+                        android:textAlignment="center"
                         android:text="cat"
                         android:textStyle="normal" />
 
@@ -757,7 +736,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:paddingRight="0dp"
                         android:text="Catalan cultural community"
                         android:textStyle="normal" />
                 </TableRow>
@@ -766,14 +744,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/table_row_bg"
-                    android:gravity="center"
                     android:padding="5dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:paddingRight="10dp"
+                        android:textAlignment="center"
                         android:text="com"
                         android:textStyle="normal" />
 
@@ -781,8 +758,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:paddingRight="0dp"
-                        android:text="Commercial organizations,businesses, and companies"
+                        android:text="Commercial organizations, businesses, and companies"
                         android:textStyle="normal" />
                 </TableRow>
 
@@ -790,14 +766,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/table_row_bg"
-                    android:gravity="center"
                     android:padding="5dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:paddingRight="10dp"
+                        android:textAlignment="center"
                         android:text="coop"
                         android:textStyle="normal" />
 
@@ -805,7 +780,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:paddingRight="0dp"
                         android:text="Business cooperatives such as credit unions and rural electric co-ops"
                         android:textStyle="normal" />
                 </TableRow>
@@ -814,14 +788,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/table_row_bg"
-                    android:gravity="center"
                     android:padding="5dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:paddingRight="10dp"
+                        android:textAlignment="center"
                         android:text="edu"
                         android:textStyle="normal" />
 
@@ -829,7 +802,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:paddingRight="0dp"
                         android:text="Educational institutions"
                         android:textStyle="normal" />
                 </TableRow>
@@ -838,14 +810,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/table_row_bg"
-                    android:gravity="center"
                     android:padding="5dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:paddingRight="10dp"
+                        android:textAlignment="center"
                         android:text="gov"
                         android:textStyle="normal" />
 
@@ -853,7 +824,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:paddingRight="0dp"
                         android:text="Government agencies"
                         android:textStyle="normal" />
                 </TableRow>
@@ -862,14 +832,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@drawable/table_row_last_bg"
-                    android:gravity="center"
                     android:padding="5dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:paddingRight="10dp"
+                        android:textAlignment="center"
                         android:text="info"
                         android:textStyle="normal" />
 
@@ -877,7 +846,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:paddingRight="0dp"
                         android:text="Business organizations orindividuals providing general information"
                         android:textStyle="normal" />
                 </TableRow>
