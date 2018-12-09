@@ -243,7 +243,7 @@
                     <Spinner
                         android:id="@+id/choice7spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content" />
                 </TableRow>
 
                 <TableRow
@@ -254,12 +254,12 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• Watch and post videos"/>
+                        android:text="• Watch and post videos" />
 
                     <Spinner
                         android:id="@+id/choice8spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content" />
                 </TableRow>
 
                 <TableRow
@@ -275,7 +275,7 @@
                     <Spinner
                         android:id="@+id/choice9spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content" />
                 </TableRow>
 
                 <TableRow
@@ -291,7 +291,7 @@
                     <Spinner
                         android:id="@+id/choice10spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content" />
                 </TableRow>
 
                 <TableRow
@@ -307,7 +307,7 @@
                     <Spinner
                         android:id="@+id/choice11spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content" />
                 </TableRow>
 
                 <TableRow
@@ -323,7 +323,7 @@
                     <Spinner
                         android:id="@+id/choice12spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content" />
                 </TableRow>
 
                 <TableRow
@@ -339,7 +339,7 @@
                     <Spinner
                         android:id="@+id/choice13spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content" />
                 </TableRow>
 
                 <TableRow
@@ -355,7 +355,7 @@
                     <Spinner
                         android:id="@+id/choice14spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content" />
                 </TableRow>
 
                 <TableRow
@@ -371,7 +371,7 @@
                     <Spinner
                         android:id="@+id/choice15spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>
+                        android:layout_height="wrap_content" />
                 </TableRow>
 
             </TableLayout>
@@ -662,15 +662,15 @@
                         android:layout_width="85dp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:textAlignment="center"
                         android:text="TLD"
+                        android:textAlignment="center"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textAlignment="center"
                         android:text="Intended Purpose"
+                        android:textAlignment="center"
                         android:textStyle="bold" />
                 </TableRow>
 
@@ -684,8 +684,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:textAlignment="center"
                         android:text="aero"
+                        android:textAlignment="center"
                         android:textStyle="normal" />
 
                     <TextView
@@ -706,8 +706,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:textAlignment="center"
                         android:text="biz"
+                        android:textAlignment="center"
                         android:textStyle="normal" />
 
                     <TextView
@@ -728,8 +728,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:textAlignment="center"
                         android:text="cat"
+                        android:textAlignment="center"
                         android:textStyle="normal" />
 
                     <TextView
@@ -750,8 +750,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:textAlignment="center"
                         android:text="com"
+                        android:textAlignment="center"
                         android:textStyle="normal" />
 
                     <TextView
@@ -772,8 +772,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:textAlignment="center"
                         android:text="coop"
+                        android:textAlignment="center"
                         android:textStyle="normal" />
 
                     <TextView
@@ -794,8 +794,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:textAlignment="center"
                         android:text="edu"
+                        android:textAlignment="center"
                         android:textStyle="normal" />
 
                     <TextView
@@ -816,8 +816,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:textAlignment="center"
                         android:text="gov"
+                        android:textAlignment="center"
                         android:textStyle="normal" />
 
                     <TextView
@@ -838,8 +838,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:textAlignment="center"
                         android:text="info"
+                        android:textAlignment="center"
                         android:textStyle="normal" />
 
                     <TextView
@@ -1303,9 +1303,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1329,9 +1329,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1355,9 +1355,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1381,9 +1381,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1407,9 +1407,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1433,9 +1433,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1459,9 +1459,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1485,9 +1485,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1511,9 +1511,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1537,9 +1537,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1563,9 +1563,9 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:layout_marginRight="@dimen/padding"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
@@ -1574,7 +1574,157 @@
                     android:text="False" />
             </RadioGroup>
 
+            <!--Practice 4: Common domain name extensions include.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Practice 4: Common domain name extensions include."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
 
+            <!--Direction: Fill in the blanks.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Direction: Fill in the blanks."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_bg"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingLeft="@dimen/padding4"
+                        android:text=".com"
+                        android:textStyle="normal" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_bg"
+                    android:padding="5dp">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/padding4"
+                        android:text="Education institutions"
+                        android:textStyle="normal" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_bg"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingLeft="@dimen/padding4"
+                        android:text=".gov"
+                        android:textStyle="normal" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_bg"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingLeft="@dimen/padding4"
+                        android:text=".org"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/padding4"
+                        android:text="Military organizations"
+                        android:textStyle="normal" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_bg"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingLeft="@dimen/padding4"
+                        android:text=".tel"
+                        android:textStyle="normal" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_last_bg"
+                    android:padding="5dp">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/padding4"
+                        android:text="Network providers or commercial companies"
+                        android:textStyle="normal" />
+                </TableRow>
+
+
+
+
+
+
+            </TableLayout>
 
 
         </LinearLayout>

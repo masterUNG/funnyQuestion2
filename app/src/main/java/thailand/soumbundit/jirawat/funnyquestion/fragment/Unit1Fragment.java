@@ -105,6 +105,7 @@ public class Unit1Fragment extends Fragment {
 
     } //Main Method
 
+
     public void checkFloating() {
         FloatingActionButton floatingActionButton = getView().findViewById(R.id.floatingCheck);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {

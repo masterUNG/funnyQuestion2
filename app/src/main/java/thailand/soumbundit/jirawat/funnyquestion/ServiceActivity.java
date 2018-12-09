@@ -51,7 +51,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         if (savedInstanceState == null) {
             getSupportFragmentManager()
                     .beginTransaction()
-                    .add(R.id.contentServiceFragment, Unit1Fragment.unit1Instance(uidUserString))
+                    .add(R.id.contentServiceFragment, Unit4Fragment.unit4Instance(uidUserString))
                     .commit();
         }
     }
