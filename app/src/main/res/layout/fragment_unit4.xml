@@ -1189,7 +1189,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="false"
+                android:focusable="auto"
                 android:inputType="text" />
 
             <TextView
@@ -1720,12 +1720,325 @@
                 </TableRow>
 
 
-
-
-
-
             </TableLayout>
 
+            <!--Listening-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Listening"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--Now listen how to use a search engine and match each with a picture.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Now listen how to use a search engine and match each with a picture."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--Language Work-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Language Work"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--Warnings-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Warnings."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Where might you see these warnings?"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--1.Never give out your home address or phone number?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="1.Never give out your home address or phone number?"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--2.This appliance must be earthed.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="2.This appliance must be earthed."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--3.Avoid turning off main power while computer is running.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="3.Avoid turning off main power while computer is running."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--4.No smoking, eating or drinking at the computer.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="4.No smoking, eating or drinking at the computer."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--5.A machine which has been exposed to a moist atmosphere should be given time to dry out before being put into use.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="5.A machine which has been exposed to a moist atmosphere should be given time to dry out before being put into use."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--Warnings are used to ensure safety, to prevent damage to equipment and breaches of security, and to ensure the law is not broken. The simplest warnings are basic instructions Not to do something:-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Warnings are used to ensure safety, to prevent damage to equipment and breaches of security, and to ensure the law is not broken. The simplest warnings are basic instructions Not to do something:"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--* Don’t +V1-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="* Don’t +V1"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--Example: Don’t give your password.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="Example: Don’t give your password."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--*Avoid + Ving-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="*Avoid + Ving"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--Example: Avoid drinking turning off main power while computer is running.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="Example: Avoid drinking turning off main power while computer is running."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--*No + Ving-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="*No + Ving"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--Example: Don’t give your password.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="Example: No smoking, eating or drinking at the computer."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--*Never + Verb-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="*Never + Verb"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--Example: Never give out your home address or phone number.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="Example: Never give out your home address or phone number."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--Warnings may be made stronger by using must / must not and in some cases should / should not.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Warnings may be made stronger by using must / must not and in some cases should / should not."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--For example:-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="For example:"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--The wire linking a static earthingband to earthmust contain a resistor of at least 1 megohm.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="The wire linking a static earthingband to earthmust contain a resistor of at least 1 megohm."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--Language work:-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Language work:"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Practice 1"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Direction: Rewrite each of these warnings according to the prompt."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--1.Don’t give open access to PCs.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="1.Don’t give open access to PCs."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="auto"
+                android:inputType="text"
+                android:text="Avoid" />
+
+            <!--2. You must not use your own programs on these machines.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="2. You must not use your own programs on these machines."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="auto"
+                android:inputType="text"
+                android:text="Never" />
+
+            <!--3. No coffee in this lab.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="3. No coffee in this lab."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="auto"
+                android:inputType="text"
+                android:text="must not" />
+
+            <!--4. Avoid giving financial information in a chat room.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="4. Avoid giving financial information in a chat room."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="auto"
+                android:inputType="text"
+                android:text="Don’t" />
+
+            <!--5. Never give out your password.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="5. Never give out your password."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="auto"
+                android:inputType="text"
+                android:text="must not" />
+
+            <!--6. Don’t use out-of-date anti-virus software.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="6. Don’t use out-of-date anti-virus software."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="auto"
+                android:inputType="text"
+                android:text="Avoid" />
 
         </LinearLayout>
     </ScrollView>
