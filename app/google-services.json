@@ -15,11 +15,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "540890251807-ba51noqh3ge433bpo7fbe44idfc8d5hi.apps.googleusercontent.com",
+          "client_id": "540890251807-1fd5e0c7ddavgugv0k3jm1n66agvk075.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "thailand.soumbundit.jirawat.funnyquestion",
-            "certificate_hash": "4421d387517c1076ba1e73ecb575e050ec6f61a7"
+            "certificate_hash": "4b506c95fd670e162f006c094184abfa23a7dd43"
           }
         },
         {

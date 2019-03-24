@@ -18,6 +18,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 import thailand.soumbundit.jirawat.funnyquestion.fragment.ServiceFragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.Unit1Fragment;
+import thailand.soumbundit.jirawat.funnyquestion.fragment.Unit3Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.Unit4Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.utility.MyConstant;
 
@@ -51,7 +52,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         if (savedInstanceState == null) {
             getSupportFragmentManager()
                     .beginTransaction()
-                    .add(R.id.contentServiceFragment, Unit4Fragment.unit4Instance(uidUserString))
+                    .add(R.id.contentServiceFragment, Unit1Fragment.unit1Instance(uidUserString))
                     .commit();
         }
     }
@@ -168,6 +169,10 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
 
                 break;
             case R.id.txtUnit3:
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.contentServiceFragment, Unit3Fragment.unit3Instance(uidUserString))
+                        .commit();
 
                 break;
             case R.id.txtUnit4:
