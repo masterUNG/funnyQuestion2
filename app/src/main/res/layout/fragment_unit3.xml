@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Contents-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/padding">
+            <!--title-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Unit 3"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Computer Applications"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+
+        <!--head 1-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Warm-up"
+            android:textSize="@dimen/h2"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Application software consists of programs designed to make users more productive and/ or assist them with personal tasks. The majors categories of application software are"
+            android:textSize="@dimen/h2"
+            android:textStyle="normal" />
+
+        <!--head 1.What are the four categories of application software?-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding"
+            android:text="1.What are the four categories of application software?"
+            android:textSize="@dimen/h2"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Application software consists of program designed to make users more productive and / or assist them with personal tasks personal tasks. The major categories of application software are business software; graphics and multimedia software; home; personal, and educational software; and communications software."
+            android:textSize="@dimen/h2"
+            android:textStyle="normal" />
+
+
+        <!--head Four Categories of Application Software-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding"
+            android:text="Four Categories of Application Software"
+            android:textSize="@dimen/h2"
+            android:textStyle="bold" />
+
+
+
+            <!--head 2. What are the seven forms through which software is available?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="2. What are the seven forms through which software is available?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Application software is available in a variety of forms."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_marginTop="@dimen/padding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Packaged software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="is mass-produced, copy-righted retail software that meets the needs of a variety of users."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_marginTop="@dimen/padding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Custom software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="performs functions specific to a business or industry."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_marginTop="@dimen/padding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A web application"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="is a Web site that allows users to access and interact with software from any computer or device that is connected to the Internet."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_marginTop="@dimen/padding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Open source software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="is provided for use, modification, and redistribution."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_marginTop="@dimen/padding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shareware"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="is copy-righted software than is distributed free for a trial period."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_marginTop="@dimen/padding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Freeware"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="is copyrighted software provided at no cost by an individual or a company that retains all rights to the software."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_marginTop="@dimen/padding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Public-domain software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="is free software donated for public use and has no copyright restrictions."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
