@@ -33,47 +33,46 @@
                 android:textStyle="bold" />
 
 
-        <!--head 1-->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Warm-up"
-            android:textSize="@dimen/h2"
-            android:textStyle="bold" />
+            <!--head 1-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Warm-up"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Application software consists of programs designed to make users more productive and/ or assist them with personal tasks. The majors categories of application software are"
-            android:textSize="@dimen/h2"
-            android:textStyle="normal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Application software consists of programs designed to make users more productive and/ or assist them with personal tasks. The majors categories of application software are"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
 
-        <!--head 1.What are the four categories of application software?-->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/padding"
-            android:text="1.What are the four categories of application software?"
-            android:textSize="@dimen/h2"
-            android:textStyle="bold" />
+            <!--head 1.What are the four categories of application software?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="1.What are the four categories of application software?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Application software consists of program designed to make users more productive and / or assist them with personal tasks personal tasks. The major categories of application software are business software; graphics and multimedia software; home; personal, and educational software; and communications software."
-            android:textSize="@dimen/h2"
-            android:textStyle="normal" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Application software consists of program designed to make users more productive and / or assist them with personal tasks personal tasks. The major categories of application software are business software; graphics and multimedia software; home; personal, and educational software; and communications software."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
 
 
-        <!--head Four Categories of Application Software-->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/padding"
-            android:text="Four Categories of Application Software"
-            android:textSize="@dimen/h2"
-            android:textStyle="bold" />
-
+            <!--head Four Categories of Application Software-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Four Categories of Application Software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
 
 
             <!--head 2. What are the seven forms through which software is available?-->
@@ -93,10 +92,10 @@
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginTop="@dimen/padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Packaged software"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Packaged software"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -108,10 +107,10 @@
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginTop="@dimen/padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Custom software"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Custom software"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -123,10 +122,10 @@
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginTop="@dimen/padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="A web application"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- A web application"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -138,10 +137,10 @@
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginTop="@dimen/padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Open source software"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Open source software"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -153,10 +152,10 @@
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginTop="@dimen/padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Shareware"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Shareware"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -168,10 +167,10 @@
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginTop="@dimen/padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Freeware"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Freeware"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -183,10 +182,10 @@
                 android:textStyle="normal" />
 
             <TextView
-                android:layout_marginTop="@dimen/padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Public-domain software"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Public-domain software"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -196,6 +195,595 @@
                 android:text="is free software donated for public use and has no copyright restrictions."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
+
+            <!--head 3. What are the characteristics of a user interface?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="3. What are the characteristics of a user interface?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal computer operating system often use the concept of a desktop, which is and on-screen work area that has a graphical user interface. One way to start a program in Windows is to move the printer to the Start button on the taskbar and Click the Start button by pressing and releasing a button on the mouse. Then, click the program name on the menu or in a list. Once loaded into memory, the program is displayed in a window on the desktop."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--head 4. What are the key features of widely used business programs?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="4. What are the key features of widely used business programs?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Business software assists people in becoming more effective and efficient awhile performing daily business activities. Business software includes the following programs."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Word processing software,"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sometimes calleda word processor, allows users to create a document by entering text and inserting images, edit the document by making changes, and format the document by changing its appearance."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Spreadsheet software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="allows users to organize data in rows and columns, perform calculations, recalculate when data changes, and chart the data."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Database software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="allows users to create, access, and manage a database, which is a collection of data organized to allow access, retrieval, and use of that data."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Presentation software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="allows users to create a slide show that is displayed on a monitor or projection screen."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Note taking software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="enables users to enter typed text, handwritten comments, drawing, or sketches on a page and then save the page as part of a notebook."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- A personal information manager (PIM)"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="includes features to help users organize personal information. In addition to PIM software, a huge variety of business and other software for phones is available."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- A software suit"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="is a collection of individual programs available together as a unit. At a minimum, business software suites include word processing, spreadsheet, e-mail, and presentation programs."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Project management software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="allows users to plan, schedule, track, and analyze the events, resources, and costs of a project."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Accounting software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="helps companies record and report their financial transactions."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Document management software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="provides a means for sharing, distributing, and searching through documents by converting them into a format that can be viewed by any user."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--head 5. What are the key features of widely used graphics and multimedia programs?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="5. What are the key features of widely used graphics and multimedia programs?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Graphics and multimedia software includes the following programs. Computer-aided design (CAD) software assists in creating engineering, architectural, and scientific designs."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Desktop publishing (DTP),"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="software enables professional designers to create sophisticated documents that contain text, graphics and colors."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Paints software,"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="also called illustration software, lets users draw graphical images with various on-screen tools."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Image editing software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="provides the capabilities of paint software and includes the capability to enhance and modify existing images."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Professional photo editing software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="is a type of image editing software that allows high-volume digital photo users to edit and customize digital photos."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Video editing software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="allows professionals to modify segments of a video."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Audio editing software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lets users modify audio clips, produce studio-quality soundtracks, and add video to video clips."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Multimedia authoring software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="allows users to combine text, graphics, audio, video, and animation in interactive application."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Web page authoring software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="helps users of all skill levels create. We pages that include graphical images, video, audio, animation, and order special effects with interactive content."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--head 6. What Are the Key Features of Widely Used Home, Personal, and Educational Program?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="6. What Are the Key Features of Widely Used Home, Personal, and Educational Program?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Software for home, personal, and educational use includes the following program."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Personal finance software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="is an accounting program that helps users balance their checkbooks, and evaluate financial plans."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Legal software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="assists in the preparation of legal documents."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Tax preparation software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="guides users through filing federal taxes."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Personal DTP software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="helps users create newsletters, brochures, flyers, advertisements, greeting and business cards, logos, and Web pages."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Personal paint/image editing software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="provides aneasy-to-useinterface with functions tailored to meet the needs of home and small business users."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Personal photo editing software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="is a type of image editing software used to edit digital photos. Photo management softwarehelps users view, organize, sort, catalog, and share digital photos."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Application software often includes a clip art/image gallery, which is a collection of clip art and photos. Video and audio editing software is used to edit home movies, add music or other sounds, and share movies on the Web."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Home design/landscaping software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="assists with the design, remodeling, or improvement of a home or landscape."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Travel and mapping software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="enables users to view maps, determine route directions, and locate points of interest."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Reference software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="provides valuable and thorough information for all individuals."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Educational software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="teaches a particular skill."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Entertainment software"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="includes interactive games, videos, and other programs to support hobbies or provide amusement."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--head 7. What Are the Advantages of and Ways to Access Web Applications?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="7. What Are the Advantages of and Ways to Access Web Applications?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A Web application, or Web app, require less disk space on a computer than installed software and is less costly to upgrade. Users often interact with Web applications directly at the Web site, referred to as the host, through their Web browser. Some Web sites require that you download the software to your computer or device."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--head 8. What Are the Types of Application Software Used in Communications?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="8. What Are the Types of Application Software Used in Communications?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Application software for communications includes Web browsers to access and view Web pages; e-mail programs to transmit message via a network; instant messaging software for real-time exchange of messages or files; chat room software to have real-time, online typed conversations; text, picture, and video messaging software; RSS aggregator program to keep track of changes made to Web sites; blog software, or blogware, to create and maintain a blog; newsgroup/message board programs that allow online written discussion; FTP program to upload and download files on the Internet; VoIT(Internet telephony), which allows users to speak to other users over the Internet; and video conferencing software for meeting on a network."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--head 9. What Learning Aids Are Available for Application Software?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="9. What Learning Aids Are Available for Application Software?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To assist in the learning process, many programs offer Help features."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Online Help"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="is the electronic equivalent of a user manual. Most online Help links to Web-based Help, which provides updates and more comprehensive resources. Popular in business, industry, and schools."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="- Web-based training(WBT)"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="is a type of computer-based"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+
+
+
 
 
 
