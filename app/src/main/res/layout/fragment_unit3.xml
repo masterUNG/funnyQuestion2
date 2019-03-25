@@ -781,14 +781,718 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
+            <!--head Practice-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Practice"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
 
+            <!--head 1. What are the four categories of application?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="1. What are the four categories of application?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
 
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8" />
+
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--head 2. Fill in the table of the four categories of application software.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="2. Fill in the table of the four categories of application software."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--Header: Business Software -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Business Software"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+            <!--Spinner-->
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--Header: Graphics and Multimedia software-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Graphics and Multimedia software"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--Spinner-->
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--Header: Home/ Personal / Educationsoftware-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Home/ Personal / Education software"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--Spinner-->
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--Header: Communication software-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Communication software"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--Spinner-->
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--Header: 3. Click T for True and F for False.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="3. Click T for True and F for False."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--3.1. The categories of application software are mutually exclusive.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="1. The categories of application software are mutually exclusive."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding8"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
+                    android:text="True" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="False" />
+            </RadioGroup>
+
+            <!--3.2. A dialog box is a window that provides information, presents available option, or requests a response.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="2. A dialog box is a window that provides information, presents available option, or requests a response."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding8"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
+                    android:text="True" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="False" />
+            </RadioGroup>
+
+            <!--3.3. A font is a name assigned to a specific design of characters.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="3. A font is a name assigned to a specific design of characters."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding8"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
+                    android:text="True" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="False" />
+            </RadioGroup>
+
+            <!--3.4. A front is name assigned to a specific design of characters.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="4. A front is name assigned to a specific design of characters."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding8"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
+                    android:text="True" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="False" />
+            </RadioGroup>
+
+            <!--3.5. To click a button on the screen ...-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="5. To click a button on the screen requires moving the pointer to the button and then pressing and holding down a button on the mouse. (usually the right mouse button)"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding8"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
+                    android:text="True" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="False" />
+            </RadioGroup>
+
+            <!--4. Multiple ChoiceSelect the best answer.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="4. Multiple ChoiceSelect the best answer."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--1. ………………….. Is mass-produced, copyrighted retail.....-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="1. ………………….. Is mass-produced, copyrighted retail software that meets the needs of a wide variety of users, not just a single user of company."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="a.Open source software" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b.A Web application" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c.Custom software" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d.Packaged software" />
+            </RadioGroup>
+
+            <!--2. ………………….. Is a collection individual programs available together as a unit. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="2. ………………….. Is a collection individual programs available together as a unit."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="a.Shareware" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b.A software suite" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c.Packaged software" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d.Custom software" />
+            </RadioGroup>
+
+            <!--3. ……………………allows a user to plan, schedule, track, and analyze the events, resources, and costs of a project.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="3. ……………………allows a user to plan, schedule, track, and analyze the events, resources, and costs of a project."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="a.Document management software" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b.Accounting software" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c.Project management software" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d.CAD software" />
+            </RadioGroup>
+
+            <!--4. ………………… software provides a means for sharing, distributing...-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="4. ………………… software provides a means for sharing, distributing, and searching through documents by converting them into a format theatcan be viewed by any user."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="a.Word processing" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b.Document management" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c.Portable Document Format (PDF)" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d.Database" />
+            </RadioGroup>
+
+            <!--5. …………………… is the electronic equivalent of a user manual.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="5. …………………… is the electronic equivalent of a user manual."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="a.Online Help" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b.Web-based training" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c.E-learning" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d.Distance learning" />
+            </RadioGroup>
+
+            <!--6. A(n)………………… is an online area where users have written discussions-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="6. A(n)………………… is an online area where users have written discussions"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="a.FTP Program" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b.Web browser" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c.text message" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d.Newsgroup/ message board" />
+            </RadioGroup>
+
+            <!--7. With ……………., you can view, organize, sort, catalog, print and share digital photos.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="7. With ……………., you can view, organize, sort, catalog, print and share digital photos."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="a.desktop publishing software" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b.clip art" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c.Photo management software" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d.Spreadsheet software" />
+            </RadioGroup>
+
+            <!--8. ……………….helps home and small business users create newsletters,.....-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="8. ……………….helps home and small business users create newsletters, brochures, advertisements, postcards, greeting cards, letterhead, business cards, banners, calendars, logos, and Web pages."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="a.Note taking software" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b.Personal DTP software" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c.Blog ware" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d.A personal information manager" />
+            </RadioGroup>
 
 
 
 
         </LinearLayout>
-
     </ScrollView>
 
 
