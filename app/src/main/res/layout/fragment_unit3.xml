@@ -842,30 +842,37 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
@@ -885,30 +892,37 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
@@ -928,30 +942,37 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
@@ -971,30 +992,37 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
+
             <Spinner
 
                 android:layout_width="match_parent"
@@ -1489,9 +1517,199 @@
                     android:text="d.A personal information manager" />
             </RadioGroup>
 
+            <!--You are going to listen how.....-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="You are going to listen how to save a file in application software. The learn how to activities step you through fundamental technology skills when using a computer. The learn how to exercises enable you to become more proficient with these skills."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--Listening-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="Listening"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="Now listen how to save a file in application software and order each step into the right steps."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="When you use application software, usually you either will create a new file or modify and existing file. If you turn off your computer or lose electrical power while working on the file, the file will not be retained. In order to retain the file, you must save it."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="To save a new file, you must complete several tasks:"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_bg"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingLeft="@dimen/padding4"
+                        android:text="Click the save button to save the file."
+                        android:textStyle="normal" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_bg"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingLeft="@dimen/padding4"
+                        android:text="Designate where the file should be stored. This includes indemnifying both the device (such as drive C) and the folder or library"
+                        android:textStyle="normal" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_bg"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingLeft="@dimen/padding4"
+                        android:text="Initiate and action indicating you want to save the file, such as selecting. Save on the File menu."
+                        android:textStyle="normal" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_last_bg"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingLeft="@dimen/padding4"
+                        android:text="Specify the name of the file."
+                        android:textStyle="normal" />
+
+                    <Spinner
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </TableRow>
+
+                <!--Listening-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding4"
+                    android:text="Language work"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding4"
+                    android:text="Structure"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:shrinkColumns="*"
+                    android:stretchColumns="*">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_row_bg"
+                        android:padding="5dp">
+
+                        <TextView
+
+                            android:gravity="center"
+                            android:text="Present Continuous Tense"
+                            android:textStyle="normal" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/table_row_bg"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/table_cell_bg"
+                            android:paddingLeft="@dimen/padding4"
+                            android:text="Affirmative sentence"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/padding4"
+                            android:text="Subject + is, am,are + Ving"
+                            android:textStyle="normal" />
+                    </TableRow>
 
 
 
+
+
+
+
+
+
+                </TableLayout>
+
+
+            </TableLayout>
         </LinearLayout>
     </ScrollView>
 
