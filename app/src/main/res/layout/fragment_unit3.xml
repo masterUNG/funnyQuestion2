@@ -1554,7 +1554,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
+                android:layout_marginTop="@dimen/padding"
+                android:layout_marginBottom="@dimen/padding"
                 android:text="To save a new file, you must complete several tasks:"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
@@ -1572,7 +1573,7 @@
                     android:padding="5dp">
 
                     <TextView
-                        android:layout_width="100dp"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingLeft="@dimen/padding4"
@@ -1591,7 +1592,7 @@
                     android:padding="5dp">
 
                     <TextView
-                        android:layout_width="100dp"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingLeft="@dimen/padding4"
@@ -1610,7 +1611,7 @@
                     android:padding="5dp">
 
                     <TextView
-                        android:layout_width="100dp"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingLeft="@dimen/padding4"
@@ -1629,7 +1630,7 @@
                     android:padding="5dp">
 
                     <TextView
-                        android:layout_width="100dp"
+                        android:layout_width="200dp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingLeft="@dimen/padding4"
@@ -1640,76 +1641,135 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content" />
                 </TableRow>
+            </TableLayout>
 
-                <!--Listening-->
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/padding4"
-                    android:text="Language work"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/padding4"
-                    android:text="Structure"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
+            <!--Listening-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Language work"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
 
-                <TableLayout
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:layout_marginBottom="@dimen/padding"
+                android:text="Structure"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:shrinkColumns="*"
-                    android:stretchColumns="*">
+                    android:background="@drawable/table_row_bg"
+                    android:padding="5dp">
 
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/table_row_bg"
-                        android:padding="5dp">
+                    <TextView
+                        android:layout_weight="300"
+                        android:gravity="center"
+                        android:text="Present Continuous Tense"
+                        android:textStyle="normal" />
+                </TableRow>
 
-                        <TextView
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_bg"
+                    android:padding="5dp">
 
-                            android:gravity="center"
-                            android:text="Present Continuous Tense"
-                            android:textStyle="normal" />
-                    </TableRow>
+                    <TextView
 
-                    <TableRow
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/table_row_bg"
-                        android:padding="5dp">
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingLeft="@dimen/padding4"
+                        android:text="Affirmative sentence"
+                        android:textStyle="normal" />
 
-                        <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/table_cell_bg"
-                            android:paddingLeft="@dimen/padding4"
-                            android:text="Affirmative sentence"
-                            android:textStyle="normal" />
+                    <TextView
+                        android:layout_weight="200"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/padding4"
+                        android:text="Subject + is, am,are + V.ing"
+                        android:textStyle="normal" />
+                </TableRow>
 
-                        <TextView
-                            android:layout_height="wrap_content"
-                            android:paddingLeft="@dimen/padding4"
-                            android:text="Subject + is, am,are + Ving"
-                            android:textStyle="normal" />
-                    </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_bg"
+                    android:padding="5dp">
 
+                    <TextView
 
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingLeft="@dimen/padding4"
+                        android:text="Interrogative Sentence (WHQuestion)"
+                        android:textStyle="normal" />
 
+                    <TextView
+                        android:layout_weight="200"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/padding4"
+                        android:text="What,When, Where, Why, Who, How + is, am, are + Subject + V.ing+?"
+                        android:textStyle="normal" />
+                </TableRow>
 
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_bg"
+                    android:padding="5dp">
 
+                    <TextView
 
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingLeft="@dimen/padding4"
+                        android:text="InterrogativeSentence (Yes/ No Question)"
+                        android:textStyle="normal" />
 
+                    <TextView
+                        android:layout_weight="200"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/padding4"
+                        android:text="Is, Am,Are + Subject + V.ing?"
+                        android:textStyle="normal" />
+                </TableRow>
 
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/table_row_last_bg"
+                    android:padding="5dp">
 
-                </TableLayout>
+                    <TextView
 
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/table_cell_bg"
+                        android:paddingLeft="@dimen/padding4"
+                        android:text="Negative Sentence"
+                        android:textStyle="normal" />
 
+                    <TextView
+                        android:layout_weight="200"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/padding4"
+                        android:text="Subject + is, am, are +not + V.ing"
+                        android:textStyle="normal" />
+                </TableRow>
             </TableLayout>
+
         </LinearLayout>
     </ScrollView>
 
