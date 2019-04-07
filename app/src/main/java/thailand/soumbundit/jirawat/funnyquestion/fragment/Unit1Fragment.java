@@ -1,7 +1,6 @@
 package thailand.soumbundit.jirawat.funnyquestion.fragment;
 
 import android.content.DialogInterface;
-import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -16,7 +15,6 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 
@@ -572,8 +570,8 @@ public class Unit1Fragment extends Fragment {
 
 
     private void firstSpinner() {
-        Spinner spinner = getView().findViewById(R.id.spinner1);
-        String[] strings = myConstant.getChioceSpinner1Strings();
+        Spinner spinner = getView().findViewById(R.id.u1spinner1);
+        String[] strings = myConstant.getChoiceSpinner1Strings();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
@@ -591,8 +589,8 @@ public class Unit1Fragment extends Fragment {
     }
 
     private void secondSpinner() {
-        Spinner spinner = getView().findViewById(R.id.spinner2);
-        String[] strings = myConstant.getChioceSpinner2Strings();
+        Spinner spinner = getView().findViewById(R.id.u1spinner2);
+        String[] strings = myConstant.getChoiceSpinner2Strings();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
@@ -611,8 +609,8 @@ public class Unit1Fragment extends Fragment {
     }
 
     private void thirdSpinner() {
-        Spinner spinner = getView().findViewById(R.id.spinner3);
-        String[] strings = myConstant.getChioceSpinner3Strings();
+        Spinner spinner = getView().findViewById(R.id.u1spinner3);
+        String[] strings = myConstant.getChoiceSpinner3Strings();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);

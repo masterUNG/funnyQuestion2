@@ -1,7 +1,5 @@
 package thailand.soumbundit.jirawat.funnyquestion.utility;
 
-import java.security.PrivateKey;
-
 public class MyConstant {
 
 //    #########################################################################
@@ -47,105 +45,101 @@ public class MyConstant {
             };
 
     //    Choice Spinner 1
-    private String[] chioceSpinner1Strings = new String[]{
+    private String[] choiceSpinner1Strings = new String[]{
             "1)..........",
-            "To listen to music",
-            "xxx",
-            "To listen music",
-            "xxx",
-            "Listen to music",
-            "xxx",
-            "Listen music",
-            "xxx",
-            "Listening to music",
-            "xxx",
-            "To watch movie",
-            "xxx",
-            "Watching movies",
-            "xxx",
-            "To watch movies",
-            "xxx",
-            "Watching a movie",
-            "xxx",
-            "To play games",
-            "xxx",
-            "To play a game",
-            "xxx",
-            "Playing games",
-            "Playing a game",
-            "xxx",
-            "To play computer games",
-            "Playing computer games",
-            "To shop online",
-            "Shopping online",
-            "xxx",
-            "xxx"};
+            "To listen to music", //correct
+            "To music to listen",
+            "To listen music", //correct
+            "To music listen",
+            "Listen to music", //correct
+            "Music to listen",
+            "Listen music", //correct
+            "Music listen",
+            "Listening to music", //correct
+            "Music to Listening",
+            "To watch movies", //correct
+            "To movies watch",
+            "Watching movies", //correct
+            "Movies watching",
+            "To watch movies", //correct
+            "To movies watch",
+            "Watching a movie", //correct
+            "A movie watching",
+            "To play games", //correct
+            "To games play",
+            "To play a game", //correct
+            "To a game play",
+            "Playing games", //correct
+            "Playing a game", //correct
+            "A game playing",
+            "To play computer games", //correct
+            "Playing computer games", //correct
+            "To shop online", //correct
+            "Shopping online", //correct
+            "Online shopping", //correct
+            "To online shop"};
 
-    private String[] chioceSpinner2Strings = new String[]{
+    private String[] choiceSpinner2Strings = new String[]{
             "2)..........",
-            "xxx",
-            "xxx",
-            "Buying things",
-            "xxx",
-            "xxx",
-            "To buy things",
-            "Buy things",
-            "Buy a thing",
-            "xxx",
-            "xxx",
-            "xxx",
-            "xxx",
-            "To search information",
-            "Searching information",
-            "To present projects",
-            "xxx",
-            "xxx",
-            "xxx",
-            "Projects presenting",
-            "To present a project",
-            "To download music",
-            "xxx",
-            "xxx",
-            "To present projects",
-            "Downloading music",
-            "xxx",
-            "xxx",
-            "xxx",
-            "To download songs",
-            "xxx",
-            "Downloading songs"};
+            "Thing buying",
+            "Things buying",
+            "Buying things", //correct
+            "To things buy",
+            "Buy to things",
+            "To buy things", //correct
+            "Buy things", //correct
+            "Buy a thing", //correct
+            "A thing buy",
+            "Thing to buy",
+            "Things to buy",
+            "Thing buy",
+            "To search information", //correct
+            "Searching information", //correct
+            "To present projects",   //correct
+            "Information to search",
+            "Information searchs",
+            "Project to present",
+            "Projects presenting",   //correct
+            "To present a project", //correct
+            "To download music", //correct
+            "Music to download",
+            "Music downloading",
+            "To present projects", //correct
+            "Downloading music", //correct
+            "Song download",
+            "downloading to musics",
+            "Song to download",
+            "To download songs", //correct
+            "Songs downloading",
+            "Downloading songs"}; //correct
 
-    private String[] chioceSpinner3Strings = new String[]{
+    private String[] choiceSpinner3Strings = new String[]{
             "3)..........",
-            "xxx",
-            "xxx",
-            "To make website",
-            "xxx",
-            "Making website",
-            "Website making",
-            "xxx",
-            "xxx",
-            "xxx",
-            "xxx",
-            "To do project",
-            "xxx",
-            "xxx",
-            "Doing project",
-            "xxx",
-            "Doing a project",
-            "To do projects",
-            "xxx",
-            "xxx",
-            "Doing projects",
-            "xxx",
-            "xxx",
-            "xxx",
-            "To do homework",
-            "Doing homework",
-            "xxx",
-            "xxx",
-            "To sell things",
-            "Selling things"
+            "Website to make",
+            "Website make",
+            "To make website", //correct
+            "Making website", //correct
+            "Website making", //correct
+            "Project doing",
+            "Projecting to do",
+            "Do to project",
+            "Project to doing",
+            "To do project", //correct
+            "Doing to project",
+            "Doing to projecting",
+            "Doing project", //correct
+            "Doing a project", //correct
+            "To do projects", //correct
+            "Doing projects", //correct
+            "Doing to homework",
+            "Homework to doing",
+            "Do to homework",
+            "To do homework", //correct
+            "Doing homework", //correct
+            "Sell to things",
+            "Thing selling",
+            "To sell things", //correct
+            "Selling things" //correct
             };
 
     private String[] chioceSpinner4Strings = new String[]{
@@ -261,16 +255,16 @@ public class MyConstant {
         return chioceSpinner4Strings;
     }
 
-    public String[] getChioceSpinner1Strings() {
-        return chioceSpinner1Strings;
+    public String[] getChoiceSpinner1Strings() {
+        return choiceSpinner1Strings;
     }
 
-    public String[] getChioceSpinner2Strings() {
-        return chioceSpinner2Strings;
+    public String[] getChoiceSpinner2Strings() {
+        return choiceSpinner2Strings;
     }
 
-    public String[] getChioceSpinner3Strings() {
-        return chioceSpinner3Strings;
+    public String[] getChoiceSpinner3Strings() {
+        return choiceSpinner3Strings;
     }
 
     public String[] getUnitTitleStrings() {
