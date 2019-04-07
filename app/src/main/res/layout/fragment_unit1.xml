@@ -96,10 +96,10 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/edtAnswer"
+                android:id="@+id/u1edtAnswer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="false"
+                android:focusable="auto"
                 android:inputType="text" />
 
             <!--Presentation-->

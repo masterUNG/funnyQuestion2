@@ -47,18 +47,17 @@ public class Unit1Fragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-//        Find UID, Find UnitName of User
+//      Find UID, Find UnitName of User
         findUidNameUnit();
-
-        // About Warm Up
+//      About Warm Up
         firstSpinner();
 
         secondSpinner();
 
         thirdSpinner();
 
-//        Answer Controller
-        answer4Controller();
+//      Answer Controlle
+//      answer4Controller();
 
 //      Practise3
         item1Spinner();
@@ -163,13 +162,13 @@ public class Unit1Fragment extends Fragment {
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int i) {
-                if(i == trueInt){
+                if (i == trueInt) {
                     ints[0] = 1;
                 }
             }
-          });
+        });
 
-        Log.d(tag2,"scorePractise2==>"+ints[0]);
+        Log.d(tag2, "scorePractise2==>" + ints[0]);
 
 
     }//calculatePractice2
@@ -552,7 +551,7 @@ public class Unit1Fragment extends Fragment {
 
 
     private void answer4Controller() {
-        EditText editText = getView().findViewById(R.id.edtAnswer);
+        EditText editText = getView().findViewById(R.id.u1edtAnswer);
 
     }
 
