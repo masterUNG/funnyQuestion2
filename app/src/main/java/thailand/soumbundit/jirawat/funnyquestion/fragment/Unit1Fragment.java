@@ -15,6 +15,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 
@@ -154,7 +155,12 @@ public class Unit1Fragment extends Fragment {
 
     private void calculatePractise2() {
 
+        Log.d(tag2, "Start calculatePractise2" );
         final int trueInt = R.id.radC; //Choice C is true
+
+
+        //final RadioGroup radioGroup = getView().findViewById(R.id.ragCpuStand);
+       /*
         final int[] ints = {0};
 
         RadioGroup radioGroup = getView().findViewById(R.id.ragCpuStand);
@@ -163,12 +169,13 @@ public class Unit1Fragment extends Fragment {
             @Override
             public void onCheckedChanged(RadioGroup group, int i) {
                 if (i == trueInt) {
-                    ints[0] = 1;
+                   // ints[0] = 1;
                 }
             }
         });
 
         Log.d(tag2, "scorePractise2==>" + ints[0]);
+       */
 
 
     }//calculatePractice2

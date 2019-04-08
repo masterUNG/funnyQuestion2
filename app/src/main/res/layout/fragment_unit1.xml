@@ -99,8 +99,7 @@
                 android:id="@+id/u1edtAnswer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="auto"
-                android:inputType="text" />
+                android:focusable="false" />
 
             <!--Presentation-->
             <TextView
@@ -146,14 +145,14 @@
                 android:layout_height="200dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
-                android:src="@drawable/device1" />
+                android:src="@drawable/unit101" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
-                android:src="@drawable/device2" />
+                android:src="@drawable/unit102" />
 
             <!--Presentation - Output Devices-->
             <TextView
@@ -180,10 +179,10 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="100dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
-                android:src="@drawable/device1" />
+                android:src="@drawable/unit103" />
 
             <!--Presentation - System Unit-->
             <TextView
@@ -236,7 +235,7 @@
                 android:layout_height="200dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
-                android:src="@drawable/device2" />
+                android:src="@drawable/unit104" />
 
             <!--Presentation - Communication devices-->
             <TextView
@@ -263,10 +262,10 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="100dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
-                android:src="@drawable/device2" />
+                android:src="@drawable/unit105" />
 
             <!--Practice-->
             <TextView
