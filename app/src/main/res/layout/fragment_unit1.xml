@@ -1259,68 +1259,56 @@
                 android:textStyle="bold" />
 
             <!--Language work: Practice#1-->
-            <TableLayout
+
+            <GridLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                <!--Roll 1-->
-                <TableRow>
+                android:layout_height="match_parent"
+                android:columnCount="2"
+                android:orientation="horizontal">
 
-                    <Spinner
-                        android:id="@+id/languagework1spinner"
+                <LinearLayout
+                    android:id="@+id/drag_drop_left_layout"
+                    android:orientation="vertical"
+                    android:background="@color/colorPrimary"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Button
+
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="@dimen/padding4" />
+                        android:layout_height="wrap_content"
+                        android:text="you"
+                        android:textAllCaps="false"
+                        android:textSize="10dp"/>
 
-                    <Spinner
-                        android:id="@+id/languagework2spinner"
+                    <Button
+
                         android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="@dimen/padding4" />
+                        android:layout_height="wrap_content"
+                        android:text="computer"
+                        android:textAllCaps="false"
+                        android:textSize="10dp"/>
 
-                    <Spinner
-                        android:id="@+id/languagework3spinner"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="@dimen/padding4" />
+                </LinearLayout>
 
-                    <Spinner
-                        android:id="@+id/languagework4spinner"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="@dimen/padding4" />
 
-                    <Spinner
-                        android:id="@+id/languagework5spinner"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="@dimen/padding4" />
+                <LinearLayout
+                    android:id="@+id/drag_drop_right_layout"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorWhite"
+                    android:orientation="vertical">
 
-                    <Spinner
-                        android:id="@+id/languagework6spinner"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="@dimen/padding4" />
 
-                    <Spinner
-                        android:id="@+id/languagework7spinner"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="@dimen/padding4" />
+                </LinearLayout>
 
-                    <Spinner
-                        android:id="@+id/languagework8spinner"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="@dimen/padding4" />
+            </GridLayout>
 
-                    <Spinner
-                        android:id="@+id/languagework9spinner"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_marginTop="@dimen/padding4" />
 
-                </TableRow>
-            </TableLayout>
+
+
+
 
             <!--Specialist Reading-->
             <TextView

@@ -81,7 +81,7 @@ public class Unit1Fragment extends Fragment {
         Listening8spinner();
 
 
-        Languagework1spinner();
+        //  Languagework1spinner();
         //  Languagework2spinner();
         //  Languagework3spinner();
         //  Languagework4spinner();
@@ -155,10 +155,14 @@ public class Unit1Fragment extends Fragment {
 
     private void calculatePractise2() {
 
-        Log.d(tag2, "Start calculatePractise2" );
         final int trueInt = R.id.radC; //Choice C is true
-
-
+        RadioButton rb_c = getView().findViewById(R.id.radC);
+        if(rb_c.isChecked()){
+            Log.d(tag2, "scorePractise2==>" + 1);
+        }
+        else {
+            Log.d(tag2, "scorePractise2==>" + 0);
+        }
         //final RadioGroup radioGroup = getView().findViewById(R.id.ragCpuStand);
        /*
         final int[] ints = {0};
@@ -274,7 +278,7 @@ public class Unit1Fragment extends Fragment {
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
     }
-
+/*
     private void Languagework1spinner() {
         Spinner spinner = getView().findViewById(R.id.languagework1spinner);
         String[] strings = myConstant.getChioceSpinner6Strings();
@@ -346,7 +350,7 @@ public class Unit1Fragment extends Fragment {
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
     }
-
+*/
 
     private void Listening1spinner() {
         Spinner spinner = getView().findViewById(R.id.listening1spinner);
