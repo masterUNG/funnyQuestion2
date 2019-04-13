@@ -12,18 +12,18 @@ public class MyConstant {
 
 //    Practice
     private String[] practice1True = new String[]{"keyboard","touch screen","data collection", "aa"};
-    private int [] practise3Ints = new int[]{1,1,2,2,3,3};
+    private int [] practise3Ints = new int[]{22,3,7,20,16,17,15,1,12,19,21,6,11,14,23,9,2,10,8,18};
 
 //    #########################################################################
 
     //    item
-    private String[] chioceSpinnerItemStrings = new String[]{
+    private String[] choiceSpinnerItemStrings = new String[]{
             "????",
             "game consoles",
             "webcam",
             "CPU",
             "external drive",
-            "headset",
+            "pointer",
             "joystick",
             "keyboard",
             "speaker",
@@ -32,7 +32,7 @@ public class MyConstant {
             "Flash drive",
             "USB",
             "data collection device",
-            "gamepad",
+            "game pad",
             "headset",
             "mobile phone",
             "mouse",
@@ -40,7 +40,7 @@ public class MyConstant {
             "PDA",
             "printer",
             "scanner",
-            "Screen",
+            "screen",
             "tablet (pad)"
             };
 
@@ -247,8 +247,8 @@ public class MyConstant {
         return chioceSpinner5Strings;
     }
 
-    public String[] getChioceSpinnerItemStrings() {
-        return chioceSpinnerItemStrings;
+    public String[] getChoiceSpinnerItemStrings() {
+        return choiceSpinnerItemStrings;
     }
 
     public String[] getChioceSpinner4Strings() {

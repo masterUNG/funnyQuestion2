@@ -334,7 +334,6 @@
                     android:id="@+id/radA"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:checked="true"
                     android:text="a.Central Processing Unity" />
 
                 <RadioButton
@@ -389,10 +388,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/icon"
                             android:scaleType="centerInside"
-                            android:src="@drawable/item1" />
+                            android:src="@drawable/unit1item01" />
                         <!--Spinner-->
                         <Spinner
-                            android:id="@+id/spinnerItem1"
+                            android:id="@+id/unit1spinnerItem01"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
@@ -410,10 +409,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="@dimen/icon"
                             android:scaleType="centerInside"
-                            android:src="@drawable/item2" />
+                            android:src="@drawable/unit1item02" />
                         <!--Spinner-->
                         <Spinner
-                            android:id="@+id/spinnerItem2"
+                            android:id="@+id/unit1spinnerItem02"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
@@ -431,10 +430,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="@dimen/icon"
                             android:scaleType="centerInside"
-                            android:src="@drawable/item3" />
+                            android:src="@drawable/unit1item03" />
                         <!--Spinner-->
                         <Spinner
-                            android:id="@+id/spinnerItem3"
+                            android:id="@+id/unit1spinnerItem03"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
@@ -458,10 +457,10 @@
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/icon"
                             android:scaleType="centerInside"
-                            android:src="@drawable/item4" />
+                            android:src="@drawable/unit1item04" />
                         <!--Spinner-->
                         <Spinner
-                            android:id="@+id/spinnerItem4"
+                            android:id="@+id/unit1spinnerItem04"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
@@ -479,10 +478,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="@dimen/icon"
                             android:scaleType="centerInside"
-                            android:src="@drawable/item5" />
+                            android:src="@drawable/unit1item05" />
                         <!--Spinner-->
                         <Spinner
-                            android:id="@+id/spinnerItem5"
+                            android:id="@+id/unit1spinnerItem05"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
@@ -500,15 +499,350 @@
                             android:layout_width="wrap_content"
                             android:layout_height="@dimen/icon"
                             android:scaleType="centerInside"
-                            android:src="@drawable/itme6" />
+                            android:src="@drawable/unit1item06" />
                         <!--Spinner-->
                         <Spinner
-                            android:id="@+id/spinnerItem6"
+                            android:id="@+id/unit1spinnerItem06"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
                     </LinearLayout>
                 </LinearLayout>
+                <!--Roll3-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <!--Col1-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/icon"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/unit1item07" />
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/unit1spinnerItem07"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                    <!--Col2-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/icon"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/unit1item08" />
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/unit1spinnerItem08"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                    <!--Col3-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/icon"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/unit1item09" />
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/unit1spinnerItem09"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <!--Roll4-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <!--Col1-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/icon"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/unit1item10" />
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/unit1spinnerItem10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                    <!--Col2-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/icon"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/unit1item11" />
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/unit1spinnerItem11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                    <!--Col3-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/icon"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/unit1item12" />
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/unit1spinnerItem12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <!--Roll5-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <!--Col1-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/icon"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/unit1item13" />
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/unit1spinnerItem13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                    <!--Col2-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/icon"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/unit1item14" />
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/unit1spinnerItem14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                    <!--Col3-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/icon"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/unit1item15" />
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/unit1spinnerItem15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <!--Roll6-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <!--Col1-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/icon"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/unit1item16" />
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/unit1spinnerItem16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                    <!--Col2-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/icon"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/unit1item17" />
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/unit1spinnerItem17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                    <!--Col3-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/icon"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/unit1item18" />
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/unit1spinnerItem18"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <!--Roll7-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <!--Col1-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/icon"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/unit1item19" />
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/unit1spinnerItem19"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                    <!--Col2-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/icon"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/unit1item20" />
+                        <!--Spinner-->
+                        <Spinner
+                            android:id="@+id/unit1spinnerItem20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+                    <!--Col3-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
             </LinearLayout>
 
             <!--4. Read the sentences and choose true or false-->
@@ -787,8 +1121,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/padding"
                 android:layout_marginTop="@dimen/padding"
+                android:layout_marginBottom="@dimen/padding"
                 android:text="Structure: Wh-question-The simple present tense"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
@@ -800,9 +1134,9 @@
                 android:stretchColumns="*">
                 <!--header-->
                 <TableRow
-                    android:background="@drawable/table_row_bg"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:background="@drawable/table_row_bg"
                     android:padding="5dp">
 
                     <TextView
@@ -1268,11 +1602,11 @@
 
                 <LinearLayout
                     android:id="@+id/drag_drop_left_layout"
-                    android:orientation="vertical"
-                    android:background="@color/colorPrimary"
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
-                    android:gravity="center">
+                    android:background="@color/colorPrimary"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
                     <Button
 
@@ -1280,7 +1614,7 @@
                         android:layout_height="wrap_content"
                         android:text="you"
                         android:textAllCaps="false"
-                        android:textSize="10dp"/>
+                        android:textSize="10dp" />
 
                     <Button
 
@@ -1288,7 +1622,7 @@
                         android:layout_height="wrap_content"
                         android:text="computer"
                         android:textAllCaps="false"
-                        android:textSize="10dp"/>
+                        android:textSize="10dp" />
 
                 </LinearLayout>
 
@@ -1297,17 +1631,12 @@
                     android:id="@+id/drag_drop_right_layout"
                     android:layout_width="100dp"
                     android:layout_height="match_parent"
-                    android:background="@color/colorWhite"
+                    android:background="@color/colorPrimaryDark"
                     android:orientation="vertical">
-
 
                 </LinearLayout>
 
             </GridLayout>
-
-
-
-
 
 
             <!--Specialist Reading-->
@@ -1601,9 +1930,9 @@
 
             <!--1. Multimedia materials with a combination of educational and entertainment context.-->
             <TextView
-                android:layout_marginTop="@dimen/padding8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="1. Multimedia materials with a combination of educational and entertainment context."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
@@ -1960,8 +2289,8 @@
         android:id="@+id/floatingCheck"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
         android:src="@drawable/ic_action_check"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
