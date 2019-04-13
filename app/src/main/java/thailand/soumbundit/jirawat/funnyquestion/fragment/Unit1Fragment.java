@@ -56,10 +56,10 @@ public class Unit1Fragment extends Fragment {
 
         thirdSpinner();
 
-//      Answer Controlle
+//      Answer Controller
 //      answer4Controller();
 
-//      Practise3
+//      Practise3 Match the names of digital devices with the pictures
         item1Spinner();
         item2Spinner();
         item3Spinner();
@@ -157,7 +157,38 @@ public class Unit1Fragment extends Fragment {
         calculatePractise1();
         calculatePractise2();
         calculatePractise3();
+        calculatePractise4();
+
     }
+
+    private void calculatePractise4() {
+
+        int scorePractise4Int = 0;
+        RadioButton rbAnswer01 = getView().findViewById(R.id.unit1rbPractice01False);
+        RadioButton rbAnswer02 = getView().findViewById(R.id.unit1rbPractice02False);
+        RadioButton rbAnswer03 = getView().findViewById(R.id.unit1rbPractice03False);
+        RadioButton rbAnswer04 = getView().findViewById(R.id.unit1rbPractice04False);
+        RadioButton rbAnswer05 = getView().findViewById(R.id.unit1rbPractice05False);
+
+        if(rbAnswer01.isChecked()){
+            scorePractise4Int += 1;
+        }
+        if(rbAnswer02.isChecked()){
+            scorePractise4Int += 1;
+        }
+        if(rbAnswer03.isChecked()){
+            scorePractise4Int += 1;
+        }
+        if(rbAnswer04.isChecked()){
+            scorePractise4Int += 1;
+        }
+        if(rbAnswer05.isChecked()){
+            scorePractise4Int += 1;
+        }
+        Log.d(tag2,"scorePractise4 ==>"+ scorePractise4Int);
+
+    }
+
 
     private void calculatePractise3() {
         int sumScorePractise3 = 0;
@@ -201,11 +232,11 @@ public class Unit1Fragment extends Fragment {
         int scorePractise1Int = 0;
         String[] trueAnswerStrings = myConstant.getPractice1TrueString();
 
-        EditText practise1EditText = getView().findViewById(R.id.edtPractice1);
-        EditText practise2EditText = getView().findViewById(R.id.edtPractice2);
-        EditText practise3EditText = getView().findViewById(R.id.edtPractice3);
-        EditText practise4EditText = getView().findViewById(R.id.edtPractice4);
-        EditText practise5EditText = getView().findViewById(R.id.edtPractice5);
+        EditText practise1EditText = getView().findViewById(R.id.unit1edtPractice1);
+        EditText practise2EditText = getView().findViewById(R.id.unit1edtPractice2);
+        EditText practise3EditText = getView().findViewById(R.id.unit1edtPractice3);
+        EditText practise4EditText = getView().findViewById(R.id.unit1edtPractice4);
+        EditText practise5EditText = getView().findViewById(R.id.unit1edtPractice5);
 
         String[] strings = new String[5];
         strings[0] = practise1EditText.getText().toString().trim();
@@ -214,6 +245,9 @@ public class Unit1Fragment extends Fragment {
         strings[3] = practise4EditText.getText().toString().trim();
         strings[4] = practise5EditText.getText().toString().trim();
 
+        for (int i = 0;i<strings.length;i +=1){
+            strings[i] = strings[i].toLowerCase();
+        }
 
         for (int i = 0; i < strings.length; i += 1) {
             for (int i1 = 0; i1 < trueAnswerStrings.length; i1 += 1) {
@@ -232,6 +266,31 @@ public class Unit1Fragment extends Fragment {
         for (int i = 0; i < scoreWarmUpInts.length; i += 1) {
             sumScoreInt = sumScoreInt + scoreWarmUpInts[i];
         }
+        String [] trueAnswerString = myConstant.getWarmupTrueString();
+        EditText editWarmupText1 = getView().findViewById(R.id.unit1edtAnswer01);
+        EditText editWarmupText2 = getView().findViewById(R.id.unit1edtAnswer02);
+        EditText editWarmupText3 = getView().findViewById(R.id.unit1edtAnswer03);
+        EditText editWarmupText4 = getView().findViewById(R.id.unit1edtAnswer04);
+
+        String [] strings = new String[4];
+        strings[0] = editWarmupText1.getText().toString().trim();
+        strings[1] = editWarmupText2.getText().toString().trim();
+        strings[2] = editWarmupText3.getText().toString().trim();
+        strings[3] = editWarmupText4.getText().toString().trim();
+
+        for(int i =0; i < strings.length; i +=1){
+            strings[i] = strings[i].toLowerCase();
+        }
+
+        for(int i =0; i < strings.length; i +=1) {
+            for(int i1 = 0; i1 < trueAnswerString.length; i1 +=1){
+                if (strings[i].equals(trueAnswerString[i1])) {
+                    sumScoreInt+= 1;
+                }
+            }//for2
+        }//for1
+
+
         warmUpString = Integer.toString(sumScoreInt);
         Log.d(tag, "warmUpString ==>" + warmUpString);
     }
@@ -251,6 +310,12 @@ public class Unit1Fragment extends Fragment {
         nameUnitString = strings[0];
         Log.d(tag, "nameUnitStirng ==> " + nameUnitString);
     }
+
+
+
+
+
+
 
     private void Reading1spinner() {
         Spinner spinner = getView().findViewById(R.id.readingspinner1);
@@ -448,7 +513,7 @@ public class Unit1Fragment extends Fragment {
         });
     }//Play Media Clip1
 
-
+ // Practise 3 Match the names of digital devices with the pictures
     private void checkScorePractise3(int indexSpinner, int position) {
         int[] answerTrueInts = myConstant.getPractise3Ints();
 
@@ -841,7 +906,7 @@ public class Unit1Fragment extends Fragment {
 
 
     private void answer4Controller() {
-        EditText editText = getView().findViewById(R.id.u1edtAnswer);
+        EditText editText = getView().findViewById(R.id.unit1edtAnswer01);
 
     }
 
@@ -859,7 +924,7 @@ public class Unit1Fragment extends Fragment {
 
 
     private void firstSpinner() {
-        Spinner spinner = getView().findViewById(R.id.u1spinner1);
+        Spinner spinner = getView().findViewById(R.id.unit1WarmupSpinner1);
         String[] strings = myConstant.getChoiceSpinner1Strings();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
@@ -878,7 +943,7 @@ public class Unit1Fragment extends Fragment {
     }
 
     private void secondSpinner() {
-        Spinner spinner = getView().findViewById(R.id.u1spinner2);
+        Spinner spinner = getView().findViewById(R.id.unit1WarmupSpinner2);
         String[] strings = myConstant.getChoiceSpinner2Strings();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
@@ -898,7 +963,7 @@ public class Unit1Fragment extends Fragment {
     }
 
     private void thirdSpinner() {
-        Spinner spinner = getView().findViewById(R.id.u1spinner3);
+        Spinner spinner = getView().findViewById(R.id.unit1WarmupSpinner3);
         String[] strings = myConstant.getChoiceSpinner3Strings();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);

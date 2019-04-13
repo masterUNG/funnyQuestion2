@@ -2,17 +2,49 @@ package thailand.soumbundit.jirawat.funnyquestion.utility;
 
 public class MyConstant {
 
-//    #########################################################################
+    //    #########################################################################
 //    About Unit1
 //    #########################################################################
 //    Warm Up
-    private int[] answer1TrueInts = new int[]{2, 8, 13, 24};
-    private int[] answer2TrueInts = new int[]{2, 3};
-    private int[] answer3TrueInts = new int[]{2, 4};
+    private int[] answer1TrueInts = new int[]{1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 24, 26, 27, 28, 29, 30};
+    private int[] answer2TrueInts = new int[]{3, 6, 7, 8, 13, 14, 15, 19, 20, 21, 24, 25, 29, 31};
+    private int[] answer3TrueInts = new int[]{3, 4, 5, 10, 13, 14, 15, 16, 20, 21, 24, 25};
 
-//    Practice
-    private String[] practice1True = new String[]{"keyboard","touch screen","data collection", "aa"};
-    private int [] practise3Ints = new int[]{22,3,7,20,16,17,15,1,12,19,21,6,11,14,23,9,2,10,8,18};
+    //    Practice
+    private String[] practice1True = new String[]{
+            "keyboard",
+            "touch screen",
+            "game consoles",
+            "webcam",
+            "cpu",
+            "external drive",
+            "pointer",
+            "joystick",
+            "speaker",
+            "microphone",
+            "laptop",
+            "flash drive",
+            "usb",
+            "data collection device",
+            "gamepad",
+            "headset",
+            "mobile phone",
+            "mouse",
+            "mp3",
+            "pda",
+            "printer",
+            "scanner",
+            "screen",
+            "tablet",
+            "biometric device",
+            "bar code reader",
+            "graphics tablet",
+            "magnetic stripe card reader",
+            "game controller",
+            "stylus pen",
+            "micr"
+    };
+    private int[] practise3Ints = new int[]{22, 3, 7, 20, 16, 17, 15, 1, 12, 19, 21, 6, 11, 14, 23, 9, 2, 10, 8, 18};
 
 //    #########################################################################
 
@@ -32,7 +64,7 @@ public class MyConstant {
             "Flash drive",
             "USB",
             "data collection device",
-            "game pad",
+            "gamepad",
             "headset",
             "mobile phone",
             "mouse",
@@ -42,7 +74,7 @@ public class MyConstant {
             "scanner",
             "screen",
             "tablet (pad)"
-            };
+    };
 
     //    Choice Spinner 1
     private String[] choiceSpinner1Strings = new String[]{
@@ -140,28 +172,13 @@ public class MyConstant {
             "Thing selling",
             "To sell things", //correct
             "Selling things" //correct
-            };
+    };
 
-    private String[] chioceSpinner4Strings = new String[]{
-            "..........",
-            "Input devices",
-            "Input device",
-            "Input Devices",
-            "Input Device",
-            "Output devices",
-            "Output device",
-            "Output Devices",
-            "Output Device",
-            "System unit",
-            "System Unit",
-            "Storage devices",
-            "Storage device",
-            "Storage Devices",
-            "Storage Device",
-            "Communication devices",
-            "Communication device",
-            "Communication Devices",
-            "Communication Device"
+    private String[] warmupTrue = new String[]{
+            "output",
+            "system",
+            "storage",
+            "communication"
     };
 
 
@@ -251,8 +268,8 @@ public class MyConstant {
         return choiceSpinnerItemStrings;
     }
 
-    public String[] getChioceSpinner4Strings() {
-        return chioceSpinner4Strings;
+    public String[] getWarmupTrueString() {
+        return warmupTrue;
     }
 
     public String[] getChoiceSpinner1Strings() {

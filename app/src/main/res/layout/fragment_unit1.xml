@@ -71,18 +71,18 @@
                 android:textStyle="normal" />
 
             <Spinner
-                android:id="@+id/u1spinner1"
+                android:id="@+id/unit1WarmupSpinner1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8" />
 
             <Spinner
-                android:id="@+id/u1spinner2"
+                android:id="@+id/unit1WarmupSpinner2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <Spinner
-                android:id="@+id/u1spinner3"
+                android:id="@+id/unit1WarmupSpinner3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -95,11 +95,80 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hint:"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1) I[ ]p[ ]t devices"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Answer: Input"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2) O[ ][ ]p[ ]t devices"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
             <EditText
-                android:id="@+id/u1edtAnswer"
+                android:id="@+id/unit1edtAnswer01"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="false" />
+                android:focusable="auto" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3) S[ ][ ]t[ ][ ] unit "
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/unit1edtAnswer02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="auto" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4) St[ ][ ][ ][ ]e devices "
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/unit1edtAnswer03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="auto" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5) Com[ ][ ]ni[ ][ ]ti[ ][ ] devices "
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/unit1edtAnswer04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="auto" />
 
             <!--Presentation-->
             <TextView
@@ -284,35 +353,35 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/edtPractice1"
+                android:id="@+id/unit1edtPractice1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:focusable="auto" />
 
             <EditText
-                android:id="@+id/edtPractice2"
+                android:id="@+id/unit1edtPractice2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto" />
 
             <EditText
-                android:id="@+id/edtPractice3"
+                android:id="@+id/unit1edtPractice3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto" />
 
             <EditText
-                android:id="@+id/edtPractice4"
+                android:id="@+id/unit1edtPractice4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto" />
 
             <EditText
-                android:id="@+id/edtPractice5"
+                android:id="@+id/unit1edtPractice5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="false" />
+                android:focusable="auto" />
 
             <!--2. What does CPU stand for?-->
             <TextView
@@ -863,18 +932,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
+                android:id="@+id/unit1rdgPractice01"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
+                    android:id="@+id/unit1rbPractice01True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
+                    android:id="@+id/unit1rbPractice01False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
@@ -890,18 +962,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
+                android:id="@+id/unit1rdgPractice02"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
+                    android:id="@+id/unit1rbPractice02True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
+                    android:id="@+id/unit1rbPractice02False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
@@ -917,18 +992,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
+                android:id="@+id/unit1rdgPractice03"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
+                    android:id="@+id/unit1rbPractice03True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
+                    android:id="@+id/unit1rbPractice03False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
@@ -943,18 +1021,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
+                android:id="@+id/unit1rdgPractice04"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
+                    android:id="@+id/unit1rbPractice04True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
+                    android:id="@+id/unit1rbPractice04False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
@@ -970,18 +1051,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
+                android:id="@+id/unit1rdgPractice05"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
+                    android:id="@+id/unit1rbPractice05True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
+                    android:id="@+id/unit1rbPractice05False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
