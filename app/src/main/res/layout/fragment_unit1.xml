@@ -71,18 +71,18 @@
                 android:textStyle="normal" />
 
             <Spinner
-                android:id="@+id/unit1WarmupSpinner1"
+                android:id="@+id/unit1SpinnerWarmUp1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8" />
 
             <Spinner
-                android:id="@+id/unit1WarmupSpinner2"
+                android:id="@+id/unit1SpinnerWarmUp2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <Spinner
-                android:id="@+id/unit1WarmupSpinner3"
+                android:id="@+id/unit1SpinnerWarmUp3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -126,7 +126,7 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/unit1edtAnswer01"
+                android:id="@+id/unit1EdtWarmUp1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto" />
@@ -139,7 +139,7 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/unit1edtAnswer02"
+                android:id="@+id/unit1EdtWarmUp2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto" />
@@ -152,7 +152,7 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/unit1edtAnswer03"
+                android:id="@+id/unit1EdtWarmUp3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto" />
@@ -165,7 +165,7 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/unit1edtAnswer04"
+                android:id="@+id/unit1EdtWarmUp4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto" />
@@ -353,32 +353,32 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/unit1edtPractice1"
+                android:id="@+id/unit1EdtPractice1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:focusable="auto" />
 
             <EditText
-                android:id="@+id/unit1edtPractice2"
+                android:id="@+id/unit1EdtPractice2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto" />
 
             <EditText
-                android:id="@+id/unit1edtPractice3"
+                android:id="@+id/unit1EdtPractice3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto" />
 
             <EditText
-                android:id="@+id/unit1edtPractice4"
+                android:id="@+id/unit1EdtPractice4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto" />
 
             <EditText
-                android:id="@+id/unit1edtPractice5"
+                android:id="@+id/unit1EdtPractice5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto" />
@@ -393,7 +393,7 @@
                 android:textStyle="bold" />
 
             <RadioGroup
-                android:id="@+id/ragCpuStand"
+                android:id="@+id/unit1RdgPractice"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
@@ -932,21 +932,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
-                android:id="@+id/unit1rdgPractice01"
+                android:id="@+id/unit1RdgPractice01"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/unit1rbPractice01True"
+                    android:id="@+id/unit1RbPractice01True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
-                    android:id="@+id/unit1rbPractice01False"
+                    android:id="@+id/unit1RbPractice01False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
@@ -962,21 +962,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
-                android:id="@+id/unit1rdgPractice02"
+                android:id="@+id/unit1RdgPractice02"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/unit1rbPractice02True"
+                    android:id="@+id/unit1RbPractice02True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
-                    android:id="@+id/unit1rbPractice02False"
+                    android:id="@+id/unit1RbPractice02False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
@@ -992,21 +992,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
-                android:id="@+id/unit1rdgPractice03"
+                android:id="@+id/unit1RdgPractice03"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/unit1rbPractice03True"
+                    android:id="@+id/unit1RbPractice03True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
-                    android:id="@+id/unit1rbPractice03False"
+                    android:id="@+id/unit1RbPractice03False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
@@ -1021,21 +1021,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
-                android:id="@+id/unit1rdgPractice04"
+                android:id="@+id/unit1RdgPractice04"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/unit1rbPractice04True"
+                    android:id="@+id/unit1RbPractice04True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
-                    android:id="@+id/unit1rbPractice04False"
+                    android:id="@+id/unit1RbPractice04False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
@@ -1051,21 +1051,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
-                android:id="@+id/unit1rdgPractice05"
+                android:id="@+id/unit1RdgPractice05"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/unit1rbPractice05True"
+                    android:id="@+id/unit1RbPractice05True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
-                    android:id="@+id/unit1rbPractice05False"
+                    android:id="@+id/unit1RbPractice05False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
@@ -1102,13 +1102,13 @@
                 android:textStyle="normal" />
 
             <Spinner
-                android:id="@+id/listening1spinner"
+                android:id="@+id/unit1SpinnerListening1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4" />
 
             <Spinner
-                android:id="@+id/listening2spinner"
+                android:id="@+id/unit1SpinnerListening2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4" />
@@ -1121,13 +1121,13 @@
                 android:textStyle="normal" />
 
             <Spinner
-                android:id="@+id/listening3spinner"
+                android:id="@+id/unit1SpinnerListening3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4" />
 
             <Spinner
-                android:id="@+id/listening4spinner"
+                android:id="@+id/unit1SpinnerListening4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4" />
@@ -1140,13 +1140,13 @@
                 android:textStyle="normal" />
 
             <Spinner
-                android:id="@+id/listening5spinner"
+                android:id="@+id/unit1SpinnerListening5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4" />
 
             <Spinner
-                android:id="@+id/listening6spinner"
+                android:id="@+id/unit1SpinnerListening6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4" />
@@ -1159,13 +1159,13 @@
                 android:textStyle="normal" />
 
             <Spinner
-                android:id="@+id/listening7spinner"
+                android:id="@+id/unit1SpinnerListening7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4" />
 
             <Spinner
-                android:id="@+id/listening8spinner"
+                android:id="@+id/unit1SpinnerListening8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4" />
@@ -1677,50 +1677,144 @@
                 android:textStyle="bold" />
 
             <!--Language work: Practice#1-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Hint:"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
 
-            <GridLayout
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Example: she, come, home, When, does, ?"
+                android:layout_marginTop="@dimen/padding8"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correct: When does she come home?"
+                android:layout_marginTop="@dimen/padding4"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Answer: She comes home late."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="1) you, computer, your, use, in,do,How, free time,?"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/unit1EdtLanguage1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:columnCount="2"
-                android:orientation="horizontal">
+                android:layout_height="wrap_content"
+                android:focusable="auto" />
 
-                <LinearLayout
-                    android:id="@+id/drag_drop_left_layout"
-                    android:layout_width="100dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorPrimary"
-                    android:gravity="center"
-                    android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Answer: I usually use my computer to listen to music and watch a movie."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
 
-                    <Button
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="2) play, you, do, How often, computer game, ?"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
 
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="you"
-                        android:textAllCaps="false"
-                        android:textSize="10dp" />
+            <EditText
+                android:id="@+id/unit1EdtLanguage2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="auto" />
 
-                    <Button
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Answer: I sometimes play computer game."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
 
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="computer"
-                        android:textAllCaps="false"
-                        android:textSize="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="3) does, What, CPU, for, ?, stand"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
 
-                </LinearLayout>
+            <EditText
+                android:id="@+id/unit1EdtLanguage3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="auto" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Answer: It stands for central processing unit."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="4) Where, do, you, use, ?, usually, a computer "
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/unit1EdtLanguage4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="auto" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Answer: I usually use a computer at computer center."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="5) do, What, you, ?, do"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/unit1EdtLanguage5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="auto" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Answer: I’m a university student."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
 
 
-                <LinearLayout
-                    android:id="@+id/drag_drop_right_layout"
-                    android:layout_width="100dp"
-                    android:layout_height="match_parent"
-                    android:background="@color/colorPrimaryDark"
-                    android:orientation="vertical">
-
-                </LinearLayout>
-
-            </GridLayout>
 
 
             <!--Specialist Reading-->
@@ -1831,24 +1925,24 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/Reading1Answer"
+                android:id="@+id/unit1EdtReading1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="false"
+                android:focusable="auto"
                 android:inputType="text" />
 
             <EditText
-                android:id="@+id/Reading2Answer"
+                android:id="@+id/unit1EdtReading2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="false"
+                android:focusable="auto"
                 android:inputType="text" />
 
             <EditText
-                android:id="@+id/Reading3Answer"
+                android:id="@+id/unit1EdtReading3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="false"
+                android:focusable="auto"
                 android:inputType="text" />
 
             <!--2. Which is not the use of handheld computers are mentioned in the text?-->
@@ -1861,27 +1955,32 @@
                 android:textStyle="normal" />
 
             <RadioGroup
+                android:id="@+id/unit1RdgReading1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:orientation="vertical">
 
                 <RadioButton
+                    android:id="@+id/unit1RbReading1A"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="a.To collect data at a customer site" />
 
                 <RadioButton
+                    android:id="@+id/unit1RbReading1B"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="b.To generate forms" />
 
                 <RadioButton
+                    android:id="@+id/unit1RbReading1C"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="c.To control inventory" />
 
                 <RadioButton
+                    android:id="@+id/unit1RbReading1D"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="d.To control pets in the house" />
@@ -1897,27 +1996,32 @@
                 android:textStyle="normal" />
 
             <RadioGroup
+                android:id="@+id/unit1RdgReading2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:orientation="vertical">
 
                 <RadioButton
+                    android:id="@+id/unit1RbReading2A"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="a.To store vital information" />
 
                 <RadioButton
+                    android:id="@+id/unit1RbReading2B"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="b.To save money" />
 
                 <RadioButton
+                    android:id="@+id/unit1RbReading2C"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="c.To write programs" />
 
                 <RadioButton
+                    android:id="@+id/unit1RbReading2D"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="d.To build cars" />
@@ -1957,26 +2061,29 @@
                 android:textStyle="normal" />
 
             <RadioGroup
+                android:id="@+id/unit1RdgReading3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:orientation="vertical">
 
                 <RadioButton
+                    android:id="@+id/unit1RbReading3A"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="a.Call forwarding, call monitoring, and call answering" />
 
                 <RadioButton
+                    android:id="@+id/unit1RbReading3B"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="b.Improve energy efficiency" />
 
                 <RadioButton
+                    android:id="@+id/unit1RbReading3C"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="c.Safer environment" />
-
             </RadioGroup>
 
             <!--B: Re-read the text to find the answers to these question.-->

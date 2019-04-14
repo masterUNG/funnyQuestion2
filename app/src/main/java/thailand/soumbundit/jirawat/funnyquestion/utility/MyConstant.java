@@ -46,6 +46,10 @@ public class MyConstant {
     };
     private int[] practise3Ints = new int[]{22, 3, 7, 20, 16, 17, 15, 1, 12, 19, 21, 6, 11, 14, 23, 9, 2, 10, 8, 18};
 
+    private int[] listening1Ints = new int[]{1, 2, 3, 4, 5, 6, 7, 8};
+
+    private int[] reading3Ints = new int[]{1, 2, 3, 4, 5};
+
 //    #########################################################################
 
     //    item
@@ -182,6 +186,26 @@ public class MyConstant {
     };
 
 
+    private String[] languageTrue = new String[]{
+            "How do you use computer in your free time?",
+            "How often do you play computer game?",
+            "What does CPU stand for?",
+            "Where do you usually use a computer?",
+            "What do you do?"
+    };
+
+
+
+    private  String[] readingTrue = new String[]{
+            "medical equipment",
+            "home appliances",
+            "home appliance",
+            "cars and toys",
+            "car and toy"
+    };
+
+
+
     private String[] unitTitleStrings = new String[]{
             "Unit1 Computer Users",
             "Unit2",
@@ -192,7 +216,7 @@ public class MyConstant {
     };
 
     private String[] chioceSpinner5Strings = new String[]{
-            "..........",
+            "............",
             "To add a sound track",
             "To write assignments",
             "To make CDs",
@@ -205,20 +229,6 @@ public class MyConstant {
     }; //Practice: Listening
 
 
-    private String[] chioceSpinner6Strings = new String[]{
-            "..",
-            "you",
-            "computer",
-            "your",
-            "use",
-            "in",
-            "do",
-            "How",
-            "freetime",
-            "?",
-
-    }; //Language work: Practice
-
     private String[] chioceSpinner7Strings = new String[]{
             "Answer:.........",
             "Edutainment",
@@ -229,8 +239,22 @@ public class MyConstant {
     }; //B: Re-read the text to find the answers to these question.
 
 
-//    Getter
+    //    Getter
+    public int[] getReading3Ints() {
+        return reading3Ints;
+    }
 
+    public String[] getReadingTrueString() {
+        return readingTrue;
+    }
+
+    public String[] getLanguageTrueString() {
+        return languageTrue;
+    }
+
+    public int[] getListening1Ints() {
+        return listening1Ints;
+    }
 
     public int[] getPractise3Ints() {
         return practise3Ints;
@@ -254,10 +278,6 @@ public class MyConstant {
 
     public String[] getChioceSpinner7Strings() {
         return chioceSpinner7Strings;
-    }
-
-    public String[] getChioceSpinner6Strings() {
-        return chioceSpinner6Strings;
     }
 
     public String[] getChioceSpinner5Strings() {

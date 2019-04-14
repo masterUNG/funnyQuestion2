@@ -34,6 +34,8 @@ public class Unit1Fragment extends Fragment {
     private String tag2 = "11NovV2";
     private int[] scoreWarmUpInts = new int[]{0, 0, 0};
     private int[] scorePractise3Ints = new int[]{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
+    private int[] scoreListening1Ints = new int[]{0, 0, 0, 0, 0, 0, 0, 0};
+    private int[] scoreReading3Ints = new int[]{0, 0, 0, 0, 0};
 
     public static Unit1Fragment unit1Instance(String uidString) {
         Unit1Fragment unit1Fragment = new Unit1Fragment();
@@ -95,16 +97,6 @@ public class Unit1Fragment extends Fragment {
         Listening8spinner();
 
 
-        //  Languagework1spinner();
-        //  Languagework2spinner();
-        //  Languagework3spinner();
-        //  Languagework4spinner();
-        //  Languagework5spinner();
-        //  Languagework6spinner();
-        //  Languagework7spinner();
-        //  Languagework8spinner();
-        //  Languagework9spinner();
-
         Reading1spinner();
         Reading2spinner();
         Reading3spinner();
@@ -158,37 +150,129 @@ public class Unit1Fragment extends Fragment {
         calculatePractise2();
         calculatePractise3();
         calculatePractise4();
+        calculateListening1();
+        calculateLanguage1();
+        calculateReading1();
+        calculateReading2();
+        calculateReading3();
 
     }
+
+    private void calculateReading3() {
+        int sumScoreReading3 = 0;
+        for(int i =0; i< scoreReading3Ints.length;i+=1){
+            sumScoreReading3 += scoreReading3Ints[i];
+        }
+        Log.d(tag2,"ScoreReading3 ==>" + sumScoreReading3);
+    }
+
+
+    private void calculateReading2() {
+        int sumScoreInt = 0;
+        RadioButton rdAnswer1 = getView().findViewById(R.id.unit1RbReading1A);
+        RadioButton rdAnswer2 = getView().findViewById(R.id.unit1RbReading2A);
+        RadioButton rdAnswer3 = getView().findViewById(R.id.unit1RbReading3A);
+
+        if (rdAnswer1.isChecked()) {
+            sumScoreInt += 1;
+        }
+        if (rdAnswer2.isChecked()) {
+            sumScoreInt += 1;
+        }
+        if (rdAnswer3.isChecked()) {
+            sumScoreInt += 1;
+        }
+
+        Log.d(tag2, "scoreReading2 ==>" + sumScoreInt);
+
+    }
+
+    private void calculateReading1() {
+        String[] trueAnswerString = myConstant.getReadingTrueString();
+        String[] strings = new String[3];
+        int sumScoreInt = 0;
+
+        EditText edtReadingText1 = getView().findViewById(R.id.unit1EdtReading1);
+        EditText edtReadingText2 = getView().findViewById(R.id.unit1EdtReading2);
+        EditText edtReadingText3 = getView().findViewById(R.id.unit1EdtReading3);
+
+        strings[0] = edtReadingText1.getText().toString().trim();
+        strings[1] = edtReadingText2.getText().toString().trim();
+        strings[2] = edtReadingText3.getText().toString().trim();
+
+        for (int i = 0; i < strings.length; i += 1) {
+            strings[i] = strings[i].toLowerCase();
+            for (int i1 = 0; i1 < trueAnswerString.length; i1 += 1) {
+                if (strings[i].equals(trueAnswerString[i1])) {
+                    sumScoreInt += 1;
+                }
+            }
+        }
+        Log.d(tag2, "scoreReading1 ==>" + sumScoreInt);
+    }
+
+    private void calculateLanguage1() {
+        String[] trueAnswerString = myConstant.getLanguageTrueString();
+        String[] strings = new String[5];
+        int sumScoreInt = 0;
+
+        EditText edtLanuageText1 = getView().findViewById(R.id.unit1EdtLanguage1);
+        EditText edtLanuageText2 = getView().findViewById(R.id.unit1EdtLanguage2);
+        EditText edtLanuageText3 = getView().findViewById(R.id.unit1EdtLanguage3);
+        EditText edtLanuageText4 = getView().findViewById(R.id.unit1EdtLanguage4);
+        EditText edtLanuageText5 = getView().findViewById(R.id.unit1EdtLanguage5);
+
+        strings[0] = edtLanuageText1.getText().toString().trim();
+        strings[1] = edtLanuageText2.getText().toString().trim();
+        strings[2] = edtLanuageText3.getText().toString().trim();
+        strings[3] = edtLanuageText4.getText().toString().trim();
+        strings[4] = edtLanuageText5.getText().toString().trim();
+
+
+        for (int i = 0; i < strings.length; i += 1) {
+            if (strings[i].equals(trueAnswerString[i])) {
+                sumScoreInt += 1;
+            }
+        }
+
+        Log.d(tag2, "ScoreLanguage ==>" + sumScoreInt);
+    }
+
+    private void calculateListening1() {
+        int sumScoreListening1 = 0;
+        for (int i = 0; i < scoreListening1Ints.length; i += 1) {
+            sumScoreListening1 += scoreListening1Ints[i];
+        }
+        Log.d(tag2, "ScoreListening ==>" + sumScoreListening1);
+    }//calculateListening1
 
     private void calculatePractise4() {
 
         int scorePractise4Int = 0;
-        RadioButton rbAnswer01 = getView().findViewById(R.id.unit1rbPractice01False);
-        RadioButton rbAnswer02 = getView().findViewById(R.id.unit1rbPractice02False);
-        RadioButton rbAnswer03 = getView().findViewById(R.id.unit1rbPractice03False);
-        RadioButton rbAnswer04 = getView().findViewById(R.id.unit1rbPractice04False);
-        RadioButton rbAnswer05 = getView().findViewById(R.id.unit1rbPractice05False);
+        RadioButton rbAnswer01 = getView().findViewById(R.id.unit1RbPractice01False);
+        RadioButton rbAnswer02 = getView().findViewById(R.id.unit1RbPractice02False);
+        RadioButton rbAnswer03 = getView().findViewById(R.id.unit1RbPractice03False);
+        RadioButton rbAnswer04 = getView().findViewById(R.id.unit1RbPractice04False);
+        RadioButton rbAnswer05 = getView().findViewById(R.id.unit1RbPractice05False);
 
-        if(rbAnswer01.isChecked()){
+        if (rbAnswer01.isChecked()) {
             scorePractise4Int += 1;
         }
-        if(rbAnswer02.isChecked()){
+        if (rbAnswer02.isChecked()) {
             scorePractise4Int += 1;
         }
-        if(rbAnswer03.isChecked()){
+        if (rbAnswer03.isChecked()) {
             scorePractise4Int += 1;
         }
-        if(rbAnswer04.isChecked()){
+        if (rbAnswer04.isChecked()) {
             scorePractise4Int += 1;
         }
-        if(rbAnswer05.isChecked()){
+        if (rbAnswer05.isChecked()) {
             scorePractise4Int += 1;
         }
-        Log.d(tag2,"scorePractise4 ==>"+ scorePractise4Int);
+        Log.d(tag2, "scorePractise4 ==>" + scorePractise4Int);
 
-    }
-
+    }//calculatePractise4
 
     private void calculatePractise3() {
         int sumScorePractise3 = 0;
@@ -232,11 +316,11 @@ public class Unit1Fragment extends Fragment {
         int scorePractise1Int = 0;
         String[] trueAnswerStrings = myConstant.getPractice1TrueString();
 
-        EditText practise1EditText = getView().findViewById(R.id.unit1edtPractice1);
-        EditText practise2EditText = getView().findViewById(R.id.unit1edtPractice2);
-        EditText practise3EditText = getView().findViewById(R.id.unit1edtPractice3);
-        EditText practise4EditText = getView().findViewById(R.id.unit1edtPractice4);
-        EditText practise5EditText = getView().findViewById(R.id.unit1edtPractice5);
+        EditText practise1EditText = getView().findViewById(R.id.unit1EdtPractice1);
+        EditText practise2EditText = getView().findViewById(R.id.unit1EdtPractice2);
+        EditText practise3EditText = getView().findViewById(R.id.unit1EdtPractice3);
+        EditText practise4EditText = getView().findViewById(R.id.unit1EdtPractice4);
+        EditText practise5EditText = getView().findViewById(R.id.unit1EdtPractice5);
 
         String[] strings = new String[5];
         strings[0] = practise1EditText.getText().toString().trim();
@@ -245,7 +329,7 @@ public class Unit1Fragment extends Fragment {
         strings[3] = practise4EditText.getText().toString().trim();
         strings[4] = practise5EditText.getText().toString().trim();
 
-        for (int i = 0;i<strings.length;i +=1){
+        for (int i = 0; i < strings.length; i += 1) {
             strings[i] = strings[i].toLowerCase();
         }
 
@@ -266,34 +350,29 @@ public class Unit1Fragment extends Fragment {
         for (int i = 0; i < scoreWarmUpInts.length; i += 1) {
             sumScoreInt = sumScoreInt + scoreWarmUpInts[i];
         }
-        String [] trueAnswerString = myConstant.getWarmupTrueString();
-        EditText editWarmupText1 = getView().findViewById(R.id.unit1edtAnswer01);
-        EditText editWarmupText2 = getView().findViewById(R.id.unit1edtAnswer02);
-        EditText editWarmupText3 = getView().findViewById(R.id.unit1edtAnswer03);
-        EditText editWarmupText4 = getView().findViewById(R.id.unit1edtAnswer04);
+        String[] trueAnswerString = myConstant.getWarmupTrueString();
+        EditText editWarmupText1 = getView().findViewById(R.id.unit1EdtWarmUp1);
+        EditText editWarmupText2 = getView().findViewById(R.id.unit1EdtWarmUp2);
+        EditText editWarmupText3 = getView().findViewById(R.id.unit1EdtWarmUp3);
+        EditText editWarmupText4 = getView().findViewById(R.id.unit1EdtWarmUp4);
 
-        String [] strings = new String[4];
+        String[] strings = new String[4];
         strings[0] = editWarmupText1.getText().toString().trim();
         strings[1] = editWarmupText2.getText().toString().trim();
         strings[2] = editWarmupText3.getText().toString().trim();
         strings[3] = editWarmupText4.getText().toString().trim();
 
-        for(int i =0; i < strings.length; i +=1){
+        for (int i = 0; i < strings.length; i += 1) {
             strings[i] = strings[i].toLowerCase();
-        }
-
-        for(int i =0; i < strings.length; i +=1) {
-            for(int i1 = 0; i1 < trueAnswerString.length; i1 +=1){
-                if (strings[i].equals(trueAnswerString[i1])) {
-                    sumScoreInt+= 1;
-                }
-            }//for2
+            if (strings[i].equals(trueAnswerString[i])) {
+                sumScoreInt += 1;
+            }
         }//for1
 
 
         warmUpString = Integer.toString(sumScoreInt);
         Log.d(tag, "warmUpString ==>" + warmUpString);
-    }
+    } //CalculateWarmUp
 
     public void findTimeTest() {
         Calendar calendar = Calendar.getInstance();
@@ -311,11 +390,15 @@ public class Unit1Fragment extends Fragment {
         Log.d(tag, "nameUnitStirng ==> " + nameUnitString);
     }
 
+    private void checkScoreReading3(int indexSpinner, int position) {
+        int[] answerTrueInts = myConstant.getReading3Ints();
 
-
-
-
-
+        if (position == answerTrueInts[indexSpinner]) {
+            scoreReading3Ints[indexSpinner] = 1;
+        } else {
+            scoreReading3Ints[indexSpinner] = 0;
+        }
+    }
 
     private void Reading1spinner() {
         Spinner spinner = getView().findViewById(R.id.readingspinner1);
@@ -323,6 +406,17 @@ public class Unit1Fragment extends Fragment {
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                checkScoreReading3(0, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
     }
 
     private void Reading2spinner() {
@@ -331,6 +425,17 @@ public class Unit1Fragment extends Fragment {
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                checkScoreReading3(1, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
     }
 
     private void Reading3spinner() {
@@ -339,6 +444,17 @@ public class Unit1Fragment extends Fragment {
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                checkScoreReading3(2, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
     }
 
     private void Reading4spinner() {
@@ -347,6 +463,17 @@ public class Unit1Fragment extends Fragment {
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                checkScoreReading3(3, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
     }
 
     private void Reading5spinner() {
@@ -355,143 +482,187 @@ public class Unit1Fragment extends Fragment {
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
-    }
-/*
-    private void Languagework1spinner() {
-        Spinner spinner = getView().findViewById(R.id.languagework1spinner);
-        String[] strings = myConstant.getChioceSpinner6Strings();
-        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
-                android.R.layout.simple_list_item_1, strings);
-        spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                checkScoreReading3(4, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
     }
 
-    private void Languagework2spinner() {
-        Spinner spinner = getView().findViewById(R.id.languagework2spinner);
-        String[] strings = myConstant.getChioceSpinner6Strings();
-        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
-                android.R.layout.simple_list_item_1, strings);
-        spinner.setAdapter(stringArrayAdapter);
-    }
 
-    private void Languagework3spinner() {
-        Spinner spinner = getView().findViewById(R.id.languagework3spinner);
-        String[] strings = myConstant.getChioceSpinner6Strings();
-        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
-                android.R.layout.simple_list_item_1, strings);
-        spinner.setAdapter(stringArrayAdapter);
-    }
+    private void checkScoreListening1(int indexSpinner, int position) {
+        int[] answerTrueInts = myConstant.getListening1Ints();
 
-    private void Languagework4spinner() {
-        Spinner spinner = getView().findViewById(R.id.languagework4spinner);
-        String[] strings = myConstant.getChioceSpinner6Strings();
-        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
-                android.R.layout.simple_list_item_1, strings);
-        spinner.setAdapter(stringArrayAdapter);
+        if (position == answerTrueInts[indexSpinner]) {
+            scoreListening1Ints[indexSpinner] = 1;
+        } else {
+            scoreListening1Ints[indexSpinner] = 0;
+        }
     }
-
-    private void Languagework5spinner() {
-        Spinner spinner = getView().findViewById(R.id.languagework5spinner);
-        String[] strings = myConstant.getChioceSpinner6Strings();
-        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
-                android.R.layout.simple_list_item_1, strings);
-        spinner.setAdapter(stringArrayAdapter);
-    }
-
-    private void Languagework6spinner() {
-        Spinner spinner = getView().findViewById(R.id.languagework6spinner);
-        String[] strings = myConstant.getChioceSpinner6Strings();
-        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
-                android.R.layout.simple_list_item_1, strings);
-        spinner.setAdapter(stringArrayAdapter);
-    }
-
-    private void Languagework7spinner() {
-        Spinner spinner = getView().findViewById(R.id.languagework7spinner);
-        String[] strings = myConstant.getChioceSpinner6Strings();
-        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
-                android.R.layout.simple_list_item_1, strings);
-        spinner.setAdapter(stringArrayAdapter);
-    }
-
-    private void Languagework8spinner() {
-        Spinner spinner = getView().findViewById(R.id.languagework8spinner);
-        String[] strings = myConstant.getChioceSpinner6Strings();
-        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
-                android.R.layout.simple_list_item_1, strings);
-        spinner.setAdapter(stringArrayAdapter);
-    }
-
-    private void Languagework9spinner() {
-        Spinner spinner = getView().findViewById(R.id.languagework9spinner);
-        String[] strings = myConstant.getChioceSpinner6Strings();
-        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
-                android.R.layout.simple_list_item_1, strings);
-        spinner.setAdapter(stringArrayAdapter);
-    }
-*/
 
     private void Listening1spinner() {
-        Spinner spinner = getView().findViewById(R.id.listening1spinner);
+        Spinner spinner = getView().findViewById(R.id.unit1SpinnerListening1);
         String[] strings = myConstant.getChioceSpinner5Strings();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                checkScoreListening1(0, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
     }
 
     private void Listening2spinner() {
-        Spinner spinner = getView().findViewById(R.id.listening2spinner);
+        Spinner spinner = getView().findViewById(R.id.unit1SpinnerListening2);
         String[] strings = myConstant.getChioceSpinner5Strings();
+
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                checkScoreListening1(1, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
     }
 
     private void Listening3spinner() {
-        Spinner spinner = getView().findViewById(R.id.listening3spinner);
+        Spinner spinner = getView().findViewById(R.id.unit1SpinnerListening3);
         String[] strings = myConstant.getChioceSpinner5Strings();
+
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                checkScoreListening1(2, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
     }
 
     private void Listening4spinner() {
-        Spinner spinner = getView().findViewById(R.id.listening4spinner);
+        Spinner spinner = getView().findViewById(R.id.unit1SpinnerListening4);
         String[] strings = myConstant.getChioceSpinner5Strings();
+
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                checkScoreListening1(3, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
     }
 
     private void Listening5spinner() {
-        Spinner spinner = getView().findViewById(R.id.listening5spinner);
+        Spinner spinner = getView().findViewById(R.id.unit1SpinnerListening5);
         String[] strings = myConstant.getChioceSpinner5Strings();
+
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                checkScoreListening1(4, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
     }
 
     private void Listening6spinner() {
-        Spinner spinner = getView().findViewById(R.id.listening6spinner);
+        Spinner spinner = getView().findViewById(R.id.unit1SpinnerListening6);
         String[] strings = myConstant.getChioceSpinner5Strings();
+
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                checkScoreListening1(5, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
     }
 
     private void Listening7spinner() {
-        Spinner spinner = getView().findViewById(R.id.listening7spinner);
+        Spinner spinner = getView().findViewById(R.id.unit1SpinnerListening7);
         String[] strings = myConstant.getChioceSpinner5Strings();
+
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                checkScoreListening1(6, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
     }
 
     private void Listening8spinner() {
-        Spinner spinner = getView().findViewById(R.id.listening8spinner);
+        Spinner spinner = getView().findViewById(R.id.unit1SpinnerListening8);
         String[] strings = myConstant.getChioceSpinner5Strings();
+
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
         spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                checkScoreListening1(7, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
     }
 
 
@@ -513,7 +684,7 @@ public class Unit1Fragment extends Fragment {
         });
     }//Play Media Clip1
 
- // Practise 3 Match the names of digital devices with the pictures
+    // Practise 3 Match the names of digital devices with the pictures
     private void checkScorePractise3(int indexSpinner, int position) {
         int[] answerTrueInts = myConstant.getPractise3Ints();
 
@@ -906,7 +1077,7 @@ public class Unit1Fragment extends Fragment {
 
 
     private void answer4Controller() {
-        EditText editText = getView().findViewById(R.id.unit1edtAnswer01);
+        EditText editText = getView().findViewById(R.id.unit1EdtWarmUp1);
 
     }
 
@@ -924,7 +1095,7 @@ public class Unit1Fragment extends Fragment {
 
 
     private void firstSpinner() {
-        Spinner spinner = getView().findViewById(R.id.unit1WarmupSpinner1);
+        Spinner spinner = getView().findViewById(R.id.unit1SpinnerWarmUp1);
         String[] strings = myConstant.getChoiceSpinner1Strings();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
@@ -943,7 +1114,7 @@ public class Unit1Fragment extends Fragment {
     }
 
     private void secondSpinner() {
-        Spinner spinner = getView().findViewById(R.id.unit1WarmupSpinner2);
+        Spinner spinner = getView().findViewById(R.id.unit1SpinnerWarmUp2);
         String[] strings = myConstant.getChoiceSpinner2Strings();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
@@ -963,7 +1134,7 @@ public class Unit1Fragment extends Fragment {
     }
 
     private void thirdSpinner() {
-        Spinner spinner = getView().findViewById(R.id.unit1WarmupSpinner3);
+        Spinner spinner = getView().findViewById(R.id.unit1SpinnerWarmUp3);
         String[] strings = myConstant.getChoiceSpinner3Strings();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
