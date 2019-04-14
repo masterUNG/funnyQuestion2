@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -32,6 +33,7 @@ public class Unit4Fragment extends Fragment {
     private String uidString, nameUnitString, timeTestString, warmUpString, presentString = "non", practiseString;
     private String tag = "11NovV1";
     private String tag2 = "11NovV2";
+    private int[] scorePractice4Ints = {0, 0, 0};
 
 
     public static Unit4Fragment unit4Instance(String uidString) {
@@ -45,6 +47,8 @@ public class Unit4Fragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
+
+        findUidNameUnit();
 
         Choice1spinner();
         Choice2spinner();
@@ -61,6 +65,11 @@ public class Unit4Fragment extends Fragment {
         Choice13spinner();
         Choice14spinner();
         Choice15spinner();
+
+        practice1Spinner();
+        practice2Spinner();
+        practice3Spinner();
+
 
         checkFloating();
 
@@ -104,7 +113,34 @@ public class Unit4Fragment extends Fragment {
         calculateWarmUp();
         calculatePractise1();
         calculatePractise2();
+        calculatePractise3();
     }
+
+    private void calculatePractise3() {
+        int sumScoreInt = 0;
+        String [] trueAnswerString = myConstantUnit4.getPractice4True2();
+        String[] strings = new String[2];
+
+        EditText editText1 = getView().findViewById(R.id.unit2EdtPractise8);
+        EditText editText2 = getView().findViewById(R.id.unit2EdtPractise9);
+
+        strings[0] = editText1.getText().toString().trim();
+        strings[1] = editText2.getText().toString().trim();
+
+        for (int i = 0; i < scorePractice4Ints.length; i += 1) {
+            sumScoreInt += scorePractice4Ints[i];
+        }
+
+        for(int i=0; i<strings.length; i+=1){
+            strings[i] = strings[i].toLowerCase();
+            if(strings[i].equals(trueAnswerString[i])){
+                sumScoreInt +=1;
+            }
+        }
+
+        Log.d(tag2, "scorePractice4 ==>" + sumScoreInt);
+    }
+
 
     private void calculatePractise2() {
         int sumScoreInt = 0;
@@ -195,6 +231,77 @@ public class Unit4Fragment extends Fragment {
         }
         Log.d(tag2, "scoreWarmUp ==>" + sumScoreInt);
     }
+
+
+
+    private void  checkScorePractice4(int indexSpinner, int position) {
+        int[] answerTrueInts = myConstantUnit4.getAnswerPractice4Int();
+
+        if (position == answerTrueInts[indexSpinner]) {
+            scorePractice4Ints[indexSpinner] = 1;
+        } else {
+            scorePractice4Ints[indexSpinner] = 0;
+        }
+
+    }
+
+    private  void practice1Spinner() {
+        Spinner spinner = getView().findViewById(R.id.unit2SpinnerPractice1);
+        String[] strings = myConstantUnit4.getPractice4True();
+        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
+                android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                checkScorePractice4(0, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+    }
+
+    private  void practice2Spinner() {
+        Spinner spinner = getView().findViewById(R.id.unit2SpinnerPractice2);
+        String[] strings = myConstantUnit4.getPractice4True();
+        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
+                android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                checkScorePractice4(1, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+    }
+
+    private  void practice3Spinner() {
+        Spinner spinner = getView().findViewById(R.id.unit2SpinnerPractice3);
+        String[] strings = myConstantUnit4.getPractice4True();
+        ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
+                android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(stringArrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                checkScorePractice4(2, position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+    }
+
 
 
     public void Choice1spinner() {

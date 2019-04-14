@@ -1627,8 +1627,10 @@
                         android:textStyle="normal" />
 
                     <Spinner
+                        android:id="@+id/unit2SpinnerPractice1"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"/>
 
                 </TableRow>
 
@@ -1639,6 +1641,7 @@
                     android:padding="5dp">
 
                     <EditText
+                        android:id="@+id/unit2EdtPractise8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg" />
@@ -1666,8 +1669,10 @@
                         android:textStyle="normal" />
 
                     <Spinner
+                        android:id="@+id/unit2SpinnerPractice2"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"/>
 
                 </TableRow>
 
@@ -1709,8 +1714,10 @@
                         android:textStyle="normal" />
 
                     <Spinner
+                        android:id="@+id/unit2SpinnerPractice3"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"/>
 
                 </TableRow>
 
@@ -1721,6 +1728,7 @@
                     android:padding="5dp">
 
                     <EditText
+                        android:id="@+id/unit2EdtPractise9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg" />
@@ -2004,7 +2012,7 @@
                 android:layout_height="wrap_content"
                 android:focusable="auto"
                 android:inputType="text"
-                android:text="must not" />
+                android:text="   must not" />
 
             <!--4. Avoid giving financial information in a chat room.-->
             <TextView
@@ -2036,7 +2044,7 @@
                 android:layout_height="wrap_content"
                 android:focusable="auto"
                 android:inputType="text"
-                android:text="must not" />
+                android:text="   must not" />
 
             <!--6. Don’t use out-of-date anti-virus software.-->
             <TextView
