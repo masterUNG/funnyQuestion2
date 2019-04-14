@@ -179,6 +179,7 @@ public class MyConstant {
     };
 
     private String[] warmupTrue = new String[]{
+            "input",
             "output",
             "system",
             "storage",

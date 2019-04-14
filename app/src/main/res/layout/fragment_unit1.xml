@@ -74,17 +74,20 @@
                 android:id="@+id/unit1SpinnerWarmUp1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/spin4"
                 android:layout_marginTop="@dimen/padding8" />
 
             <Spinner
                 android:id="@+id/unit1SpinnerWarmUp2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:background="@drawable/spin4"/>
 
             <Spinner
                 android:id="@+id/unit1SpinnerWarmUp3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:background="@drawable/spin4"/>
 
             <!--head3-->
             <TextView
@@ -106,16 +109,32 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1) I[ ]p[ ]t devices"
+                android:text="Example: D[ ]sp[ ]ay monitor"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Answer: Input"
+                android:text="Type: Display"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1) I[ ]p[ ]t devices"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/unit1EdtWarmUp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:focusable="auto" />
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -126,9 +145,10 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/unit1EdtWarmUp1"
+                android:id="@+id/unit1EdtWarmUp2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto" />
 
             <TextView
@@ -139,9 +159,10 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/unit1EdtWarmUp2"
+                android:id="@+id/unit1EdtWarmUp3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto" />
 
             <TextView
@@ -152,9 +173,10 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/unit1EdtWarmUp3"
+                android:id="@+id/unit1EdtWarmUp4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto" />
 
             <TextView
@@ -165,9 +187,10 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/unit1EdtWarmUp4"
+                android:id="@+id/unit1EdtWarmUp5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto" />
 
             <!--Presentation-->
@@ -357,30 +380,35 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
+                android:background="@drawable/edit"
                 android:focusable="auto" />
 
             <EditText
                 android:id="@+id/unit1EdtPractice2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto" />
 
             <EditText
                 android:id="@+id/unit1EdtPractice3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto" />
 
             <EditText
                 android:id="@+id/unit1EdtPractice4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto" />
 
             <EditText
                 android:id="@+id/unit1EdtPractice5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto" />
 
             <!--2. What does CPU stand for?-->
@@ -462,7 +490,9 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem01"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
+
 
                     </LinearLayout>
                     <!--Col2-->
@@ -483,7 +513,8 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem02"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
 
                     </LinearLayout>
                     <!--Col3-->
@@ -504,7 +535,8 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem03"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
 
                     </LinearLayout>
                 </LinearLayout>
@@ -531,7 +563,8 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem04"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
 
                     </LinearLayout>
                     <!--Col2-->
@@ -552,7 +585,8 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem05"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
 
                     </LinearLayout>
                     <!--Col3-->
@@ -573,7 +607,8 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem06"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
 
                     </LinearLayout>
                 </LinearLayout>
@@ -600,7 +635,8 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem07"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
 
                     </LinearLayout>
                     <!--Col2-->
@@ -621,7 +657,8 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem08"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
 
                     </LinearLayout>
                     <!--Col3-->
@@ -642,7 +679,8 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem09"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
 
                     </LinearLayout>
                 </LinearLayout>
@@ -669,7 +707,8 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem10"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
 
                     </LinearLayout>
                     <!--Col2-->
@@ -690,7 +729,8 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem11"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
 
                     </LinearLayout>
                     <!--Col3-->
@@ -711,7 +751,8 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem12"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
 
                     </LinearLayout>
                 </LinearLayout>
@@ -738,7 +779,8 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem13"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
 
                     </LinearLayout>
                     <!--Col2-->
@@ -759,7 +801,8 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem14"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
 
                     </LinearLayout>
                     <!--Col3-->
@@ -780,7 +823,8 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem15"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
 
                     </LinearLayout>
                 </LinearLayout>
@@ -807,7 +851,8 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem16"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
 
                     </LinearLayout>
                     <!--Col2-->
@@ -828,7 +873,8 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem17"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
 
                     </LinearLayout>
                     <!--Col3-->
@@ -849,7 +895,8 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem18"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
 
                     </LinearLayout>
                 </LinearLayout>
@@ -876,7 +923,8 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem19"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
 
                     </LinearLayout>
                     <!--Col2-->
@@ -897,7 +945,8 @@
                         <Spinner
                             android:id="@+id/unit1spinnerItem20"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spin4"/>
 
                     </LinearLayout>
                     <!--Col3-->
@@ -1105,18 +1154,20 @@
                 android:id="@+id/unit1SpinnerListening1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4" />
+                android:layout_marginTop="@dimen/padding4"
+                android:background="@drawable/spin4"/>
 
             <Spinner
                 android:id="@+id/unit1SpinnerListening2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4" />
+                android:layout_marginTop="@dimen/padding4"
+                android:background="@drawable/spin4"/>
             <!--A primary schoolteacher, spinner-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="A primary schoolteacher"
+                android:text="A primary school teacher"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1124,13 +1175,15 @@
                 android:id="@+id/unit1SpinnerListening3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4" />
+                android:layout_marginTop="@dimen/padding4"
+                android:background="@drawable/spin4"/>
 
             <Spinner
                 android:id="@+id/unit1SpinnerListening4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4" />
+                android:layout_marginTop="@dimen/padding4"
+                android:background="@drawable/spin4"/>
             <!--A university student, spinner-->
             <TextView
                 android:layout_width="wrap_content"
@@ -1143,13 +1196,15 @@
                 android:id="@+id/unit1SpinnerListening5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4" />
+                android:layout_marginTop="@dimen/padding4"
+                android:background="@drawable/spin4"/>
 
             <Spinner
                 android:id="@+id/unit1SpinnerListening6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4" />
+                android:layout_marginTop="@dimen/padding4"
+                android:background="@drawable/spin4"/>
             <!--An artist-->
             <TextView
                 android:layout_width="wrap_content"
@@ -1162,13 +1217,15 @@
                 android:id="@+id/unit1SpinnerListening7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4" />
+                android:layout_marginTop="@dimen/padding4"
+                android:background="@drawable/spin4"/>
 
             <Spinner
                 android:id="@+id/unit1SpinnerListening8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4" />
+                android:layout_marginTop="@dimen/padding4"
+                android:background="@drawable/spin4"/>
 
             <!--Language work-->
             <TextView
@@ -1721,6 +1778,7 @@
                 android:id="@+id/unit1EdtLanguage1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto" />
 
             <TextView
@@ -1742,6 +1800,7 @@
                 android:id="@+id/unit1EdtLanguage2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto" />
 
             <TextView
@@ -1763,6 +1822,7 @@
                 android:id="@+id/unit1EdtLanguage3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto" />
 
             <TextView
@@ -1784,6 +1844,7 @@
                 android:id="@+id/unit1EdtLanguage4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto" />
 
             <TextView
@@ -1805,6 +1866,7 @@
                 android:id="@+id/unit1EdtLanguage5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto" />
 
             <TextView
@@ -1928,6 +1990,7 @@
                 android:id="@+id/unit1EdtReading1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto"
                 android:inputType="text" />
 
@@ -1935,6 +1998,7 @@
                 android:id="@+id/unit1EdtReading2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto"
                 android:inputType="text" />
 
@@ -1942,6 +2006,7 @@
                 android:id="@+id/unit1EdtReading3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto"
                 android:inputType="text" />
 
@@ -2129,9 +2194,10 @@
                 android:textStyle="normal" />
 
             <Spinner
-                android:id="@+id/readingspinner1"
+                android:id="@+id/unit1SpinnerReading1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/spin4"
                 android:layout_marginTop="@dimen/padding8" />
 
             <!--2. A combination of text with sound, video, animation, and graphics.-->
@@ -2143,9 +2209,10 @@
                 android:textStyle="normal" />
 
             <Spinner
-                android:id="@+id/readingspinner2"
+                android:id="@+id/unit1SpinnerReading2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/spin4"
                 android:layout_marginTop="@dimen/padding8" />
 
             <!--3. Use computer to stay in touch with the office while working at home.-->
@@ -2157,9 +2224,10 @@
                 android:textStyle="normal" />
 
             <Spinner
-                android:id="@+id/readingspinner3"
+                android:id="@+id/unit1SpinnerReading3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/spin4"
                 android:layout_marginTop="@dimen/padding8" />
 
             <!--4. Software that enables computers to “think” like experts-->
@@ -2171,9 +2239,10 @@
                 android:textStyle="normal" />
 
             <Spinner
-                android:id="@+id/readingspinner4"
+                android:id="@+id/unit1SpinnerReading4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/spin4"
                 android:layout_marginTop="@dimen/padding8" />
 
             <!--5. Internet system designed to provide free interactive access to vast resources for people all over the world..-->
@@ -2185,9 +2254,10 @@
                 android:textStyle="normal" />
 
             <Spinner
-                android:id="@+id/readingspinner5"
+                android:id="@+id/unit1SpinnerReading5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/spin4"
                 android:layout_marginTop="@dimen/padding8" />
 
             <!--Choose the following statements as True or False.-->

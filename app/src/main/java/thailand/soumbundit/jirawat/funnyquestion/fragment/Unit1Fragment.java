@@ -397,16 +397,18 @@ public class Unit1Fragment extends Fragment {
             sumScoreInt = sumScoreInt + scoreWarmUpInts[i];
         }
         String[] trueAnswerString = myConstant.getWarmupTrueString();
-        EditText editWarmupText1 = getView().findViewById(R.id.unit1EdtWarmUp1);
-        EditText editWarmupText2 = getView().findViewById(R.id.unit1EdtWarmUp2);
-        EditText editWarmupText3 = getView().findViewById(R.id.unit1EdtWarmUp3);
-        EditText editWarmupText4 = getView().findViewById(R.id.unit1EdtWarmUp4);
+        EditText editWarmUpText1 = getView().findViewById(R.id.unit1EdtWarmUp1);
+        EditText editWarmUpText2 = getView().findViewById(R.id.unit1EdtWarmUp2);
+        EditText editWarmUpText3 = getView().findViewById(R.id.unit1EdtWarmUp3);
+        EditText editWarmUpText4 = getView().findViewById(R.id.unit1EdtWarmUp4);
+        EditText editWarmUpText5 = getView().findViewById(R.id.unit1EdtWarmUp5);
 
-        String[] strings = new String[4];
-        strings[0] = editWarmupText1.getText().toString().trim();
-        strings[1] = editWarmupText2.getText().toString().trim();
-        strings[2] = editWarmupText3.getText().toString().trim();
-        strings[3] = editWarmupText4.getText().toString().trim();
+        String[] strings = new String[5];
+        strings[0] = editWarmUpText1.getText().toString().trim();
+        strings[1] = editWarmUpText2.getText().toString().trim();
+        strings[2] = editWarmUpText3.getText().toString().trim();
+        strings[3] = editWarmUpText4.getText().toString().trim();
+        strings[4] = editWarmUpText5.getText().toString().trim();
 
         for (int i = 0; i < strings.length; i += 1) {
             strings[i] = strings[i].toLowerCase();
@@ -414,7 +416,6 @@ public class Unit1Fragment extends Fragment {
                 sumScoreInt += 1;
             }
         }//for1
-
 
         warmUpString = Integer.toString(sumScoreInt);
         Log.d(tag, "warmUpString ==>" + warmUpString);
@@ -447,7 +448,7 @@ public class Unit1Fragment extends Fragment {
     }
 
     private void Reading1spinner() {
-        Spinner spinner = getView().findViewById(R.id.readingspinner1);
+        Spinner spinner = getView().findViewById(R.id.unit1SpinnerReading1);
         String[] strings = myConstant.getChioceSpinner7Strings();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
@@ -466,7 +467,7 @@ public class Unit1Fragment extends Fragment {
     }
 
     private void Reading2spinner() {
-        Spinner spinner = getView().findViewById(R.id.readingspinner2);
+        Spinner spinner = getView().findViewById(R.id.unit1SpinnerReading2);
         String[] strings = myConstant.getChioceSpinner7Strings();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
@@ -485,7 +486,7 @@ public class Unit1Fragment extends Fragment {
     }
 
     private void Reading3spinner() {
-        Spinner spinner = getView().findViewById(R.id.readingspinner3);
+        Spinner spinner = getView().findViewById(R.id.unit1SpinnerReading3);
         String[] strings = myConstant.getChioceSpinner7Strings();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
@@ -504,7 +505,7 @@ public class Unit1Fragment extends Fragment {
     }
 
     private void Reading4spinner() {
-        Spinner spinner = getView().findViewById(R.id.readingspinner4);
+        Spinner spinner = getView().findViewById(R.id.unit1SpinnerReading4);
         String[] strings = myConstant.getChioceSpinner7Strings();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
@@ -523,7 +524,7 @@ public class Unit1Fragment extends Fragment {
     }
 
     private void Reading5spinner() {
-        Spinner spinner = getView().findViewById(R.id.readingspinner5);
+        Spinner spinner = getView().findViewById(R.id.unit1SpinnerReading5);
         String[] strings = myConstant.getChioceSpinner7Strings();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
