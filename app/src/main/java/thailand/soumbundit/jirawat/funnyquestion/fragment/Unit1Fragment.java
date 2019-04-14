@@ -155,7 +155,54 @@ public class Unit1Fragment extends Fragment {
         calculateReading1();
         calculateReading2();
         calculateReading3();
+        calculateReading4();
+    }
 
+    private void calculateReading4() {
+        int sumScoreInt = 0;
+
+        RadioButton rbAnswer1 = getView().findViewById(R.id.unit1RbReading4True);
+        RadioButton rbAnswer2 = getView().findViewById(R.id.unit1RbReading5True);
+        RadioButton rbAnswer3 = getView().findViewById(R.id.unit1RbReading6True);
+        RadioButton rbAnswer4 = getView().findViewById(R.id.unit1RbReading7True);
+        RadioButton rbAnswer5 = getView().findViewById(R.id.unit1RbReading8True);
+        RadioButton rbAnswer6 = getView().findViewById(R.id.unit1RbReading9True);
+        RadioButton rbAnswer7 = getView().findViewById(R.id.unit1RbReading10True);
+        RadioButton rbAnswer8 = getView().findViewById(R.id.unit1RbReading11True);
+        RadioButton rbAnswer9 = getView().findViewById(R.id.unit1RbReading12True);
+        RadioButton rbAnswer10 = getView().findViewById(R.id.unit1RbReading13True);
+
+        if(rbAnswer1.isChecked()){
+            sumScoreInt += 1;
+        }
+        if(rbAnswer2.isChecked()){
+            sumScoreInt += 1;
+        }
+        if(rbAnswer3.isChecked()){
+            sumScoreInt += 1;
+        }
+        if(rbAnswer4.isChecked()){
+            sumScoreInt += 1;
+        }
+        if(rbAnswer5.isChecked()){
+            sumScoreInt += 1;
+        }
+        if(rbAnswer6.isChecked()){
+            sumScoreInt += 1;
+        }
+        if(rbAnswer7.isChecked()){
+            sumScoreInt += 1;
+        }
+        if(rbAnswer8.isChecked()){
+            sumScoreInt += 1;
+        }
+        if(rbAnswer9.isChecked()){
+            sumScoreInt += 1;
+        }
+        if(rbAnswer10.isChecked()){
+            sumScoreInt += 1;
+        }
+        Log.d(tag2, "scoreReading4 ==>" + sumScoreInt);
     }
 
     private void calculateReading3() {
@@ -165,7 +212,6 @@ public class Unit1Fragment extends Fragment {
         }
         Log.d(tag2,"ScoreReading3 ==>" + sumScoreReading3);
     }
-
 
     private void calculateReading2() {
         int sumScoreInt = 0;
@@ -1074,13 +1120,6 @@ public class Unit1Fragment extends Fragment {
             }
         });
     }
-
-
-    private void answer4Controller() {
-        EditText editText = getView().findViewById(R.id.unit1EdtWarmUp1);
-
-    }
-
 
     private void checkScore(int indexSpinner, int position, int[] answerTrueInts) {
         for (int i = 0; i < answerTrueInts.length; i += 1) {
