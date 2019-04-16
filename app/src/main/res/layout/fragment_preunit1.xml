@@ -1,6 +1,517 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+    <!--Contents-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/padding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Pre-test"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Unit 1: Computer Users"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Direction: Choose the best answer."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--1. What is a computer?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="1. What is a computer?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/preunit1RdgPractice1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice1a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a. It’s an appliance device which can accept data in a certain form, process the data and give the results of the processing." />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice1b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b. It’s an electronic device which can accept data in a certain form, process the data and give the results of the processing." />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice1c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c. It’s a motorized device that processes output into input." />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice1d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d. It’s a storage device records writes and retrieves reads items to and from storage media." />
+            </RadioGroup>
+
+            <!--2. What does CPU stand for?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="2. What does CPU stand for?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/preunit1RdgPractice2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice2a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a. Central Processing Unity" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice2b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b. Central Processing United" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice2c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c. Central Processing Unit" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice2d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d. Central Programming Unit" />
+            </RadioGroup>
+
+            <!--3. An ……………………….device is any hardware component that allows you to enter data and instructions into a computer.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="3. An ……………………….device is any hardware component that allows you to enter data and instructions into a computer."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/preunit1RdgPractice3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice3a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a. input" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice3b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b. output" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice3c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c. electronic" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice3d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d. external" />
+            </RadioGroup>
+
+            <!--4. Three commonly used ……………………………device are a printer, a monitor, and speakers.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="4. Three commonly used ……………………………device are a printer, a monitor, and speakers."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/preunit1RdgPractice4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice4a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a. input" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice4b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b. output" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice4c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c. electronic" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice4d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d. external" />
+            </RadioGroup>
+
+            <!--5. ………………………..is any electronic or mechanical part you can see or touch.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="5. ………………………..is any electronic or mechanical part you can see or touch."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/preunit1RdgPractice5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice5a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a. Software" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice5b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b. Hardware" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice5c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c. Storage device" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice5d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d. Speaker" />
+            </RadioGroup>
+
+            <!--6. Which are the components of a computer? -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="6. Which are the components of a computer?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/preunit1RdgPractice6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice6a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a. Input devices, Output devices, System unit, Storage devices and Communication devices." />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice6b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b. Input devices, Output devices, System unit, Storage devices and External devices." />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice6c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c. Input devices, Output devices, System unit, Storage devices and Control devices." />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice6d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d. Input devices, Output devices, Stem unit, Storage devices and Communication devices." />
+            </RadioGroup>
+
+            <!--7. Which are input devices?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="7. Which are input devices?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/preunit1RdgPractice7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice7a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a. speakers, printers and monitor" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice7b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b. card reader, USB flash drive and memory cards" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice7c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c. microphone, modem and external hard disk" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice7d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d. scanners, keyboards and mouse" />
+            </RadioGroup>
+
+            <!--8. Which is not an output device?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="8. Which is not an output device?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/preunit1RdgPractice8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice8a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a. A printer" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice8b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b. A speaker" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice8c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c. A Monitor" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice8d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d. A Keyboard" />
+            </RadioGroup>
+
+            <!-- 9. Which is not a storage device?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="9. Which is not a storage device?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/preunit1RdgPractice9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice9a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a. A memory card" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice9b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b. A hard disk drive" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice9c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c. A scanner" />
+
+                <RadioButton
+                    android:id="@+id/preunit1RdgPractice9d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d. An external hard disk" />
+            </RadioGroup>
+
+            <!-- 10. Describe this diagram by using given words.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="10. Describe this diagram by using given words."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Input devices"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <!--Spinner-->
+            <Spinner
+                android:id="@+id/preunit1spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spin4" />
+
+            <!--Spinner-->
+            <Spinner
+                android:id="@+id/preunit1spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spin4" />
+
+            <!--Spinner-->
+            <Spinner
+                android:id="@+id/preunit1spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spin4" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Output devices"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <!--Spinner-->
+            <Spinner
+                android:id="@+id/preunit1spinner4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spin4" />
+
+            <!--Spinner-->
+            <Spinner
+                android:id="@+id/preunit1spinner5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spin4" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Storage media"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <!--Spinner-->
+            <Spinner
+                android:id="@+id/preunit1spinner6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spin4" />
+
+            <!--Spinner-->
+            <Spinner
+                android:id="@+id/preunit1spinner7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spin4" />
+
+            <!--Spinner-->
+            <Spinner
+                android:id="@+id/preunit1spinner8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spin4" />
+
+
+        </LinearLayout>
+
+
+</ScrollView>
+
+    <!--Floating--><android.support.design.widget.FloatingActionButton
+android:id="@+id/floatingCheck"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentRight="true"
+android:layout_alignParentBottom="true"
+android:src="@drawable/ic_action_check"
+android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    </RelativeLayout>
