@@ -122,7 +122,7 @@
                     android:text="d. Central Programming Unit" />
             </RadioGroup>
 
-            <!--3. An ……………………….device is any hardware component that allows you to enter data and instructions into a computer.-->
+            <!--3. An ______ device is any hardware component that allows you to enter data and instructions into a computer.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -163,7 +163,7 @@
                     android:text="d. external" />
             </RadioGroup>
 
-            <!--4. Three commonly used ……………………………device are a printer, a monitor, and speakers.-->
+            <!--4. Three commonly used ______ device are a printer, a monitor, and speakers.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -204,7 +204,7 @@
                     android:text="d. external" />
             </RadioGroup>
 
-            <!--5. ………………………..is any electronic or mechanical part you can see or touch.-->
+            <!--5. ______ is any electronic or mechanical part you can see or touch.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -498,8 +498,15 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/spin4" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stringEndLine"/>
+
 
         </LinearLayout>
+
+
 
 
 </ScrollView>

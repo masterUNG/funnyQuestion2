@@ -26,7 +26,7 @@ import thailand.soumbundit.jirawat.funnyquestion.utility.MyConstant;
 public class PreUnit1Fragment extends Fragment {
     private MyConstant myConstant = new MyConstant();
     private ConstantPreUnit1 constantPreUnit1 = new ConstantPreUnit1();
-    private String uidString, nameUnitString, timeTestString, warmUpString, presentString = "non", practiseString;
+    private String uidString, nameUnitString, timeTestString, pretestScoreString, presentString = "non", practiseString;
     private String tag = "11NovV1";
     private String tag2 = "11NovV2";
     private int[] spinnerAnswerInts = new int[]{0,0,0,0,0,0,0,0};
@@ -242,6 +242,23 @@ public class PreUnit1Fragment extends Fragment {
             public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();
                 processCheckScore();
+                myAlertDialog2();
+            }
+        });
+        builder.show();
+    }
+
+    private void myAlertDialog2() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        builder.setCancelable(false);
+        builder.setIcon(R.drawable.ic_action_alert);
+        builder.setTitle("Score");
+        builder.setMessage("You have got score: " + pretestScoreString +"/10");
+
+        builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
             }
         });
         builder.show();
@@ -249,12 +266,13 @@ public class PreUnit1Fragment extends Fragment {
 
 
     public void processCheckScore() {
-
-        checkScoreChioce();
-        checkScoreSpinner();
+        int scoreInt = 0;
+        scoreInt += checkScoreChioce();
+        scoreInt += checkScoreSpinner();
+        pretestScoreString = Integer.toString(scoreInt);
     }
 
-    private void checkScoreChioce() {
+    private int checkScoreChioce() {
         int sumScoreInt = 0;
 
         RadioButton radioButton1 = getView().findViewById(R.id.preunit1RdgPractice1b);
@@ -278,9 +296,10 @@ public class PreUnit1Fragment extends Fragment {
         if(radioButton9.isChecked()){ sumScoreInt += 1; }
 
         Log.d(tag2,"scoreChioce==>" + sumScoreInt);
+        return sumScoreInt;
     }
 
-    private void checkScoreSpinner() {
+    private int checkScoreSpinner() {
         int sumScoreInt = 0;
         int sumScore1 = spinnerAnswerInts[0]+ spinnerAnswerInts[1]+ spinnerAnswerInts[2];
         int sumScore2 = spinnerAnswerInts[3]+ spinnerAnswerInts[4];
@@ -290,6 +309,7 @@ public class PreUnit1Fragment extends Fragment {
             sumScoreInt = 1;
         }
         Log.d(tag2, "scoreSpinner ==>" + sumScoreInt);
+        return sumScoreInt;
     }
 
     public void findTimeTest() {
