@@ -33,6 +33,7 @@ public class Unit4Fragment extends Fragment {
     private String uidString, nameUnitString, timeTestString, warmUpString, presentString = "non", practiseString;
     private String tag = "11NovV1";
     private String tag2 = "11NovV2";
+    private String tag3 = "14Apr";
     private int[] scorePractice4Ints = {0, 0, 0};
 
 
@@ -114,6 +115,71 @@ public class Unit4Fragment extends Fragment {
         calculatePractise1();
         calculatePractise2();
         calculatePractise3();
+        calculateLanguage1();
+        calculateLanguage2();
+
+    }
+
+    private void calculateLanguage2() {
+        int sumScoreInt = 0;
+        String[]strings = new String[5];
+        String[] trueAnswerString = myConstantUnit4.getLanguage2True();
+
+        EditText editText1 = getView().findViewById(R.id.unit2EdtLanguage7);
+        EditText editText2 = getView().findViewById(R.id.unit2EdtLanguage8);
+        EditText editText3 = getView().findViewById(R.id.unit2EdtLanguage9);
+        EditText editText4 = getView().findViewById(R.id.unit2EdtLanguage10);
+        EditText editText5 = getView().findViewById(R.id.unit2EdtLanguage11);
+
+        strings[0] =editText1.getText().toString().trim();
+        strings[1] =editText2.getText().toString().trim();
+        strings[2] =editText3.getText().toString().trim();
+        strings[3] =editText4.getText().toString().trim();
+        strings[4] =editText5.getText().toString().trim();
+
+        for (int i = 0; i < strings.length; i += 1) {
+            strings[i]=strings[i].toLowerCase();
+            for (int i1 = 0; i1 < trueAnswerString.length; i1 += 1) {
+                if (strings[i].equals(trueAnswerString[i1])) {
+                    sumScoreInt += 1;
+                }
+            }//for2
+        }//for1
+
+        Log.d(tag2, "scoreLanguage2==>" + sumScoreInt);
+        Log.d(tag2, strings[2] + " " + trueAnswerString[4]);
+    }
+
+    private void calculateLanguage1() {
+        int sumScoreInt = 0;
+        String[] strings = new String[6];
+        String[] trueAnswerString = myConstantUnit4.getLanguage1True();
+
+        EditText editText1 = getView().findViewById(R.id.unit2EdtLanguage1);
+        EditText editText2 = getView().findViewById(R.id.unit2EdtLanguage2);
+        EditText editText3 = getView().findViewById(R.id.unit2EdtLanguage3);
+        EditText editText4 = getView().findViewById(R.id.unit2EdtLanguage4);
+        EditText editText5 = getView().findViewById(R.id.unit2EdtLanguage5);
+        EditText editText6 = getView().findViewById(R.id.unit2EdtLanguage6);
+
+        strings[0] = editText1.getText().toString().trim();
+        strings[1] = editText2.getText().toString().trim();
+        strings[2] = editText3.getText().toString().trim();
+        strings[3] = editText4.getText().toString().trim();
+        strings[4] = editText5.getText().toString().trim();
+        strings[5] = editText6.getText().toString().trim();
+
+
+
+        for (int i = 0; i < strings.length; i += 1) {
+            strings[i]=strings[i].toLowerCase();
+            for (int i1 = 0; i1 < trueAnswerString.length; i1 += 1) {
+                if (strings[i].equals(trueAnswerString[i1])) {
+                    sumScoreInt += 1;
+                }
+            }//for2
+        }//for1
+        Log.d(tag2,"scoreLanguage==>" + sumScoreInt);
     }
 
     private void calculatePractise3() {

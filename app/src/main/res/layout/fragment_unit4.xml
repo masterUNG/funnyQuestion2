@@ -150,7 +150,8 @@
                         android:id="@+id/choice1spinner"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:minWidth="200dp" />
+                        android:background="@drawable/spin4"
+                        android:minWidth="100dp" />
                 </TableRow>
 
                 <TableRow
@@ -166,7 +167,8 @@
                     <Spinner
                         android:id="@+id/choice2spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"/>
                 </TableRow>
 
                 <TableRow
@@ -182,7 +184,8 @@
                     <Spinner
                         android:id="@+id/choice3spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"/>
                 </TableRow>
 
                 <TableRow
@@ -198,7 +201,8 @@
                     <Spinner
                         android:id="@+id/choice4spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"/>
                 </TableRow>
 
                 <TableRow
@@ -214,7 +218,8 @@
                     <Spinner
                         android:id="@+id/choice5spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"/>
                 </TableRow>
 
                 <TableRow
@@ -230,7 +235,8 @@
                     <Spinner
                         android:id="@+id/choice6spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"/>
                 </TableRow>
 
                 <TableRow
@@ -246,7 +252,8 @@
                     <Spinner
                         android:id="@+id/choice7spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"/>
                 </TableRow>
 
                 <TableRow
@@ -262,7 +269,8 @@
                     <Spinner
                         android:id="@+id/choice8spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"/>
                 </TableRow>
 
                 <TableRow
@@ -278,7 +286,8 @@
                     <Spinner
                         android:id="@+id/choice9spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"/>
                 </TableRow>
 
                 <TableRow
@@ -294,7 +303,8 @@
                     <Spinner
                         android:id="@+id/choice10spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"/>
                 </TableRow>
 
                 <TableRow
@@ -310,7 +320,8 @@
                     <Spinner
                         android:id="@+id/choice11spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"/>
                 </TableRow>
 
                 <TableRow
@@ -326,7 +337,8 @@
                     <Spinner
                         android:id="@+id/choice12spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"/>
                 </TableRow>
 
                 <TableRow
@@ -342,7 +354,8 @@
                     <Spinner
                         android:id="@+id/choice13spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"/>
                 </TableRow>
 
                 <TableRow
@@ -358,7 +371,8 @@
                     <Spinner
                         android:id="@+id/choice14spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"/>
                 </TableRow>
 
                 <TableRow
@@ -374,7 +388,8 @@
                     <Spinner
                         android:id="@+id/choice15spinner"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"/>
                 </TableRow>
 
             </TableLayout>
@@ -1194,7 +1209,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
-                android:inputType="text" />
+                android:background="@drawable/edit" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -1208,7 +1223,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
-                android:inputType="text" />
+                android:background="@drawable/edit" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -1222,7 +1237,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
-                android:inputType="text" />
+                android:background="@drawable/edit" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -1236,7 +1251,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
-                android:inputType="text" />
+                android:background="@drawable/edit" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -1250,7 +1265,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
-                android:inputType="text" />
+                android:background="@drawable/edit" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -1264,7 +1279,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
-                android:inputType="text" />
+                android:background="@drawable/edit" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -1278,7 +1293,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
-                android:inputType="text" />
+                android:background="@drawable/edit" />
 
             <!--Practice 2-->
             <TextView
@@ -1976,11 +1991,12 @@
                 android:textStyle="normal" />
 
             <EditText
+                android:id="@+id/unit2EdtLanguage1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
-                android:inputType="text"
-                android:text="Avoid" />
+                android:text="Avoid"
+                android:background="@drawable/edit"/>
 
             <!--2. You must not use your own programs on these machines.-->
             <TextView
@@ -1992,11 +2008,12 @@
                 android:textStyle="normal" />
 
             <EditText
+                android:id="@+id/unit2EdtLanguage2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
-                android:inputType="text"
-                android:text="Never" />
+                android:text="Never"
+                android:background="@drawable/edit"/>
 
             <!--3. No coffee in this lab.-->
             <TextView
@@ -2008,11 +2025,12 @@
                 android:textStyle="normal" />
 
             <EditText
+                android:id="@+id/unit2EdtLanguage3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
-                android:inputType="text"
-                android:text="   must not" />
+                android:text="   must not"
+                android:background="@drawable/edit"/>
 
             <!--4. Avoid giving financial information in a chat room.-->
             <TextView
@@ -2024,11 +2042,12 @@
                 android:textStyle="normal" />
 
             <EditText
+                android:id="@+id/unit2EdtLanguage4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
-                android:inputType="text"
-                android:text="Don’t" />
+                android:text="Don’t"
+                android:background="@drawable/edit"/>
 
             <!--5. Never give out your password.-->
             <TextView
@@ -2040,10 +2059,11 @@
                 android:textStyle="normal" />
 
             <EditText
+                android:id="@+id/unit2EdtLanguage5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
-                android:inputType="text"
+                android:background="@drawable/edit"
                 android:text="   must not" />
 
             <!--6. Don’t use out-of-date anti-virus software.-->
@@ -2056,11 +2076,112 @@
                 android:textStyle="normal" />
 
             <EditText
+                android:id="@+id/unit2EdtLanguage6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
-                android:inputType="text"
+                android:background="@drawable/edit"
                 android:text="Avoid" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Language work:"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Practice 2"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Direction: Rewrite each of these warnings according to the prompt."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="1) must not, you, your, programs, these,machines,use, own,on"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/unit2EdtLanguage7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:focusable="auto" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="2) in, coffee, this, room, no"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/unit2EdtLanguage8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:focusable="auto" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="3) remove, ICs, don’t, with, screwdriver, a"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/unit2EdtLanguage9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:focusable="auto" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="4) avoid, out-of-date, using, anti-virus, software"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/unit2EdtLanguage10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:focusable="auto" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="5) turning off, avoid, power, while, main,is,computer, running"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/unit2EdtLanguage11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:focusable="auto" />
+
 
         </LinearLayout>
     </ScrollView>
