@@ -1,10 +1,14 @@
 <resources>
-    <string name="app_name">funnyQuestion</string>
+    <string name="app_name">English for IT</string>
     <string name="user">Email;</string>
     <string name="password">Password ;</string>
     <string name="name">Name ;</string>
 
     <string name="open">Open Drawer</string>
     <string name="close">Close Drawer</string>
+
+    <string name="styleText1"><b>Hardware</b> is any electronic or mechanical part you can see or touch.</string>
+    <string name="styleText2"><b>Software</b> is a set of instructions, called a program, which tells the computer what to do.</string>
+    <string name="styleText3"><b>Software</b> There are three basic hardware sections: <b>the central processing unit ( CPU)</b>, <b>main memory</b> and <b>peripherals</b>. Perhaps the most influential component is the central processing unit. Its function is to program instructions and coordinate the activities of all the other units. I a way, it is the “brain off the computer. The main memory ( a collection of RAM chips) holds the instructions and data which are being processed by the CPU. Peripherals are the physical units attracted to the computer. The include storage devices and input/ output devices.</string>
 
 </resources>

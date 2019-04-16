@@ -74,20 +74,20 @@
                 android:id="@+id/unit1SpinnerWarmUp1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/spin4"
-                android:layout_marginTop="@dimen/padding8" />
+                android:layout_marginTop="@dimen/padding8"
+                android:background="@drawable/spin4" />
 
             <Spinner
                 android:id="@+id/unit1SpinnerWarmUp2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/spin4"/>
+                android:background="@drawable/spin4" />
 
             <Spinner
                 android:id="@+id/unit1SpinnerWarmUp3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/spin4"/>
+                android:background="@drawable/spin4" />
 
             <!--head3-->
             <TextView
@@ -101,9 +101,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="Hint:"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="bold" />
 
             <TextView
@@ -123,9 +123,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="1) I[ ]p[ ]t devices"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <EditText
@@ -139,9 +139,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="2) O[ ][ ]p[ ]t devices"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <EditText
@@ -200,6 +200,71 @@
                 android:text="Presentation"
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
+
+            <!--What is a computer?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="What is a computer?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="A computer is an electronic machine which can accept data in a certain form, process the data, and give the results of the processing in a specified format as information."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="First, data is fed into the computer’s memory. Then when the program is run, the computer performs a set of instructions and processes the data. Finally, we can see the results (the output) on the screen or in printed form (see Fig below)"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="A computer system consists of two parts: hardware and software."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="@string/styleText1"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="@string/styleText2"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="@string/styleText3"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit106" />
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -451,6 +516,136 @@
                     android:layout_height="wrap_content"
                     android:text="d.Central Programming Unit" />
             </RadioGroup>
+            <!--Match these words (1-9) with the correct meanings (a-d)-->
+            <!--New practice add-in-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Match these words (1-9) with the correct meanings (a-d)"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <!--software-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1.software"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <Spinner
+                android:id="@+id/unit1SpinnerPractice1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:background="@drawable/spin4" />
+
+            <!--peripherals-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.peripherals"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <Spinner
+                android:id="@+id/unit1SpinnerPractice2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:background="@drawable/spin4" />
+
+            <!--main memory-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3.main memory"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <Spinner
+                android:id="@+id/unit1SpinnerPractice3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:background="@drawable/spin4" />
+
+            <!--hard drive (also known as hard disk)-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.hard drive (also known as hard disk)"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <Spinner
+                android:id="@+id/unit1SpinnerPractice4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:background="@drawable/spin4" />
+
+            <!--Hardware-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.Hardware"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <Spinner
+                android:id="@+id/unit1SpinnerPractice5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:background="@drawable/spin4" />
+
+            <!--Ports-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6.Ports"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <Spinner
+                android:id="@+id/unit1SpinnerPractice6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:background="@drawable/spin4" />
+
+            <!--Output-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7.Output"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <Spinner
+                android:id="@+id/unit1SpinnerPractice7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:background="@drawable/spin4" />
+
+            <!--Central processing unit (CPU)-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8.Central processing unit (CPU)"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <Spinner
+                android:id="@+id/unit1SpinnerPractice8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:background="@drawable/spin4" />
+
+
 
             <!--3. Match the names of digital devices with the pictures.-->
             <!--Group Items-->
@@ -491,7 +686,7 @@
                             android:id="@+id/unit1spinnerItem01"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
 
                     </LinearLayout>
@@ -514,7 +709,7 @@
                             android:id="@+id/unit1spinnerItem02"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
                     </LinearLayout>
                     <!--Col3-->
@@ -536,7 +731,7 @@
                             android:id="@+id/unit1spinnerItem03"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -564,7 +759,7 @@
                             android:id="@+id/unit1spinnerItem04"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
                     </LinearLayout>
                     <!--Col2-->
@@ -586,7 +781,7 @@
                             android:id="@+id/unit1spinnerItem05"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
                     </LinearLayout>
                     <!--Col3-->
@@ -608,7 +803,7 @@
                             android:id="@+id/unit1spinnerItem06"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -636,7 +831,7 @@
                             android:id="@+id/unit1spinnerItem07"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
                     </LinearLayout>
                     <!--Col2-->
@@ -658,7 +853,7 @@
                             android:id="@+id/unit1spinnerItem08"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
                     </LinearLayout>
                     <!--Col3-->
@@ -680,7 +875,7 @@
                             android:id="@+id/unit1spinnerItem09"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -708,7 +903,7 @@
                             android:id="@+id/unit1spinnerItem10"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
                     </LinearLayout>
                     <!--Col2-->
@@ -730,7 +925,7 @@
                             android:id="@+id/unit1spinnerItem11"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
                     </LinearLayout>
                     <!--Col3-->
@@ -752,7 +947,7 @@
                             android:id="@+id/unit1spinnerItem12"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -780,7 +975,7 @@
                             android:id="@+id/unit1spinnerItem13"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
                     </LinearLayout>
                     <!--Col2-->
@@ -802,7 +997,7 @@
                             android:id="@+id/unit1spinnerItem14"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
                     </LinearLayout>
                     <!--Col3-->
@@ -824,7 +1019,7 @@
                             android:id="@+id/unit1spinnerItem15"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -852,7 +1047,7 @@
                             android:id="@+id/unit1spinnerItem16"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
                     </LinearLayout>
                     <!--Col2-->
@@ -874,7 +1069,7 @@
                             android:id="@+id/unit1spinnerItem17"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
                     </LinearLayout>
                     <!--Col3-->
@@ -896,7 +1091,7 @@
                             android:id="@+id/unit1spinnerItem18"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
                     </LinearLayout>
                 </LinearLayout>
@@ -924,7 +1119,7 @@
                             android:id="@+id/unit1spinnerItem19"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
                     </LinearLayout>
                     <!--Col2-->
@@ -946,7 +1141,7 @@
                             android:id="@+id/unit1spinnerItem20"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@drawable/spin4"/>
+                            android:background="@drawable/spin4" />
 
                     </LinearLayout>
                     <!--Col3-->
@@ -1155,14 +1350,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:background="@drawable/spin4"/>
+                android:background="@drawable/spin4" />
 
             <Spinner
                 android:id="@+id/unit1SpinnerListening2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:background="@drawable/spin4"/>
+                android:background="@drawable/spin4" />
             <!--A primary schoolteacher, spinner-->
             <TextView
                 android:layout_width="wrap_content"
@@ -1176,14 +1371,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:background="@drawable/spin4"/>
+                android:background="@drawable/spin4" />
 
             <Spinner
                 android:id="@+id/unit1SpinnerListening4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:background="@drawable/spin4"/>
+                android:background="@drawable/spin4" />
             <!--A university student, spinner-->
             <TextView
                 android:layout_width="wrap_content"
@@ -1197,14 +1392,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:background="@drawable/spin4"/>
+                android:background="@drawable/spin4" />
 
             <Spinner
                 android:id="@+id/unit1SpinnerListening6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:background="@drawable/spin4"/>
+                android:background="@drawable/spin4" />
             <!--An artist-->
             <TextView
                 android:layout_width="wrap_content"
@@ -1218,14 +1413,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:background="@drawable/spin4"/>
+                android:background="@drawable/spin4" />
 
             <Spinner
                 android:id="@+id/unit1SpinnerListening8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:background="@drawable/spin4"/>
+                android:background="@drawable/spin4" />
 
             <!--Language work-->
             <TextView
@@ -1745,16 +1940,16 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Example: she, come, home, When, does, ?"
                 android:layout_marginTop="@dimen/padding8"
+                android:text="Example: she, come, home, When, does, ?"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Correct: When does she come home?"
                 android:layout_marginTop="@dimen/padding4"
+                android:text="Correct: When does she come home?"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1875,8 +2070,6 @@
                 android:text="Answer: I’m a university student."
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
-
 
 
             <!--Specialist Reading-->
@@ -2197,8 +2390,8 @@
                 android:id="@+id/unit1SpinnerReading1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/spin4"
-                android:layout_marginTop="@dimen/padding8" />
+                android:layout_marginTop="@dimen/padding8"
+                android:background="@drawable/spin4" />
 
             <!--2. A combination of text with sound, video, animation, and graphics.-->
             <TextView
@@ -2212,8 +2405,8 @@
                 android:id="@+id/unit1SpinnerReading2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/spin4"
-                android:layout_marginTop="@dimen/padding8" />
+                android:layout_marginTop="@dimen/padding8"
+                android:background="@drawable/spin4" />
 
             <!--3. Use computer to stay in touch with the office while working at home.-->
             <TextView
@@ -2227,8 +2420,8 @@
                 android:id="@+id/unit1SpinnerReading3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/spin4"
-                android:layout_marginTop="@dimen/padding8" />
+                android:layout_marginTop="@dimen/padding8"
+                android:background="@drawable/spin4" />
 
             <!--4. Software that enables computers to “think” like experts-->
             <TextView
@@ -2242,8 +2435,8 @@
                 android:id="@+id/unit1SpinnerReading4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/spin4"
-                android:layout_marginTop="@dimen/padding8" />
+                android:layout_marginTop="@dimen/padding8"
+                android:background="@drawable/spin4" />
 
             <!--5. Internet system designed to provide free interactive access to vast resources for people all over the world..-->
             <TextView
@@ -2257,8 +2450,8 @@
                 android:id="@+id/unit1SpinnerReading5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/spin4"
-                android:layout_marginTop="@dimen/padding8" />
+                android:layout_marginTop="@dimen/padding8"
+                android:background="@drawable/spin4" />
 
             <!--Choose the following statements as True or False.-->
             <TextView

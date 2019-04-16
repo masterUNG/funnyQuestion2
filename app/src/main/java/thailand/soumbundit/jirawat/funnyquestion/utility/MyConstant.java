@@ -44,6 +44,28 @@ public class MyConstant {
             "stylus pen",
             "micr"
     };
+
+
+
+    private String[] practice2aTrue =new String[]{
+            "..........",
+            "a.The brain of the computer",
+            "b.Physical parts that make up a computer system",
+            "c.programs which can be used on a particular computer system",
+            "d.the information which is presented to eh computer",
+            "e.results produced by a computer",
+            "f.input devices attached to the CPU",
+            "g.section that holds programs and data while they are executed or processed",
+            "h.Magnetic device used to store information",
+            "i.Sockets into which an external device maybe connected"
+    };
+
+// Check correct answer for spinner
+
+
+
+    private int[] practise2AInts = new int[]{3,6,7,8,2,9,5,1};
+
     private int[] practise3Ints = new int[]{22, 3, 7, 20, 16, 17, 15, 1, 12, 19, 21, 6, 11, 14, 23, 9, 2, 10, 8, 18};
 
     private int[] listening1Ints = new int[]{1, 2, 3, 4, 5, 6, 7, 8};
@@ -241,6 +263,15 @@ public class MyConstant {
 
 
     //    Getter
+
+    public int[] getPractise2aInts() {
+        return practise2AInts;
+    }
+
+    public String[] getPractice2aTrue() {
+        return practice2aTrue;
+    }
+
     public int[] getReading3Ints() {
         return reading3Ints;
     }
