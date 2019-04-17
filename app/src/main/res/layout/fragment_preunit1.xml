@@ -418,107 +418,152 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding4"
+                    android:layout_marginBottom="@dimen/padding4"
+                    android:text="Peripherals"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_clear2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/padding4"
+                        android:text="Input devices"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
+                    <!--Spinner-->
+                    <Spinner
+                        android:id="@+id/preunit1spinner1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4" />
+
+                    <!--Spinner-->
+                    <Spinner
+                        android:id="@+id/preunit1spinner2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4" />
+
+                    <!--Spinner-->
+                    <Spinner
+                        android:id="@+id/preunit1spinner3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textSize="@dimen/h2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_clear2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/padding4"
+                        android:text="Output devices"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
+                    <!--Spinner-->
+                    <Spinner
+                        android:id="@+id/preunit1spinner4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4" />
+
+                    <!--Spinner-->
+                    <Spinner
+                        android:id="@+id/preunit1spinner5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textSize="@dimen/h2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_clear2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/padding4"
+                        android:text="Storage media"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
+                    <!--Spinner-->
+                    <Spinner
+                        android:id="@+id/preunit1spinner6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4" />
+
+                    <!--Spinner-->
+                    <Spinner
+                        android:id="@+id/preunit1spinner7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4" />
+
+                    <!--Spinner-->
+                    <Spinner
+                        android:id="@+id/preunit1spinner8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4" />
+
+                </LinearLayout>
+            </LinearLayout>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="Input devices"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-            <!--Spinner-->
-            <Spinner
-                android:id="@+id/preunit1spinner1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/spin4" />
-
-            <!--Spinner-->
-            <Spinner
-                android:id="@+id/preunit1spinner2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/spin4" />
-
-            <!--Spinner-->
-            <Spinner
-                android:id="@+id/preunit1spinner3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/spin4" />
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="Output devices"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-            <!--Spinner-->
-            <Spinner
-                android:id="@+id/preunit1spinner4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/spin4" />
-
-            <!--Spinner-->
-            <Spinner
-                android:id="@+id/preunit1spinner5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/spin4" />
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="Storage media"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-            <!--Spinner-->
-            <Spinner
-                android:id="@+id/preunit1spinner6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/spin4" />
-
-            <!--Spinner-->
-            <Spinner
-                android:id="@+id/preunit1spinner7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/spin4" />
-
-            <!--Spinner-->
-            <Spinner
-                android:id="@+id/preunit1spinner8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/spin4" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/stringEndLine"/>
+                android:text="@string/stringEndLine" />
 
 
         </LinearLayout>
+    </ScrollView>
+
+    <!--Floating-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_action_check"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 
 
-
-
-</ScrollView>
-
-    <!--Floating--><android.support.design.widget.FloatingActionButton
-android:id="@+id/floatingCheck"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:layout_alignParentRight="true"
-android:layout_alignParentBottom="true"
-android:src="@drawable/ic_action_check"
-android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-
-    </RelativeLayout>
+</RelativeLayout>
