@@ -32,12 +32,29 @@
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
+            <!--Objective-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Objective"
+                android:layout_marginTop="16dp"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="At the end of this unit, students are able to describe the components of a computer."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
             <!--head 1 Warm-up-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Warm-up"
                 android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding"
                 android:textStyle="bold" />
 
             <TextView

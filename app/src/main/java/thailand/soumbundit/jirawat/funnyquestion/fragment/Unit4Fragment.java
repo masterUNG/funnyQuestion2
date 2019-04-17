@@ -125,11 +125,11 @@ public class Unit4Fragment extends Fragment {
         String[]strings = new String[5];
         String[] trueAnswerString = myConstantUnit4.getLanguage2True();
 
-        EditText editText1 = getView().findViewById(R.id.unit2EdtLanguage7);
-        EditText editText2 = getView().findViewById(R.id.unit2EdtLanguage8);
-        EditText editText3 = getView().findViewById(R.id.unit2EdtLanguage9);
-        EditText editText4 = getView().findViewById(R.id.unit2EdtLanguage10);
-        EditText editText5 = getView().findViewById(R.id.unit2EdtLanguage11);
+        EditText editText1 = getView().findViewById(R.id.unit4EdtLanguage7);
+        EditText editText2 = getView().findViewById(R.id.unit4EdtLanguage8);
+        EditText editText3 = getView().findViewById(R.id.unit4EdtLanguage9);
+        EditText editText4 = getView().findViewById(R.id.unit4EdtLanguage10);
+        EditText editText5 = getView().findViewById(R.id.unit4EdtLanguage11);
 
         strings[0] =editText1.getText().toString().trim();
         strings[1] =editText2.getText().toString().trim();
@@ -155,12 +155,12 @@ public class Unit4Fragment extends Fragment {
         String[] strings = new String[6];
         String[] trueAnswerString = myConstantUnit4.getLanguage1True();
 
-        EditText editText1 = getView().findViewById(R.id.unit2EdtLanguage1);
-        EditText editText2 = getView().findViewById(R.id.unit2EdtLanguage2);
-        EditText editText3 = getView().findViewById(R.id.unit2EdtLanguage3);
-        EditText editText4 = getView().findViewById(R.id.unit2EdtLanguage4);
-        EditText editText5 = getView().findViewById(R.id.unit2EdtLanguage5);
-        EditText editText6 = getView().findViewById(R.id.unit2EdtLanguage6);
+        EditText editText1 = getView().findViewById(R.id.unit4EdtLanguage1);
+        EditText editText2 = getView().findViewById(R.id.unit4EdtLanguage2);
+        EditText editText3 = getView().findViewById(R.id.unit4EdtLanguage3);
+        EditText editText4 = getView().findViewById(R.id.unit4EdtLanguage4);
+        EditText editText5 = getView().findViewById(R.id.unit4EdtLanguage5);
+        EditText editText6 = getView().findViewById(R.id.unit4EdtLanguage6);
 
         strings[0] = editText1.getText().toString().trim();
         strings[1] = editText2.getText().toString().trim();
@@ -187,8 +187,8 @@ public class Unit4Fragment extends Fragment {
         String [] trueAnswerString = myConstantUnit4.getPractice4True2();
         String[] strings = new String[2];
 
-        EditText editText1 = getView().findViewById(R.id.unit2EdtPractise8);
-        EditText editText2 = getView().findViewById(R.id.unit2EdtPractise9);
+        EditText editText1 = getView().findViewById(R.id.unit4EdtPractise8);
+        EditText editText2 = getView().findViewById(R.id.unit4EdtPractise9);
 
         strings[0] = editText1.getText().toString().trim();
         strings[1] = editText2.getText().toString().trim();
@@ -210,16 +210,16 @@ public class Unit4Fragment extends Fragment {
 
     private void calculatePractise2() {
         int sumScoreInt = 0;
-        RadioButton rb_answer1 = getView().findViewById(R.id.unit2RbPractise1True);
-        RadioButton rb_answer2 = getView().findViewById(R.id.unit2RbPractise2True);
-        RadioButton rb_answer3 = getView().findViewById(R.id.unit2RbPractise3True);
-        RadioButton rb_answer4 = getView().findViewById(R.id.unit2RbPractise4True);
-        RadioButton rb_answer5 = getView().findViewById(R.id.unit2RbPractise5True);
-        RadioButton rb_answer6 = getView().findViewById(R.id.unit2RbPractise6True);
-        RadioButton rb_answer7 = getView().findViewById(R.id.unit2RbPractise7True);
-        RadioButton rb_answer8 = getView().findViewById(R.id.unit2RbPractise8True);
-        RadioButton rb_answer9 = getView().findViewById(R.id.unit2RbPractise9True);
-        RadioButton rb_answer10 = getView().findViewById(R.id.unit2RbPractise10True);
+        RadioButton rb_answer1 = getView().findViewById(R.id.unit4RbPractise1True);
+        RadioButton rb_answer2 = getView().findViewById(R.id.unit4RbPractise2True);
+        RadioButton rb_answer3 = getView().findViewById(R.id.unit4RbPractise3True);
+        RadioButton rb_answer4 = getView().findViewById(R.id.unit4RbPractise4True);
+        RadioButton rb_answer5 = getView().findViewById(R.id.unit4RbPractise5True);
+        RadioButton rb_answer6 = getView().findViewById(R.id.unit4RbPractise6True);
+        RadioButton rb_answer7 = getView().findViewById(R.id.unit4RbPractise7True);
+        RadioButton rb_answer8 = getView().findViewById(R.id.unit4RbPractise8True);
+        RadioButton rb_answer9 = getView().findViewById(R.id.unit4RbPractise9True);
+        RadioButton rb_answer10 = getView().findViewById(R.id.unit4RbPractise10True);
 
         if(rb_answer1.isChecked()){
             sumScoreInt += 1;
@@ -261,13 +261,13 @@ public class Unit4Fragment extends Fragment {
         String[] strings = new String[7];
         String[] trueAnswerString = myConstantUnit4.getPractice1True();
 
-        EditText editText1 = getView().findViewById(R.id.unit2EdtPractise1);
-        EditText editText2 = getView().findViewById(R.id.unit2EdtPractise2);
-        EditText editText3 = getView().findViewById(R.id.unit2EdtPractise3);
-        EditText editText4 = getView().findViewById(R.id.unit2EdtPractise4);
-        EditText editText5 = getView().findViewById(R.id.unit2EdtPractise5);
-        EditText editText6 = getView().findViewById(R.id.unit2EdtPractise6);
-        EditText editText7 = getView().findViewById(R.id.unit2EdtPractise7);
+        EditText editText1 = getView().findViewById(R.id.unit4EdtPractise1);
+        EditText editText2 = getView().findViewById(R.id.unit4EdtPractise2);
+        EditText editText3 = getView().findViewById(R.id.unit4EdtPractise3);
+        EditText editText4 = getView().findViewById(R.id.unit4EdtPractise4);
+        EditText editText5 = getView().findViewById(R.id.unit4EdtPractise5);
+        EditText editText6 = getView().findViewById(R.id.unit4EdtPractise6);
+        EditText editText7 = getView().findViewById(R.id.unit4EdtPractise7);
 
         strings[0] = editText1.getText().toString().trim();
         strings[1] = editText2.getText().toString().trim();
@@ -291,7 +291,7 @@ public class Unit4Fragment extends Fragment {
 
     private void calculateWarmUp() {
         int sumScoreInt = 0;
-        RadioButton rb_answer = getView().findViewById(R.id.unit2RbWarmUp1B);
+        RadioButton rb_answer = getView().findViewById(R.id.unit4RbWarmUp1B);
         if (rb_answer.isChecked()) {
             sumScoreInt += 1;
         }
@@ -312,7 +312,7 @@ public class Unit4Fragment extends Fragment {
     }
 
     private  void practice1Spinner() {
-        Spinner spinner = getView().findViewById(R.id.unit2SpinnerPractice1);
+        Spinner spinner = getView().findViewById(R.id.unit4SpinnerPractice1);
         String[] strings = myConstantUnit4.getPractice4True();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
@@ -331,7 +331,7 @@ public class Unit4Fragment extends Fragment {
     }
 
     private  void practice2Spinner() {
-        Spinner spinner = getView().findViewById(R.id.unit2SpinnerPractice2);
+        Spinner spinner = getView().findViewById(R.id.unit4SpinnerPractice2);
         String[] strings = myConstantUnit4.getPractice4True();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);
@@ -350,7 +350,7 @@ public class Unit4Fragment extends Fragment {
     }
 
     private  void practice3Spinner() {
-        Spinner spinner = getView().findViewById(R.id.unit2SpinnerPractice3);
+        Spinner spinner = getView().findViewById(R.id.unit4SpinnerPractice3);
         String[] strings = myConstantUnit4.getPractice4True();
         ArrayAdapter<String> stringArrayAdapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, strings);

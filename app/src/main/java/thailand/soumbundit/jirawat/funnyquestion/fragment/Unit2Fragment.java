@@ -11,6 +11,14 @@ import thailand.soumbundit.jirawat.funnyquestion.R;
 
 public class Unit2Fragment extends Fragment{
 
+    public static Unit2Fragment unit2Fragment(String uidString) {
+        Unit2Fragment unit2Fragment = new Unit2Fragment();
+        Bundle bundle = new Bundle();
+        bundle.putString("Uid", uidString);
+        unit2Fragment.setArguments(bundle);
+        return unit2Fragment;
+    }
+
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);

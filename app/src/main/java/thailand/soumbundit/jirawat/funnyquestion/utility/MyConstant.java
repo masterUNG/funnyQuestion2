@@ -238,7 +238,7 @@ public class MyConstant {
             "Pretest Unit6",
 
             "Unit1 Computer Users",
-            "Unit2",
+            "Unit2 Computer Architecture",
             "Unit3 Computer Applications",
             "Unit4 The Internet",
             "Unit5",

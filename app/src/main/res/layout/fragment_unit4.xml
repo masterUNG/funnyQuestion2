@@ -32,10 +32,18 @@
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
+            <!--Objective-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Objective"
                 android:layout_marginTop="@dimen/padding"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:text="At the end of this unit, students are able to describe the types of Internet access providers: Internet service providers, online service providers, wireless Internet service providers"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
@@ -44,7 +52,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
+                android:layout_marginTop="@dimen/padding"
                 android:text="Warm-up"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
@@ -58,20 +66,20 @@
                 android:textStyle="bold" />
 
             <RadioGroup
-                android:id="@+id/unit2RdgWarmUp1"
+                android:id="@+id/unit4RdgWarmUp1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:orientation="vertical">
 
                 <RadioButton
-                    android:id="@+id/unit2RbWarmUp1A"
+                    android:id="@+id/unit4RbWarmUp1A"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="a. A wireless fidelity network uses radio signals to provide high-speed." />
 
                 <RadioButton
-                    android:id="@+id/unit2RbWarmUp1B"
+                    android:id="@+id/unit4RbWarmUp1B"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="b. A wide-area network spanning the globe." />
@@ -1205,7 +1213,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/unit2EdtPractise1"
+                android:id="@+id/unit4EdtPractise1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
@@ -1219,7 +1227,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/unit2EdtPractise2"
+                android:id="@+id/unit4EdtPractise2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
@@ -1233,7 +1241,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/unit2EdtPractise3"
+                android:id="@+id/unit4EdtPractise3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
@@ -1247,7 +1255,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/unit2EdtPractise4"
+                android:id="@+id/unit4EdtPractise4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
@@ -1261,7 +1269,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/unit2EdtPractise5"
+                android:id="@+id/unit4EdtPractise5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
@@ -1275,7 +1283,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/unit2EdtPractise6"
+                android:id="@+id/unit4EdtPractise6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
@@ -1289,7 +1297,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/unit2EdtPractise7"
+                android:id="@+id/unit4EdtPractise7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
@@ -1322,21 +1330,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
-                android:id="@+id/unit2RdgPractise1"
+                android:id="@+id/unit4RdgPractise1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise1True"
+                    android:id="@+id/unit4RbPractise1True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise1False"
+                    android:id="@+id/unit4RbPractise1False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
@@ -1351,21 +1359,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
-                android:id="@+id/unit2RdgPractise2"
+                android:id="@+id/unit4RdgPractise2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise2True"
+                    android:id="@+id/unit4RbPractise2True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise2False"
+                    android:id="@+id/unit4RbPractise2False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
@@ -1380,21 +1388,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
-                android:id="@+id/unit2RdgPractise3"
+                android:id="@+id/unit4RdgPractise3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise3True"
+                    android:id="@+id/unit4RbPractise3True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise3False"
+                    android:id="@+id/unit4RbPractise3False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
@@ -1409,21 +1417,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
-                android:id="@+id/unit2RdgPractise4"
+                android:id="@+id/unit4RdgPractise4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise4True"
+                    android:id="@+id/unit4RbPractise4True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise4False"
+                    android:id="@+id/unit4RbPractise4False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
@@ -1438,21 +1446,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
-                android:id="@+id/unit2RdgPractise5"
+                android:id="@+id/unit4RdgPractise5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise5True"
+                    android:id="@+id/unit4RbPractise5True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise5False"
+                    android:id="@+id/unit4RbPractise5False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
@@ -1467,21 +1475,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
-                android:id="@+id/unit2RdgPractise6"
+                android:id="@+id/unit4RdgPractise6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise6True"
+                    android:id="@+id/unit4RbPractise6True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise6False"
+                    android:id="@+id/unit4RbPractise6False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
@@ -1496,21 +1504,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
-                android:id="@+id/unit2RdgPractise7"
+                android:id="@+id/unit4RdgPractise7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise7True"
+                    android:id="@+id/unit4RbPractise7True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise7False"
+                    android:id="@+id/unit4RbPractise7False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
@@ -1525,21 +1533,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
-                android:id="@+id/unit2RdgPractise8"
+                android:id="@+id/unit4RdgPractise8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise8True"
+                    android:id="@+id/unit4RbPractise8True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise8False"
+                    android:id="@+id/unit4RbPractise8False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
@@ -1554,21 +1562,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
-                android:id="@+id/unit2RdgPractise9"
+                android:id="@+id/unit4RdgPractise9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise9True"
+                    android:id="@+id/unit4RbPractise9True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise9False"
+                    android:id="@+id/unit4RbPractise9False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
@@ -1583,21 +1591,21 @@
                 android:textStyle="normal" />
 
             <RadioGroup
-                android:id="@+id/unit2RdgPractise10"
+                android:id="@+id/unit4RdgPractise10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise10True"
+                    android:id="@+id/unit4RbPractise10True"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
                     android:text="True" />
 
                 <RadioButton
-                    android:id="@+id/unit2RbPractise10False"
+                    android:id="@+id/unit4RbPractise10False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="False" />
@@ -1642,7 +1650,7 @@
                         android:textStyle="normal" />
 
                     <Spinner
-                        android:id="@+id/unit2SpinnerPractice1"
+                        android:id="@+id/unit4SpinnerPractice1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/spin4"/>
@@ -1656,7 +1664,7 @@
                     android:padding="5dp">
 
                     <EditText
-                        android:id="@+id/unit2EdtPractise8"
+                        android:id="@+id/unit4EdtPractise8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg" />
@@ -1684,7 +1692,7 @@
                         android:textStyle="normal" />
 
                     <Spinner
-                        android:id="@+id/unit2SpinnerPractice2"
+                        android:id="@+id/unit4SpinnerPractice2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/spin4"/>
@@ -1729,7 +1737,7 @@
                         android:textStyle="normal" />
 
                     <Spinner
-                        android:id="@+id/unit2SpinnerPractice3"
+                        android:id="@+id/unit4SpinnerPractice3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/spin4"/>
@@ -1743,7 +1751,7 @@
                     android:padding="5dp">
 
                     <EditText
-                        android:id="@+id/unit2EdtPractise9"
+                        android:id="@+id/unit4EdtPractise9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg" />
@@ -1991,7 +1999,7 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/unit2EdtLanguage1"
+                android:id="@+id/unit4EdtLanguage1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
@@ -2008,7 +2016,7 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/unit2EdtLanguage2"
+                android:id="@+id/unit4EdtLanguage2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
@@ -2025,7 +2033,7 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/unit2EdtLanguage3"
+                android:id="@+id/unit4EdtLanguage3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
@@ -2042,7 +2050,7 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/unit2EdtLanguage4"
+                android:id="@+id/unit4EdtLanguage4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
@@ -2059,7 +2067,7 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/unit2EdtLanguage5"
+                android:id="@+id/unit4EdtLanguage5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
@@ -2076,7 +2084,7 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/unit2EdtLanguage6"
+                android:id="@+id/unit4EdtLanguage6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="auto"
@@ -2116,7 +2124,7 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/unit2EdtLanguage7"
+                android:id="@+id/unit4EdtLanguage7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit"
@@ -2131,7 +2139,7 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/unit2EdtLanguage8"
+                android:id="@+id/unit4EdtLanguage8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit"
@@ -2146,7 +2154,7 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/unit2EdtLanguage9"
+                android:id="@+id/unit4EdtLanguage9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit"
@@ -2161,7 +2169,7 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/unit2EdtLanguage10"
+                android:id="@+id/unit4EdtLanguage10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit"
@@ -2176,7 +2184,7 @@
                 android:textStyle="normal" />
 
             <EditText
-                android:id="@+id/unit2EdtLanguage11"
+                android:id="@+id/unit4EdtLanguage11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit"

@@ -17,6 +17,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit1Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.Unit1Fragment;
+import thailand.soumbundit.jirawat.funnyquestion.fragment.Unit2Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.Unit3Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.Unit4Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.utility.MyConstant;
@@ -215,7 +216,10 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
                         .commit();
                 break;
             case R.id.txtUnit2:
-
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.contentServiceFragment, Unit2Fragment.unit2Fragment(uidUserString))
+                        .commit();
                 break;
             case R.id.txtUnit3:
                 getSupportFragmentManager()
