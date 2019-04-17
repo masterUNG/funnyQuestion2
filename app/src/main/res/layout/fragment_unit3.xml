@@ -64,7 +64,6 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
-
             <!--head Four Categories of Application Software-->
             <TextView
                 android:layout_width="wrap_content"
@@ -73,6 +72,544 @@
                 android:text="Four Categories of Application Software"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
+
+            <!--Table layout -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/padding8">
+                <!--Roll1 header Business, Graphics and Multimedia-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#A5A5A5"
+                    android:orientation="horizontal">
+                    <!--Col1-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="Business"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                    <!--Col2-->
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent">
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+                    <!--Col3-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="center"
+                            android:text="Graphics and Multimedia"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+                <!--Roll2 -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#DDDDDD"
+                    android:orientation="horizontal">
+                    <!--Col1-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Word Processing"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Database"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Note Taking"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Personal Information Manager (PIM)"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Business Software for Phones"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Business Software Suite"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Project Management"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Accounting"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Document Management"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Enterprise computing"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                    </LinearLayout>
+                    <!--Col2-->
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent">
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+                    <!--Col3-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="left"
+                            android:text="-Computer-Aided Design (CAD)"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="left"
+                            android:text="-Desktop Publishing (for the Professional)"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="left"
+                            android:text="-Paint / Image Editing (for the professional)"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="left"
+                            android:text="-Photo Editing (for the Professional)"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="left"
+                            android:text="-Video and Audio editing (for the Professional)"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="left"
+                            android:text="-Multimedia Authoring"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="left"
+                            android:text="-Web Page Authoring"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--Table layout -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/padding8">
+                <!--Roll1 header Home/ Personal / Educational, Communications-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#A5A5A5"
+                    android:orientation="horizontal">
+                    <!--Col1-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="Home/ Personal / Educational"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                    <!--Col2-->
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent">
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+                    <!--Col3-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="center"
+                            android:text="Communications"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+                <!--Roll2-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#DDDDDD"
+                    android:orientation="horizontal">
+                    <!--Col1-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Software Suite (for Personal Use)"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Personal Finance"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Legal"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-TaxPreparation"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Desktop Publishing (for Personal Use)"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Photo Editing and Photo Management (for Personal Use)"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Clip Art / Image Gallery"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Video and Audio Editing (for personal use)"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Home Design/ landscaping"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Travel and Mapping"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Reference and Educationa"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:text="-Entertainment"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+
+                    </LinearLayout>
+                    <!--Col2-->
+                    <LinearLayout
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent">
+
+                        <View style="@style/Divider" />
+                    </LinearLayout>
+                    <!--Col3-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="left"
+                            android:text="-Web Browser"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="left"
+                            android:text="-RSS Aggregator"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="left"
+                            android:text="-E-mail"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="left"
+                            android:text="-Blogging"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="left"
+                            android:text="-Instant Messaging"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="left"
+                            android:text="-Newsgroup/Message Board"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="left"
+                            android:text="-Chat Room"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="left"
+                            android:text="-FTP"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="left"
+                            android:text="-Text, Picture, Video Messaging"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="left"
+                            android:text="-ValP"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/padding4"
+                            android:gravity="left"
+                            android:text="-Video Conferencing"
+                            android:textSize="@dimen/h2"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
 
 
             <!--head 2. What are the seven forms through which software is available?-->
