@@ -230,7 +230,7 @@ public class PreUnit1Fragment extends Fragment {
         builder.setCancelable(false);
         builder.setIcon(R.drawable.ic_action_alert);
         builder.setTitle("Warning");
-        builder.setMessage("Need to Exit?");
+        builder.setMessage("Need to check answers?");
         builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
@@ -250,10 +250,20 @@ public class PreUnit1Fragment extends Fragment {
 
     private void myAlertDialog2() {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        String[]strings = new String[1];
         builder.setCancelable(false);
         builder.setIcon(R.drawable.ic_action_alert);
-        builder.setTitle("Score");
-        builder.setMessage("You have got score: " + pretestScoreString +"/10");
+        builder.setTitle("Pre-test Unit1 Score");
+
+        strings[0] = "You got: " + pretestScoreString +"/10";
+        builder.setItems(strings, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+
+            }
+        });
+
+        //builder.setMessage("You got: " + pretestScoreString +"/10");
 
         builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
             @Override

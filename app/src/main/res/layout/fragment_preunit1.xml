@@ -127,7 +127,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="3. An ……………………….device is any hardware component that allows you to enter data and instructions into a computer."
+                android:text="3. An ……………… device is any hardware component that allows you to enter data and instructions into a computer."
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -168,7 +168,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="4. Three commonly used ……………………………device are a printer, a monitor, and speakers."
+                android:text="4. Three commonly used ………………… device are a printer, a monitor, and speakers."
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -209,7 +209,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="5. ………………………..is any electronic or mechanical part you can see or touch."
+                android:text="5. ……………… is any electronic or mechanical part you can see or touch."
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
