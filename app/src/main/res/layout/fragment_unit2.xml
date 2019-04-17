@@ -36,8 +36,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Objective"
                 android:layout_marginTop="16dp"
+                android:text="Objective"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -52,9 +52,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
                 android:text="Warm-up"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding"
                 android:textStyle="bold" />
 
             <TextView
@@ -62,6 +62,7 @@
                 android:layout_height="wrap_content"
                 android:text="1. Look at the pictures and name these different types of devices. Then match the possible users below to each type. Justify your choice."
                 android:textSize="@dimen/h2"
+                android:layout_marginBottom="@dimen/padding8"
                 android:textStyle="bold" />
 
             <TableLayout
@@ -70,44 +71,213 @@
                 android:shrinkColumns="*"
                 android:stretchColumns="*">
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="center">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="1. student using a computer for entertainment with travelling." />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1. student using a computer for entertainment with travelling." />
 
-                <Spinner
-                    android:id="@+id/unit"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/spin4"
-                    android:minWidth="100dp" />
-            </TableRow>
+                    <Spinner
+                        android:id="@+id/unit2SpinnerWarmUp1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="100dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2 large company processing payroll data." />
+
+                    <Spinner
+                        android:id="@+id/unit2SpinnerWarmUp2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="100dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3. travelling salesperson giving marketing presentations" />
+
+                    <Spinner
+                        android:id="@+id/unit2SpinnerWarmUp3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="100dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4. large scientific organization processing work on nuclear research" />
+
+                    <Spinner
+                        android:id="@+id/unit2SpinnerWarmUp4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="100dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5. businessperson keeping in touch with clients while travelling" />
+
+                    <Spinner
+                        android:id="@+id/unit2SpinnerWarmUp5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="100dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6. graphic designer" />
+
+                    <Spinner
+                        android:id="@+id/unit2SpinnerWarmUp6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="100dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7. secretary doing general office work" />
+
+                    <Spinner
+                        android:id="@+id/unit2SpinnerWarmUp7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="100dp" />
+                </TableRow>
+
             </TableLayout>
 
 
-
-
-
-
-            <!--head 2-->
+            <!--head 2. Label the parts of computer-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="2. How do you use computers in your free time?"
+                android:text="2. Label the parts of computer"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rearrange the important by typing 1-3."
+                android:text="@string/styleText4"
                 android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+
+            <!--Presentation-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Presentation"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. What is inside a PC system?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The nerve center of a PC is the processor, also called the CPU, or central processing unit. This is built into a single chip which executes program instructions and coordinates. The activities that take place within the computer system. The chip itself is a small piece of silicon with a complex electrical circuit called integrated circuit."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The processor consists of three main parts:"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding4"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText5"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding4"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText6"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding4"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText7"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding4"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText8"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding4"
                 android:textStyle="normal" />
 
 
@@ -115,4 +285,15 @@
 
         </LinearLayout>
     </ScrollView>
+
+    <!--Floating-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_action_check"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
 </RelativeLayout>
