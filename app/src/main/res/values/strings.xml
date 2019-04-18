@@ -14,12 +14,58 @@
 
     <!--unit2-->
     <string name="styleText4"><b>Direction:</b>Match the words with pictures.</string>
-    <string name="styleText5"><b>The control unit</b> examines the instructions in the user’s program, inthe user’s program, interprets each instruction and causes the circuits and the rest of the components-monitor disk drivers, etc-to execute the functions specified.</string>
+    <string name="styleText5"><b>The control unit</b> examines the instructions in the user’s program, in the user’s program, interprets each instruction and causes the circuits and the rest of the components-monitor disk drivers, etc-to execute the functions specified.</string>
     <string name="styleText6"><b>The arithmetic logic unit (ALU)</b>  performs mathematical calculations (+, -, etc) and logical operations (AND, OR, NOT)</string>
     <string name="styleText7"><b>The registers</b> are high-speed units of memory used to store and control data. One of the registers (the program counter, or PC) keeps track of the next instruction to be performed in the main memory. The other (the instruction register, or IR) holds the instruction that is being executed.</string>
     <string name="styleText8">The power and performance of a computer is partly determined by the speed of its processor. <b>A system clock</b> sends out signals at fixed intervals to measure and synchronize the low of data. <b>Clock speed</b> is measured in gigahertz (GHz). For example, a CPU running at 4GHz (four thousand million hertz, or cycles, per second) will enable your PC to handle the most demanding applications.</string>
-
-
+    <string name="styleText9">RAM and ROM</string>
+    <string name="styleText10">The programs and data which pass through the processor must be loaded into the main memory in order to be processed. Therefore, when the user runs a program, the CPU looks for it on the hard disk and transfer a copy into the <b>RAM</b> chips. RAM(random access memory) is volatile-that is, its information is lost when the computer is turned off. However, <b>ROM</b> (read only memory) is non-volatile, containing instructions and routines for the basic operations of the CPU. The <b>BIOS</b> (basic input/ output system) uses ROM to control communication with peripherals.</string>
+    <string name="styleText11">RAM capacity can be expanded by adding extra chips, usually contained in small circuit boards called dual in-line memory modules <b>(DIMMs)</b>.</string>
+    <string name="styleText12">Buses and cards</string>
+    <string name="styleText13">The man circuit board inside your system is called the <b>motherboard</b> and contains the processor, the memory chips, expansions slots, and controllers for peripherals, connected by <b>buses</b>-electrical channels which allow devices inside the computer to communicate with each other. For example, the front side bus carries all data that passes from the CPU to other devices.</string>
+    <string name="styleText14">The size of a bus, called <b>bus width</b>, determines how much data can be transmitted. It can be compared to the number of lanes on a motorway-the larger the width, the more data can travel along the bus. For example, a 64-bit bus can transmit 64 bits of data.</string>
+    <string name="styleText15"><b>Expansion</b> slots allow users to install <b>expansion cards</b>, adding features like sound, memory and network capabilities.</string>
+    <string name="styleText16">2. Using the Keyboard and Mouse</string>
+    <string name="styleText17">2.1 What is computer keyboard?</string>
+    <string name="styleText18">The keyboard is the piece of <u>computer hardware</u> used to input text, characters, and other commands into a computer or similar device. Even though the keyboard is an external <u>peripheral device</u> in a desktop system (it sits outside the main <u>computer housing</u>), or is \"virtual\" in a tablet PC, it is an essential part of the complete computer system.</string>
+    <string name="styleText19">A standard keyboard</string>
+    <string name="styleText20">1.Cursor control keys include arrow keys that move that insertion point up, down, right and left, and keys such as End, Home, Page Up and Page Down, which are used in word processing to move around a long document.</string>
+    <string name="styleText21">2.Alphanumeric keys represent letters and numbers, as arranged on a typewriter.</string>
+    <string name="styleText22">3.Function keys appear at the top of the keyboard and can be programmed to do special tasks.</string>
+    <string name="styleText23">4.Dedicated keys are used to issue commands or to produce alternative character, e.g. the <i>Ctrl key</i> or the <i>Alt key.</i></string>
+    <string name="styleText24">5.A numeric keypad appears to the right of the main keyboard. The <i>NumLock key</i> is used to switch from numbers to editing keys.</string>
+    <string name="styleText25">2.2 What is a computer mouse?</string>
+    <string name="styleText26">The computer mouse is an input device. It lets us tell the computer what we want by pressing on it. We call it a mouse because it looks like a real mouse. A component mouse is made up of three parts as follows; body, cable and buttons.</string>
+    <string name="styleText27">When we look at the computer screen we see an arrow or a shape that moves with the mouse. This is the <b>CURSOR.</b> To tell the computer what to do, we first <b>POINT</b> the cursor by moving the mouse. Then when the cursor is where we want it, we press the button or <b>CLICK.</b></string>
+    <string name="styleText28">3. How to scan an image?</string>
+    <string name="styleText29">1.Make sure the scanner is connected to the computer.</string>
+    <string name="styleText30">2.Lift the lid and put the original on the scanner glass.</string>
+    <string name="styleText31">3.For high image quality, scan at 300 or higher.</string>
+    <string name="styleText32">4.The scanning software will automatically do a preview.</string>
+    <string name="styleText33">5.If the image is too dark or too light, you can adjust the brightness and contrast.</string>
+    <string name="styleText34">6.Click \"scan\".</string>
+    <string name="styleText35">7.If the scanned text, it can be \"read\" by OCR software.</string>
+    <string name="styleText36">8.If you want to save the image, choose a file format JPEG is a good choice for photos.</string>
+    <string name="styleText37">9.The scanned image can be manipulated using image editing software.</string>
+    <string name="styleText38">10.An all-in-one printer/scanner can print, scan and copy.</string>
+    <string name="styleText39">Picture A is a <b>handheld scanner.</b></string>
+    <string name="styleText40">Picture B is a <b>flatbed scanner.</b></string>
+    <string name="styleText41">4. Printing</string>
+    <string name="styleText42">How to set up a new printer</string>
+    <string name="styleText43">Here are the basic steps you’ll follow to set up almost any printer.</string>
+    <string name="styleText44">Plug in the printer’s power cable and make sure it’s turned on.</string>
+    <string name="styleText45">1.Plug in the printer’s power cable and make sure it’s turned on.</string>
+    <string name="styleText46">2.Connect the included cable (usually a USB cable) from the printer to the computer.</string>
+    <string name="styleText47"><b>Note:</b> The process will be different if you’re using a wireless printer.</string>
+    <string name="styleText48">3.On your computer, locate the printer settings. If you’re using a windows computer, you’ll find these in the <b>Control Panel.</b> If you’re using a Mac, you’ll them in <b>System Preferences.</b></string>
+    <string name="styleText49">4.Look for the option to Add a printer, then follow the instructions that appear.</string>
+    <string name="styleText50">5.Now it\'s time to try printing something! For example, you could try printing <u>this test page.</u> After you click the link, select <b>File > Print</b> your web browser\'s menu, or simply press <b>Ctrl+P</b> on your keyboard (or <p>Command+P</p> if you\'re on a Mac).></string>
+    <string name="styleText51">6.A dialog box will appear. Locate and select the new printer from the list, then click Print.</string>
+    <string name="styleText52">7.The item will then be printed . But if it doesn\'t work, don’t panic! You can try using some of the solutions to common the problems below.</string>
+    <string name="styleText53"><b>Solutions to common problems</b></string>
+    <string name="styleText54"><b>Problem: Nothing happens when you try to print.</b> are several reasons a printer might not work, even if everything\'s connected properly. First, you\'ll want to make sure you\'ve put paper into the correct tray and there\'sno paper stuck inside the printer.</string>
+    <string name="styleText55"><b>Problem: The printer has paper and nothing\'s stuck, but it still won\'t print.</b> If the solutions above don\'t work, <b>try canceling the print job</b> from the computer and trying again. Many printers also have a button you can use to restart the current job. If all else fails, try turning the printer off and on again to see if it fixes the problem.</string>
+    <string name="styleText56"><b>Problem: The printer works, but the text is very light and difficult to read.</b> If this happens, it probably means your printer requires a new <b>ink cartridge</b>   to keep working. The instruction manual included with the printer should note what type of cartridge you\'ll need to buy.</string>
 
 
 </resources>
