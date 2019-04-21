@@ -46,7 +46,7 @@ public class MyConstantUnit2 {
             "Tower",
             "Mouse",
             "Keyboard",
-            "Monitor",
+            "Monitor"
 
     };
 
