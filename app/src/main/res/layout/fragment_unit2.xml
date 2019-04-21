@@ -220,12 +220,12 @@
 
             <!--Presentation-->
             <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/padding"
-            android:text="Presentation"
-            android:textSize="@dimen/h2"
-            android:textStyle="bold" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Presentation"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -343,8 +343,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/styleText16"
                 android:layout_marginTop="@dimen/padding"
+                android:text="@string/styleText16"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -367,8 +367,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/styleText19"
                 android:layout_marginTop="@dimen/padding4"
+                android:text="@string/styleText19"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -416,8 +416,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/styleText25"
                 android:layout_marginTop="@dimen/padding4"
+                android:text="@string/styleText25"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -441,8 +441,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/styleText28"
                 android:layout_marginTop="@dimen/padding8"
+                android:text="@string/styleText28"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -546,8 +546,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/styleText41"
                 android:layout_marginTop="@dimen/padding8"
+                android:text="@string/styleText41"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold"
                 tools:ignore="HardcodedText" />
@@ -594,7 +594,7 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
-                      <TextView
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
@@ -673,6 +673,902 @@
                 android:text="@string/styleText56"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
+
+            <!--Practice-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/styleText57"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding8"
+                android:text="@string/styleText58"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--1. What is a computer?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/styleText59"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText60" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText61" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText62" />
+            </RadioGroup>
+
+            <!--2. What does ALU stand for?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/styleText63"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText64" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText65" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText66" />
+            </RadioGroup>
+
+            <!--3. What does ALU do?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/styleText67"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText68" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText69" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText70" />
+            </RadioGroup>
+
+            <!--4.How much is one gigahertz?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/styleText71"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText72" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText73" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText74" />
+            </RadioGroup>
+
+            <!--5. What type of memory is temporary?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/styleText75"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText76" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText77" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText78" />
+            </RadioGroup>
+
+            <!--6. What type of memory is permanent and includes instructions needed by the CPU?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/styleText79"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText80" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText81" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText82" />
+            </RadioGroup>
+
+            <!--7. How can RAM be increased?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/styleText83"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText84" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText85" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText86" />
+            </RadioGroup>
+
+            <!--8. What is the benefit of having expansion slots?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/styleText87"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <RadioGroup
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText88" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText89" />
+
+                <RadioButton
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/styleText90" />
+            </RadioGroup>
+            <!--Part 2.1: Look at the picture and fill in the blanks with the words given. (9-13)-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding8"
+                android:text="@string/styleText91"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="@string/styleText92"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--9.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 9."
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
+
+            <!--10.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10."
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
+
+            <!--11.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11."
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
+
+            <!--12.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12."
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
+
+            <!--13.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13."
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
+
+            <!--Part 2.2: Match the descriptions (1-8) with the names of the keys (a-h). Then find them on the keyboard. (14-21)-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding8"
+                android:text="@string/styleText93"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="@string/styleText94"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <!--13. A long key at the bottom of the keyboard. Each time it is pressed, it produces a blank space.-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Spinner
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="100dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/styleText95" />
+
+                </TableRow>
+                <!--14. It moves the cursor to the beginning of a new line. It is also used to confirm commands.-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Spinner
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/styleText96" />
+
+
+                </TableRow>
+                <!--15. It works in combination with other keys. For example, you press this key and C to copy the selected text.-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Spinner
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/styleText97" />
+
+
+                </TableRow>
+                <!--16. It removes the character to the left of the cursor or any selected text.-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Spinner
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/styleText98" />
+
+
+                </TableRow>
+                <!--17. It produces UPPER CASE characters.-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Spinner
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/styleText99" />
+
+
+                </TableRow>
+                <!--18. It produces UPPER CASE letters, but it does not effect numbers and symbols.-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Spinner
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/styleText100" />
+
+
+                </TableRow>
+                <!--19. It moves the cursor horizontally to the right for a fixed number of spaces ( in tabulations and data fields)-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Spinner
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/styleText101" />
+
+
+                </TableRow>
+                <!--20. They are used to move the cursor, as an alternative to the mouse.-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Spinner
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/styleText102" />
+
+
+                </TableRow>
+
+
+            </TableLayout>
+
+            <!--Listening-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/styleText103"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <!--Listen and fill in the blank.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding8"
+                android:text="@string/styleText104"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--1.To go back one space, hit the-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText105"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:focusable="auto" />
+
+
+            <!--2.To change to capital letters, press the-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText106"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:focusable="auto" />
+
+            <!--3.To change the capital letters permanently, hit the-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText107"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:focusable="auto" />
+
+            <!--4.To insert a tabulation, press the-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText108"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:focusable="auto" />
+
+            <!--5.To activate the “Ctrl” functions, press the-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText109"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:focusable="auto" />
+
+            <!--6.To activate the “alt” function, hit the-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText110"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:focusable="auto" />
+
+            <!--7.To stop the computer doing something, you can press the-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText111"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:focusable="auto" />
+
+            <!--8.Select the text you want to remove, and hit the-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText112"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:focusable="auto" />
+
+            <!--9.Please _______ your pass word.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText113"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:focusable="auto" />
+
+            <!--10.It took me two hours to-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText114"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:focusable="auto" />
+
+            <!--Language Work-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/styleText115"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--Describing functions-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding8"
+                android:text="@string/styleText116"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding4"
+                android:text="@string/styleText117"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding4"
+                android:text="@string/styleText118"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding4"
+                android:text="@string/styleText119"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding4"
+                android:text="@string/styleText120"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding4"
+                android:text="@string/styleText121"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--Practice-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/styleText57"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <!--Describing functions-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding8"
+                android:text="@string/styleText122"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--Look at language work and then write a description their functions-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/padding4"
+                android:text="@string/styleText123"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--1. The Sony PlayStation 3 controller.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText124"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:focusable="auto" />
+
+            <!--2. Bar code reader-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText125"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:focusable="auto" />
+
+            <!--3. webcam-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText126"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit"
+                android:focusable="auto" />
+
+
+
+
+
+
+
+
 
 
 
