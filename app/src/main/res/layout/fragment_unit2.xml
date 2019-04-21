@@ -217,6 +217,203 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
+            <!--1.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 1."
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/unit2EdtWarmUp1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+
+
+            </LinearLayout>
+
+            <!--2.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2."
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/unit2EdtWarmUp2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+
+
+            </LinearLayout>
+
+            <!--3.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3."
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/unit2EdtWarmUp3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+
+
+            </LinearLayout>
+
+            <!--4.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4."
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/unit2EdtWarmUp4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+
+
+            </LinearLayout>
+
+            <!--5.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5."
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/unit2EdtWarmUp5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+
+
+            </LinearLayout>
+
+            <!--6.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6."
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/unit2EdtWarmUp6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+
+
+            </LinearLayout>
+
+            <!--7.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7."
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/unit2EdtWarmUp7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+
+
+            </LinearLayout>
+
+            <!--8.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8."
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/unit2EdtWarmUp8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+
+
+            </LinearLayout>
+
+            <!--9.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9."
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+                <EditText
+                    android:id="@+id/unit2EdtWarmUp9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+
+            </LinearLayout>
+
 
             <!--Presentation-->
             <TextView

@@ -107,6 +107,7 @@ public class Unit2Fragment extends Fragment {
 
     public void processCheckScore() {
         calculateWarmUp1();
+        calculateWarmUp2();
         calculatePractice1();
         calculatePractice2();
         calculatePractice3();
@@ -115,12 +116,14 @@ public class Unit2Fragment extends Fragment {
 
     }
 
+
+
     private void calculateLanguage1() {
         int sumScore = 0;
         String string1, string2, string3;
-        String[] trueAnswerStrings1 = myConstantUnit2.getLanguage1EditText();
-        String[] trueAnswerStrings2 = myConstantUnit2.getLanguage2EditText();
-        String[] trueAnswerStrings3 = myConstantUnit2.getLanguage3EditText();
+        String[] trueAnswerStrings1 = myConstantUnit2.getAnswerLanguage1EditText();
+        String[] trueAnswerStrings2 = myConstantUnit2.getAnswerLanguage2EditText();
+        String[] trueAnswerStrings3 = myConstantUnit2.getAnswerLanguage3EditText();
 
         EditText editText1 = getView().findViewById(R.id.unit2EdtLanguage1);
         EditText editText2 = getView().findViewById(R.id.unit2EdtLanguage2);
@@ -151,7 +154,7 @@ public class Unit2Fragment extends Fragment {
 
     private void calculateListening1() {
         int sumScore = 0;
-        String[] trueAnswerStrings = myConstantUnit2.getListening1EditText();
+        String[] trueAnswerStrings = myConstantUnit2.getAnswerListening1EditText();
         String[] strings = new String[10];
         EditText editText1 = getView().findViewById(R.id.unit2EdtListening1);
         EditText editText2 = getView().findViewById(R.id.unit2EdtListening2);
@@ -197,7 +200,7 @@ public class Unit2Fragment extends Fragment {
     private void calculatePractice2() {
         int sumScore = 0;
         String[] strings = new String[5];
-        String[] trueAnswerStrings = myConstantUnit2.getPractice1EditText();
+        String[] trueAnswerStrings = myConstantUnit2.getAnswerPractice1EditText();
 
 
         EditText editText1 = getView().findViewById(R.id.unit2EdtPractice1);
@@ -258,6 +261,39 @@ public class Unit2Fragment extends Fragment {
             sumScore += 1;
         }
         Log.d(tag2, "scorePractice1==>" + sumScore);
+    }
+
+    private void calculateWarmUp2() {
+        int sumScore = 0;
+        String[] strings =new String[9];
+        String[] answerWarmUp2TrueStrings  = myConstantUnit2.getAnswerWarmUp2TrueStrings();
+
+        EditText editText1 = getView().findViewById(R.id.unit2EdtWarmUp1);
+        EditText editText2 = getView().findViewById(R.id.unit2EdtWarmUp2);
+        EditText editText3 = getView().findViewById(R.id.unit2EdtWarmUp3);
+        EditText editText4 = getView().findViewById(R.id.unit2EdtWarmUp4);
+        EditText editText5 = getView().findViewById(R.id.unit2EdtWarmUp5);
+        EditText editText6 = getView().findViewById(R.id.unit2EdtWarmUp6);
+        EditText editText7 = getView().findViewById(R.id.unit2EdtWarmUp7);
+        EditText editText8 = getView().findViewById(R.id.unit2EdtWarmUp8);
+        EditText editText9 = getView().findViewById(R.id.unit2EdtWarmUp9);
+
+        strings[0] = editText1.getText().toString().trim();
+        strings[1] = editText2.getText().toString().trim();
+        strings[2] = editText3.getText().toString().trim();
+        strings[3] = editText4.getText().toString().trim();
+        strings[4] = editText5.getText().toString().trim();
+        strings[5] = editText6.getText().toString().trim();
+        strings[6] = editText7.getText().toString().trim();
+        strings[7] = editText8.getText().toString().trim();
+        strings[8] = editText9.getText().toString().trim();
+
+        for(int i=0;i<answerWarmUp2TrueStrings.length;i+=1){
+            if (strings[i].equals(answerWarmUp2TrueStrings[i])) {
+                sumScore += 1;
+            }
+        }
+        Log.d(tag2, "scoreWarmUp2==>" + sumScore);
     }
 
     private void calculateWarmUp1() {
@@ -438,6 +474,7 @@ public class Unit2Fragment extends Fragment {
         });
 
     }
+
 
 
     private void checkScoreWarmUp(int indexSpinner, int position) {

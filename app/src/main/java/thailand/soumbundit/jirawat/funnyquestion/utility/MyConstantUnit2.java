@@ -16,7 +16,7 @@ public class MyConstantUnit2 {
             "g"
     };
 
-
+// practice
     private String[] practice1ChoiceSpinner = new String[]{
             "...",
             "a",
@@ -37,10 +37,24 @@ public class MyConstantUnit2 {
     //    Warm Up
     private int[] answerWarmUp1TrueInts = new int[]{7, 2, 5, 1, 6, 4, 3};
 
+    private String[] answerWarmUp2TrueStrings = new String[]{
+            "CD Rom",
+            "Printer",
+            "Headset",
+            "Scanner",
+            "Speakers",
+            "Tower",
+            "Mouse",
+            "Keyboard",
+            "Monitor",
+
+    };
+
+
 //    Practice
     private int[] answerPractice1TrueInts = new int[]{6, 2, 8, 7, 3, 4, 5, 1};
 
-    private String[] practice1EditText = new String[]{
+    private String[] answerPractice1EditText = new String[]{
             "function keys",
             "alphanumeric keys",
             "cursor control keys",
@@ -49,7 +63,7 @@ public class MyConstantUnit2 {
     };
 
     //listening
-    private String[] Listening1EditText = new String[]{
+    private String[] answerListening1EditText = new String[]{
             "backspace key",
             "shift key",
             "caps lock key",
@@ -64,7 +78,7 @@ public class MyConstantUnit2 {
 
 
     //language work
-    private String[] language1EditText = new String[]{
+    private String[] answerLanguage1EditText = new String[]{
             "the sony playstation 3 controller is a device for controlling video games.",
             "the sony playstation 3 controller which is used to control video games.",
             "the sony playstation 3 controller is a device which is used to control video games.",
@@ -75,7 +89,7 @@ public class MyConstantUnit2 {
 
     };
 
-    private String[] language2EditText = new String[]{
+    private String[] answerLanguage2EditText = new String[]{
             "the bar code reader is a device for scanning a code from warehoused products.",
             "the Sony PlayStation 3 controller which is used to scan a code from warehoused products.",
             "the Sony PlayStation 3 controller is a device which is used to scan a code from warehoused products.",
@@ -93,7 +107,7 @@ public class MyConstantUnit2 {
             "the Sony PlayStation 3 controller which is used to scan a code from products",
     };
 
-    private String[] language3EditText = new String[]{
+    private String[] answerLanguage3EditText = new String[]{
             "a webcam is a video camera that feeds or streams its image in real time to or through a computer to a computer network.",
             "a webcam is a video camera for feeding its image in real time.",
             "a webcam is a video camera which is used to feed its image in real time.",
@@ -111,21 +125,21 @@ public class MyConstantUnit2 {
 
     //getter
 
-    public String[] getLanguage3EditText() {
-        return language3EditText;
+    public String[] getAnswerLanguage3EditText() {
+        return answerLanguage3EditText;
     }
 
-    public String[] getLanguage2EditText() {
-        return language2EditText;
+    public String[] getAnswerLanguage2EditText() {
+        return answerLanguage2EditText;
     }
 
-    public String[] getLanguage1EditText() {
-        return language1EditText;
+    public String[] getAnswerLanguage1EditText() {
+        return answerLanguage1EditText;
     }
 
 
-    public String[] getListening1EditText() {
-        return Listening1EditText;
+    public String[] getAnswerListening1EditText() {
+        return answerListening1EditText;
     }
 
     public int[] getAnswerPractice1TrueInts() {
@@ -136,12 +150,16 @@ public class MyConstantUnit2 {
         return practice1ChoiceSpinner;
     }
 
-    public String[] getPractice1EditText() {
-        return practice1EditText;
+    public String[] getAnswerPractice1EditText() {
+        return answerPractice1EditText;
     }
 
     public int[] getAnswerWarmUp1TrueInts() {
         return answerWarmUp1TrueInts;
+    }
+
+    public String[] getAnswerWarmUp2TrueStrings() {
+        return answerWarmUp2TrueStrings;
     }
 
     public String[] getWarmUp1ChoiceSpinner() {
