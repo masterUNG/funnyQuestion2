@@ -701,26 +701,26 @@
                 android:textStyle="bold" />
 
             <RadioGroup
-
+                android:id="@+id/unit2RdgPractice1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:orientation="vertical">
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice1a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText60" />
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice1b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText61" />
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice1c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText62" />
@@ -736,26 +736,26 @@
                 android:textStyle="bold" />
 
             <RadioGroup
-
+                android:id="@+id/unit2RdgPractice2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:orientation="vertical">
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice2a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText64" />
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice2b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText65" />
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice2c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText66" />
@@ -771,26 +771,26 @@
                 android:textStyle="bold" />
 
             <RadioGroup
-
+                android:id="@+id/unit2RdgPractice3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:orientation="vertical">
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice3a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText68" />
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice3b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText69" />
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice3c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText70" />
@@ -806,26 +806,26 @@
                 android:textStyle="bold" />
 
             <RadioGroup
-
+                android:id="@+id/unit2RdgPractice4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:orientation="vertical">
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice4a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText72" />
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice4b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText73" />
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice4c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText74" />
@@ -841,26 +841,26 @@
                 android:textStyle="bold" />
 
             <RadioGroup
-
+                android:id="@+id/unit2RdgPractice5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:orientation="vertical">
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice5a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText76" />
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice5b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText77" />
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice5c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText78" />
@@ -876,26 +876,26 @@
                 android:textStyle="bold" />
 
             <RadioGroup
-
+                android:id="@+id/unit2RdgPractice6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:orientation="vertical">
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice6a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText80" />
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice6b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText81" />
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice6c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText82" />
@@ -911,26 +911,26 @@
                 android:textStyle="bold" />
 
             <RadioGroup
-
+                android:id="@+id/unit2RdgPractice7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:orientation="vertical">
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice7a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText84" />
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice7b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText85" />
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice7c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText86" />
@@ -946,26 +946,26 @@
                 android:textStyle="bold" />
 
             <RadioGroup
-
+                android:id="@+id/unit2RdgPractice8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:orientation="vertical">
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice8a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText88" />
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice8b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText89" />
 
                 <RadioButton
-
+                    android:id="@+id/unit2RbPractice8c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/styleText90" />
@@ -991,8 +991,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:padding="@dimen/padding">
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1002,6 +1001,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/unit2EdtPractice1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edit"
@@ -1012,8 +1012,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:padding="@dimen/padding">
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1023,6 +1022,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/unit2EdtPractice2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edit"
@@ -1033,8 +1033,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:padding="@dimen/padding">
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1044,6 +1043,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/unit2EdtPractice3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edit"
@@ -1054,8 +1054,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:padding="@dimen/padding">
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1065,6 +1064,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/unit2EdtPractice4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edit"
@@ -1075,8 +1075,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:padding="@dimen/padding">
+                android:orientation="horizontal">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1086,6 +1085,7 @@
                     android:textStyle="bold" />
 
                 <EditText
+                    android:id="@+id/unit2EdtPractice5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/edit"
@@ -1129,7 +1129,7 @@
                     android:gravity="center">
 
                     <Spinner
-
+                        android:id="@+id/unit2SpinnerPractice1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/spin4"
@@ -1148,7 +1148,7 @@
                     android:gravity="center">
 
                     <Spinner
-
+                        android:id="@+id/unit2SpinnerPractice2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/spin4" />
@@ -1167,7 +1167,7 @@
                     android:gravity="center">
 
                     <Spinner
-
+                        android:id="@+id/unit2SpinnerPractice3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/spin4" />
@@ -1186,7 +1186,7 @@
                     android:gravity="center">
 
                     <Spinner
-
+                        android:id="@+id/unit2SpinnerPractice4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/spin4" />
@@ -1205,7 +1205,7 @@
                     android:gravity="center">
 
                     <Spinner
-
+                        android:id="@+id/unit2SpinnerPractice5"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/spin4" />
@@ -1224,7 +1224,7 @@
                     android:gravity="center">
 
                     <Spinner
-
+                        android:id="@+id/unit2SpinnerPractice6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/spin4" />
@@ -1243,7 +1243,7 @@
                     android:gravity="center">
 
                     <Spinner
-
+                        android:id="@+id/unit2SpinnerPractice7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/spin4" />
@@ -1262,7 +1262,7 @@
                     android:gravity="center">
 
                     <Spinner
-
+                        android:id="@+id/unit2SpinnerPractice8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/spin4" />
@@ -1304,6 +1304,7 @@
                 android:textStyle="normal" />
 
             <EditText
+                android:id="@+id/unit2EdtListening1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit"
@@ -1319,6 +1320,7 @@
                 android:textStyle="normal" />
 
             <EditText
+                android:id="@+id/unit2EdtListening2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit"
@@ -1333,6 +1335,7 @@
                 android:textStyle="normal" />
 
             <EditText
+                android:id="@+id/unit2EdtListening3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit"
@@ -1347,6 +1350,7 @@
                 android:textStyle="normal" />
 
             <EditText
+                android:id="@+id/unit2EdtListening4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit"
@@ -1361,6 +1365,7 @@
                 android:textStyle="normal" />
 
             <EditText
+                android:id="@+id/unit2EdtListening5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit"
@@ -1375,6 +1380,7 @@
                 android:textStyle="normal" />
 
             <EditText
+                android:id="@+id/unit2EdtListening6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit"
@@ -1389,6 +1395,7 @@
                 android:textStyle="normal" />
 
             <EditText
+                android:id="@+id/unit2EdtListening7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit"
@@ -1403,6 +1410,7 @@
                 android:textStyle="normal" />
 
             <EditText
+                android:id="@+id/unit2EdtListening8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit"
@@ -1417,6 +1425,7 @@
                 android:textStyle="normal" />
 
             <EditText
+                android:id="@+id/unit2EdtListening9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit"
@@ -1431,6 +1440,7 @@
                 android:textStyle="normal" />
 
             <EditText
+                android:id="@+id/unit2EdtListening10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit"
@@ -1529,6 +1539,7 @@
                 android:textStyle="normal" />
 
             <EditText
+                android:id="@+id/unit2EdtLanguage1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit"
@@ -1543,6 +1554,7 @@
                 android:textStyle="normal" />
 
             <EditText
+                android:id="@+id/unit2EdtLanguage2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit"
@@ -1557,6 +1569,7 @@
                 android:textStyle="normal" />
 
             <EditText
+                android:id="@+id/unit2EdtLanguage3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/edit"

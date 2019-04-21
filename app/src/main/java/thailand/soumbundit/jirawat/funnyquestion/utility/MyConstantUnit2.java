@@ -1,13 +1,12 @@
 package thailand.soumbundit.jirawat.funnyquestion.utility;
 
 public class MyConstantUnit2 {
-
-    //#########################################################################
-//    About Unit2
+    //    #########################################################################
+//     About Unit2
 //    #########################################################################
 //    Warm Up
-
-    private String[] warmUp1True = new String[]{
+    private String[] warmUp1ChoiceSpinner = new String[]{
+            "...",
             "a",
             "b",
             "c",
@@ -17,8 +16,137 @@ public class MyConstantUnit2 {
             "g"
     };
 
-    private int[] answerWarmUp1TrueInts = new int[]{1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 24, 26, 27, 28, 29, 30};
 
+    private String[] practice1ChoiceSpinner = new String[]{
+            "...",
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "f",
+            "g",
+            "h"
+    };
+
+
+    //    #########################################################################
+//    Key answer Unit2
+//    #########################################################################
+
+    //    Warm Up
+    private int[] answerWarmUp1TrueInts = new int[]{7, 2, 5, 1, 6, 4, 3};
+
+//    Practice
+    private int[] answerPractice1TrueInts = new int[]{6, 2, 8, 7, 3, 4, 5, 1};
+
+    private String[] practice1EditText = new String[]{
+            "function keys",
+            "alphanumeric keys",
+            "cursor control keys",
+            "dedicated keys",
+            "numeric keypad"
+    };
+
+    //listening
+    private String[] Listening1EditText = new String[]{
+            "backspace key",
+            "shift key",
+            "caps lock key",
+            "tab key",
+            "Control key",
+            "alt key",
+            "escape key",
+            "delete key",
+            "enter",
+            "key in"
+    };
+
+
+    //language work
+    private String[] language1EditText = new String[]{
+            "the sony playstation 3 controller is a device for controlling video games.",
+            "the sony playstation 3 controller which is used to control video games.",
+            "the sony playstation 3 controller is a device which is used to control video games.",
+
+            "the sony playstation 3 controller is a device for controlling video games",
+            "the sony playstation 3 controller which is used to control video games",
+            "the sony playstation 3 controller is a device which is used to control video games"
+
+    };
+
+    private String[] language2EditText = new String[]{
+            "the bar code reader is a device for scanning a code from warehoused products.",
+            "the Sony PlayStation 3 controller which is used to scan a code from warehoused products.",
+            "the Sony PlayStation 3 controller is a device which is used to scan a code from warehoused products.",
+            "the bar code reader is a device for scanning.",
+            "the bar code reader is a device for scanning a code from products.",
+            "the Sony PlayStation 3 controller which is used to scan.",
+            "the Sony PlayStation 3 controller which is used to scan a code from products.",
+
+            "the bar code reader is a device for scanning a code from warehoused products",
+            "the Sony PlayStation 3 controller which is used to scan a code from warehoused products",
+            "the Sony PlayStation 3 controller is a device which is used to scan a code from warehoused products",
+            "the bar code reader is a device for scanning",
+            "the bar code reader is a device for scanning a code from products",
+            "the Sony PlayStation 3 controller which is used to scan",
+            "the Sony PlayStation 3 controller which is used to scan a code from products",
+    };
+
+    private String[] language3EditText = new String[]{
+            "a webcam is a video camera that feeds or streams its image in real time to or through a computer to a computer network.",
+            "a webcam is a video camera for feeding its image in real time.",
+            "a webcam is a video camera which is used to feed its image in real time.",
+            "a webcam is a device which is used to feed its image in real time.",
+            "a webcam is a device that is used to feed its image in real time.",
+
+            "a webcam is a video camera that feeds or streams its image in real time to or through a computer to a computer network",
+            "a webcam is a video camera for feeding its image in real time",
+            "a webcam is a video camera which is used to feed its image in real time",
+            "a webcam is a device which is used to feed its image in real time",
+            "a webcam is a device that is used to feed its image in real time",
+    };
+
+
+
+    //getter
+
+    public String[] getLanguage3EditText() {
+        return language3EditText;
+    }
+
+    public String[] getLanguage2EditText() {
+        return language2EditText;
+    }
+
+    public String[] getLanguage1EditText() {
+        return language1EditText;
+    }
+
+
+    public String[] getListening1EditText() {
+        return Listening1EditText;
+    }
+
+    public int[] getAnswerPractice1TrueInts() {
+        return answerPractice1TrueInts;
+    }
+
+    public String[] getPractice1ChoiceSpinner() {
+        return practice1ChoiceSpinner;
+    }
+
+    public String[] getPractice1EditText() {
+        return practice1EditText;
+    }
+
+    public int[] getAnswerWarmUp1TrueInts() {
+        return answerWarmUp1TrueInts;
+    }
+
+    public String[] getWarmUp1ChoiceSpinner() {
+        return warmUp1ChoiceSpinner;
+    }
 
 
 }
