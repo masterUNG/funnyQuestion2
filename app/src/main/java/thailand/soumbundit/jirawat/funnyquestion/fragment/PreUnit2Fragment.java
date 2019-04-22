@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Spinner;
 
@@ -26,7 +27,7 @@ import thailand.soumbundit.jirawat.funnyquestion.utility.MyConstant;
 
 public class PreUnit2Fragment extends Fragment {
     private MyConstant myConstant = new MyConstant();
-    private String uidString, nameUnitString, timeTestString, pretestScoreString, presentString = "non", practiseString;
+    private String uidString, nameUnitString, timeTestString, pretestScoreString;
     private String tag = "11NovV1";
     private String tag2 = "11NovV2";
 
@@ -85,7 +86,7 @@ public class PreUnit2Fragment extends Fragment {
         String[]strings = new String[1];
         builder.setCancelable(false);
         builder.setIcon(R.drawable.ic_action_alert);
-        builder.setTitle("Pre-test Unit1 Score");
+        builder.setTitle("Pre-test Unit2 Score");
 
         strings[0] = "You got: " + pretestScoreString +"/10";
         builder.setItems(strings, new DialogInterface.OnClickListener() {
@@ -107,7 +108,36 @@ public class PreUnit2Fragment extends Fragment {
     }
 
     public void processCheckScore() {
+        int scoreInt = 0;
+        scoreInt += calculatePretest();
+        pretestScoreString = Integer.toString(scoreInt);
+    }
 
+    private int calculatePretest() {
+        int sumScore = 0;
+
+        RadioButton radioButton1 = getView().findViewById(R.id.preunit2RbPractice1a);
+        RadioButton radioButton2 = getView().findViewById(R.id.preunit2RbPractice2b);
+        RadioButton radioButton3 = getView().findViewById(R.id.preunit2RbPractice3c);
+        RadioButton radioButton5 = getView().findViewById(R.id.preunit2RbPractice5a);
+        RadioButton radioButton6 = getView().findViewById(R.id.preunit2RbPractice6b);
+        RadioButton radioButton7 = getView().findViewById(R.id.preunit2RbPractice7a);
+        RadioButton radioButton8 = getView().findViewById(R.id.preunit2RbPractice8d);
+        RadioButton radioButton9 = getView().findViewById(R.id.preunit2RbPractice9d);
+        RadioButton radioButton10 = getView().findViewById(R.id.preunit2RbPractice10a);
+
+        if (radioButton1.isChecked()) { sumScore +=1; }
+        if (radioButton2.isChecked()) { sumScore +=1; }
+        if (radioButton3.isChecked()) { sumScore +=1; }
+        if (radioButton5.isChecked()) { sumScore +=1; }
+        if (radioButton6.isChecked()) { sumScore +=1; }
+        if (radioButton7.isChecked()) { sumScore +=1; }
+        if (radioButton8.isChecked()) { sumScore +=1; }
+        if (radioButton9.isChecked()) { sumScore +=1; }
+        if (radioButton10.isChecked()) { sumScore +=1; }
+
+        Log.d(tag2, "scorePretest==>" + sumScore);
+        return sumScore;
     }
 
 
