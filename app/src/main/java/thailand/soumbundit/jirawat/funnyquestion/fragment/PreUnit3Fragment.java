@@ -84,7 +84,7 @@ public class PreUnit3Fragment extends Fragment {
         String[] strings = new String[1];
         builder.setCancelable(false);
         builder.setIcon(R.drawable.ic_action_alert);
-        builder.setTitle("Pre-test Unit2 Score");
+        builder.setTitle("Pre-test Unit3 Score");
 
         strings[0] = "You got: " + pretestScoreString + "/10";
         builder.setItems(strings, new DialogInterface.OnClickListener() {
@@ -107,12 +107,11 @@ public class PreUnit3Fragment extends Fragment {
 
     public void processCheckScore() {
         int scoreInt = 0;
-        scoreInt += 0;
-        calculatePreTest();
+        scoreInt += calculatePreTest();
         pretestScoreString = Integer.toString(scoreInt);
     }
 
-    private void calculatePreTest() {
+    private int calculatePreTest() {
         int sumScore = 0;
         RadioButton radioButton1 = getView().findViewById(R.id.preunit3RbPractice1a);
         RadioButton radioButton2 = getView().findViewById(R.id.preunit3RbPractice2b);
@@ -137,8 +136,7 @@ public class PreUnit3Fragment extends Fragment {
         if (radioButton10.isChecked()) { sumScore += 1; }
 
         Log.d(tag2, "sumScorePretest==>" + sumScore);
-
-
+        return sumScore;
     }
 
     public void findTimeTest() {
