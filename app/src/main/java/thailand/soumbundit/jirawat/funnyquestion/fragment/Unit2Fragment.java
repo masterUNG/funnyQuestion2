@@ -47,6 +47,7 @@ public class Unit2Fragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         findUidNameUnit();
+        findTimeTest();
 
         choiceWarmUpSpinner1();
         choiceWarmUpSpinner2();

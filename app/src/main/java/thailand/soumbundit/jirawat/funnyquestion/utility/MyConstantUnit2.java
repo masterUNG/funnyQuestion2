@@ -16,7 +16,7 @@ public class MyConstantUnit2 {
             "g"
     };
 
-// practice
+    // practice
     private String[] practice1ChoiceSpinner = new String[]{
             "...",
             "a",
@@ -51,7 +51,7 @@ public class MyConstantUnit2 {
     };
 
 
-//    Practice
+    //    Practice
     private int[] answerPractice1TrueInts = new int[]{6, 2, 8, 7, 3, 4, 5, 1};
 
     private String[] answerPractice1EditText = new String[]{
@@ -120,7 +120,6 @@ public class MyConstantUnit2 {
             "a webcam is a device which is used to feed its image in real time",
             "a webcam is a device that is used to feed its image in real time",
     };
-
 
 
     //getter
