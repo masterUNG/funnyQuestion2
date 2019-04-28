@@ -66,6 +66,14 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit200" />
+
+
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -216,6 +224,13 @@
                 android:text="@string/styleText4"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit201" />
 
             <!--1.-->
             <LinearLayout
@@ -503,6 +518,13 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit202" />
+
             <!--Buses and cards-->
             <TextView
                 android:layout_width="wrap_content"
@@ -559,6 +581,13 @@
                 android:text="@string/styleText18"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit203" />
 
             <!--A standard keyboard-->
             <TextView
@@ -625,6 +654,13 @@
                 android:text="@string/styleText26"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit204" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -731,11 +767,41 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit205" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
                 android:text="@string/styleText40"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit206" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="@string/styleText147"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="@string/styleText148"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -799,6 +865,13 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit207" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -807,6 +880,13 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit208" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -814,6 +894,13 @@
                 android:text="@string/styleText49"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit209" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -830,6 +917,13 @@
                 android:text="@string/styleText51"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit210" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -1175,6 +1269,13 @@
                 android:text="@string/styleText91"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit211" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -1737,6 +1838,13 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit212" />
+
             <EditText
                 android:id="@+id/unit2EdtLanguage1"
                 android:layout_width="match_parent"
@@ -1752,6 +1860,14 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit213" />
+
+
             <EditText
                 android:id="@+id/unit2EdtLanguage2"
                 android:layout_width="match_parent"
@@ -1766,6 +1882,14 @@
                 android:text="@string/styleText126"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit214" />
+
 
             <EditText
                 android:id="@+id/unit2EdtLanguage3"
