@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.Spinner;
 
 import java.text.DateFormat;
@@ -69,13 +70,390 @@ public class Unit3Fragment extends Fragment {
         choiceSpinnerPractice9();
         choiceSpinnerPractice10();
 
+        choiceSpinnerPractice11();
+        choiceSpinnerPractice12();
+        choiceSpinnerPractice13();
+        choiceSpinnerPractice14();
+        choiceSpinnerPractice15();
+        choiceSpinnerPractice16();
+
+        choiceSpinnerPractice17();
+        choiceSpinnerPractice18();
+        choiceSpinnerPractice19();
+        choiceSpinnerPractice20();
+        choiceSpinnerPractice21();
+        choiceSpinnerPractice22();
+
+        choiceSpinnerPractice23();
+        choiceSpinnerPractice24();
+        choiceSpinnerPractice25();
+        choiceSpinnerPractice26();
+        choiceSpinnerPractice27();
+        choiceSpinnerPractice28();
+
 
 
         checkFloating();
 
     }//Main Method
-    public  void  getPositionPractice2(int indexPosition, int position){
-        positionPractice2Ints[indexPosition] = position;
+
+
+    public  void  getPositionPractice5(int indexSpinner, int position){
+        positionPractice5Ints[indexSpinner] = position;
+    }
+
+    public  void  choiceSpinnerPractice23() {
+        String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
+        Spinner spinner = getView().findViewById(R.id.unit3SpinPractice23);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(arrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                getPositionPractice5(0,position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+    }
+
+    public  void  choiceSpinnerPractice24() {
+        String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
+        Spinner spinner = getView().findViewById(R.id.unit3SpinPractice24);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(arrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                getPositionPractice5(1,position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+    }
+
+    public  void  choiceSpinnerPractice25() {
+        String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
+        Spinner spinner = getView().findViewById(R.id.unit3SpinPractice25);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(arrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                getPositionPractice5(2,position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+    }
+
+    public  void  choiceSpinnerPractice26() {
+        String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
+        Spinner spinner = getView().findViewById(R.id.unit3SpinPractice26);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(arrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                getPositionPractice5(3,position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+    }
+
+    public  void  choiceSpinnerPractice27() {
+        String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
+        Spinner spinner = getView().findViewById(R.id.unit3SpinPractice27);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(arrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                getPositionPractice5(4,position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+    }
+
+    public  void  choiceSpinnerPractice28() {
+        String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
+        Spinner spinner = getView().findViewById(R.id.unit3SpinPractice28);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(arrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                getPositionPractice5(5,position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+    }
+
+    public  void  getPositionPractice4(int indexSpinner, int position){
+        positionPractice4Ints[indexSpinner] = position;
+    }
+
+    public  void  choiceSpinnerPractice17() {
+        String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
+        Spinner spinner = getView().findViewById(R.id.unit3SpinPractice17);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(arrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                getPositionPractice4(0,position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+    }
+
+    public  void  choiceSpinnerPractice18() {
+        String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
+        Spinner spinner = getView().findViewById(R.id.unit3SpinPractice18);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(arrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                getPositionPractice4(1,position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+    }
+
+    public  void  choiceSpinnerPractice19() {
+        String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
+        Spinner spinner = getView().findViewById(R.id.unit3SpinPractice19);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(arrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                getPositionPractice4(2,position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+    }
+
+    public  void  choiceSpinnerPractice20() {
+        String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
+        Spinner spinner = getView().findViewById(R.id.unit3SpinPractice20);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(arrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                getPositionPractice4(3,position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+    }
+
+    public  void  choiceSpinnerPractice21() {
+        String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
+        Spinner spinner = getView().findViewById(R.id.unit3SpinPractice21);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(arrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                getPositionPractice4(4,position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+    }
+
+    public  void  choiceSpinnerPractice22() {
+        String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
+        Spinner spinner = getView().findViewById(R.id.unit3SpinPractice22);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(arrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                getPositionPractice4(5,position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+    }
+
+    public  void  getPositionPractice3(int indexSpinner, int position){
+        positionPractice3Ints[indexSpinner] = position;
+    }
+
+    public  void  choiceSpinnerPractice11() {
+        String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
+        Spinner spinner = getView().findViewById(R.id.unit3SpinPractice11);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(arrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                getPositionPractice3(0,position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+    }
+
+    public  void  choiceSpinnerPractice12() {
+        String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
+        Spinner spinner = getView().findViewById(R.id.unit3SpinPractice12);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(arrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                getPositionPractice3(1,position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+    }
+
+    public  void  choiceSpinnerPractice13() {
+        String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
+        Spinner spinner = getView().findViewById(R.id.unit3SpinPractice13);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(arrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                getPositionPractice3(2,position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+    }
+
+    public  void  choiceSpinnerPractice14() {
+        String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
+        Spinner spinner = getView().findViewById(R.id.unit3SpinPractice14);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(arrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                getPositionPractice3(3,position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+    }
+
+    public  void  choiceSpinnerPractice15() {
+        String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
+        Spinner spinner = getView().findViewById(R.id.unit3SpinPractice15);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(arrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                getPositionPractice3(4,position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+    }
+
+    public  void  choiceSpinnerPractice16() {
+        String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
+        Spinner spinner = getView().findViewById(R.id.unit3SpinPractice16);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+        spinner.setAdapter(arrayAdapter);
+        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                getPositionPractice3(5,position);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+    }
+
+    public  void  getPositionPractice2(int indexSpinner, int position){
+        positionPractice2Ints[indexSpinner] = position;
     }
 
     public void choiceSpinnerPractice5() {
@@ -300,8 +678,130 @@ public class Unit3Fragment extends Fragment {
 
     public void processCheckScore() {
         calculateWarmUp();
+
         calculatePractice1();
         calculatePractice2();
+        calculatePractice3();
+        calculatePractice4();
+        calculatePractice5();
+
+        calculatePractice6();
+
+        calculatePractice7();
+
+    }
+
+    private void calculatePractice7() {
+        int sumScore = 0;
+
+        RadioButton radioButton1 = getView().findViewById(R.id.unit3RbPractice6a);
+        RadioButton radioButton2 = getView().findViewById(R.id.unit3RbPractice7a);
+        RadioButton radioButton3 = getView().findViewById(R.id.unit3RbPractice8a);
+        RadioButton radioButton4 = getView().findViewById(R.id.unit3RbPractice9a);
+        RadioButton radioButton5 = getView().findViewById(R.id.unit3RbPractice10a);
+        RadioButton radioButton6 = getView().findViewById(R.id.unit3RbPractice11a);
+        RadioButton radioButton7 = getView().findViewById(R.id.unit3RbPractice12a);
+        RadioButton radioButton8 = getView().findViewById(R.id.unit3RbPractice13a);
+
+        if (radioButton1.isChecked()) { sumScore += 1; }
+        if (radioButton2.isChecked()) { sumScore += 1; }
+        if (radioButton3.isChecked()) { sumScore += 1; }
+        if (radioButton4.isChecked()) { sumScore += 1; }
+        if (radioButton5.isChecked()) { sumScore += 1; }
+        if (radioButton6.isChecked()) { sumScore += 1; }
+        if (radioButton7.isChecked()) { sumScore += 1; }
+        if (radioButton8.isChecked()) { sumScore += 1; }
+
+        Log.d(tag2, "scorePractice6==>" + sumScore);
+    }
+
+
+    private void calculatePractice6() {
+        int sumScore = 0;
+
+        RadioButton radioButton1 = getView().findViewById(R.id.unit3RbPractice1False);
+        RadioButton radioButton2 = getView().findViewById(R.id.unit3RbPractice2False);
+        RadioButton radioButton3 = getView().findViewById(R.id.unit3RbPractice3False);
+        RadioButton radioButton4 = getView().findViewById(R.id.unit3RbPractice4False);
+        RadioButton radioButton5 = getView().findViewById(R.id.unit3RbPractice5False);
+
+        if(radioButton1.isChecked()){ sumScore += 1;}
+        if(radioButton2.isChecked()){ sumScore += 1;}
+        if(radioButton3.isChecked()){ sumScore += 1;}
+        if(radioButton4.isChecked()){ sumScore += 1;}
+        if(radioButton5.isChecked()){ sumScore += 1;}
+
+        Log.d(tag2, "scorePractice5==>" + sumScore);
+    }
+
+    private void calculatePractice5() {
+        int sumScore =0;
+        Integer intA;
+        int[] trueAnswerInts = myConstantUnit3.getAnswerPractice5ints();
+
+        Collection<Integer> list;
+        List<Integer> newList;
+
+        list = Arrays.asList(positionPractice5Ints);
+        newList = new ArrayList<>(new HashSet<>(list));
+
+        for (int i = 0; i < newList.size(); i += 1) {
+            intA = newList.get(i);
+            for (int i1 = 0; i1 < trueAnswerInts.length; i1 += 1) {
+                if (intA.equals(trueAnswerInts[i1])) {
+                    sumScore += 1;
+                }
+            }
+        }
+        Log.d(tag2, "scorePractice5==>" + sumScore);
+
+
+    }
+
+    private void calculatePractice4() {
+        int sumScore =0;
+        Integer intA;
+        int[] trueAnswerInts = myConstantUnit3.getAnswerPractice4ints();
+
+        Collection<Integer> list;
+        List<Integer> newList;
+
+        list = Arrays.asList(positionPractice4Ints);
+        newList = new ArrayList<>(new HashSet<>(list));
+
+        for (int i = 0; i < newList.size(); i += 1) {
+            intA = newList.get(i);
+            for (int i1 = 0; i1 < trueAnswerInts.length; i1 += 1) {
+                if (intA.equals(trueAnswerInts[i1])) {
+                    sumScore += 1;
+                }
+            }
+        }
+        Log.d(tag2, "scorePractice4==>" + sumScore);
+
+
+    }
+
+    private void calculatePractice3() {
+        int sumScore =0;
+        Integer intA;
+        int[] trueAnswerInts = myConstantUnit3.getAnswerPractice3Ints();
+
+        Collection<Integer> list;
+        List<Integer> newList;
+
+        list = Arrays.asList(positionPractice3Ints);
+        newList = new ArrayList<>(new HashSet<>(list));
+
+        for (int i = 0; i < newList.size(); i += 1) {
+            intA = newList.get(i);
+            for (int i1 = 0; i1 < trueAnswerInts.length; i1 += 1) {
+                if (intA.equals(trueAnswerInts[i1])) {
+                    sumScore += 1;
+                }
+            }
+        }
+        Log.d(tag2, "scorePractice3==>" + sumScore);
 
 
     }

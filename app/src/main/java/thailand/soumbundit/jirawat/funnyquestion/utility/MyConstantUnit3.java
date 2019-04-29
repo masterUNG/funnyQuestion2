@@ -39,7 +39,7 @@ public class MyConstantUnit3 {
             "Personal Information Manager(PIM)",
             "Video Conferencing",
             "Project management",
-            "Video and Audio Editing",
+            "Multimedia Authoring",
             "Web Browser",
             "Legal",
             "Computer Aided Design"
@@ -88,12 +88,14 @@ public class MyConstantUnit3 {
     public String[] getPracticeChoiceSpinner2() {
         return practiceChoiceSpinner2;
     }
+
     public int[] getAnswerPractice1Ints() {
         return answerPractice1Ints;
     }
     public String[] getPracticeChioceSpinner1() {
         return practiceChioceSpinner1;
     }
+
     public String[] getAnswerWarmUpString() {
         return answerWarmUpString;
     }
