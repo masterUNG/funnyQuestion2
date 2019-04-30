@@ -91,20 +91,22 @@ public class MyConstantUnit2 {
 
     private String[] answerLanguage2EditText = new String[]{
             "the bar code reader is a device for scanning a code from warehoused products.",
-            "the Sony PlayStation 3 controller which is used to scan a code from warehoused products.",
-            "the Sony PlayStation 3 controller is a device which is used to scan a code from warehoused products.",
+            "the bar code reader which is used to scan a code from warehoused products.",
+            "the bar code reader is a device which is used to scan a code from warehoused products.",
             "the bar code reader is a device for scanning.",
             "the bar code reader is a device for scanning a code from products.",
-            "the Sony PlayStation 3 controller which is used to scan.",
-            "the Sony PlayStation 3 controller which is used to scan a code from products.",
+            "the bar code reader which is used to scan.",
+            "the bar code reader which is used to scan a code from products.",
 
             "the bar code reader is a device for scanning a code from warehoused products",
-            "the Sony PlayStation 3 controller which is used to scan a code from warehoused products",
-            "the Sony PlayStation 3 controller is a device which is used to scan a code from warehoused products",
+            "the bar code reader which is used to scan a code from warehoused products",
+            "the bar code reader is a device which is used to scan a code from warehoused products",
             "the bar code reader is a device for scanning",
             "the bar code reader is a device for scanning a code from products",
-            "the Sony PlayStation 3 controller which is used to scan",
-            "the Sony PlayStation 3 controller which is used to scan a code from products",
+            "the bar code reader which is used to scan",
+            "the bar code reader which is used to scan a code from products"
+
+
     };
 
     private String[] answerLanguage3EditText = new String[]{
@@ -118,7 +120,7 @@ public class MyConstantUnit2 {
             "a webcam is a video camera for feeding its image in real time",
             "a webcam is a video camera which is used to feed its image in real time",
             "a webcam is a device which is used to feed its image in real time",
-            "a webcam is a device that is used to feed its image in real time",
+            "a webcam is a device that is used to feed its image in real time"
     };
 
 

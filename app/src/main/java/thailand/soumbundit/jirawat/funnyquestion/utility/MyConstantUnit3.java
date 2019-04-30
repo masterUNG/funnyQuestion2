@@ -3,7 +3,6 @@ package thailand.soumbundit.jirawat.funnyquestion.utility;
 public class MyConstantUnit3 {
 
 
-
     //    #########################################################################
 //   About Unit3
 //    #########################################################################
@@ -18,7 +17,6 @@ public class MyConstantUnit3 {
             "Business software",
             "Public-domain software"
     };
-
 
 
     private String[] practiceChoiceSpinner2 = new String[]{
@@ -42,7 +40,21 @@ public class MyConstantUnit3 {
             "Multimedia Authoring",
             "Web Browser",
             "Legal",
-            "Computer Aided Design"
+            "Computer Aided Design",
+            "Personal Finance",
+            "Note Taking",
+            "Home Design/ landscaping",
+            "Software Suite"
+    };
+
+
+
+    private String[] listeningChoiceSpinner1 = new String[]{
+            ".......",
+            "First,",
+            "Next,",
+            "After that,",
+            "Finally,"
     };
 
 
@@ -60,31 +72,41 @@ public class MyConstantUnit3 {
     //  Practice
     private int[] answerPractice1Ints = new int[]{1, 2, 5, 6};
 
-
-
-    private int[] answerPractice2Ints = new int[]{1, 7, 11, 14, 16};
+    private int[] answerPractice2Ints = new int[]{1, 7, 11, 14, 16, 22};
     private int[] answerPractice3Ints = new int[]{3, 8, 9, 10, 17, 20};
-    private int[] answerPractice4ints = new int[]{4, 12, 19};
+    private int[] answerPractice4ints = new int[]{4, 12, 19, 21, 23, 24};
     private int[] answerPractice5ints = new int[]{2, 5, 6, 13, 15, 18};
 
+    // listening
+    private int[] answerListening1Ints = new int[]{4,2,1,3};
 
 
+// getter
 
+    public int[] getAnswerListening1Ints() {
+        return answerListening1Ints;
+    }
 
-    // getter
+    public String[] getListeningChoiceSpinner1() {
+        return listeningChoiceSpinner1;
+    }
 
     public int[] getAnswerPractice5ints() {
         return answerPractice5ints;
     }
+
     public int[] getAnswerPractice4ints() {
         return answerPractice4ints;
     }
+
     public int[] getAnswerPractice3Ints() {
         return answerPractice3Ints;
     }
+
     public int[] getAnswerPractice2Ints() {
         return answerPractice2Ints;
     }
+
     public String[] getPracticeChoiceSpinner2() {
         return practiceChoiceSpinner2;
     }
@@ -92,6 +114,7 @@ public class MyConstantUnit3 {
     public int[] getAnswerPractice1Ints() {
         return answerPractice1Ints;
     }
+
     public String[] getPracticeChioceSpinner1() {
         return practiceChioceSpinner1;
     }

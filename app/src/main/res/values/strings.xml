@@ -50,6 +50,8 @@
     <string name="styleText38">10. An all-in-one printer/scanner can print, scan and copy.</string>
     <string name="styleText39">Picture A is a <b>handheld scanner.</b></string>
     <string name="styleText40">Picture B is a <b>flatbed scanner.</b></string>
+    <string name="styleText40a"><b>Picture A:</b> https://precisionsecuritysystems.com/product/handheld-scanner</string>
+    <string name="styleText40b"><b>Picture B:</b> https://www.indiamart.com/proddetail/flatbed-scanner-19071977630.html</string>
     <string name="styleText41">4. Printing</string>
     <string name="styleText42">How to set up a new printer</string>
     <string name="styleText43">Here are the basic steps you’ll follow to set up almost any printer.</string>
@@ -98,9 +100,10 @@
     <string name="styleText86">c. By saving information in CPU</string>
     <string name="styleText87">8. What is the benefit of having expansion slots?</string>
     <string name="styleText88">a. Adding features like sound, memory and network capabilities.</string>
-    <string name="styleText89">b. Adding features like</string>
-    <string name="styleText90">c. </string>
+    <string name="styleText89">b. They allow data that passes from the CPU to other devices.</string>
+    <string name="styleText90">c. They are high-speed units of memory used to store and control data.</string>
     <string name="styleText91">Part 2.1: Look at the picture and fill in the blanks with the words given. (9&#45;13)</string>
+    <string name="styleText91a">\tfunction keys \t\t\t\t\talphanumeric keys \n\tnumeric keypad \t\t\tcursor control keys \n\tdedicated keys</string>
     <string name="styleText92">function keys, alphanumeric keys, numeric keypad, cursor control keys, dedicated keys</string>
     <string name="styleText93">Part 2.2: Match the descriptions (1&#45;8) with the names of the keys (a&#45;h). Then find them on the keyboard. (14&#45;21)</string>
     <string name="styleText94">\ta. arrow keys \t\tb. return / enter\n\tc. Caps Lock \t\td. Shift \t\t\t\t\t\t\te. Tab\n\tf. Space bar \t\t\tg. Backspace \t\th. Ctrl</string>
@@ -127,17 +130,16 @@
     <string name="styleText115">Language Work</string>
     <string name="styleText116">Describing functions</string>
     <string name="styleText117">There are many ways of describing a devices function</string>
-    <string name="styleText118">1. preposition (for) + gerund (v.ing)</string>
-    <string name="styleText119">Example: The mouse is a device for controlling the cursor and selecting items on the screen.</string>
-    <string name="styleText120">2. relative clause (which/ that)+ be (is / am / are ) + used to + infinitive</string>
-    <string name="styleText121">Example: The mouse is a device which is used to control the cursor and select items on the screen.</string>
+    <string name="styleText118"><b>1. preposition (for) + gerund (v.ing)</b></string>
+    <string name="styleText119"><b>Example:</b> The mouse is a device for controlling the cursor and selecting items on the screen.</string>
+    <string name="styleText120"><b>2. relative clause (which/ that)+ be (is / am / are ) + used to + infinitive</b></string>
+    <string name="styleText121"><b>Example:</b> The mouse is a device which is used to control the cursor and select items on the screen.</string>
     <string name="styleText122">Describing functions</string>
     <string name="styleText123">Look at language work and then write a description their functions</string>
     <string name="styleText124">1. The Sony PlayStation 3 controller.</string>
     <string name="styleText125">2. Bar code reader</string>
     <string name="styleText126">3. webcam</string>
-    <string name="styleText147"><b>Picture A:</b> https://precisionsecuritysystems.com/product/handheld-scanner</string>
-    <string name="styleText148"><b>Picture B:</b> https://www.indiamart.com/proddetail/flatbed-scanner-19071977630.html</string>
+
 
 
     <!--unit3-->
@@ -148,7 +150,7 @@
     <string name="u3styleText5">Warm-up</string>
     <string name="u3styleText6">Application software consists of programs designed to make users more productive and/ or assist them with personal tasks. The majors categories of application software are</string>
     <string name="u3styleText7">1.What are the four categories of application software?</string>
-    <string name="u3styleText8">Application software consists of program designed to make users more productive and / or assist them with personal tasks personal tasks. The major categories of application software are business software; graphics and multimedia software; home; personal, and educational software; and communications software.</string>
+    <string name="u3styleText8">Application software consists of program designed to make users more productive and / or assist them with personal tasks personal tasks. The major categories of application software are <b>business software; graphics and multimedia software; home; personal, and educational software;</b> and <b>communications software.</b></string>
     <string name="u3styleText9">Four Categories of Application Software</string>
     <string name="u3styleText10">Business</string>
     <string name="u3styleText11">Graphics and Multimedia</string>
@@ -218,7 +220,8 @@
     <string name="u3styleText75">- <b>Accounting software</b> helps companies record and report their financial transactions.</string>
     <string name="u3styleText76">- <b>Document management software</b> provides a means for sharing, distributing, and searching through documents by converting them into a format that can be viewed by any user.</string>
     <string name="u3styleText77">5. What are the key features of widely used graphics and multimedia programs?</string>
-    <string name="u3styleText78">Graphics and multimedia software includes the following programs. Computer-aided design (CAD) software assists in creating engineering, architectural, and scientific designs.</string>
+    <string name="u3styleText78">Graphics and multimedia software includes the following programs.</string>
+    <string name="u3styleText78a">- <b>Computer-aided design (CAD)</b> software assists in creating engineering, architectural, and scientific designs.</string>
     <string name="u3styleText79">- <b>Desktop publishing (DTP),</b> software enables professional designers to create sophisticated documents that contain text, graphics and colors.</string>
     <string name="u3styleText80">- <b>Paints software,</b> also called illustration software, lets users draw graphical images with various on-screen tools.</string>
     <string name="u3styleText81">- <b>Image editing software</b> provides the capabilities of paint software and includes the capability to enhance and modify existing images.</string>
@@ -242,9 +245,9 @@
     <string name="u3styleText99">- <b>Educational software</b> teaches a particular skill.</string>
     <string name="u3styleText100">- <b>Entertainment software</b> includes interactive games, videos, and other programs to support hobbies or provide amusement.</string>
     <string name="u3styleText101">7. What Are the Advantages of and Ways to Access Web Applications?</string>
-    <string name="u3styleText102">A Web application, or Web app, require less disk space on a computer than installed software and is less costly to upgrade. Users often interact with Web applications directly at the Web site, referred to as the host, through their Web browser. Some Web sites require that you download the software to your computer or device.</string>
+    <string name="u3styleText102">A Web application, or <i>Web app,</i> require less disk space on a computer than installed software and is less costly to upgrade. Users often interact with Web applications directly at the Web site, referred to as the host, through their Web browser. Some Web sites require that you download the software to your computer or device.</string>
     <string name="u3styleText103">8. What Are the Types of Application Software Used in Communications?</string>
-    <string name="u3styleText1104">Application software for communications includes Web browsers to access and view Web pages; e-mail programs to transmit message via a network; instant messaging software for real-time exchange of messages or files; chat room software to have real-time, online typed conversations; text, picture, and video messaging software; RSS aggregator program to keep track of changes made to Web sites; blog software, or blogware, to create and maintain a blog; newsgroup/message board programs that allow online written discussion; FTP program to upload and download files on the Internet; VoIT(Internet telephony), which allows users to speak to other users over the Internet; and video conferencing software for meeting on a network.</string>
+    <string name="u3styleText1104">Application software for communications includes Web browsers to access and view Web pages; e-mail programs to transmit message via a network; instant messaging software for real-time exchange of messages or files; chat room software to have real-time, online typed conversations; text, picture, and video messaging software; RSS aggregator program to keep track of changes made to Web sites; <i>blog software,</i> or <i>blogware,</i> to create and maintain a blog; newsgroup/message board programs that allow online written discussion; FTP program to upload and download files on the Internet; VoIT(Internet telephony), which allows users to speak to other users over the Internet; and video conferencing software for meeting on a network.</string>
     <string name="u3styleText105">9. What Learning Aids Are Available for Application Software?</string>
     <string name="u3styleText106">To assist in the learning process, many programs offer Help features.</string>
     <string name="u3styleText107">- <b>Online Help</b> is the electronic equivalent of a user manual. Most online Help links to Web-based Help, which provides updates and more comprehensive resources. Popular in business, industry, and schools.</string>

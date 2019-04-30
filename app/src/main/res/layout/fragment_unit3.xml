@@ -903,6 +903,13 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/u3styleText78a"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
 
             <TextView
                 android:layout_width="wrap_content"
@@ -1033,10 +1040,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
                 android:text="@string/u3styleText95"
                 android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -2068,69 +2074,84 @@
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center">
+                    android:layout_marginTop="@dimen/padding8"
+                    android:gravity="center">
+
+                    <Spinner
+                        android:id="@+id/unit3SpinListening1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="200dp" />
 
                     <TextView
-                        android:layout_width="200dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/u3styleText170" />
 
-                    <Spinner
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"
-                        android:minWidth="100dp" />
+
                 </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center">
+                    android:layout_marginTop="@dimen/padding8"
+                    android:gravity="center">
+                    <Spinner
+                        android:id="@+id/unit3SpinListening2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="200dp" />
 
                     <TextView
-                        android:layout_width="200dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/u3styleText171" />
 
-                    <Spinner
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"
-                        android:minWidth="100dp" />
+
                 </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center">
+                    android:layout_marginTop="@dimen/padding8"
+                    android:gravity="center">
+
+                    <Spinner
+                        android:id="@+id/unit3SpinListening3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="200dp" />
 
                     <TextView
-                        android:layout_width="200dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/u3styleText172" />
 
-                    <Spinner
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"
-                        android:minWidth="100dp" />
+
                 </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_gravity="center">
-
-                    <TextView
-                        android:layout_width="200dp"
-                        android:layout_height="wrap_content"
-                        android:text="@string/u3styleText173" />
+                    android:layout_marginTop="@dimen/padding8"
+                    android:gravity="center">
 
                     <Spinner
+                        android:id="@+id/unit3SpinListening4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/spin4"
-                        android:minWidth="100dp" />
+                        android:minWidth="200dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/u3styleText173" />
+
+
                 </TableRow>
 
 

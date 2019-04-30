@@ -244,6 +244,7 @@
                     android:text="1."
                     android:textSize="@dimen/h2"
                     android:textStyle="bold" />
+
                 <EditText
                     android:id="@+id/unit2EdtWarmUp1"
                     android:layout_width="match_parent"
@@ -266,6 +267,7 @@
                     android:text="2."
                     android:textSize="@dimen/h2"
                     android:textStyle="bold" />
+
                 <EditText
                     android:id="@+id/unit2EdtWarmUp2"
                     android:layout_width="match_parent"
@@ -288,6 +290,7 @@
                     android:text="3."
                     android:textSize="@dimen/h2"
                     android:textStyle="bold" />
+
                 <EditText
                     android:id="@+id/unit2EdtWarmUp3"
                     android:layout_width="match_parent"
@@ -310,6 +313,7 @@
                     android:text="4."
                     android:textSize="@dimen/h2"
                     android:textStyle="bold" />
+
                 <EditText
                     android:id="@+id/unit2EdtWarmUp4"
                     android:layout_width="match_parent"
@@ -332,6 +336,7 @@
                     android:text="5."
                     android:textSize="@dimen/h2"
                     android:textStyle="bold" />
+
                 <EditText
                     android:id="@+id/unit2EdtWarmUp5"
                     android:layout_width="match_parent"
@@ -354,6 +359,7 @@
                     android:text="6."
                     android:textSize="@dimen/h2"
                     android:textStyle="bold" />
+
                 <EditText
                     android:id="@+id/unit2EdtWarmUp6"
                     android:layout_width="match_parent"
@@ -376,6 +382,7 @@
                     android:text="7."
                     android:textSize="@dimen/h2"
                     android:textStyle="bold" />
+
                 <EditText
                     android:id="@+id/unit2EdtWarmUp7"
                     android:layout_width="match_parent"
@@ -398,6 +405,7 @@
                     android:text="8."
                     android:textSize="@dimen/h2"
                     android:textStyle="bold" />
+
                 <EditText
                     android:id="@+id/unit2EdtWarmUp8"
                     android:layout_width="match_parent"
@@ -420,6 +428,7 @@
                     android:text="9."
                     android:textSize="@dimen/h2"
                     android:textStyle="bold" />
+
                 <EditText
                     android:id="@+id/unit2EdtWarmUp9"
                     android:layout_width="match_parent"
@@ -793,7 +802,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="@string/styleText147"
+                android:text="@string/styleText40a"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -801,7 +810,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="@string/styleText148"
+                android:text="@string/styleText40b"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -989,7 +998,7 @@
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/styleText59"
                 android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textStyle="normal" />
 
             <RadioGroup
                 android:id="@+id/unit2RdgPractice1"
@@ -1024,7 +1033,7 @@
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/styleText63"
                 android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textStyle="normal" />
 
             <RadioGroup
                 android:id="@+id/unit2RdgPractice2"
@@ -1059,7 +1068,7 @@
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/styleText67"
                 android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textStyle="normal" />
 
             <RadioGroup
                 android:id="@+id/unit2RdgPractice3"
@@ -1094,7 +1103,7 @@
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/styleText71"
                 android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textStyle="normal" />
 
             <RadioGroup
                 android:id="@+id/unit2RdgPractice4"
@@ -1129,7 +1138,7 @@
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/styleText75"
                 android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textStyle="normal" />
 
             <RadioGroup
                 android:id="@+id/unit2RdgPractice5"
@@ -1164,7 +1173,7 @@
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/styleText79"
                 android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textStyle="normal" />
 
             <RadioGroup
                 android:id="@+id/unit2RdgPractice6"
@@ -1199,7 +1208,7 @@
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/styleText83"
                 android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textStyle="normal" />
 
             <RadioGroup
                 android:id="@+id/unit2RdgPractice7"
@@ -1234,7 +1243,7 @@
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/styleText87"
                 android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textStyle="normal" />
 
             <RadioGroup
                 android:id="@+id/unit2RdgPractice8"
@@ -1265,25 +1274,34 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/padding8"
+                android:layout_marginTop="@dimen/padding"
                 android:text="@string/styleText91"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding4"
+                    android:layout_marginBottom="@dimen/padding4"
+                    android:text="@string/styleText91a"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="150dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit211" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
-                android:text="@string/styleText92"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
 
             <!--9.-->
             <LinearLayout
@@ -1904,7 +1922,6 @@
                 android:text="@string/stringEndLine"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
 
 
         </LinearLayout>
