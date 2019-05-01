@@ -21,7 +21,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Unit 2"
+                android:text="@string/u2styleText1"
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
@@ -29,7 +29,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Computer Architecture"
+                android:text="@string/u2styleText2"
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
@@ -38,14 +38,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="Objective"
+                android:text="@string/u2styleText3"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="At the end of this unit, students are able to understand the architecture and operation of computer system"
+                android:text="@string/u2styleText4"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -54,7 +54,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Warm-up"
+                android:text="@string/u2styleText5"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -62,7 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/padding8"
-                android:text="1. Look at the pictures and name these different types of devices. Then match the possible users below to each type. Justify your choice."
+                android:text="@string/u2styleText6"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -88,7 +88,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="1. student using a computer for entertainment with travelling." />
+                        android:text="@string/u2styleText7" />
 
                     <Spinner
                         android:id="@+id/unit2SpinnerWarmUp1"
@@ -106,7 +106,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="2. large company processing payroll data." />
+                        android:text="@string/u2styleText8" />
 
                     <Spinner
                         android:id="@+id/unit2SpinnerWarmUp2"
@@ -124,7 +124,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="3. travelling salesperson giving marketing presentations" />
+                        android:text="@string/u2styleText9" />
 
                     <Spinner
                         android:id="@+id/unit2SpinnerWarmUp3"
@@ -142,7 +142,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="4. large scientific organization processing work on nuclear research" />
+                        android:text="@string/u2styleText10" />
 
                     <Spinner
                         android:id="@+id/unit2SpinnerWarmUp4"
@@ -160,7 +160,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="5. businessperson keeping in touch with clients while travelling" />
+                        android:text="@string/u2styleText11" />
 
                     <Spinner
                         android:id="@+id/unit2SpinnerWarmUp5"
@@ -178,7 +178,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="6. graphic designer" />
+                        android:text="@string/u2styleText12" />
 
                     <Spinner
                         android:id="@+id/unit2SpinnerWarmUp6"
@@ -196,7 +196,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="7. secretary doing general office work" />
+                        android:text="@string/u2styleText13" />
 
                     <Spinner
                         android:id="@+id/unit2SpinnerWarmUp7"
@@ -214,7 +214,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="2. Label the parts of computer"
+                android:text="@string/u2styleText14"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 

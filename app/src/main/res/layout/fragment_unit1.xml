@@ -20,7 +20,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Unit 1"
+                android:text="@string/u1styleText1"
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
@@ -28,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Computer Users"
+                android:text="@string/u1styleText2"
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
@@ -36,7 +36,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Objective"
+                android:text="@string/u1styleText3"
                 android:layout_marginTop="16dp"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
@@ -44,7 +44,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="At the end of this unit, students are able to describe the components of a computer."
+                android:text="@string/u1styleText4"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -52,7 +52,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Warm-up"
+                android:text="@string/u1styleText5"
                 android:textSize="@dimen/h2"
                 android:layout_marginTop="@dimen/padding"
                 android:textStyle="bold" />
@@ -60,14 +60,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1. What is a computer?"
+                android:text="@string/u1styleText6"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="A computer is an electronic device, operating under the control of instruction stored in its own memory, that can accept data, process the data according to specified rules, produce results, and store the results for the future use."
+                android:text="@string/u1styleText7"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -76,14 +76,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="2. How do you use computers in your free time?"
+                android:text="@string/u1styleText8"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rearrange the important by typing 1-3."
+                android:text="@string/u1styleText9"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -111,7 +111,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="3. What are the components of a computer?"
+                android:text="@string/u1styleText10"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -119,21 +119,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="Hint:"
+                android:text="@string/u1styleText11"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Example: D[ ]sp[ ]ay monitor"
+                android:text="@string/u1styleText12"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Type: Display"
+                android:text="@string/u1styleText13"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -141,7 +141,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="1) I[ ]p[ ]t devices"
+                android:text="@string/u1styleText14"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -157,7 +157,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="2) O[ ][ ]p[ ]t devices"
+                android:text="@string/u1styleText15"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -171,7 +171,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="3) S[ ][ ]t[ ][ ] unit "
+                android:text="@string/u1styleText16"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -185,7 +185,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="4) St[ ][ ][ ][ ]e devices "
+                android:text="@string/u1styleText17"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -199,7 +199,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5) Com[ ][ ]ni[ ][ ]ti[ ][ ] devices "
+                android:text="@string/u1styleText18"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -214,7 +214,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Presentation"
+                android:text="@string/u1styleText19"
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
@@ -223,7 +223,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="What is a computer?"
+                android:text="@string/u1styleText20"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -231,7 +231,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="A computer is an electronic machine which can accept data in a certain form, process the data, and give the results of the processing in a specified format as information."
+                android:text="@string/u1styleText21"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -239,7 +239,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="First, data is fed into the computer’s memory. Then when the program is run, the computer performs a set of instructions and processes the data. Finally, we can see the results (the output) on the screen or in printed form (see Fig below)"
+                android:text="@string/u1styleText22"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -247,7 +247,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="A computer system consists of two parts: hardware and software."
+                android:text="@string/u1styleText23"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -255,7 +255,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="@string/styleText1"
+                android:text="@string/u1styleText24"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -263,7 +263,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="@string/styleText2"
+                android:text="@string/u1styleText25"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -271,7 +271,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="@string/styleText3"
+                android:text="@string/u1styleText26"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -287,14 +287,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="The components of a computer"
+                android:text="@string/u1styleText27"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="are Input devices, Output devices, System unit, Storage devices and Communication devices."
+                android:text="@string/u1styleText28"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -303,14 +303,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Input"
+                android:text="@string/u1styleText29"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="is any data and instruction entered into the memory of a computer. As shown in Figure below, people have a variety of options for entering data and instructions into a computer."
+                android:text="@string/u1styleText30"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -333,21 +333,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Output Devices"
+                android:text="@string/u1styleText31"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="An output device is any hardware component that conveys information to one or more people. Three commonly used output devices are a printer, a monitor and speakers."
+                android:text="@string/u1styleText32"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="A printer produces text and graphics on a physical medium such as paper. A monitor displays text, graphics, and videos on a screen. Speakers allow you to hear music, voice and other audio (sounds)"
+                android:text="@string/u1styleText33"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -363,21 +363,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="System Unit"
+                android:text="@string/u1styleText34"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="The system unit is a cast that contains the electronic components of the computer that are used to process data. The circuitry of the system unit usually is part of or is connected to a circuit board called the motherboard."
+                android:text="@string/u1styleText35"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Two main components on the motherboard are the processor and memory: The process also called a CPU ( central processing unit) , is the electronic component that interprets and carries out the basic instructions that operate the computer. Memory consisted of electronic component, most memory keeps data and instructions temporarily, which means its contents are erased when the computer is shut off.)"
+                android:text="@string/u1styleText36"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -386,21 +386,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Storage Devices"
+                android:text="@string/u1styleText37"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Storage holds data, instructions, and information for future use. For example, computers can store hundred or millions of customer names and address. Storage holds these items permanently."
+                android:text="@string/u1styleText38"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="A computer keeps data, instructions, and information on storage media. Examples of storage media are USB flash drives, hard disks, optical discs, and memory cards. A storage device records (writes( and / or retrieves (reads) items to and from storage media. Drives and readers/ writers, which are ty0es of storage devices."
+                android:text="@string/u1styleText39"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -416,21 +416,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Communication devices"
+                android:text="@string/u1styleText40"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="A communication device is a hardware component that enables a computer to sent (transmit) and receive data, instructions, and information to and from one or more computers or mobile devices. A widely used communications device is a modern."
+                android:text="@string/u1styleText41"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Communications occur over cables, telephone lines, cellular radio networks, satellites and other transmission media. Some transmission media such as satellites and cellular radio networks, are wireless, which means they have no physical lines or wires."
+                android:text="@string/u1styleText42"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -453,7 +453,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="1. What are the components of a computer?"
+                android:text="@string/u1styleText43"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -498,7 +498,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="2. What does CPU stand for?"
+                android:text="@string/u1styleText44"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -513,25 +513,25 @@
                     android:id="@+id/radA"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a.Central Processing Unity" />
+                    android:text="@string/u1styleText45" />
 
                 <RadioButton
                     android:id="@+id/radB"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b.Central Processing United" />
+                    android:text="@string/u1styleText46" />
 
                 <RadioButton
                     android:id="@+id/radC"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c.Central Processing Unit" />
+                    android:text="@string/u1styleText47" />
 
                 <RadioButton
                     android:id="@+id/radD"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d.Central Programming Unit" />
+                    android:text="@string/u1styleText48" />
             </RadioGroup>
             <!--Match these words (1-9) with the correct meanings (a-d)-->
             <!--New practice add-in-->
@@ -539,14 +539,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Match these words (1-9) with the correct meanings (a-d)"
+                android:text="@string/u1styleText49"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <!--software-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1.software"
+                android:text="@string/u1styleText50"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -561,7 +561,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2.peripherals"
+                android:text="@string/u1styleText51"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -576,7 +576,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="3.main memory"
+                android:text="@string/u1styleText52"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -591,7 +591,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="4.hard drive (also known as hard disk)"
+                android:text="@string/u1styleText53"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -606,7 +606,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5.Hardware"
+                android:text="@string/u1styleText54"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -621,7 +621,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="6.Ports"
+                android:text="@string/u1styleText55"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -636,7 +636,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="7.Output"
+                android:text="@string/u1styleText56"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -651,7 +651,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="8.Central processing unit (CPU)"
+                android:text="@string/u1styleText57"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -670,7 +670,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="3. Match the names of digital devices with the pictures."
+                android:text="@string/u1styleText58"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1180,7 +1180,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="4. Read the sentences and choose true or false"
+                android:text="@string/u1styleText59"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <!--4.1.A keyboard is an output device.-->
@@ -1188,7 +1188,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="1.A keyboard is an output device."
+                android:text="@string/u1styleText60"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1204,13 +1204,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u1styleText66"  />
 
                 <RadioButton
                     android:id="@+id/unit1RbPractice01False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u1styleText67" />
             </RadioGroup>
 
             <!--4.2.Touch screen is an input device.-->
@@ -1218,7 +1218,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="2.Touch screen is an input device."
+                android:text="@string/u1styleText61"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1234,13 +1234,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u1styleText66" />
 
                 <RadioButton
                     android:id="@+id/unit1RbPractice02False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u1styleText67" />
             </RadioGroup>
 
             <!--4.3.A printer is an output device.-->
@@ -1248,7 +1248,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="3.A printer is an output device."
+                android:text="@string/u1styleText62"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1264,20 +1264,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u1styleText66"  />
 
                 <RadioButton
                     android:id="@+id/unit1RbPractice03False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u1styleText67" />
             </RadioGroup>
             <!--4.4.An external hard disk is a storage device.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="4.An external hard disk is a storage device."
+                android:text="@string/u1styleText63"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1293,13 +1293,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u1styleText66" />
 
                 <RadioButton
                     android:id="@+id/unit1RbPractice04False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u1styleText67" />
             </RadioGroup>
 
             <!--4.5.A memorycards are a storage device.-->
@@ -1307,7 +1307,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="5.A memorycards are a storage device."
+                android:text="@string/u1styleText64"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1323,13 +1323,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u1styleText66" />
 
                 <RadioButton
                     android:id="@+id/unit1RbPractice05False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u1styleText67" />
             </RadioGroup>
 
             <!--Listening-->
@@ -1337,7 +1337,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="@dimen/padding"
-                android:text="Listening"
+                android:text="@string/u1styleText68"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1345,7 +1345,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingTop="@dimen/padding"
-                android:text="Listen and complete the table how they use computers."
+                android:text="@string/u1styleText69"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1353,12 +1353,12 @@
                 android:id="@+id/playMedia1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Play media1" />
+                android:text="@string/u1styleText70" />
             <!--Anda, age 8, spinner-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Anda, age 8"
+                android:text="@string/u1styleText71"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1379,7 +1379,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="A primary school teacher"
+                android:text="@string/u1styleText72"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1400,7 +1400,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="A university student"
+                android:text="@string/u1styleText73"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1421,7 +1421,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="An artist"
+                android:text="@string/u1styleText74"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1443,7 +1443,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Language work"
+                android:text="@string/u1styleText75"
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
             <!--Wh-question-The simple present tense-->
@@ -1451,7 +1451,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Wh-question-The simple present tense"
+                android:text="@string/u1styleText76"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <!--Form:-->
@@ -1459,14 +1459,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Form:"
+                android:text="@string/u1styleText77"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <!--Whquestion word.....-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Whquestion word (what, when...) + do / does + Subject (I, you, we...) + verb +others"
+                android:text="@string/u1styleText78"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1476,7 +1476,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:layout_marginBottom="@dimen/padding"
-                android:text="Structure: Wh-question-The simple present tense"
+                android:text="@string/u1styleText79"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1496,7 +1496,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="Wh word"
+                        android:text="@string/u1styleText80"
                         android:textAlignment="center"
                         android:textStyle="bold" />
 
@@ -1504,7 +1504,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="AUX"
+                        android:text="@string/u1styleText81"
                         android:textAlignment="center"
                         android:textStyle="bold" />
 
@@ -1512,7 +1512,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="Subject"
+                        android:text="@string/u1styleText82"
                         android:textAlignment="center"
                         android:textStyle="bold" />
 
@@ -1520,14 +1520,14 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="Verb"
+                        android:text="@string/u1styleText83"
                         android:textAlignment="center"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Other"
+                        android:text="@string/u1styleText84"
                         android:textAlignment="center"
                         android:textStyle="bold" />
                 </TableRow>
@@ -1542,7 +1542,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="Where"
+                        android:text="@string/u1styleText85"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1551,7 +1551,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingRight="0dp"
-                        android:text="do"
+                        android:text="@string/u1styleText86"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1560,7 +1560,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingRight="0dp"
-                        android:text="you"
+                        android:text="@string/u1styleText87"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1569,7 +1569,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingRight="0dp"
-                        android:text="go"
+                        android:text="@string/u1styleText88"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1578,7 +1578,7 @@
                         android:layout_height="wrap_content"
                         android:paddingLeft="0dp"
                         android:paddingRight="0dp"
-                        android:text="to?"
+                        android:text="@string/u1styleText89"
                         android:textAlignment="center"
                         android:textStyle="normal" />
                 </TableRow>
@@ -1593,7 +1593,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="What"
+                        android:text="@string/u1styleText90"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1602,7 +1602,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingRight="0dp"
-                        android:text="does"
+                        android:text="@string/u1styleText91"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1611,7 +1611,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingRight="0dp"
-                        android:text="she"
+                        android:text="@string/u1styleText92"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1620,7 +1620,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingRight="0dp"
-                        android:text="watch"
+                        android:text="@string/u1styleText93"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1629,7 +1629,7 @@
                         android:layout_height="wrap_content"
                         android:paddingLeft="0dp"
                         android:paddingRight="0dp"
-                        android:text="on TV?"
+                        android:text="@string/u1styleText94"
                         android:textAlignment="center"
                         android:textStyle="normal" />
                 </TableRow>
@@ -1644,7 +1644,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="When"
+                        android:text="@string/u1styleText95"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1653,7 +1653,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingRight="0dp"
-                        android:text="does"
+                        android:text="@string/u1styleText96"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1662,7 +1662,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingRight="0dp"
-                        android:text="Mike"
+                        android:text="@string/u1styleText97"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1671,7 +1671,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingRight="0dp"
-                        android:text="leave"
+                        android:text="@string/u1styleText98"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1680,7 +1680,7 @@
                         android:layout_height="wrap_content"
                         android:paddingLeft="0dp"
                         android:paddingRight="0dp"
-                        android:text="school?"
+                        android:text="@string/u1styleText99"
                         android:textAlignment="center"
                         android:textStyle="normal" />
                 </TableRow>
@@ -1695,7 +1695,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="Who"
+                        android:text="@string/u1styleText100"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1704,7 +1704,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingRight="0dp"
-                        android:text="do"
+                        android:text="@string/u1styleText101"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1713,7 +1713,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingRight="0dp"
-                        android:text="you"
+                        android:text="@string/u1styleText102"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1722,7 +1722,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingRight="0dp"
-                        android:text="like"
+                        android:text="@string/u1styleText103"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1731,7 +1731,7 @@
                         android:layout_height="wrap_content"
                         android:paddingLeft="0dp"
                         android:paddingRight="0dp"
-                        android:text="much?"
+                        android:text="@string/u1styleText104"
                         android:textAlignment="center"
                         android:textStyle="normal" />
                 </TableRow>
@@ -1746,7 +1746,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="Why"
+                        android:text="@string/u1styleText105"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1755,7 +1755,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingRight="0dp"
-                        android:text="does"
+                        android:text="@string/u1styleText106"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1764,7 +1764,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingRight="0dp"
-                        android:text="he"
+                        android:text="@string/u1styleText107"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1773,7 +1773,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingRight="0dp"
-                        android:text="say"
+                        android:text="@string/u1styleText108"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1782,7 +1782,7 @@
                         android:layout_height="wrap_content"
                         android:paddingLeft="0dp"
                         android:paddingRight="0dp"
-                        android:text="that?"
+                        android:text="@string/u1styleText109"
                         android:textAlignment="center"
                         android:textStyle="normal" />
                 </TableRow>
@@ -1798,7 +1798,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingRight="0dp"
-                        android:text="How"
+                        android:text="@string/u1styleText110"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1807,7 +1807,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingRight="0dp"
-                        android:text="do"
+                        android:text="@string/u1styleText111"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1816,7 +1816,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingRight="0dp"
-                        android:text="we"
+                        android:text="@string/u1styleText112"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1825,7 +1825,7 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingRight="0dp"
-                        android:text="reach"
+                        android:text="@string/u1styleText113"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -1834,7 +1834,7 @@
                         android:layout_height="wrap_content"
                         android:paddingLeft="0dp"
                         android:paddingRight="0dp"
-                        android:text="him?"
+                        android:text="@string/u1styleText114"
                         android:textAlignment="center"
                         android:textStyle="normal" />
                 </TableRow>
@@ -1847,7 +1847,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="These whquestion words areat the beginning of the sentence. After them, we use auxiary verb and subject.We don't use yes or no in the answer."
+                android:text="@string/u1styleText115"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1855,7 +1855,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Example Sentences:"
+                android:text="@string/u1styleText116"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1864,21 +1864,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="'Where' question asks for the place:"
+                android:text="@string/u1styleText117"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Where does she live? --> She lives in New York."
+                android:text="@string/u1styleText118"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Where do you meet your friends? --> I meet them at the school."
+                android:text="@string/u1styleText119"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1887,21 +1887,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="'What' question asks for information about something:"
+                android:text="@string/u1styleText120"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="What do you like eating most? --> I like eating fruits most."
+                android:text="@string/u1styleText121"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="What do you read? --> I read funny books."
+                android:text="@string/u1styleText122"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1910,21 +1910,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="'When' question asks for information about time:"
+                android:text="@string/u1styleText123"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="When do you meet your father? --> I meet him at 9."
+                android:text="@string/u1styleText124"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="When does she come home? --> She comes home late."
+                android:text="@string/u1styleText125"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1933,7 +1933,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Language work: Practice"
+                android:text="@string/u1styleText126"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1941,7 +1941,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Order these questions to the right form of wh-question-The present simple tense to appropriate with answers."
+                android:text="@string/u1styleText127"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1950,7 +1950,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Hint:"
+                android:text="@string/u1styleText128"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1958,7 +1958,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="Example: she, come, home, When, does, ?"
+                android:text="@string/u1styleText129"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1966,14 +1966,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="Correct: When does she come home?"
+                android:text="@string/u1styleText130"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Answer: She comes home late."
+                android:text="@string/u1styleText131"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1982,7 +1982,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="1) you, computer, your, use, in,do,How, free time,?"
+                android:text="@string/u1styleText132"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1996,7 +1996,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Answer: I usually use my computer to listen to music and watch a movie."
+                android:text="@string/u1styleText133"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2004,7 +2004,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="2) play, you, do, How often, computer game, ?"
+                android:text="@string/u1styleText134"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2018,7 +2018,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Answer: I sometimes play computer game."
+                android:text="@string/u1styleText135"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2026,7 +2026,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="3) does, What, CPU, for, ?, stand"
+                android:text="@string/u1styleText136"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2040,7 +2040,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Answer: It stands for central processing unit."
+                android:text="@string/u1styleText137"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2048,7 +2048,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="4) Where, do, you, use, ?, usually, a computer "
+                android:text="@string/u1styleText138"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2062,7 +2062,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Answer: I usually use a computer at computer center."
+                android:text="@string/u1styleText139"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2070,7 +2070,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="5) do, What, you, ?, do"
+                android:text="@string/u1styleText140"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2084,7 +2084,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Answer: I’m a university student."
+                android:text="@string/u1styleText141"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2094,7 +2094,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Specialist Reading"
+                android:text="@string/u1styleText142"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -2102,7 +2102,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="The ability of tiny computing devices to control complex operations has transformed the way many tasks are performed, ranging from scientific research to producing consumer products. Tiny 'computers on a chip' are used in medical equipment, home appliances, cars and toys. Workers use handheld computing devices to collect data at a customer site, to generate forms, to control inventory, and to serve as desktop organizers."
+                android:text="@string/u1styleText143"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2110,7 +2110,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="Not only is computing equipment getting smaller, it is getting more sophisticated. Computers are part of many machines and devices that once required continual human supervision and control. Today, computers in security systems result in safer environments, computers in cars improve energy efficiency, and computers in phones provide features such as call forwarding, call monitoring, and20call answering."
+                android:text="@string/u1styleText144"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2118,7 +2118,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="These smart machines are designed to take over some of the basic tasks previously performed by people; by so doing, they make life a little easier and a little more pleasant."
+                android:text="@string/u1styleText145"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2126,7 +2126,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="Smart cards store vital information such as health records, drivers' licenses, bank balances, and so on. Smart phones, cars, and appliances with built in computers can be programmed to better meet individual needs. A smart house has a built-in monitoring system that can turn lights on and off, open and close windows, operate the oven, and more."
+                android:text="@string/u1styleText146"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2134,7 +2134,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="With small computing devices available for performing smart tasks like cooking dinner, programming the DVD recorder, and controlling the flow of information in an organization, people are able to spend more time doing what they often do best -being creative. Computers can help people work more creatively."
+                android:text="@string/u1styleText147"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2142,7 +2142,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="Multimedia systems are known for their educational and entertainment value, which we call 'edutainment'. Multimedia combines text with sound, video, animation, and graphics, which greatly enhances the interaction between user and machine and can make information more interesting and appealing to people. Expert systems software enables"
+                android:text="@string/u1styleText148"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2150,7 +2150,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="computers to 'think' like experts. Medical diagnosis expert systems, for example, can help doctors pinpoint a patient's illness, suggest further tests, and prescribe appropriate drugs."
+                android:text="@string/u1styleText149"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2158,7 +2158,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="Connectivity enables computers and software that might otherwise be incompatible to communicate and to share resources. Now that computers are proliferating in many areas and networks are available for people to access data and communicate with others, personal computers are becoming interpersonal PCs. They have the potential to significantly improve the way we relate to each other. Many people today telecommute -that is, use their computers to stay in touch 65 with the office while they are working at home. With the proper tools, hospital staff can get a diagnosis from a medical expert hundreds or thousands of miles away. Similarly, the disabled can communicate more 70 effectively with others using computers."
+                android:text="@string/u1styleText150"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2166,7 +2166,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="Distance learning and videoconferencing are concepts made possible with the use of an electronic classroom or boardroom accessible to people in remote locations. Vast databases 75 of information are currently available to users of the Internet, all of whom can send mail messages to each other. The information superhighway is designed to significantly expand this interactive connectivity so that 80 people all over the world will have free access to all these resources."
+                android:text="@string/u1styleText151"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2174,7 +2174,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="People power is critical to ensuring that hardware, software, and connectivity are effectively integrated in a socially responsible 85 way. People -computer users and computer professionals -are the ones who will decide which hardware, software, and networks endure and how great an impact they will have on our lives. Ultimately people power must be exercised to ensure that computers are used not only efficiently but in a socially responsible way."
+                android:text="@string/u1styleText152"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2183,7 +2183,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="A: Find the answers to these questions in the following text."
+                android:text="@string/u1styleText153"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -2192,7 +2192,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="1. Name some types of devices that use 'computers on a chip'"
+                android:text="@string/u1styleText154"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2225,7 +2225,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="2. Which is not the use of handheld computers are mentioned in the text?"
+                android:text="@string/u1styleText155"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2240,25 +2240,25 @@
                     android:id="@+id/unit1RbReading1A"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a.To collect data at a customer site" />
+                    android:text="@string/u1styleText156" />
 
                 <RadioButton
                     android:id="@+id/unit1RbReading1B"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b.To generate forms" />
+                    android:text="@string/u1styleText157" />
 
                 <RadioButton
                     android:id="@+id/unit1RbReading1C"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c.To control inventory" />
+                    android:text="@string/u1styleText158" />
 
                 <RadioButton
                     android:id="@+id/unit1RbReading1D"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d.To control pets in the house" />
+                    android:text="@string/u1styleText159" />
             </RadioGroup>
 
             <!--3. What are smart cards used for?-->
@@ -2266,7 +2266,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="3. What are smart cards used for?"
+                android:text="@string/u1styleText160"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2281,25 +2281,25 @@
                     android:id="@+id/unit1RbReading2A"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a.To store vital information" />
+                    android:text="@string/u1styleText161" />
 
                 <RadioButton
                     android:id="@+id/unit1RbReading2B"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b.To save money" />
+                    android:text="@string/u1styleText162" />
 
                 <RadioButton
                     android:id="@+id/unit1RbReading2C"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c.To write programs" />
+                    android:text="@string/u1styleText163" />
 
                 <RadioButton
                     android:id="@+id/unit1RbReading2D"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d.To build cars" />
+                    android:text="@string/u1styleText164" />
             </RadioGroup>
 
             <!--4: What are the benefits of using computers with the following item?-->
@@ -2307,7 +2307,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="4: What are the benefits of using computers with the following item?"
+                android:text="@string/u1styleText165"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2315,7 +2315,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/padding"
-                android:text="1. Security system"
+                android:text="@string/u1styleText166"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2323,7 +2323,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/padding"
-                android:text="2. Cars"
+                android:text="@string/u1styleText167"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2331,7 +2331,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/padding"
-                android:text="3. Phones"
+                android:text="@string/u1styleText168"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2346,19 +2346,19 @@
                     android:id="@+id/unit1RbReading3A"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a.Call forwarding, call monitoring, and call answering" />
+                    android:text="@string/u1styleText169" />
 
                 <RadioButton
                     android:id="@+id/unit1RbReading3B"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b.Improve energy efficiency" />
+                    android:text="@string/u1styleText170" />
 
                 <RadioButton
                     android:id="@+id/unit1RbReading3C"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c.Safer environment" />
+                    android:text="@string/u1styleText171" />
             </RadioGroup>
 
             <!--B: Re-read the text to find the answers to these question.-->
@@ -2366,7 +2366,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="B: Re-read the text to find the answers to these question."
+                android:text="@string/u1styleText172"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -2374,7 +2374,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/padding"
-                android:text="Edutainment, Multimedia,"
+                android:text="@string/u1styleText173"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2382,7 +2382,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/padding"
-                android:text="Expert system, Telecommute,"
+                android:text="@string/u1styleText174"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2390,7 +2390,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/padding"
-                android:text="Information Superhighway"
+                android:text="@string/u1styleText175"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2399,7 +2399,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="1. Multimedia materials with a combination of educational and entertainment context."
+                android:text="@string/u1styleText176"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2414,7 +2414,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2. A combination of text with sound, video, animation, and graphics."
+                android:text="@string/u1styleText177"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2429,7 +2429,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="3. Use computer to stay in touch with the office while working at home."
+                android:text="@string/u1styleText178"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2444,7 +2444,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="4. Software that enables computers to “think” like experts"
+                android:text="@string/u1styleText179"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2459,7 +2459,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5. Internet system designed to provide free interactive access to vast resources for people all over the world."
+                android:text="@string/u1styleText180"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2475,7 +2475,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="Choose the following statements as True or False."
+                android:text="@string/u1styleText181"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -2484,7 +2484,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="1. Computers in security systems result in safer environment."
+                android:text="@string/u1styleText182"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2500,13 +2500,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u1styleText66" />
 
                 <RadioButton
                     android:id="@+id/unit1RbReading4False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u1styleText67" />
             </RadioGroup>
 
             <!--2 .Computers in cars improve energy efficiency-->
@@ -2514,7 +2514,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="2 .Computers in cars improve energy efficiency"
+                android:text="@string/u1styleText183"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2530,13 +2530,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u1styleText66" />
 
                 <RadioButton
                     android:id="@+id/unit1RbReading5False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u1styleText67" />
             </RadioGroup>
 
             <!--3. Smart cards store vital information.-->
@@ -2544,7 +2544,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="3. Smart cards store vital information."
+                android:text="@string/u1styleText184"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2560,13 +2560,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u1styleText66" />
 
                 <RadioButton
                     android:id="@+id/unit1RbReading6False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u1styleText67" />
             </RadioGroup>
 
             <!--4. Smart cards are able to use for turning on and off the lights,-->
@@ -2574,7 +2574,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="4. Smart cards are able to use for turning on and off the lights,"
+                android:text="@string/u1styleText185"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2590,13 +2590,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u1styleText66" />
 
                 <RadioButton
                     android:id="@+id/unit1RbReading7False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u1styleText67" />
             </RadioGroup>
 
             <!--5. Multimedia combines text with sound, video, animation and graphics are called videoconferencing-->
@@ -2604,7 +2604,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="5. Multimedia combines text with sound, video, animation and graphics are called videoconferencing"
+                android:text="@string/u1styleText186"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2620,13 +2620,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u1styleText66" />
 
                 <RadioButton
                     android:id="@+id/unit1RbReading8False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u1styleText67" />
             </RadioGroup>
 
             <!--6. A built-in monitoring system has been used in a smart car.-->
@@ -2634,7 +2634,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="6. A built-in monitoring system has been used in a smart car."
+                android:text="@string/u1styleText187"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2650,13 +2650,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u1styleText66"/>
 
                 <RadioButton
                     android:id="@+id/unit1RbReading9False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u1styleText67" />
             </RadioGroup>
 
             <!--7. Expert systems can help doctors pinpoints a patient’s illness.-->
@@ -2664,7 +2664,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="7. Expert systems can help doctors pinpoints a patient’s illness."
+                android:text="@string/u1styleText188"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2680,13 +2680,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u1styleText66" />
 
                 <RadioButton
                     android:id="@+id/unit1RbReading10False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u1styleText67"/>
             </RadioGroup>
 
             <!--8. Telecommute is using computers to stay in touch with the office while working at home.-->
@@ -2694,7 +2694,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="8. Telecommute is using computers to stay in touch with the office while working at home."
+                android:text="@string/u1styleText189"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2710,13 +2710,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u1styleText66" />
 
                 <RadioButton
                     android:id="@+id/unit1RbReading11False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u1styleText67" />
             </RadioGroup>
 
             <!--9. Telecommute can be used of an electronic classroom or boardroom accessible.-->
@@ -2724,7 +2724,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="9. Telecommute can be used of an electronic classroom or boardroom accessible."
+                android:text="@string/u1styleText190"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2740,13 +2740,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u1styleText66" />
 
                 <RadioButton
                     android:id="@+id/unit1RbReading12False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u1styleText67" />
             </RadioGroup>
 
             <!--10. Vast data bases can help the people in remote location-->
@@ -2754,7 +2754,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="10. Vast data bases can help the people in remote location"
+                android:text="@string/u1styleText191"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2770,14 +2770,22 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u1styleText66" />
 
                 <RadioButton
                     android:id="@+id/unit1RbReading13False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u1styleText67" />
             </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="@string/stringEndLine"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
 
 
         </LinearLayout>
