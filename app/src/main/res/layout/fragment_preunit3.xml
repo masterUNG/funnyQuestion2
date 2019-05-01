@@ -20,7 +20,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Pre-test"
+                android:text="@string/preUnit3styleText1"
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
@@ -28,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Unit 3"
+                android:text="@string/preUnit3styleText2"
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
@@ -36,7 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Computer Applications"
+                android:text="@string/preUnit3styleText3"
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
@@ -44,7 +44,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Direction: Choose the best answer."
+                android:text="@string/preUnit3styleText4"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -53,7 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="1. ……………. is mass-produced, copyrighted retail software that meets the need of a wide variety of users, not just a single user or company."
+                android:text="@string/preUnit3styleText5"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <RadioGroup
@@ -67,25 +67,25 @@
                     android:id="@+id/preunit3RbPractice1a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a. Packaged software"/>
+                    android:text="@string/preUnit3styleText6"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice1b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b. A Web application"/>
+                    android:text="@string/preUnit3styleText7"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice1c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c. Open source software" />
+                    android:text="@string/preUnit3styleText8" />
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice1d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d. Custom software" />
+                    android:text="@string/preUnit3styleText9" />
             </RadioGroup>
 
             <!--2. ………………….. is a collection of individual programs available together as a unit.-->
@@ -93,7 +93,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="2. ………………….. is a collection of individual programs available together as a unit."
+                android:text="@string/preUnit3styleText10"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <RadioGroup
@@ -107,25 +107,25 @@
                     android:id="@+id/preunit3RbPractice2a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a. Shareware"/>
+                    android:text="@string/preUnit3styleText11"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice2b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b. A software suite"/>
+                    android:text="@string/preUnit3styleText12"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice2c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c. Packaged software" />
+                    android:text="@string/preUnit3styleText13" />
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice2d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d. Custom software" />
+                    android:text="@string/preUnit3styleText14" />
             </RadioGroup>
 
             <!--3. ………………… software provides a means for sharing, distributing, and searching through documents by converting them into a format that can be viewed by any user.-->
@@ -133,7 +133,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="3. ………………… software provides a means for sharing, distributing, and searching through documents by converting them into a format that can be viewed by any user."
+                android:text="@string/preUnit3styleText15"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <RadioGroup
@@ -147,25 +147,25 @@
                     android:id="@+id/preunit3RbPractice3a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a. Word processing"/>
+                    android:text="@string/preUnit3styleText16"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice3b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b. Document management"/>
+                    android:text="@string/preUnit3styleText17"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice3c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c. Portable Document Format (PDF)" />
+                    android:text="@string/preUnit3styleText18" />
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice3d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d. Database" />
+                    android:text="@string/preUnit3styleText19" />
             </RadioGroup>
 
             <!--4. ……………………allows a user to plan, schedule, track, and analyze the events, resources, and costs of a project.-->
@@ -173,7 +173,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="4. ……………………allows a user to plan, schedule, track, and analyze the events, resources, and costs of a project."
+                android:text="@string/preUnit3styleText20"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <RadioGroup
@@ -187,25 +187,25 @@
                     android:id="@+id/preunit3RbPractice4a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a. Document management software"/>
+                    android:text="@string/preUnit3styleText21"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice4b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b. Accounting software"/>
+                    android:text="@string/preUnit3styleText22"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice4c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c. Project management software" />
+                    android:text="@string/preUnit3styleText23" />
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice4d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d. CAD software" />
+                    android:text="@string/preUnit3styleText24" />
             </RadioGroup>
 
             <!--5. A(n)………………… is an online area where users have written discussions.-->
@@ -213,7 +213,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="5. A(n)………………… is an online area where users have written discussions."
+                android:text="@string/preUnit3styleText25"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <RadioGroup
@@ -227,25 +227,25 @@
                     android:id="@+id/preunit3RbPractice5a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a. FTP Program"/>
+                    android:text="@string/preUnit3styleText26"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice5b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b. Web browser"/>
+                    android:text="@string/preUnit3styleText27"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice5c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c. text message" />
+                    android:text="@string/preUnit3styleText28" />
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice5d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d. Newsgroup/ message board" />
+                    android:text="@string/preUnit3styleText29" />
             </RadioGroup>
 
             <!--6. …………………… is the electronic equivalent of a user manual.-->
@@ -253,7 +253,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="6. …………………… is the electronic equivalent of a user manual."
+                android:text="@string/preUnit3styleText30"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <RadioGroup
@@ -267,25 +267,25 @@
                     android:id="@+id/preunit3RbPractice6a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a.Online Help"/>
+                    android:text="@string/preUnit3styleText31"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice6b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b.Web-based training"/>
+                    android:text="@string/preUnit3styleText32"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice6c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c.E-learning" />
+                    android:text="@string/preUnit3styleText33" />
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice6d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d.Distance learning" />
+                    android:text="@string/preUnit3styleText34" />
             </RadioGroup>
 
             <!--7. With ……………., you can view, organize, sort, catalog, print and share digital photos.-->
@@ -293,7 +293,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="7. With ……………., you can view, organize, sort, catalog, print and share digital photos."
+                android:text="@string/preUnit3styleText35"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <RadioGroup
@@ -307,25 +307,25 @@
                     android:id="@+id/preunit3RbPractice7a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a. desktop publishing software"/>
+                    android:text="@string/preUnit3styleText36"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice7b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b. clip art"/>
+                    android:text="@string/preUnit3styleText37"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice7c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c. Photo management software" />
+                    android:text="@string/preUnit3styleText38" />
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice7d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d. Spreadsheet software" />
+                    android:text="@string/preUnit3styleText39" />
             </RadioGroup>
 
             <!--8. ……………….helps home and small business users create newsletters, brochures, advertisements, postcards, greeting cards, letterhead, business cards, banners, calendars, logos, and Web pages.-->
@@ -333,7 +333,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="8. ……………….helps home and small business users create newsletters, brochures, advertisements, postcards, greeting cards, letterhead, business cards, banners, calendars, logos, and Web pages."
+                android:text="@string/preUnit3styleText40"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <RadioGroup
@@ -347,25 +347,25 @@
                     android:id="@+id/preunit3RbPractice8a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a. Note taking software"/>
+                    android:text="@string/preUnit3styleText41"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice8b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b. Personal DTP software"/>
+                    android:text="@string/preUnit3styleText42"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice8c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c. Blog ware" />
+                    android:text="@string/preUnit3styleText43" />
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice8d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d. A personal information manager" />
+                    android:text="@string/preUnit3styleText44" />
             </RadioGroup>
 
             <!--9. ……………… software is available to the public at no cost.-->
@@ -373,7 +373,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="9. ………………… software is available to the public at no cost."
+                android:text="@string/preUnit3styleText45"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <RadioGroup
@@ -387,25 +387,25 @@
                     android:id="@+id/preunit3RbPractice9a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a. Packaged"/>
+                    android:text="@string/preUnit3styleText46"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice9b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b. Custom"/>
+                    android:text="@string/preUnit3styleText47"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice9c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c. Open source" />
+                    android:text="@string/preUnit3styleText48" />
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice9d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d. Public-domain" />
+                    android:text="@string/preUnit3styleText49" />
             </RadioGroup>
 
             <!--10. Some …………………….is considered system software because it works with hardware and transmission media.-->
@@ -413,7 +413,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="10. Some …………………….is considered system software because it works with hardware and transmission media."
+                android:text="@string/preUnit3styleText50"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <RadioGroup
@@ -427,25 +427,25 @@
                     android:id="@+id/preunit3RbPractice10a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a. communication software"/>
+                    android:text="@string/preUnit3styleText51"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice10b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b. business software"/>
+                    android:text="@string/preUnit3styleText52"/>
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice10c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c. application software" />
+                    android:text="@string/preUnit3styleText53" />
 
                 <RadioButton
                     android:id="@+id/preunit3RbPractice10d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d. project management software" />
+                    android:text="@string/preUnit3styleText54" />
             </RadioGroup>
 
             <TextView
@@ -454,7 +454,7 @@
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/stringEndLine"
                 android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textStyle="normal" />
         </LinearLayout>
     </ScrollView>
 

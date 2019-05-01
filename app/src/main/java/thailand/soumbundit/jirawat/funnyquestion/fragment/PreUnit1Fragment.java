@@ -255,7 +255,7 @@ public class PreUnit1Fragment extends Fragment {
         builder.setIcon(R.drawable.ic_action_alert);
         builder.setTitle("Pre-test Unit1 Score");
 
-        strings[0] = "You got: " + pretestScoreString +"/10";
+        strings[0] = "You got: " + pretestScoreString +"% of Score";
         builder.setItems(strings, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
@@ -279,6 +279,8 @@ public class PreUnit1Fragment extends Fragment {
         int scoreInt = 0;
         scoreInt += checkScoreChioce();
         scoreInt += checkScoreSpinner();
+        scoreInt = scoreInt*10;
+
         pretestScoreString = Integer.toString(scoreInt);
     }
 

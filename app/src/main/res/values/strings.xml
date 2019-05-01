@@ -6,13 +6,21 @@
 
     <string name="open">Open Drawer</string>
     <string name="close">Close Drawer</string>
-<!--unit1-->
     <string name="stringEndLine">\n\n\n</string>
+<!--unit1-->
+
+
+
+
+
+
+
     <string name="styleText1"><b>Hardware</b> is any electronic or mechanical part you can see or touch.</string>
     <string name="styleText2"><b>Software</b> is a set of instructions, called a program, which tells the computer what to do.</string>
     <string name="styleText3"><b>Software</b> There are three basic hardware sections: <b>the central processing unit ( CPU)</b>, <b>main memory</b> and <b>peripherals</b>. Perhaps the most influential component is the central processing unit. Its function is to program instructions and coordinate the activities of all the other units. I a way, it is the “brain off the computer. The main memory ( a collection of RAM chips) holds the instructions and data which are being processed by the CPU. Peripherals are the physical units attracted to the computer. The include storage devices and input/ output devices.</string>
 
     <!--unit2-->
+
     <string name="styleText4"><b>Direction:</b>Match the words with pictures.</string>
     <string name="styleText5"><b>The control unit</b> examines the instructions in the user’s program, in the user’s program, interprets each instruction and causes the circuits and the rest of the components-monitor disk drivers, etc-to execute the functions specified.</string>
     <string name="styleText6"><b>The arithmetic logic unit (ALU)</b>  performs mathematical calculations (+, -, etc) and logical operations (AND, OR, NOT)</string>
@@ -355,6 +363,175 @@
     <string name="u3styleText197b">2. Colin .......</string>
     <string name="u3styleText197a">1. Tony .......</string>
     <string name="u3styleText197f">Nan ........</string>
+
+
+    <!--pre unit1-->
+    <string name="preUnit1styleText1">Pre-test</string>
+    <string name="preUnit1styleText2">Unit 1</string>
+    <string name="preUnit1styleText3">Computer Users</string>
+    <string name="preUnit1styleText4">Direction: Choose the best answer.</string>
+    <string name="preUnit1styleText5">1. What is a computer?</string>
+    <string name="preUnit1styleText6">a. It’s an appliance device which can accept data in a certain form, process the data and give the results of the processing.</string>
+    <string name="preUnit1styleText7">b. It’s an electronic device which can accept data in a certain form, process the data and give the results of the processing.</string>
+    <string name="preUnit1styleText8">c. It’s a motorized device that processes output into input.</string>
+    <string name="preUnit1styleText9">d. It’s a storage device records writes and retrieves reads items to and from storage media.</string>
+    <string name="preUnit1styleText10">2. What does CPU stand for?</string>
+    <string name="preUnit1styleText11">a. Central Processing Unity</string>
+    <string name="preUnit1styleText12">b. Central Processing United</string>
+    <string name="preUnit1styleText13">c. Central Processing Unit</string>
+    <string name="preUnit1styleText14">d. Central Programming Unit</string>
+    <string name="preUnit1styleText15">3. An ……………… device is any hardware component that allows you to enter data and instructions into a computer.</string>
+    <string name="preUnit1styleText16">a. input</string>
+    <string name="preUnit1styleText17">b. output</string>
+    <string name="preUnit1styleText18">c. electronic</string>
+    <string name="preUnit1styleText19">d. external</string>
+    <string name="preUnit1styleText20">4. Three commonly used ………………… device are a printer, a monitor, and speakers.</string>
+    <string name="preUnit1styleText21">a. input</string>
+    <string name="preUnit1styleText22">b. output</string>
+    <string name="preUnit1styleText23">c. electronic</string>
+    <string name="preUnit1styleText24">d. external</string>
+    <string name="preUnit1styleText25">5. ……………… is any electronic or mechanical part you can see or touch.</string>
+    <string name="preUnit1styleText26">a. Software</string>
+    <string name="preUnit1styleText27">b. Hardware</string>
+    <string name="preUnit1styleText28">c. Storage device</string>
+    <string name="preUnit1styleText29">d. Speaker</string>
+    <string name="preUnit1styleText30">6. Which are the components of a computer?</string>
+    <string name="preUnit1styleText31">a. Input devices, Output devices, System unit, Storage devices and Communication devices.</string>
+    <string name="preUnit1styleText32">b. Input devices, Output devices, System unit, Storage devices and External devices.</string>
+    <string name="preUnit1styleText33">c. Input devices, Output devices, System unit, Storage devices and Control devices.</string>
+    <string name="preUnit1styleText34">d. Input devices, Output devices, Stem unit, Storage devices and Communication devices.</string>
+    <string name="preUnit1styleText35">7. Which are input devices?</string>
+    <string name="preUnit1styleText36">a. speakers, printers and monitor</string>
+    <string name="preUnit1styleText37">b. card reader, USB flash drive and memory cards</string>
+    <string name="preUnit1styleText38">c. microphone, modem and external hard disk</string>
+    <string name="preUnit1styleText39">d. scanners, keyboards and mouse</string>
+    <string name="preUnit1styleText40">8. Which is not an output device?</string>
+    <string name="preUnit1styleText41">a. A printer</string>
+    <string name="preUnit1styleText42">b. A speaker</string>
+    <string name="preUnit1styleText43">c. A monitor</string>
+    <string name="preUnit1styleText44">d. A keyboard</string>
+    <string name="preUnit1styleText45">9. Which is not a storage device?</string>
+    <string name="preUnit1styleText46">a. A memory card</string>
+    <string name="preUnit1styleText47">b. A hard disk drive</string>
+    <string name="preUnit1styleText48">c. A scanner</string>
+    <string name="preUnit1styleText49">d. An external hard disk</string>
+    <string name="preUnit1styleText50">10. Describe this diagram by using given words.</string>
+    <string name="preUnit1styleText51">Peripherals</string>
+    <string name="preUnit1styleText52">Input devices</string>
+    <string name="preUnit1styleText53">Output devices</string>
+    <string name="preUnit1styleText54">Storage media</string>
+
+    <!--pre unit2-->
+    <string name="preUnit2styleText1">Pre-test</string>
+    <string name="preUnit2styleText2">Unit 2</string>
+    <string name="preUnit2styleText3">Computer Architecture</string>
+    <string name="preUnit2styleText4">Direction: Choose the best answer.</string>
+    <string name="preUnit2styleText5">1. What are the main parts of the CPU?</string>
+    <string name="preUnit2styleText6">a. Hardware and software</string>
+    <string name="preUnit2styleText7">b. Keyboard output devices</string>
+    <string name="preUnit2styleText8">c. Storage devices</string>
+    <string name="preUnit2styleText9">d. Hard disks</string>
+    <string name="preUnit2styleText10">2. What does ALU stand for?</string>
+    <string name="preUnit2styleText11">a. Architecture Logic Unit</string>
+    <string name="preUnit2styleText12">b. Arithmetic Logic Unit</string>
+    <string name="preUnit2styleText13">c. Artificial Logic Unit</string>
+    <string name="preUnit2styleText14">d. Arithmetic Login Unit</string>
+    <string name="preUnit2styleText15">3. What does ALU do?</string>
+    <string name="preUnit2styleText16">a. To store information</string>
+    <string name="preUnit2styleText17">b. To control data</string>
+    <string name="preUnit2styleText18">c. To perform mathematical calculations</string>
+    <string name="preUnit2styleText19">d. To feed information</string>
+    <string name="preUnit2styleText20">5. What type of memory is temporary?</string>
+    <string name="preUnit2styleText21">a. RAM</string>
+    <string name="preUnit2styleText22">b. ROM</string>
+    <string name="preUnit2styleText23">c. Cards</string>
+    <string name="preUnit2styleText24">d. BIOS</string>
+    <string name="preUnit2styleText25">6. What type of memory is permanent and includes instructions needed by the CPU?</string>
+    <string name="preUnit2styleText26">a. Ram</string>
+    <string name="preUnit2styleText27">b. ROM</string>
+    <string name="preUnit2styleText28">c. Cards</string>
+    <string name="preUnit2styleText29">d. BIOS</string>
+    <string name="preUnit2styleText30">7. If you want to change the capital letters permanently, what should you do?</string>
+    <string name="preUnit2styleText31">a. Press the caps lock key</string>
+    <string name="preUnit2styleText32">b. Press the tab key</string>
+    <string name="preUnit2styleText33">c. Press the alt key</string>
+    <string name="preUnit2styleText34">d. Press the shift key</string>
+    <string name="preUnit2styleText35">8. If you want to change to capital letter, what should you do?</string>
+    <string name="preUnit2styleText36">a. Press the caps lock key</string>
+    <string name="preUnit2styleText37">b. Press the tab key</string>
+    <string name="preUnit2styleText38">c. Press the alt key</string>
+    <string name="preUnit2styleText39">d. Press the shift key</string>
+    <string name="preUnit2styleText40">9. ........ appears to the right of the main keyboard. The NumLock key is used to switch from numbers to editing keys.</string>
+    <string name="preUnit2styleText41">a.Cursor control key</string>
+    <string name="preUnit2styleText42">b.Alphanumeric key</string>
+    <string name="preUnit2styleText43">c.Function key</string>
+    <string name="preUnit2styleText44">d.A numeric keypad</string>
+    <string name="preUnit2styleText45">10. What do you call the mouse which doesn\'t have a ball?</string>
+    <string name="preUnit2styleText46">a. An optical mouse</string>
+    <string name="preUnit2styleText47">b. An option mouse</string>
+    <string name="preUnit2styleText48">c. An alternative mouse</string>
+    <string name="preUnit2styleText49">d. An alphabet mouse</string>
+
+
+
+    <!--pre unit3-->
+    <string name="preUnit3styleText1">Pre-test</string>
+    <string name="preUnit3styleText2">Unit 3</string>
+    <string name="preUnit3styleText3">Computer Applications</string>
+    <string name="preUnit3styleText4">Direction: Choose the best answer.</string>
+    <string name="preUnit3styleText5">1. ……………. is mass-produced, copyrighted retail software that meets the need of a wide variety of users, not just a single user or company.</string>
+    <string name="preUnit3styleText6">a. Packaged software</string>
+    <string name="preUnit3styleText7">b. A Web application</string>
+    <string name="preUnit3styleText8">c. Open source software</string>
+    <string name="preUnit3styleText9">d. Custom software</string>
+    <string name="preUnit3styleText10">2. ………………….. is a collection of individual programs available together as a unit.</string>
+    <string name="preUnit3styleText11">a. Shareware</string>
+    <string name="preUnit3styleText12">b. A software suite</string>
+    <string name="preUnit3styleText13">c. Packaged software</string>
+    <string name="preUnit3styleText14">d. Custom software</string>
+    <string name="preUnit3styleText15">3. ………………… software provides a means for sharing, distributing, and searching through documents by converting them into a format that can be viewed by any user.</string>
+    <string name="preUnit3styleText16">a. Word processing</string>
+    <string name="preUnit3styleText17">b. Document management</string>
+    <string name="preUnit3styleText18">c. Portable Document Format (PDF)</string>
+    <string name="preUnit3styleText19">d. Database</string>
+    <string name="preUnit3styleText20">4. ……………………allows a user to plan, schedule, track, and analyze the events, resources, and costs of a project.</string>
+    <string name="preUnit3styleText21">a. Document management software</string>
+    <string name="preUnit3styleText22">b. Accounting software</string>
+    <string name="preUnit3styleText23">c. Project management software</string>
+    <string name="preUnit3styleText24">d. CAD software</string>
+    <string name="preUnit3styleText25">5. A(n)………………… is an online area where users have written discussions.</string>
+    <string name="preUnit3styleText26">a. FTP Program</string>
+    <string name="preUnit3styleText27">b. Web browser</string>
+    <string name="preUnit3styleText28">c. text message</string>
+    <string name="preUnit3styleText29">d. Newsgroup/ message board</string>
+    <string name="preUnit3styleText30">6. …………………… is the electronic equivalent of a user manual.</string>
+    <string name="preUnit3styleText31">a. Online Help</string>
+    <string name="preUnit3styleText32">b. Web-based training</string>
+    <string name="preUnit3styleText33">c. E-learning</string>
+    <string name="preUnit3styleText34">d. Distance learning</string>
+    <string name="preUnit3styleText35">7. With ……………., you can view, organize, sort, catalog, print and share digital photos.</string>
+    <string name="preUnit3styleText36">a. desktop publishing software</string>
+    <string name="preUnit3styleText37">b. clip art</string>
+    <string name="preUnit3styleText38">c. Photo management software</string>
+    <string name="preUnit3styleText39">d. Spreadsheet software</string>
+    <string name="preUnit3styleText40">8. ……………….helps home and small business users create newsletters, brochures, advertisements, postcards, greeting cards, letterhead, business cards, banners, calendars, logos, and Web pages.</string>
+    <string name="preUnit3styleText41">a. Note taking software</string>
+    <string name="preUnit3styleText42">b. Personal DTP software</string>
+    <string name="preUnit3styleText43">c. Blog ware</string>
+    <string name="preUnit3styleText44">d. A personal information manager</string>
+    <string name="preUnit3styleText45">9. ………………… software is available to the public at no cost.</string>
+    <string name="preUnit3styleText46">a. Packaged</string>
+    <string name="preUnit3styleText47">b. Custom</string>
+    <string name="preUnit3styleText48">c. Open source</string>
+    <string name="preUnit3styleText49">d. Public-domain</string>
+    <string name="preUnit3styleText50">10. Some …………………….is considered system software because it works with hardware and transmission media.</string>
+    <string name="preUnit3styleText51">a. communication software</string>
+    <string name="preUnit3styleText52">b. business software</string>
+    <string name="preUnit3styleText53">c. application software</string>
+    <string name="preUnit3styleText54">d. project management software</string>
+
+
+
 
 
 </resources>

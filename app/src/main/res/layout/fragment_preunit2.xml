@@ -20,7 +20,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Pre-test"
+                android:text="@string/preUnit2styleText1"
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
@@ -28,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Unit 2"
+                android:text="@string/preUnit2styleText2"
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
@@ -36,7 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Computer Architecture"
+                android:text="@string/preUnit2styleText3"
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
@@ -44,7 +44,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Direction: Choose the best answer."
+                android:text="@string/preUnit2styleText4"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -53,7 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="1. What are the main parts of the CPU?"
+                android:text="@string/preUnit2styleText5"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <RadioGroup
@@ -67,24 +67,24 @@
                     android:id="@+id/preunit2RbPractice1a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a.Hardware and software"/>
+                    android:text="@string/preUnit2styleText6"/>
 
                 <RadioButton
                     android:id="@+id/preunit2RbPractice1b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b.Keyboard output devices"/>
+                    android:text="@string/preUnit2styleText7"/>
                 <RadioButton
                     android:id="@+id/preunit2RbPractice1c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c.Storage devices" />
+                    android:text="@string/preUnit2styleText8" />
 
                 <RadioButton
                     android:id="@+id/preunit2RbPractice1d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d.Hard disks" />
+                    android:text="@string/preUnit2styleText9" />
             </RadioGroup>
 
             <!--2. What does ALU stand for?-->
@@ -92,7 +92,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="2. What does ALU stand for?"
+                android:text="@string/preUnit2styleText10"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <RadioGroup
@@ -106,22 +106,22 @@
                     android:id="@+id/preunit2RbPractice2a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a. Architecture Logic Unit"/>
+                    android:text="@string/preUnit2styleText11"/>
                 <RadioButton
                     android:id="@+id/preunit2RbPractice2b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b. Arithmetic Logic Unit"/>
+                    android:text="@string/preUnit2styleText12"/>
                 <RadioButton
                     android:id="@+id/preunit2RbPractice2c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c. Artificial Logic Unit" />
+                    android:text="@string/preUnit2styleText13" />
                 <RadioButton
                     android:id="@+id/preunit2RbPractice2d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d. Arithmetic Login Unit" />
+                    android:text="@string/preUnit2styleText14" />
             </RadioGroup>
 
             <!--3. What does ALU do?-->
@@ -129,7 +129,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="3. What does ALU do?"
+                android:text="@string/preUnit2styleText15"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <RadioGroup
@@ -143,22 +143,22 @@
                     android:id="@+id/preunit2RbPractice3a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a. To store information"/>
+                    android:text="@string/preUnit2styleText16"/>
                 <RadioButton
                     android:id="@+id/preunit2RbPractice3b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b. To control data"/>
+                    android:text="@string/preUnit2styleText17"/>
                 <RadioButton
                     android:id="@+id/preunit2RbPractice3c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c. To perform mathematical calculations" />
+                    android:text="@string/preUnit2styleText18" />
                 <RadioButton
                     android:id="@+id/preunit2RbPractice3d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d. To feed information" />
+                    android:text="@string/preUnit2styleText19" />
             </RadioGroup>
 
             <!--5. What type of memory is temporary?-->
@@ -166,7 +166,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="5. What type of memory is temporary?"
+                android:text="@string/preUnit2styleText20"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <RadioGroup
@@ -180,22 +180,22 @@
                     android:id="@+id/preunit2RbPractice5a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a.RAM"/>
+                    android:text="@string/preUnit2styleText21"/>
                 <RadioButton
                     android:id="@+id/preunit2RbPractice5b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b.ROM"/>
+                    android:text="@string/preUnit2styleText22"/>
                 <RadioButton
                     android:id="@+id/preunit2RbPractice5c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c.Cards" />
+                    android:text="@string/preUnit2styleText23" />
                 <RadioButton
                     android:id="@+id/preunit2RbPractice5d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d.BIOS" />
+                    android:text="@string/preUnit2styleText24" />
             </RadioGroup>
 
             <!--6. What type of memory is permanent and includes instructions needed by the CPU?-->
@@ -203,7 +203,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="6. What type of memory is permanent and includes instructions needed by the CPU?"
+                android:text="@string/preUnit2styleText25"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <RadioGroup
@@ -217,22 +217,22 @@
                     android:id="@+id/preunit2RbPractice6a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a.Ram"/>
+                    android:text="@string/preUnit2styleText26"/>
                 <RadioButton
                     android:id="@+id/preunit2RbPractice6b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b.ROM"/>
+                    android:text="@string/preUnit2styleText27"/>
                 <RadioButton
                     android:id="@+id/preunit2RbPractice6c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c.Cards" />
+                    android:text="@string/preUnit2styleText28" />
                 <RadioButton
                     android:id="@+id/preunit2RbPractice6d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d.BIOS" />
+                    android:text="@string/preUnit2styleText29" />
             </RadioGroup>
 
             <!--7. If you want to change the capital letters permanently, what should you do?-->
@@ -240,7 +240,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="7. If you want to change the capital letters permanently, what should you do?"
+                android:text="@string/preUnit2styleText30"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <RadioGroup
@@ -254,22 +254,22 @@
                     android:id="@+id/preunit2RbPractice7a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a. Press the caps lock key"/>
+                    android:text="@string/preUnit2styleText31"/>
                 <RadioButton
                     android:id="@+id/preunit2RbPractice7b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b. Press the tab key"/>
+                    android:text="@string/preUnit2styleText32"/>
                 <RadioButton
                     android:id="@+id/preunit2RbPractice7c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c. Press the alt key" />
+                    android:text="@string/preUnit2styleText33" />
                 <RadioButton
                     android:id="@+id/preunit2RbPractice7d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d. Press the shift key" />
+                    android:text="@string/preUnit2styleText34" />
             </RadioGroup>
 
             <!--8. If you want to change to capital letter, what should you do?-->
@@ -277,7 +277,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="8. If you want to change to capital letter, what should you do?"
+                android:text="@string/preUnit2styleText35"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <RadioGroup
@@ -291,22 +291,22 @@
                     android:id="@+id/preunit2RbPractice8a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a. Press the caps lock key"/>
+                    android:text="@string/preUnit2styleText36"/>
                 <RadioButton
                     android:id="@+id/preunit2RbPractice8b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b. Press the tab key"/>
+                    android:text="@string/preUnit2styleText37"/>
                 <RadioButton
                     android:id="@+id/preunit2RbPractice8c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c. Press the alt key" />
+                    android:text="@string/preUnit2styleText38" />
                 <RadioButton
                     android:id="@+id/preunit2RbPractice8d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d. Press the shift key" />
+                    android:text="@string/preUnit2styleText39" />
             </RadioGroup>
 
             <!--9. ........ appears to the right of the main keyboard. The NumLock key is used to switch from numbers to editing keys.-->
@@ -314,7 +314,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="9. ........ appears to the right of the main keyboard. The NumLock key is used to switch from numbers to editing keys."
+                android:text="@string/preUnit2styleText40"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <RadioGroup
@@ -328,22 +328,22 @@
                     android:id="@+id/preunit2RbPractice9a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a.Cursor control key"/>
+                    android:text="@string/preUnit2styleText41"/>
                 <RadioButton
                     android:id="@+id/preunit2RbPractice9b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b.Alphanumeric key"/>
+                    android:text="@string/preUnit2styleText42"/>
                 <RadioButton
                     android:id="@+id/preunit2RbPractice9c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c.Function key" />
+                    android:text="@string/preUnit2styleText43" />
                 <RadioButton
                     android:id="@+id/preunit2RbPractice9d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d.A numeric keypad" />
+                    android:text="@string/preUnit2styleText44" />
             </RadioGroup>
 
             <!--10. What do you call the mouse which doesn't have a ball?-->
@@ -351,7 +351,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="10. What do you call the mouse which doesn't have a ball?"
+                android:text="@string/preUnit2styleText45"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <RadioGroup
@@ -365,27 +365,30 @@
                     android:id="@+id/preunit2RbPractice10a"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a.An optical mouse"/>
+                    android:text="@string/preUnit2styleText46"/>
                 <RadioButton
                     android:id="@+id/preunit2RbPractice10b"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b.An option mouse"/>
+                    android:text="@string/preUnit2styleText47"/>
                 <RadioButton
                     android:id="@+id/preunit2RbPractice10c"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="c.An alternative mouse" />
+                    android:text="@string/preUnit2styleText48" />
                 <RadioButton
                     android:id="@+id/preunit2RbPractice10d"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="d.An alphabet mouse" />
+                    android:text="@string/preUnit2styleText49" />
             </RadioGroup>
 
-
-
-
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stringEndLine"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
 
 
         </LinearLayout>
