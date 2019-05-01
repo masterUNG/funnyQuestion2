@@ -29,7 +29,7 @@ public class Unit1Fragment extends Fragment {
     //    Explicit
     private MyConstant myConstant = new MyConstant();
     private MediaPlayer mediaPlayer1;
-    private String uidString, nameUnitString, timeTestString, warmUpString, presentString = "non", practiseString;
+    private String uidString, nameUnitString, timeTestString, warmUpString, practiseString, listeningString, languageString ,readingString;
     private String tag = "11NovV1";
     private String tag2 = "11NovV2";
     private int[] scoreWarmUpInts = new int[]{0, 0, 0};
@@ -155,31 +155,56 @@ public class Unit1Fragment extends Fragment {
     }
 
     public void processCheckScore() {
+        int scoreWarmUp = 0, scorePractice =0, scoreListening =0, scoreLanguage =0, scoreReading =0;
+        float calPercent;
+
         findTimeTest();
-        calculateWarmUp();
-        calculatePractise1();
-        calculatePractise2();
-        calculatePractice2a();
-        calculatePractise3();
-        calculatePractise4();
-        calculateListening1();
-        calculateLanguage1();
-        calculateReading1();
-        calculateReading2();
-        calculateReading3();
-        calculateReading4();
+        scoreWarmUp = calculateWarmUp();
+
+        scorePractice = calculatePractise1();
+        scorePractice += calculatePractice2();
+        scorePractice += calculatePractice2a();
+        scorePractice += calculatePractice3();
+        scorePractice += calculatePractice4();
+
+        scoreListening = calculateListening1();
+
+        scoreLanguage = calculateLanguage1();
+
+
+        scoreReading = calculateReading1();
+        scoreReading += calculateReading2();
+        scoreReading += calculateReading3();
+        scoreReading += calculateReading4();
+
+
+        calPercent = scoreWarmUp*100/3;
+        warmUpString = Float.toString(calPercent);
+
+        calPercent = scorePractice*100/39;
+        practiseString = Float.toString(calPercent);
+
+        calPercent = scoreListening*100/8;
+        listeningString = Float.toString(calPercent);
+
+        calPercent = scoreLanguage*100/5;
+        languageString = Float.toString(calPercent);
+
+        readingString = Integer.toString(scoreReading);
+
     }
 
-    private void calculatePractice2a() {
+    private int calculatePractice2a() {
         int sumScoreInt = 0;
         for (int i = 0; i < scorePractice2aInts.length; i += 1) {
             sumScoreInt += scorePractice2aInts[i];
         }
         Log.d(tag2, "scorePractice2a==>" + sumScoreInt);
+        return sumScoreInt;
     }
 
-    private void calculateReading4() {
-        int sumScoreInt = 0;
+    private int calculateReading4() {
+        int sumScore = 0;
 
         RadioButton rbAnswer1 = getView().findViewById(R.id.unit1RbReading4True);
         RadioButton rbAnswer2 = getView().findViewById(R.id.unit1RbReading5True);
@@ -192,48 +217,30 @@ public class Unit1Fragment extends Fragment {
         RadioButton rbAnswer9 = getView().findViewById(R.id.unit1RbReading12True);
         RadioButton rbAnswer10 = getView().findViewById(R.id.unit1RbReading13True);
 
-        if (rbAnswer1.isChecked()) {
-            sumScoreInt += 1;
-        }
-        if (rbAnswer2.isChecked()) {
-            sumScoreInt += 1;
-        }
-        if (rbAnswer3.isChecked()) {
-            sumScoreInt += 1;
-        }
-        if (rbAnswer4.isChecked()) {
-            sumScoreInt += 1;
-        }
-        if (rbAnswer5.isChecked()) {
-            sumScoreInt += 1;
-        }
-        if (rbAnswer6.isChecked()) {
-            sumScoreInt += 1;
-        }
-        if (rbAnswer7.isChecked()) {
-            sumScoreInt += 1;
-        }
-        if (rbAnswer8.isChecked()) {
-            sumScoreInt += 1;
-        }
-        if (rbAnswer9.isChecked()) {
-            sumScoreInt += 1;
-        }
-        if (rbAnswer10.isChecked()) {
-            sumScoreInt += 1;
-        }
-        Log.d(tag2, "scoreReading4 ==>" + sumScoreInt);
+        if (rbAnswer1.isChecked()) { sumScore += 1; }
+        if (rbAnswer2.isChecked()) { sumScore += 1; }
+        if (rbAnswer3.isChecked()) { sumScore += 1; }
+        if (rbAnswer4.isChecked()) { sumScore += 1; }
+        if (rbAnswer5.isChecked()) { sumScore += 1; }
+        if (rbAnswer6.isChecked()) { sumScore += 1; }
+        if (rbAnswer7.isChecked()) { sumScore += 1; }
+        if (rbAnswer8.isChecked()) { sumScore += 1; }
+        if (rbAnswer9.isChecked()) { sumScore += 1; }
+        if (rbAnswer10.isChecked()) { sumScore += 1; }
+        Log.d(tag2, "scoreReading4 ==>" + sumScore);
+        return sumScore;
     }
 
-    private void calculateReading3() {
+    private int calculateReading3() {
         int sumScoreReading3 = 0;
         for (int i = 0; i < scoreReading3Ints.length; i += 1) {
             sumScoreReading3 += scoreReading3Ints[i];
         }
         Log.d(tag2, "ScoreReading3 ==>" + sumScoreReading3);
+        return sumScoreReading3;
     }
 
-    private void calculateReading2() {
+    private int calculateReading2() {
         int sumScoreInt = 0;
         RadioButton rdAnswer1 = getView().findViewById(R.id.unit1RbReading1A);
         RadioButton rdAnswer2 = getView().findViewById(R.id.unit1RbReading2A);
@@ -250,10 +257,10 @@ public class Unit1Fragment extends Fragment {
         }
 
         Log.d(tag2, "scoreReading2 ==>" + sumScoreInt);
-
+        return sumScoreInt;
     }
 
-    private void calculateReading1() {
+    private int calculateReading1() {
         String[] trueAnswerString = myConstant.getReadingTrueString();
         String[] strings = new String[3];
         int sumScoreInt = 0;
@@ -275,9 +282,10 @@ public class Unit1Fragment extends Fragment {
             }
         }
         Log.d(tag2, "scoreReading1 ==>" + sumScoreInt);
+        return sumScoreInt;
     }
 
-    private void calculateLanguage1() {
+    private int calculateLanguage1() {
         String[] trueAnswerString = myConstant.getLanguageTrueString();
         String[] strings = new String[5];
         int sumScoreInt = 0;
@@ -300,19 +308,20 @@ public class Unit1Fragment extends Fragment {
                 sumScoreInt += 1;
             }
         }
-
         Log.d(tag2, "ScoreLanguage ==>" + sumScoreInt);
+        return sumScoreInt;
     }
 
-    private void calculateListening1() {
+    private int calculateListening1() {
         int sumScoreListening1 = 0;
         for (int i = 0; i < scoreListening1Ints.length; i += 1) {
             sumScoreListening1 += scoreListening1Ints[i];
         }
         Log.d(tag2, "ScoreListening ==>" + sumScoreListening1);
+        return sumScoreListening1;
     }//calculateListening1
 
-    private void calculatePractise4() {
+    private int calculatePractice4() {
 
         int scorePractise4Int = 0;
         RadioButton rbAnswer01 = getView().findViewById(R.id.unit1RbPractice01False);
@@ -337,26 +346,30 @@ public class Unit1Fragment extends Fragment {
             scorePractise4Int += 1;
         }
         Log.d(tag2, "scorePractise4 ==>" + scorePractise4Int);
+        return scorePractise4Int;
 
     }//calculatePractise4
 
-    private void calculatePractise3() {
+    private int calculatePractice3() {
         int sumScorePractise3 = 0;
         for (int i = 0; i < scorePractise3Ints.length; i += 1) {
             sumScorePractise3 = sumScorePractise3 + scorePractise3Ints[i];
         }
         Log.d(tag2, "scorePractise3 ==>" + sumScorePractise3);
-    }//calculatePractise3
+        return sumScorePractise3;
+    }//calculatePractice3
 
-    private void calculatePractise2() {
-
-        final int trueInt = R.id.radC; //Choice C is true
+    private int calculatePractice2() {
+        int sumScore = 0;
+        //final int trueInt = R.id.radC; //Choice C is true
         RadioButton rb_c = getView().findViewById(R.id.radC);
         if (rb_c.isChecked()) {
+            sumScore += 1;
             Log.d(tag2, "scorePractise2==>" + 1);
         } else {
             Log.d(tag2, "scorePractise2==>" + 0);
         }
+        return sumScore;
         //final RadioGroup radioGroup = getView().findViewById(R.id.ragCpuStand);
        /*
         final int[] ints = {0};
@@ -378,7 +391,7 @@ public class Unit1Fragment extends Fragment {
 
     }//calculatePractice2
 
-    private void calculatePractise1() {
+    private int calculatePractise1() {
         int scorePractise1Int = 0;
         String[] trueAnswerStrings = myConstant.getPractice1TrueString();
 
@@ -409,9 +422,10 @@ public class Unit1Fragment extends Fragment {
         } //for1
 
         Log.d(tag2, "scorePractise1 ==>" + scorePractise1Int);
+        return scorePractise1Int;
     } //CalculatePractise1
 
-    private void calculateWarmUp() {
+    private int calculateWarmUp() {
         int sumScoreInt = 0;
         for (int i = 0; i < scoreWarmUpInts.length; i += 1) {
             sumScoreInt = sumScoreInt + scoreWarmUpInts[i];
@@ -436,9 +450,8 @@ public class Unit1Fragment extends Fragment {
                 sumScoreInt += 1;
             }
         }//for1
-
-        warmUpString = Integer.toString(sumScoreInt);
         Log.d(tag, "warmUpString ==>" + warmUpString);
+        return sumScoreInt;
     } //CalculateWarmUp
 
     public void findTimeTest() {

@@ -28,7 +28,7 @@ public class Unit2Fragment extends Fragment {
 
     MyConstant myConstant = new MyConstant();
     MyConstantUnit2 myConstantUnit2 = new MyConstantUnit2();
-    private String uidString, nameUnitString, timeTestString, warmUpString, presentString = "non", practiseString;
+    private String uidString, nameUnitString, timeTestString, warmUpString,  practiseString, listeningString,languageString;
     int[] scoreWarmUp1Ints = {0, 0, 0, 0, 0, 0, 0};
     int[] scorePractice1Ints = {0, 0, 0, 0, 0, 0, 0, 0};
     private String tag = "11NovV1";
@@ -47,7 +47,7 @@ public class Unit2Fragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         findUidNameUnit();
-        findTimeTest();
+
 
         choiceWarmUpSpinner1();
         choiceWarmUpSpinner2();
@@ -89,7 +89,7 @@ public class Unit2Fragment extends Fragment {
         builder.setCancelable(false);
         builder.setIcon(R.drawable.ic_action_alert);
         builder.setTitle("Warning");
-        builder.setMessage("Need to Exit?");
+        builder.setMessage("Need to check answers?");
         builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
@@ -101,25 +101,78 @@ public class Unit2Fragment extends Fragment {
             public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();
                 processCheckScore();
+                myAlertDialog2();
+            }
+        });
+        builder.show();
+    }
+
+    private void myAlertDialog2() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        String[]strings = new String[8];
+        builder.setCancelable(false);
+        builder.setIcon(R.drawable.ic_action_alert);
+        builder.setTitle("Summary Unit2 Score");
+
+        strings[0] = "Warm-up section";
+        strings[1] = "You got: " + warmUpString +"% of Score\n";
+        strings[2] = "Practice section";
+        strings[3] = "You got: " + practiseString +"% of Score\n";
+        strings[4] = "Listening section";
+        strings[5] = "You got: " + listeningString +"% of Score\n";
+        strings[6] = "Language section";
+        strings[7] = "You got: " + languageString+"% of Score\n";
+
+
+
+
+        builder.setItems(strings, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+
+            }
+        });
+
+        //builder.setMessage("You got: " + pretestScoreString +"/10");
+
+        builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
             }
         });
         builder.show();
     }
 
     public void processCheckScore() {
-        calculateWarmUp1();
-        calculateWarmUp2();
-        calculatePractice1();
-        calculatePractice2();
-        calculatePractice3();
-        calculateListening1();
-        calculateLanguage1();
+        int scoreWarmUp = 0, scorePractice =0, scoreListening =0, scoreLanguage =0;
+        float calPercent;
+        findTimeTest();
 
+        scoreWarmUp = calculateWarmUp1();
+        scoreWarmUp += calculateWarmUp2();
+        scorePractice = calculatePractice1();
+        scorePractice += calculatePractice2();
+        scorePractice += calculatePractice3();
+        scoreListening = calculateListening1();
+        scoreLanguage = calculateLanguage1();
+
+        calPercent = scoreWarmUp * 100 / 15;
+        warmUpString = Float.toString(calPercent);
+
+        calPercent = scorePractice * 100 / 20;
+        practiseString = Float.toString(calPercent);
+
+        calPercent = scoreListening * 100 / 10;
+        listeningString = Float.toString(calPercent);
+
+        calPercent = scoreLanguage * 100 / 3;
+        languageString = Float.toString(calPercent);
     }
 
 
 
-    private void calculateLanguage1() {
+    private int calculateLanguage1() {
         int sumScore = 0;
         String string1, string2, string3;
         String[] trueAnswerStrings1 = myConstantUnit2.getAnswerLanguage1EditText();
@@ -150,10 +203,10 @@ public class Unit2Fragment extends Fragment {
             }
         }
         Log.d(tag2, "scoreLanguage==>" + sumScore);
-
+        return sumScore;
     }
 
-    private void calculateListening1() {
+    private int calculateListening1() {
         int sumScore = 0;
         String[] trueAnswerStrings = myConstantUnit2.getAnswerListening1EditText();
         String[] strings = new String[10];
@@ -186,19 +239,19 @@ public class Unit2Fragment extends Fragment {
             }
         }
         Log.d(tag2, "scoreListening==>" + sumScore);
-
-
+        return sumScore;
     }
 
-    private void calculatePractice3() {
+    private int calculatePractice3() {
         int sumScore = 0;
         for (int i = 0; i < scorePractice1Ints.length; i += 1) {
             sumScore += scorePractice1Ints[i];
         }
         Log.d(tag2, "scorePractice3==>" + sumScore);
+        return sumScore;
     }
 
-    private void calculatePractice2() {
+    private int calculatePractice2() {
         int sumScore = 0;
         String[] strings = new String[5];
         String[] trueAnswerStrings = myConstantUnit2.getAnswerPractice1EditText();
@@ -223,10 +276,10 @@ public class Unit2Fragment extends Fragment {
             }
         }
         Log.d(tag2, "scorePractice2=>" + sumScore);
-
+        return sumScore;
     }
 
-    private void calculatePractice1() {
+    private int calculatePractice1() {
         int sumScore = 0;
         RadioButton radioButton1 = getView().findViewById(R.id.unit2RbPractice1a);
         RadioButton radioButton2 = getView().findViewById(R.id.unit2RbPractice2b);
@@ -262,9 +315,10 @@ public class Unit2Fragment extends Fragment {
             sumScore += 1;
         }
         Log.d(tag2, "scorePractice1==>" + sumScore);
+        return sumScore;
     }
 
-    private void calculateWarmUp2() {
+    private int calculateWarmUp2() {
         int sumScore = 0;
         String[] strings =new String[9];
         String[] answerWarmUp2TrueStrings  = myConstantUnit2.getAnswerWarmUp2TrueStrings();
@@ -295,14 +349,16 @@ public class Unit2Fragment extends Fragment {
             }
         }
         Log.d(tag2, "scoreWarmUp2==>" + sumScore);
+        return sumScore;
     }
 
-    private void calculateWarmUp1() {
+    private int calculateWarmUp1() {
         int sumScore = 0;
         for (int i = 0; i < scoreWarmUp1Ints.length; i++) {
             sumScore += scoreWarmUp1Ints[i];
         }
         Log.d(tag2, "scoreWarmup==>" + sumScore);
+        return sumScore;
     }
 
 
