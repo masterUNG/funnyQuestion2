@@ -342,13 +342,19 @@
     <string name="u3styleText196">Look at the picture and make four sentences</string>
     <string name="u3styleText197">Example</string>
     <string name="u3styleText198">1. Wh-question sentence</string>
-    <string name="u3styleText199">What is Nan doing?</string>
+    <string name="u3styleText199">\t\t\tWhat is Nan doing?</string>
     <string name="u3styleText200">2. Interrogative sentence</string>
-    <string name="u3styleText201">Nan is playing computer games.</string>
+    <string name="u3styleText201">\t\t\tNan is playing computer games.</string>
     <string name="u3styleText202">3. Yes/ No question sentence</string>
-    <string name="u3styleText203">Is Nan playing computer games?</string>
+    <string name="u3styleText203">\t\t\tIs Nan playing computer games?</string>
     <string name="u3styleText204">4. Negative sentence</string>
-    <string name="u3styleText205">Nan isn’t playing computer games.</string>
+    <string name="u3styleText205">\t\t\tNan isn’t playing computer games.</string>
+    <string name="u3styleText197e">5. They .......</string>
+    <string name="u3styleText197d">4. Windy .......</string>
+    <string name="u3styleText197c">3. Emily .......</string>
+    <string name="u3styleText197b">2. Colin .......</string>
+    <string name="u3styleText197a">1. Tony .......</string>
+    <string name="u3styleText197f">Nan ........</string>
 
 
 </resources>

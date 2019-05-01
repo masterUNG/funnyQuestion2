@@ -34,7 +34,7 @@ public class Unit3Fragment extends Fragment {
     MyConstantUnit3 myConstantUnit3 = new MyConstantUnit3();
     private String uidString, nameUnitString, timeTestString, warmUpString, presentString = "non", practiseString;
     Integer[] positionPractice1Ints = {0, 0, 0, 0};
-    Integer[] positionPractice2Ints = {0, 0, 0, 0, 0,0};
+    Integer[] positionPractice2Ints = {0, 0, 0, 0, 0, 0};
     Integer[] positionPractice3Ints = {0, 0, 0, 0, 0, 0};
     Integer[] positionPractice4Ints = {0, 0, 0, 0, 0, 0};
     Integer[] positionPractice5Ints = {0, 0, 0, 0, 0, 0};
@@ -69,28 +69,28 @@ public class Unit3Fragment extends Fragment {
         choiceSpinnerPractice7();
         choiceSpinnerPractice8();
         choiceSpinnerPractice9();
-        choiceSpinnerPractice10();
+        //choiceSpinnerPractice10();
 
         choiceSpinnerPractice11();
         choiceSpinnerPractice12();
         choiceSpinnerPractice13();
         choiceSpinnerPractice14();
         choiceSpinnerPractice15();
-        choiceSpinnerPractice16();
+        //choiceSpinnerPractice16();
 
         choiceSpinnerPractice17();
         choiceSpinnerPractice18();
         choiceSpinnerPractice19();
         choiceSpinnerPractice20();
         choiceSpinnerPractice21();
-        choiceSpinnerPractice22();
+        //choiceSpinnerPractice22();
 
         choiceSpinnerPractice23();
         choiceSpinnerPractice24();
         choiceSpinnerPractice25();
         choiceSpinnerPractice26();
         choiceSpinnerPractice27();
-        choiceSpinnerPractice28();
+        //choiceSpinnerPractice28();
 
         choiceSpinnerListening1();
         choiceSpinnerListening2();
@@ -291,7 +291,7 @@ public class Unit3Fragment extends Fragment {
         });
 
     }
-
+/*
     public  void  choiceSpinnerPractice28() {
         String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
         Spinner spinner = getView().findViewById(R.id.unit3SpinPractice28);
@@ -309,7 +309,7 @@ public class Unit3Fragment extends Fragment {
             }
         });
 
-    }
+    }*/
 
     public  void  getPositionPractice4(int indexSpinner, int position){
         positionPractice4Ints[indexSpinner] = position;
@@ -409,7 +409,7 @@ public class Unit3Fragment extends Fragment {
         });
 
     }
-
+/*
     public  void  choiceSpinnerPractice22() {
         String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
         Spinner spinner = getView().findViewById(R.id.unit3SpinPractice22);
@@ -428,7 +428,7 @@ public class Unit3Fragment extends Fragment {
         });
 
     }
-
+*/
     public  void  getPositionPractice3(int indexSpinner, int position){
         positionPractice3Ints[indexSpinner] = position;
     }
@@ -528,6 +528,7 @@ public class Unit3Fragment extends Fragment {
 
     }
 
+    /*
     public  void  choiceSpinnerPractice16() {
         String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
         Spinner spinner = getView().findViewById(R.id.unit3SpinPractice16);
@@ -546,7 +547,7 @@ public class Unit3Fragment extends Fragment {
         });
 
     }
-
+    */
     public  void  getPositionPractice2(int indexSpinner, int position){
         positionPractice2Ints[indexSpinner] = position;
     }
@@ -641,6 +642,7 @@ public class Unit3Fragment extends Fragment {
         });
     }
 
+   /*
     public void choiceSpinnerPractice10() {
         String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
         Spinner spinner = getView().findViewById(R.id.unit3SpinPractice10);
@@ -658,7 +660,7 @@ public class Unit3Fragment extends Fragment {
             }
         });
     }
-
+    */
 
     public void getPositionPractice1(int indexSpinner, int position) {
         positionPractice1Ints[indexSpinner] = position;
@@ -785,6 +787,94 @@ public class Unit3Fragment extends Fragment {
         calculatePractice7();
 
         calculateListening1();
+
+        calculatePractice8();
+
+    }
+
+    private int checkAnswerPractice8(String strEditText, String[] answerStrings){
+        int score =0;
+        for (int i = 0; i < answerStrings.length; i += 1) {
+            if(strEditText.equals(answerStrings[i])){
+                score += 1;
+            }
+        }
+        return score;
+    }
+
+
+
+    private void calculatePractice8() {
+        int sumScore = 0;
+        String[] strings = new String[20];
+
+
+        EditText editText1 = getView().findViewById(R.id.unit3EdtPractice1);
+        EditText editText2 = getView().findViewById(R.id.unit3EdtPractice2);
+        EditText editText3 = getView().findViewById(R.id.unit3EdtPractice3);
+        EditText editText4 = getView().findViewById(R.id.unit3EdtPractice4);
+        EditText editText5 = getView().findViewById(R.id.unit3EdtPractice5);
+        EditText editText6 = getView().findViewById(R.id.unit3EdtPractice6);
+        EditText editText7 = getView().findViewById(R.id.unit3EdtPractice7);
+        EditText editText8 = getView().findViewById(R.id.unit3EdtPractice8);
+        EditText editText9 = getView().findViewById(R.id.unit3EdtPractice9);
+        EditText editText10 = getView().findViewById(R.id.unit3EdtPractice10);
+        EditText editText11 = getView().findViewById(R.id.unit3EdtPractice11);
+        EditText editText12 = getView().findViewById(R.id.unit3EdtPractice12);
+        EditText editText13 = getView().findViewById(R.id.unit3EdtPractice13);
+        EditText editText14 = getView().findViewById(R.id.unit3EdtPractice14);
+        EditText editText15 = getView().findViewById(R.id.unit3EdtPractice15);
+        EditText editText16 = getView().findViewById(R.id.unit3EdtPractice16);
+        EditText editText17 = getView().findViewById(R.id.unit3EdtPractice17);
+        EditText editText18 = getView().findViewById(R.id.unit3EdtPractice18);
+        EditText editText19 = getView().findViewById(R.id.unit3EdtPractice19);
+        EditText editText20 = getView().findViewById(R.id.unit3EdtPractice20);
+
+        strings[0] = editText1.getText().toString().toLowerCase().trim();
+        strings[1] = editText2.getText().toString().toLowerCase().trim();
+        strings[2] = editText3.getText().toString().toLowerCase().trim();
+        strings[3] = editText4.getText().toString().toLowerCase().trim();
+        strings[4] = editText5.getText().toString().toLowerCase().trim();
+        strings[5] = editText6.getText().toString().toLowerCase().trim();
+        strings[6] = editText7.getText().toString().toLowerCase().trim();
+        strings[7] = editText8.getText().toString().toLowerCase().trim();
+        strings[8] = editText9.getText().toString().toLowerCase().trim();
+        strings[9] = editText10.getText().toString().toLowerCase().trim();
+        strings[10] = editText11.getText().toString().toLowerCase().trim();
+        strings[11] = editText12.getText().toString().toLowerCase().trim();
+        strings[12] = editText13.getText().toString().toLowerCase().trim();
+        strings[13] = editText14.getText().toString().toLowerCase().trim();
+        strings[14] = editText15.getText().toString().toLowerCase().trim();
+        strings[15] = editText16.getText().toString().toLowerCase().trim();
+        strings[16] = editText17.getText().toString().toLowerCase().trim();
+        strings[17] = editText18.getText().toString().toLowerCase().trim();
+        strings[18] = editText19.getText().toString().toLowerCase().trim();
+        strings[19] = editText20.getText().toString().toLowerCase().trim();
+
+        sumScore += checkAnswerPractice8(strings[0], myConstantUnit3.getAnswerPractice1Strings());
+        sumScore += checkAnswerPractice8(strings[1], myConstantUnit3.getAnswerPractice2Strings());
+        sumScore += checkAnswerPractice8(strings[2], myConstantUnit3.getAnswerPractice3Strings());
+        sumScore += checkAnswerPractice8(strings[3], myConstantUnit3.getAnswerPractice4Strings());
+        sumScore += checkAnswerPractice8(strings[4], myConstantUnit3.getAnswerPractice5Strings());
+        sumScore += checkAnswerPractice8(strings[5], myConstantUnit3.getAnswerPractice6Strings());
+        sumScore += checkAnswerPractice8(strings[6], myConstantUnit3.getAnswerPractice7Strings());
+        sumScore += checkAnswerPractice8(strings[7], myConstantUnit3.getAnswerPractice8Strings());
+        sumScore += checkAnswerPractice8(strings[8], myConstantUnit3.getAnswerPractice9Strings());
+        sumScore += checkAnswerPractice8(strings[9], myConstantUnit3.getAnswerPractice10Strings());
+        sumScore += checkAnswerPractice8(strings[10], myConstantUnit3.getAnswerPractice11Strings());
+        sumScore += checkAnswerPractice8(strings[11], myConstantUnit3.getAnswerPractice12Strings());
+        sumScore += checkAnswerPractice8(strings[12], myConstantUnit3.getAnswerPractice13Strings());
+        sumScore += checkAnswerPractice8(strings[13], myConstantUnit3.getAnswerPractice14Strings());
+        sumScore += checkAnswerPractice8(strings[14], myConstantUnit3.getAnswerPractice15Strings());
+        sumScore += checkAnswerPractice8(strings[15], myConstantUnit3.getAnswerPractice16Strings());
+        sumScore += checkAnswerPractice8(strings[16], myConstantUnit3.getAnswerPractice17Strings());
+        sumScore += checkAnswerPractice8(strings[17], myConstantUnit3.getAnswerPractice18Strings());
+        sumScore += checkAnswerPractice8(strings[18], myConstantUnit3.getAnswerPractice19Strings());
+        sumScore += checkAnswerPractice8(strings[19], myConstantUnit3.getAnswerPractice20Strings());
+
+
+
+        Log.d(tag2, "scorePractice8==>" + sumScore);
 
     }
 
