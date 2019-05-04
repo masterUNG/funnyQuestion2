@@ -16,6 +16,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Spinner;
 
+import java.math.BigDecimal;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -146,7 +147,6 @@ public class Unit2Fragment extends Fragment {
 
     public void processCheckScore() {
         int scoreWarmUp = 0, scorePractice =0, scoreListening =0, scoreLanguage =0;
-        float calPercent;
         findTimeTest();
 
         scoreWarmUp = calculateWarmUp1();
@@ -157,19 +157,19 @@ public class Unit2Fragment extends Fragment {
         scoreListening = calculateListening1();
         scoreLanguage = calculateLanguage1();
 
-        calPercent = scoreWarmUp * 100 / 15;
-        warmUpString = Float.toString(calPercent);
-
-        calPercent = scorePractice * 100 / 20;
-        practiseString = Float.toString(calPercent);
-
-        calPercent = scoreListening * 100 / 10;
-        listeningString = Float.toString(calPercent);
-
-        calPercent = scoreLanguage * 100 / 3;
-        languageString = Float.toString(calPercent);
+        warmUpString = calculatePercent(scoreWarmUp, 16);
+        practiseString = calculatePercent(scorePractice, 20);
+        listeningString = calculatePercent(scoreListening, 10);
+        languageString = calculatePercent(scoreLanguage, 3);
     }
 
+    private String calculatePercent(int score, int hiScore) {
+        float calPercent;
+        calPercent = (float) score * 100 / hiScore;
+        BigDecimal bd = new BigDecimal(calPercent);
+        BigDecimal bdSetScale = bd.setScale(1, BigDecimal.ROUND_HALF_UP);
+        return bdSetScale.toString();
+    }
 
 
     private int calculateLanguage1() {

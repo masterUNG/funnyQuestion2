@@ -16,6 +16,8 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Spinner;
 
+import java.math.BigDecimal;
+import java.sql.Ref;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -32,7 +34,7 @@ import thailand.soumbundit.jirawat.funnyquestion.utility.MyConstantUnit3;
 public class Unit3Fragment extends Fragment {
     MyConstant myConstant = new MyConstant();
     MyConstantUnit3 myConstantUnit3 = new MyConstantUnit3();
-    private String uidString, nameUnitString, timeTestString, warmUpString, presentString = "non", practiseString;
+    private String uidString, nameUnitString, timeTestString, warmUpString, practiseString, listeningString, languageString;
     Integer[] positionPractice1Ints = {0, 0, 0, 0};
     Integer[] positionPractice2Ints = {0, 0, 0, 0, 0, 0};
     Integer[] positionPractice3Ints = {0, 0, 0, 0, 0, 0};
@@ -57,7 +59,7 @@ public class Unit3Fragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         findUidNameUnit();
-        findTimeTest();
+
 
         choiceSpinnerPractice1();
         choiceSpinnerPractice2();
@@ -103,19 +105,17 @@ public class Unit3Fragment extends Fragment {
     }//Main Method
 
 
-
-    public  void  checkScoreListening1(int indexSpinner, int position){
-        int [] answerListening1Ints = myConstantUnit3.getAnswerListening1Ints();
-        if(position == answerListening1Ints[indexSpinner]){
+    public void checkScoreListening1(int indexSpinner, int position) {
+        int[] answerListening1Ints = myConstantUnit3.getAnswerListening1Ints();
+        if (position == answerListening1Ints[indexSpinner]) {
             scoreListening1Ints[indexSpinner] = 1;
-        }else
-        {
+        } else {
             scoreListening1Ints[indexSpinner] = 0;
         }
 
     }
 
-    public void  choiceSpinnerListening1() {
+    public void choiceSpinnerListening1() {
         String[] strings = myConstantUnit3.getListeningChoiceSpinner1();
         Spinner spinner = getView().findViewById(R.id.unit3SpinListening1);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
@@ -123,7 +123,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                checkScoreListening1(0,position);
+                checkScoreListening1(0, position);
             }
 
             @Override
@@ -133,7 +133,7 @@ public class Unit3Fragment extends Fragment {
         });
     }
 
-    public void  choiceSpinnerListening2() {
+    public void choiceSpinnerListening2() {
         String[] strings = myConstantUnit3.getListeningChoiceSpinner1();
         Spinner spinner = getView().findViewById(R.id.unit3SpinListening2);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
@@ -141,7 +141,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                checkScoreListening1(1,position);
+                checkScoreListening1(1, position);
             }
 
             @Override
@@ -151,7 +151,7 @@ public class Unit3Fragment extends Fragment {
         });
     }
 
-    public void  choiceSpinnerListening3() {
+    public void choiceSpinnerListening3() {
         String[] strings = myConstantUnit3.getListeningChoiceSpinner1();
         Spinner spinner = getView().findViewById(R.id.unit3SpinListening3);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
@@ -159,7 +159,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                checkScoreListening1(2,position);
+                checkScoreListening1(2, position);
             }
 
             @Override
@@ -169,7 +169,7 @@ public class Unit3Fragment extends Fragment {
         });
     }
 
-    public void  choiceSpinnerListening4() {
+    public void choiceSpinnerListening4() {
         String[] strings = myConstantUnit3.getListeningChoiceSpinner1();
         Spinner spinner = getView().findViewById(R.id.unit3SpinListening4);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
@@ -177,7 +177,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                checkScoreListening1(3,position);
+                checkScoreListening1(3, position);
             }
 
             @Override
@@ -188,16 +188,11 @@ public class Unit3Fragment extends Fragment {
     }
 
 
-
-
-
-
-
-    public  void  getPositionPractice5(int indexSpinner, int position){
+    public void getPositionPractice5(int indexSpinner, int position) {
         positionPractice5Ints[indexSpinner] = position;
     }
 
-    public  void  choiceSpinnerPractice23() {
+    public void choiceSpinnerPractice23() {
         String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
         Spinner spinner = getView().findViewById(R.id.unit3SpinPractice23);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
@@ -205,7 +200,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice5(0,position);
+                getPositionPractice5(0, position);
             }
 
             @Override
@@ -216,7 +211,7 @@ public class Unit3Fragment extends Fragment {
 
     }
 
-    public  void  choiceSpinnerPractice24() {
+    public void choiceSpinnerPractice24() {
         String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
         Spinner spinner = getView().findViewById(R.id.unit3SpinPractice24);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
@@ -224,7 +219,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice5(1,position);
+                getPositionPractice5(1, position);
             }
 
             @Override
@@ -235,7 +230,7 @@ public class Unit3Fragment extends Fragment {
 
     }
 
-    public  void  choiceSpinnerPractice25() {
+    public void choiceSpinnerPractice25() {
         String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
         Spinner spinner = getView().findViewById(R.id.unit3SpinPractice25);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
@@ -243,7 +238,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice5(2,position);
+                getPositionPractice5(2, position);
             }
 
             @Override
@@ -254,7 +249,7 @@ public class Unit3Fragment extends Fragment {
 
     }
 
-    public  void  choiceSpinnerPractice26() {
+    public void choiceSpinnerPractice26() {
         String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
         Spinner spinner = getView().findViewById(R.id.unit3SpinPractice26);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
@@ -262,7 +257,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice5(3,position);
+                getPositionPractice5(3, position);
             }
 
             @Override
@@ -273,7 +268,7 @@ public class Unit3Fragment extends Fragment {
 
     }
 
-    public  void  choiceSpinnerPractice27() {
+    public void choiceSpinnerPractice27() {
         String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
         Spinner spinner = getView().findViewById(R.id.unit3SpinPractice27);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
@@ -281,7 +276,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice5(4,position);
+                getPositionPractice5(4, position);
             }
 
             @Override
@@ -311,11 +306,11 @@ public class Unit3Fragment extends Fragment {
 
     }*/
 
-    public  void  getPositionPractice4(int indexSpinner, int position){
+    public void getPositionPractice4(int indexSpinner, int position) {
         positionPractice4Ints[indexSpinner] = position;
     }
 
-    public  void  choiceSpinnerPractice17() {
+    public void choiceSpinnerPractice17() {
         String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
         Spinner spinner = getView().findViewById(R.id.unit3SpinPractice17);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
@@ -323,7 +318,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice4(0,position);
+                getPositionPractice4(0, position);
             }
 
             @Override
@@ -334,7 +329,7 @@ public class Unit3Fragment extends Fragment {
 
     }
 
-    public  void  choiceSpinnerPractice18() {
+    public void choiceSpinnerPractice18() {
         String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
         Spinner spinner = getView().findViewById(R.id.unit3SpinPractice18);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
@@ -342,7 +337,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice4(1,position);
+                getPositionPractice4(1, position);
             }
 
             @Override
@@ -353,7 +348,7 @@ public class Unit3Fragment extends Fragment {
 
     }
 
-    public  void  choiceSpinnerPractice19() {
+    public void choiceSpinnerPractice19() {
         String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
         Spinner spinner = getView().findViewById(R.id.unit3SpinPractice19);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
@@ -361,7 +356,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice4(2,position);
+                getPositionPractice4(2, position);
             }
 
             @Override
@@ -372,7 +367,7 @@ public class Unit3Fragment extends Fragment {
 
     }
 
-    public  void  choiceSpinnerPractice20() {
+    public void choiceSpinnerPractice20() {
         String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
         Spinner spinner = getView().findViewById(R.id.unit3SpinPractice20);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
@@ -380,7 +375,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice4(3,position);
+                getPositionPractice4(3, position);
             }
 
             @Override
@@ -391,7 +386,7 @@ public class Unit3Fragment extends Fragment {
 
     }
 
-    public  void  choiceSpinnerPractice21() {
+    public void choiceSpinnerPractice21() {
         String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
         Spinner spinner = getView().findViewById(R.id.unit3SpinPractice21);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
@@ -399,7 +394,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice4(4,position);
+                getPositionPractice4(4, position);
             }
 
             @Override
@@ -409,31 +404,32 @@ public class Unit3Fragment extends Fragment {
         });
 
     }
-/*
-    public  void  choiceSpinnerPractice22() {
-        String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
-        Spinner spinner = getView().findViewById(R.id.unit3SpinPractice22);
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
-        spinner.setAdapter(arrayAdapter);
-        spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice4(5,position);
-            }
 
-            @Override
-            public void onNothingSelected(AdapterView<?> adapterView) {
+    /*
+        public  void  choiceSpinnerPractice22() {
+            String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
+            Spinner spinner = getView().findViewById(R.id.unit3SpinPractice22);
+            ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
+            spinner.setAdapter(arrayAdapter);
+            spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+                @Override
+                public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
+                    getPositionPractice4(5,position);
+                }
 
-            }
-        });
+                @Override
+                public void onNothingSelected(AdapterView<?> adapterView) {
 
-    }
-*/
-    public  void  getPositionPractice3(int indexSpinner, int position){
+                }
+            });
+
+        }
+    */
+    public void getPositionPractice3(int indexSpinner, int position) {
         positionPractice3Ints[indexSpinner] = position;
     }
 
-    public  void  choiceSpinnerPractice11() {
+    public void choiceSpinnerPractice11() {
         String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
         Spinner spinner = getView().findViewById(R.id.unit3SpinPractice11);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
@@ -441,7 +437,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice3(0,position);
+                getPositionPractice3(0, position);
             }
 
             @Override
@@ -452,7 +448,7 @@ public class Unit3Fragment extends Fragment {
 
     }
 
-    public  void  choiceSpinnerPractice12() {
+    public void choiceSpinnerPractice12() {
         String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
         Spinner spinner = getView().findViewById(R.id.unit3SpinPractice12);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
@@ -460,7 +456,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice3(1,position);
+                getPositionPractice3(1, position);
             }
 
             @Override
@@ -471,7 +467,7 @@ public class Unit3Fragment extends Fragment {
 
     }
 
-    public  void  choiceSpinnerPractice13() {
+    public void choiceSpinnerPractice13() {
         String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
         Spinner spinner = getView().findViewById(R.id.unit3SpinPractice13);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
@@ -479,7 +475,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice3(2,position);
+                getPositionPractice3(2, position);
             }
 
             @Override
@@ -490,7 +486,7 @@ public class Unit3Fragment extends Fragment {
 
     }
 
-    public  void  choiceSpinnerPractice14() {
+    public void choiceSpinnerPractice14() {
         String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
         Spinner spinner = getView().findViewById(R.id.unit3SpinPractice14);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
@@ -498,7 +494,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice3(3,position);
+                getPositionPractice3(3, position);
             }
 
             @Override
@@ -509,7 +505,7 @@ public class Unit3Fragment extends Fragment {
 
     }
 
-    public  void  choiceSpinnerPractice15() {
+    public void choiceSpinnerPractice15() {
         String[] strings = myConstantUnit3.getPracticeChoiceSpinner2();
         Spinner spinner = getView().findViewById(R.id.unit3SpinPractice15);
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, strings);
@@ -517,7 +513,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice3(4,position);
+                getPositionPractice3(4, position);
             }
 
             @Override
@@ -548,7 +544,7 @@ public class Unit3Fragment extends Fragment {
 
     }
     */
-    public  void  getPositionPractice2(int indexSpinner, int position){
+    public void getPositionPractice2(int indexSpinner, int position) {
         positionPractice2Ints[indexSpinner] = position;
     }
 
@@ -560,7 +556,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice2(0,position);
+                getPositionPractice2(0, position);
             }
 
             @Override
@@ -578,7 +574,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice2(1,position);
+                getPositionPractice2(1, position);
             }
 
             @Override
@@ -596,7 +592,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice2(2,position);
+                getPositionPractice2(2, position);
             }
 
             @Override
@@ -614,7 +610,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice2(3,position);
+                getPositionPractice2(3, position);
             }
 
             @Override
@@ -632,7 +628,7 @@ public class Unit3Fragment extends Fragment {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
-                getPositionPractice2(4,position);
+                getPositionPractice2(4, position);
             }
 
             @Override
@@ -756,7 +752,7 @@ public class Unit3Fragment extends Fragment {
         builder.setCancelable(false);
         builder.setIcon(R.drawable.ic_action_alert);
         builder.setTitle("Warning");
-        builder.setMessage("Need to Exit?");
+        builder.setMessage("Need to check answers?");
         builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
@@ -768,34 +764,89 @@ public class Unit3Fragment extends Fragment {
             public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();
                 processCheckScore();
+                myAlertDialog2();
+            }
+        });
+        builder.show();
+    }
+
+    private void myAlertDialog2() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        String[] strings = new String[8];
+        builder.setCancelable(false);
+        builder.setIcon(R.drawable.ic_action_alert);
+        builder.setTitle("Summary Unit3 Score");
+
+        strings[0] = "Warm-up section";
+        strings[1] = "You got: " + warmUpString + "% of Score\n";
+        strings[2] = "Practice section";
+        strings[3] = "You got: " + practiseString + "% of Score\n";
+        strings[4] = "Listening section";
+        strings[5] = "You got: " + listeningString + "% of Score\n";
+        strings[6] = "Language section";
+        strings[7] = "You got: " + languageString + "% of Score\n";
+
+
+        builder.setItems(strings, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+
+            }
+        });
+
+        //builder.setMessage("You got: " + pretestScoreString +"/10");
+
+        builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
             }
         });
         builder.show();
     }
 
     public void processCheckScore() {
-        calculateWarmUp();
+        int scoreWarmUp = 0, scorePractice = 0, scoreListening = 0, scoreLanguage = 0;
 
-        calculatePractice1();
-        calculatePractice2();
-        calculatePractice3();
-        calculatePractice4();
-        calculatePractice5();
 
-        calculatePractice6();
+        findTimeTest();
+        scoreWarmUp = calculateWarmUp();
 
-        calculatePractice7();
+        scorePractice = calculatePractice1();
 
-        calculateListening1();
+        scorePractice += calculatePractice2();
+        scorePractice += calculatePractice3();
+        scorePractice += calculatePractice4();
+        scorePractice += calculatePractice5();
 
-        calculatePractice8();
+        scorePractice += calculatePractice6();
+
+        scorePractice += calculatePractice7();
+
+        scoreListening = calculateListening1();
+
+        scoreLanguage = calculateLanguage();
+
+        warmUpString = calculatePercent(scoreWarmUp, 4);
+        practiseString = calculatePercent(scorePractice, 36);
+        listeningString = calculatePercent(scoreListening, 4);
+        languageString = calculatePercent(scoreLanguage, 20);
 
     }
 
-    private int checkAnswerPractice8(String strEditText, String[] answerStrings){
-        int score =0;
+    private String calculatePercent(int score, int hiScore) {
+        float calPercent;
+        calPercent = (float) score * 100 / hiScore;
+        BigDecimal bd = new BigDecimal(calPercent);
+        BigDecimal bdSetScale = bd.setScale(1, BigDecimal.ROUND_HALF_UP);
+        return bdSetScale.toString();
+    }
+
+
+    private int checkAnswerCalculateLanguage(String strEditText, String[] answerStrings) {
+        int score = 0;
         for (int i = 0; i < answerStrings.length; i += 1) {
-            if(strEditText.equals(answerStrings[i])){
+            if (strEditText.equals(answerStrings[i])) {
                 score += 1;
             }
         }
@@ -803,8 +854,7 @@ public class Unit3Fragment extends Fragment {
     }
 
 
-
-    private void calculatePractice8() {
+    private int calculateLanguage() {
         int sumScore = 0;
         String[] strings = new String[20];
 
@@ -851,42 +901,43 @@ public class Unit3Fragment extends Fragment {
         strings[18] = editText19.getText().toString().toLowerCase().trim();
         strings[19] = editText20.getText().toString().toLowerCase().trim();
 
-        sumScore += checkAnswerPractice8(strings[0], myConstantUnit3.getAnswerPractice1Strings());
-        sumScore += checkAnswerPractice8(strings[1], myConstantUnit3.getAnswerPractice2Strings());
-        sumScore += checkAnswerPractice8(strings[2], myConstantUnit3.getAnswerPractice3Strings());
-        sumScore += checkAnswerPractice8(strings[3], myConstantUnit3.getAnswerPractice4Strings());
-        sumScore += checkAnswerPractice8(strings[4], myConstantUnit3.getAnswerPractice5Strings());
-        sumScore += checkAnswerPractice8(strings[5], myConstantUnit3.getAnswerPractice6Strings());
-        sumScore += checkAnswerPractice8(strings[6], myConstantUnit3.getAnswerPractice7Strings());
-        sumScore += checkAnswerPractice8(strings[7], myConstantUnit3.getAnswerPractice8Strings());
-        sumScore += checkAnswerPractice8(strings[8], myConstantUnit3.getAnswerPractice9Strings());
-        sumScore += checkAnswerPractice8(strings[9], myConstantUnit3.getAnswerPractice10Strings());
-        sumScore += checkAnswerPractice8(strings[10], myConstantUnit3.getAnswerPractice11Strings());
-        sumScore += checkAnswerPractice8(strings[11], myConstantUnit3.getAnswerPractice12Strings());
-        sumScore += checkAnswerPractice8(strings[12], myConstantUnit3.getAnswerPractice13Strings());
-        sumScore += checkAnswerPractice8(strings[13], myConstantUnit3.getAnswerPractice14Strings());
-        sumScore += checkAnswerPractice8(strings[14], myConstantUnit3.getAnswerPractice15Strings());
-        sumScore += checkAnswerPractice8(strings[15], myConstantUnit3.getAnswerPractice16Strings());
-        sumScore += checkAnswerPractice8(strings[16], myConstantUnit3.getAnswerPractice17Strings());
-        sumScore += checkAnswerPractice8(strings[17], myConstantUnit3.getAnswerPractice18Strings());
-        sumScore += checkAnswerPractice8(strings[18], myConstantUnit3.getAnswerPractice19Strings());
-        sumScore += checkAnswerPractice8(strings[19], myConstantUnit3.getAnswerPractice20Strings());
-
+        sumScore += checkAnswerCalculateLanguage(strings[0], myConstantUnit3.getAnswerPractice1Strings());
+        sumScore += checkAnswerCalculateLanguage(strings[1], myConstantUnit3.getAnswerPractice2Strings());
+        sumScore += checkAnswerCalculateLanguage(strings[2], myConstantUnit3.getAnswerPractice3Strings());
+        sumScore += checkAnswerCalculateLanguage(strings[3], myConstantUnit3.getAnswerPractice4Strings());
+        sumScore += checkAnswerCalculateLanguage(strings[4], myConstantUnit3.getAnswerPractice5Strings());
+        sumScore += checkAnswerCalculateLanguage(strings[5], myConstantUnit3.getAnswerPractice6Strings());
+        sumScore += checkAnswerCalculateLanguage(strings[6], myConstantUnit3.getAnswerPractice7Strings());
+        sumScore += checkAnswerCalculateLanguage(strings[7], myConstantUnit3.getAnswerPractice8Strings());
+        sumScore += checkAnswerCalculateLanguage(strings[8], myConstantUnit3.getAnswerPractice9Strings());
+        sumScore += checkAnswerCalculateLanguage(strings[9], myConstantUnit3.getAnswerPractice10Strings());
+        sumScore += checkAnswerCalculateLanguage(strings[10], myConstantUnit3.getAnswerPractice11Strings());
+        sumScore += checkAnswerCalculateLanguage(strings[11], myConstantUnit3.getAnswerPractice12Strings());
+        sumScore += checkAnswerCalculateLanguage(strings[12], myConstantUnit3.getAnswerPractice13Strings());
+        sumScore += checkAnswerCalculateLanguage(strings[13], myConstantUnit3.getAnswerPractice14Strings());
+        sumScore += checkAnswerCalculateLanguage(strings[14], myConstantUnit3.getAnswerPractice15Strings());
+        sumScore += checkAnswerCalculateLanguage(strings[15], myConstantUnit3.getAnswerPractice16Strings());
+        sumScore += checkAnswerCalculateLanguage(strings[16], myConstantUnit3.getAnswerPractice17Strings());
+        sumScore += checkAnswerCalculateLanguage(strings[17], myConstantUnit3.getAnswerPractice18Strings());
+        sumScore += checkAnswerCalculateLanguage(strings[18], myConstantUnit3.getAnswerPractice19Strings());
+        sumScore += checkAnswerCalculateLanguage(strings[19], myConstantUnit3.getAnswerPractice20Strings());
 
 
         Log.d(tag2, "scorePractice8==>" + sumScore);
+        return sumScore;
 
     }
 
-    private void calculateListening1() {
+    private int calculateListening1() {
         int sumScore = 0;
         for (int i = 0; i < scoreListening1Ints.length; i += 1) {
             sumScore += scoreListening1Ints[i];
         }
         Log.d(tag2, "scoreListening1==>" + sumScore);
+        return sumScore;
     }
 
-    private void calculatePractice7() {
+    private int calculatePractice7() {
         int sumScore = 0;
 
         RadioButton radioButton1 = getView().findViewById(R.id.unit3RbPractice6d);
@@ -898,20 +949,37 @@ public class Unit3Fragment extends Fragment {
         RadioButton radioButton7 = getView().findViewById(R.id.unit3RbPractice12c);
         RadioButton radioButton8 = getView().findViewById(R.id.unit3RbPractice13b);
 
-        if (radioButton1.isChecked()) { sumScore += 1; }
-        if (radioButton2.isChecked()) { sumScore += 1; }
-        if (radioButton3.isChecked()) { sumScore += 1; }
-        if (radioButton4.isChecked()) { sumScore += 1; }
-        if (radioButton5.isChecked()) { sumScore += 1; }
-        if (radioButton6.isChecked()) { sumScore += 1; }
-        if (radioButton7.isChecked()) { sumScore += 1; }
-        if (radioButton8.isChecked()) { sumScore += 1; }
+        if (radioButton1.isChecked()) {
+            sumScore += 1;
+        }
+        if (radioButton2.isChecked()) {
+            sumScore += 1;
+        }
+        if (radioButton3.isChecked()) {
+            sumScore += 1;
+        }
+        if (radioButton4.isChecked()) {
+            sumScore += 1;
+        }
+        if (radioButton5.isChecked()) {
+            sumScore += 1;
+        }
+        if (radioButton6.isChecked()) {
+            sumScore += 1;
+        }
+        if (radioButton7.isChecked()) {
+            sumScore += 1;
+        }
+        if (radioButton8.isChecked()) {
+            sumScore += 1;
+        }
 
         Log.d(tag2, "scorePractice7==>" + sumScore);
+        return sumScore;
     }
 
 
-    private void calculatePractice6() {
+    private int calculatePractice6() {
         int sumScore = 0;
 
         RadioButton radioButton1 = getView().findViewById(R.id.unit3RbPractice1False);
@@ -920,17 +988,28 @@ public class Unit3Fragment extends Fragment {
         RadioButton radioButton4 = getView().findViewById(R.id.unit3RbPractice4True);
         RadioButton radioButton5 = getView().findViewById(R.id.unit3RbPractice5False);
 
-        if(radioButton1.isChecked()){ sumScore += 1;}
-        if(radioButton2.isChecked()){ sumScore += 1;}
-        if(radioButton3.isChecked()){ sumScore += 1;}
-        if(radioButton4.isChecked()){ sumScore += 1;}
-        if(radioButton5.isChecked()){ sumScore += 1;}
+        if (radioButton1.isChecked()) {
+            sumScore += 1;
+        }
+        if (radioButton2.isChecked()) {
+            sumScore += 1;
+        }
+        if (radioButton3.isChecked()) {
+            sumScore += 1;
+        }
+        if (radioButton4.isChecked()) {
+            sumScore += 1;
+        }
+        if (radioButton5.isChecked()) {
+            sumScore += 1;
+        }
 
         Log.d(tag2, "scorePractice6==>" + sumScore);
+        return sumScore;
     }
 
-    private void calculatePractice5() {
-        int sumScore =0;
+    private int calculatePractice5() {
+        int sumScore = 0;
         Integer intA;
         int[] trueAnswerInts = myConstantUnit3.getAnswerPractice5ints();
 
@@ -949,12 +1028,12 @@ public class Unit3Fragment extends Fragment {
             }
         }
         Log.d(tag2, "scorePractice5==>" + sumScore);
-
+        return sumScore;
 
     }
 
-    private void calculatePractice4() {
-        int sumScore =0;
+    private int calculatePractice4() {
+        int sumScore = 0;
         Integer intA;
         int[] trueAnswerInts = myConstantUnit3.getAnswerPractice4ints();
 
@@ -973,12 +1052,12 @@ public class Unit3Fragment extends Fragment {
             }
         }
         Log.d(tag2, "scorePractice4==>" + sumScore);
-
+        return sumScore;
 
     }
 
-    private void calculatePractice3() {
-        int sumScore =0;
+    private int calculatePractice3() {
+        int sumScore = 0;
         Integer intA;
         int[] trueAnswerInts = myConstantUnit3.getAnswerPractice3Ints();
 
@@ -997,12 +1076,12 @@ public class Unit3Fragment extends Fragment {
             }
         }
         Log.d(tag2, "scorePractice3==>" + sumScore);
-
+        return sumScore;
 
     }
 
-    private void calculatePractice2() {
-        int sumScore =0;
+    private int calculatePractice2() {
+        int sumScore = 0;
         Integer intA;
         int[] trueAnswerInts = myConstantUnit3.getAnswerPractice2Ints();
 
@@ -1021,11 +1100,11 @@ public class Unit3Fragment extends Fragment {
             }
         }
         Log.d(tag2, "scorePractice2==>" + sumScore);
-
+        return sumScore;
 
     }
 
-    private void calculatePractice1() {
+    private int calculatePractice1() {
         int sumScore = 0;
         Integer intA;
         int[] trueAnswerInts = myConstantUnit3.getAnswerPractice1Ints();
@@ -1045,10 +1124,11 @@ public class Unit3Fragment extends Fragment {
             }
         }
         Log.d(tag2, "scorePractice1==>" + sumScore);
+        return sumScore;
 
     }
 
-    private void calculateWarmUp() {
+    private int calculateWarmUp() {
         int sumScore = 0;
         String[] strings = new String[4];
         String[] trueAnswerStrings1 = myConstantUnit3.getAnswerWarmUpString();
@@ -1079,6 +1159,7 @@ public class Unit3Fragment extends Fragment {
         }
 
         Log.d(tag2, "scoreWarmUp==>" + sumScore);
+        return sumScore;
     }
 
 
