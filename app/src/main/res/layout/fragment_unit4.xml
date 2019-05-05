@@ -20,7 +20,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="Unit 4"
+                android:text="@string/u4styleText1"
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
@@ -28,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="The internet"
+                android:text="@string/u4styleText2"
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
@@ -36,15 +36,15 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Objective"
                 android:layout_marginTop="@dimen/padding"
+                android:text="@string/u4styleText3"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="At the end of this unit, students are able to describe the types of Internet access providers: Internet service providers, online service providers, wireless Internet service providers"
+                android:text="@string/u4styleText4"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -53,7 +53,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Warm-up"
+                android:text="@string/u4styleText5"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -61,7 +61,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1.What is the Internet?"
+                android:text="@string/u4styleText6"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -76,13 +76,13 @@
                     android:id="@+id/unit4RbWarmUp1A"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="a. A wireless fidelity network uses radio signals to provide high-speed." />
+                    android:text="@string/u4styleText7" />
 
                 <RadioButton
                     android:id="@+id/unit4RbWarmUp1B"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="b. A wide-area network spanning the globe." />
+                    android:text="@string/u4styleText8" />
 
             </RadioGroup>
 
@@ -91,14 +91,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="2. What do you often do on the Internet?"
+                android:text="@string/u4styleText9"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="What do you often do on the Internet? Oder the important by choosing 1-5"
+                android:text="@string/u4styleText10"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -106,35 +106,35 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="5 = always do on the Internet"
+                android:text="@string/u4styleText11"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="4 = usually do on the Internet"
+                android:text="@string/u4styleText12"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="3 = often do on the Internet"
+                android:text="@string/u4styleText13"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2= sometimes do on the Internet"
+                android:text="@string/u4styleText14"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1= occationally do on the Internet"
+                android:text="@string/u4styleText15"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -152,7 +152,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• Look up information" />
+                        android:text="@string/u4styleText16" />
 
                     <Spinner
                         android:id="@+id/choice1spinner"
@@ -170,13 +170,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• Schoolwork, jobs, how-to, research, banking, directions, businesses, Email" />
+                        android:text="@string/u4styleText17" />
 
                     <Spinner
                         android:id="@+id/choice2spinner"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"/>
+                        android:background="@drawable/spin4" />
                 </TableRow>
 
                 <TableRow
@@ -187,13 +187,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• Buy and sell products" />
+                        android:text="@string/u4styleText18" />
 
                     <Spinner
                         android:id="@+id/choice3spinner"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"/>
+                        android:background="@drawable/spin4" />
                 </TableRow>
 
                 <TableRow
@@ -204,13 +204,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• Social networking (Facebook, twitter, blogs)" />
+                        android:text="@string/u4styleText19" />
 
                     <Spinner
                         android:id="@+id/choice4spinner"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"/>
+                        android:background="@drawable/spin4" />
                 </TableRow>
 
                 <TableRow
@@ -221,13 +221,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• Share with friends and others what you’re doing, including sharing pictures and videos" />
+                        android:text="@string/u4styleText20" />
 
                     <Spinner
                         android:id="@+id/choice5spinner"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"/>
+                        android:background="@drawable/spin4" />
                 </TableRow>
 
                 <TableRow
@@ -238,13 +238,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• Watch and post videos" />
+                        android:text="@string/u4styleText21" />
 
                     <Spinner
                         android:id="@+id/choice6spinner"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"/>
+                        android:background="@drawable/spin4" />
                 </TableRow>
 
                 <TableRow
@@ -255,13 +255,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• News and weather" />
+                        android:text="@string/u4styleText22" />
 
                     <Spinner
                         android:id="@+id/choice7spinner"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"/>
+                        android:background="@drawable/spin4" />
                 </TableRow>
 
                 <TableRow
@@ -272,13 +272,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• Watch and post videos" />
+                        android:text="@string/u4styleText23" />
 
                     <Spinner
                         android:id="@+id/choice8spinner"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"/>
+                        android:background="@drawable/spin4" />
                 </TableRow>
 
                 <TableRow
@@ -289,13 +289,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• News and weather" />
+                        android:text="@string/u4styleText24" />
 
                     <Spinner
                         android:id="@+id/choice9spinner"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"/>
+                        android:background="@drawable/spin4" />
                 </TableRow>
 
                 <TableRow
@@ -306,13 +306,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• Gas prices" />
+                        android:text="@string/u4styleText25" />
 
                     <Spinner
                         android:id="@+id/choice10spinner"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"/>
+                        android:background="@drawable/spin4" />
                 </TableRow>
 
                 <TableRow
@@ -323,13 +323,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• Games" />
+                        android:text="@string/u4styleText26" />
 
                     <Spinner
                         android:id="@+id/choice11spinner"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"/>
+                        android:background="@drawable/spin4" />
                 </TableRow>
 
                 <TableRow
@@ -340,13 +340,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• Take college courses (MOOC)" />
+                        android:text="@string/u4styleText27" />
 
                     <Spinner
                         android:id="@+id/choice12spinner"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"/>
+                        android:background="@drawable/spin4" />
                 </TableRow>
 
                 <TableRow
@@ -357,13 +357,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• Monitor your home when you are away" />
+                        android:text="@string/u4styleText28" />
 
                     <Spinner
                         android:id="@+id/choice13spinner"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"/>
+                        android:background="@drawable/spin4" />
                 </TableRow>
 
                 <TableRow
@@ -374,13 +374,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• Financial transactions; e.g. banking, stock market, pay bills" />
+                        android:text="@string/u4styleText29" />
 
                     <Spinner
                         android:id="@+id/choice14spinner"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"/>
+                        android:background="@drawable/spin4" />
                 </TableRow>
 
                 <TableRow
@@ -391,13 +391,13 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="• View patents on the Patent/Trademark web site" />
+                        android:text="@string/u4styleText30" />
 
                     <Spinner
                         android:id="@+id/choice15spinner"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"/>
+                        android:background="@drawable/spin4" />
                 </TableRow>
 
             </TableLayout>
@@ -407,7 +407,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Presentation"
+                android:text="@string/u4styleText31"
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
@@ -416,14 +416,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="1. The internet’s History"
+                android:text="@string/u4styleText32"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="The internet, also called the Net, is a worldwide collection of networks that links millions of businesses, government agencies, educational institutions, and individuals. The Internet has its roots in ARPANET, a network started in 1969 to link scientific and academic researchers across the United States. In 1986, the National Science Foundation connected its huge network, called NSF net, to ARPANET, creating a configuration of complex networks and hosts that became known as the Internet. Today, more than 550 million bostcomputers connect to the Internet."
+                android:text="@string/u4styleText33"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -432,14 +432,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="2. What are the various types of the Internet connections?"
+                android:text="@string/u4styleText34"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Many home and small business users connect to the Internet via high-speed broadband Internet service. With broadband Internet service, your computer or mobile device usually is connected to the Internet the entire time it is powered on. Examples of broadband Internet service include cable, DSL, fiber, radio signals and satellite."
+                android:text="@string/u4styleText35"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -447,14 +447,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Cable Internet service"
+                android:text="@string/u4styleText36"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="provides high-speed Internet access through the cable television network via a cable modern."
+                android:text="@string/u4styleText37"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -462,14 +462,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="DSL."
+                android:text="@string/u4styleText38"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="(digital subscriber line) provides high-speed Internet connection using regular copper telephone lines."
+                android:text="@string/u4styleText39"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -477,14 +477,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Fiber to the Premises (FTTP)"
+                android:text="@string/u4styleText40"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="uses fiber-optic cable to provide high-speed Internet access to home and business users."
+                android:text="@string/u4styleText41"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -492,14 +492,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Fixed wireless"
+                android:text="@string/u4styleText42"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="provides high-speed Internet connections using a dish-shaped antenna on your house or business to communicate with a tower location via radio signals."
+                android:text="@string/u4styleText43"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -507,14 +507,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="A cellular radio network"
+                android:text="@string/u4styleText44"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="offers high-speed Internet connections to devices with built-in compatible technology or computers with wireless moderns."
+                android:text="@string/u4styleText45"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -522,14 +522,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="A Wi-Fi"
+                android:text="@string/u4styleText46"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="(wireless fidelity) network uses radio signals to provide high-speed Internet connections to compatible or properly equipped wireless computers and devices."
+                android:text="@string/u4styleText47"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -538,14 +538,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="3.What are the types of Internet Access providers?"
+                android:text="@string/u4styleText48"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="An access provider is a business that provides access to the Internet free of for a fee."
+                android:text="@string/u4styleText49"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -553,14 +553,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="An ISP (Internet service provider)"
+                android:text="@string/u4styleText50"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="is a regional or national access provider."
+                android:text="@string/u4styleText51"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -568,14 +568,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="An online service provider (OSP)"
+                android:text="@string/u4styleText52"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="provides Internet access in addition to members-only features."
+                android:text="@string/u4styleText53"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -583,14 +583,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="A wireless Internet service provider"
+                android:text="@string/u4styleText54"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="provides wireless Internet access to desktop and notebook computers and mobile devices with built-in wireless capabilities (such as Wi-Fi) or to computers using wireless moderns or wireless access devices."
+                android:text="@string/u4styleText55"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -599,7 +599,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="4. Internet Addresses"
+                android:text="@string/u4styleText56"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -607,7 +607,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="What is the purpose of an IP Address, and what is its relationship to a domain name?"
+                android:text="@string/u4styleText57"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -615,14 +615,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="An IP address (Internet Protocol address)"
+                android:text="@string/u4styleText58"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="is a number that uniquely identifies each computer of device connected to the Internet. The internet relies on IP addresses to send data to computers at specific locations. The IP address usually consists of four groups of numbers, each separated by a period."
+                android:text="@string/u4styleText59"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -630,35 +630,35 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="A domain name"
+                android:text="@string/u4styleText60"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="is the text version of an IP address."
+                android:text="@string/u4styleText61"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="IP address ==> 72.14.207.99"
+                android:text="@string/u4styleText62"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Domain name ==> www.google.com"
+                android:text="@string/u4styleText63"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="For example, www.Philips.com.auis the domain name for Philips Australia."
+                android:text="@string/u4styleText64"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -668,7 +668,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Examples of Generic Top-Level Domains"
+                android:text="@string/u4styleText65"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -688,14 +688,14 @@
                         android:layout_width="85dp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="TLD"
+                        android:text="@string/u4styleText66"
                         android:textAlignment="center"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Intended Purpose"
+                        android:text="@string/u4styleText67"
                         android:textAlignment="center"
                         android:textStyle="bold" />
                 </TableRow>
@@ -710,7 +710,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="aero"
+                        android:text="@string/u4styleText68"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -718,7 +718,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:text="Aviation community members"
+                        android:text="@string/u4styleText69"
                         android:textStyle="normal" />
                 </TableRow>
 
@@ -732,7 +732,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="biz"
+                        android:text="@string/u4styleText70"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -740,7 +740,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:text="Businesses of all sizes"
+                        android:text="@string/u4styleText71"
                         android:textStyle="normal" />
                 </TableRow>
 
@@ -754,7 +754,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="cat"
+                        android:text="@string/u4styleText72"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -762,7 +762,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:text="Catalan cultural community"
+                        android:text="@string/u4styleText73"
                         android:textStyle="normal" />
                 </TableRow>
 
@@ -776,7 +776,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="com"
+                        android:text="@string/u4styleText74"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -784,7 +784,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:text="Commercial organizations, businesses, and companies"
+                        android:text="@string/u4styleText75"
                         android:textStyle="normal" />
                 </TableRow>
 
@@ -798,7 +798,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="coop"
+                        android:text="@string/u4styleText76"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -806,7 +806,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:text="Business cooperatives such as credit unions and rural electric co-ops"
+                        android:text="@string/u4styleText77"
                         android:textStyle="normal" />
                 </TableRow>
 
@@ -820,7 +820,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="edu"
+                        android:text="@string/u4styleText78"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -828,7 +828,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:text="Educational institutions"
+                        android:text="@string/u4styleText79"
                         android:textStyle="normal" />
                 </TableRow>
 
@@ -842,7 +842,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="gov"
+                        android:text="@string/u4styleText80"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -850,7 +850,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:text="Government agencies"
+                        android:text="@string/u4styleText81"
                         android:textStyle="normal" />
                 </TableRow>
 
@@ -864,7 +864,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
-                        android:text="info"
+                        android:text="@string/u4styleText82"
                         android:textAlignment="center"
                         android:textStyle="normal" />
 
@@ -872,7 +872,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="10dp"
-                        android:text="Business organizations orindividuals providing general information"
+                        android:text="@string/u4styleText83"
                         android:textStyle="normal" />
                 </TableRow>
 
@@ -883,7 +883,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="5. The world wide web"
+                android:text="@string/u4styleText84"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -891,7 +891,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="What is the purpose of a web browser, and What are the components of a web address?"
+                android:text="@string/u4styleText85"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -899,14 +899,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="A web browser, or browser,"
+                android:text="@string/u4styleText86"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="is application software that allows users to access and view Web pages or access Web2.0 programs. With an Internet connection established, you start a Web browser, which then retrieves and displays a starting Web page, sometimes called a home page. The home page usually contains links to other Web pages."
+                android:text="@string/u4styleText87"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -914,14 +914,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="A link,"
+                android:text="@string/u4styleText88"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="short for hyperlink, is a built-in connection to another related Web page or part of a Web page. A another related Web page or part of a Web page. A web page has a unique address called a URL. (Uniform Resource locator), or Web address. A Web address consists of a protocol, a domain name, and sometimes the path to a specific Web page or location on a Web page."
+                android:text="@string/u4styleText89"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -930,7 +930,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="6. How do you use a search engine to search for information on the web, and what is the difference between a search engine and a subject directory?"
+                android:text="@string/u4styleText90"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -938,14 +938,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="A search engine"
+                android:text="@string/u4styleText91"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="is a program that finds Web sites, web pages, images, videos, news, maps and other information related to a specific topic. To use a search engine, you enter a word or phrase, called search text or a search query, that describes the item you want to find. Each word in the search text is known as a keyword. The search engine displays a list of bits. When clicked, each hit displays an associated Web site our Web page. A subject directory classifies Web pages in an organized set of categories and related subcategories. By clicking links, you move through levels to display a list of Web pages about a desired topic."
+                android:text="@string/u4styleText92"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -954,7 +954,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="How to use a Search Engine"
+                android:text="@string/u4styleText93"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -963,7 +963,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="7. What are the types of web sites?"
+                android:text="@string/u4styleText94"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -971,14 +971,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="A portal"
+                android:text="@string/u4styleText95"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="is a Web site that offers a variety of Internet services from a single location. A news Web site contains newsworthy material. An information Web site contains factual information. A business. Marketing Web site promotes or sells products or services."
+                android:text="@string/u4styleText96"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -986,14 +986,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="A blog,"
+                android:text="@string/u4styleText97"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="short for Weblog, is an informal Web site consisting of time-stamped articles, or posts, in a diary or journal format, usually listed in reverse chronological order."
+                android:text="@string/u4styleText98"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1001,14 +1001,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="A wiki"
+                android:text="@string/u4styleText99"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="is a collaborative Web site that allows users to create, add to, modify, or delete the Web site content via their Web browser."
+                android:text="@string/u4styleText100"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1016,14 +1016,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="An online social network, or social networking Web site,"
+                android:text="@string/u4styleText101"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="encourages members to share this interests, ideas, stories, photos, music, and videos with other registered users. An education Web site offers avenues for teaching and learning . An entertainment Web site provides and interactive and engaging environment. An advocacy Web site describes a cause, opinion, or idea."
+                android:text="@string/u4styleText102"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1031,14 +1031,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="A web application, or Web app,"
+                android:text="@string/u4styleText103"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="is a Web site that allows users to access and interact with software through a Web browser or any computer or device connected to the Internet."
+                android:text="@string/u4styleText104"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1046,14 +1046,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="A content aggregator"
+                android:text="@string/u4styleText105"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="is a business that"
+                android:text="@string/u4styleText106"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1062,14 +1062,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="8. How do web pages use graphics, animation, audio, video, virtual reality, and plug-ins?"
+                android:text="@string/u4styleText107"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Some Web pages use multimedia, which combines text with graphics, animation, audio, video, and /or virtual reality"
+                android:text="@string/u4styleText108"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1077,14 +1077,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="A graphic"
+                android:text="@string/u4styleText109"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="is a digital representation of non text information such as a drawing, chart, or photo."
+                android:text="@string/u4styleText110"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1092,14 +1092,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Animation"
+                android:text="@string/u4styleText111"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="is the appearance of motion created by displaying a series of still images in sequence."
+                android:text="@string/u4styleText112"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1107,14 +1107,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Audio"
+                android:text="@string/u4styleText113"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="includes music, speech, or any other sound."
+                android:text="@string/u4styleText114"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1122,14 +1122,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Video"
+                android:text="@string/u4styleText115"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="consists of full-motion images played back at various speeds."
+                android:text="@string/u4styleText116"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1137,14 +1137,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Virtual reality (VR)"
+                android:text="@string/u4styleText117"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="is the use of computers to simulate and environment that appears as three-dimensional space."
+                android:text="@string/u4styleText118"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1152,14 +1152,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="A plug-in, or add-on ,"
+                android:text="@string/u4styleText119"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="is a program that extends a browser’s capability to display multimedia elements."
+                android:text="@string/u4styleText120"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1168,7 +1168,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="9. What are the types of E-commerce?"
+                android:text="@string/u4styleText121"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1176,14 +1176,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="E-commerce,"
+                android:text="@string/u4styleText122"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="short for electronic commerce, is a business transaction that occurs over an electronic network such as the Internet-Business-to –commerce (B2C) e-commerce consists of the sale of goods and services to the general public. Consumer-to-consumer (C2C) e-commerce occurs when one consumer sells directly to another, such a in an online auction. Business-to-business (B2B) e-commerce takes place between businesses that exchange goods and services."
+                android:text="@string/u4styleText123"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1192,7 +1192,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Practice 1"
+                android:text="@string/u4styleText124"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1201,7 +1201,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Write the meaning of these abbreviations."
+                android:text="@string/u4styleText125"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1209,106 +1209,106 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingRight="10dp"
-                android:text="DSL"
+                android:text="@string/u4styleText126"
                 android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/unit4EdtPractise1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="auto"
-                android:background="@drawable/edit" />
+                android:background="@drawable/edit"
+                android:focusable="auto" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingRight="10dp"
-                android:text="FTTP"
+                android:text="@string/u4styleText127"
                 android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/unit4EdtPractise2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="auto"
-                android:background="@drawable/edit" />
+                android:background="@drawable/edit"
+                android:focusable="auto" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingRight="10dp"
-                android:text="ISP"
+                android:text="@string/u4styleText129"
                 android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/unit4EdtPractise3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="auto"
-                android:background="@drawable/edit" />
+                android:background="@drawable/edit"
+                android:focusable="auto" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingRight="10dp"
-                android:text="OSP"
+                android:text="@string/u4styleText130"
                 android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/unit4EdtPractise4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="auto"
-                android:background="@drawable/edit" />
+                android:background="@drawable/edit"
+                android:focusable="auto" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingRight="10dp"
-                android:text="A Wi-Fi"
+                android:text="@string/u4styleText131"
                 android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/unit4EdtPractise5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="auto"
-                android:background="@drawable/edit" />
+                android:background="@drawable/edit"
+                android:focusable="auto" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingRight="10dp"
-                android:text="IP"
+                android:text="@string/u4styleText132"
                 android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/unit4EdtPractise6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="auto"
-                android:background="@drawable/edit" />
+                android:background="@drawable/edit"
+                android:focusable="auto" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingRight="10dp"
-                android:text="URL"
+                android:text="@string/u4styleText133"
                 android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/unit4EdtPractise7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="auto"
-                android:background="@drawable/edit" />
+                android:background="@drawable/edit"
+                android:focusable="auto" />
 
             <!--Practice 2-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Practice 2"
+                android:text="@string/u4styleText134"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1317,7 +1317,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Direction: Click T for True and F for False."
+                android:text="@string/u4styleText135"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1325,7 +1325,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="1.The Internet is a wide-area network spanning the globe."
+                android:text="@string/u4styleText136"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1341,20 +1341,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u4styleText137" />
 
                 <RadioButton
                     android:id="@+id/unit4RbPractise1False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u4styleText138" />
             </RadioGroup>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="2.The Web is an infrastructure of distributed information combined with the software that uses networks as a vehicle to exchange that information."
+                android:text="@string/u4styleText139"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1370,20 +1370,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u4styleText137" />
 
                 <RadioButton
                     android:id="@+id/unit4RbPractise2False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u4styleText138" />
             </RadioGroup>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="3.A URL is the standard way of specifying the location of a web page."
+                android:text="@string/u4styleText140"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1399,20 +1399,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u4styleText137" />
 
                 <RadioButton
                     android:id="@+id/unit4RbPractise3False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u4styleText138" />
             </RadioGroup>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="4.The Internet and the Web are essentially two names for the same thing."
+                android:text="@string/u4styleText141"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1428,20 +1428,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u4styleText137" />
 
                 <RadioButton
                     android:id="@+id/unit4RbPractise4False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u4styleText138" />
             </RadioGroup>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="5.The computer that is set up to respond to web requests is a web browser."
+                android:text="@string/u4styleText142"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1457,20 +1457,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u4styleText137" />
 
                 <RadioButton
                     android:id="@+id/unit4RbPractise5False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u4styleText138" />
             </RadioGroup>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="6.When we visit a website, we actually bring the site to us."
+                android:text="@string/u4styleText143"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1486,20 +1486,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u4styleText137" />
 
                 <RadioButton
                     android:id="@+id/unit4RbPractise6False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u4styleText138" />
             </RadioGroup>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="7.Most search engines use a context-based approach for finding candidate pages."
+                android:text="@string/u4styleText144"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1515,20 +1515,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u4styleText137" />
 
                 <RadioButton
                     android:id="@+id/unit4RbPractise7False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u4styleText138" />
             </RadioGroup>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="8.You must have a web browser in order to access the Web."
+                android:text="@string/u4styleText145"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1544,20 +1544,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u4styleText137" />
 
                 <RadioButton
                     android:id="@+id/unit4RbPractise8False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u4styleText138" />
             </RadioGroup>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="9.DSL, provides high-speed Internet connections through the cable television network."
+                android:text="@string/u4styleText146"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1573,20 +1573,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u4styleText137" />
 
                 <RadioButton
                     android:id="@+id/unit4RbPractise9False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u4styleText138" />
             </RadioGroup>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="10.In general, the first portion of each IP address identifies the network and the last portion identifies the specific computer."
+                android:text="@string/u4styleText147"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1602,13 +1602,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="True" />
+                    android:text="@string/u4styleText137" />
 
                 <RadioButton
                     android:id="@+id/unit4RbPractise10False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="False" />
+                    android:text="@string/u4styleText138" />
             </RadioGroup>
 
             <!--Practice 4: Common domain name extensions include.-->
@@ -1616,7 +1616,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Practice 4: Common domain name extensions include."
+                android:text="@string/u4styleText148"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1625,7 +1625,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Direction: Fill in the blanks."
+                android:text="@string/u4styleText149"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1646,14 +1646,14 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingLeft="@dimen/padding4"
-                        android:text=".com"
+                        android:text="@string/u4styleText150"
                         android:textStyle="normal" />
 
                     <Spinner
                         android:id="@+id/unit4SpinnerPractice1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"/>
+                        android:background="@drawable/spin4" />
 
                 </TableRow>
 
@@ -1673,7 +1673,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="@dimen/padding4"
-                        android:text="Education institutions"
+                        android:text="@string/u4styleText151"
                         android:textStyle="normal" />
                 </TableRow>
 
@@ -1688,14 +1688,14 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingLeft="@dimen/padding4"
-                        android:text=".gov"
+                        android:text="@string/u4styleText152"
                         android:textStyle="normal" />
 
                     <Spinner
                         android:id="@+id/unit4SpinnerPractice2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"/>
+                        android:background="@drawable/spin4" />
 
                 </TableRow>
 
@@ -1710,14 +1710,14 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingLeft="@dimen/padding4"
-                        android:text=".org"
+                        android:text="@string/u4styleText153"
                         android:textStyle="normal" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="@dimen/padding4"
-                        android:text="Military organizations"
+                        android:text="@string/u4styleText154"
                         android:textStyle="normal" />
 
                 </TableRow>
@@ -1733,14 +1733,14 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/table_cell_bg"
                         android:paddingLeft="@dimen/padding4"
-                        android:text=".tel"
+                        android:text="@string/u4styleText155"
                         android:textStyle="normal" />
 
                     <Spinner
                         android:id="@+id/unit4SpinnerPractice3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/spin4"/>
+                        android:background="@drawable/spin4" />
 
                 </TableRow>
 
@@ -1760,7 +1760,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:paddingLeft="@dimen/padding4"
-                        android:text="Network providers or commercial companies"
+                        android:text="@string/u4styleText156"
                         android:textStyle="normal" />
                 </TableRow>
 
@@ -1772,7 +1772,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Listening"
+                android:text="@string/u4styleText157"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1781,7 +1781,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Now listen how to use a search engine and match each with a picture."
+                android:text="@string/u4styleText158"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1790,7 +1790,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Language Work"
+                android:text="@string/u4styleText159"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1799,7 +1799,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Warnings."
+                android:text="@string/u4styleText160"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1807,7 +1807,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Where might you see these warnings?"
+                android:text="@string/u4styleText161"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1816,7 +1816,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="1.Never give out your home address or phone number?"
+                android:text="@string/u4styleText162"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1825,7 +1825,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="2.This appliance must be earthed."
+                android:text="@string/u4styleText163"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1834,7 +1834,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="3.Avoid turning off main power while computer is running."
+                android:text="@string/u4styleText164"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1843,7 +1843,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="4.No smoking, eating or drinking at the computer."
+                android:text="@string/u4styleText165"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1852,7 +1852,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="5.A machine which has been exposed to a moist atmosphere should be given time to dry out before being put into use."
+                android:text="@string/u4styleText166"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1861,7 +1861,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Warnings are used to ensure safety, to prevent damage to equipment and breaches of security, and to ensure the law is not broken. The simplest warnings are basic instructions Not to do something:"
+                android:text="@string/u4styleText167"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1870,7 +1870,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="* Don’t +V1"
+                android:text="@string/u4styleText168"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1879,7 +1879,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="Example: Don’t give your password."
+                android:text="@string/u4styleText169"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1888,7 +1888,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="*Avoid + Ving"
+                android:text="@string/u4styleText170"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1897,7 +1897,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="Example: Avoid drinking turning off main power while computer is running."
+                android:text="@string/u4styleText171"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1906,7 +1906,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="*No + Ving"
+                android:text="@string/u4styleText172"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1915,7 +1915,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="Example: No smoking, eating or drinking at the computer."
+                android:text="@string/u4styleText173"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1924,7 +1924,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="*Never + Verb"
+                android:text="@string/u4styleText174"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1933,7 +1933,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="Example: Never give out your home address or phone number."
+                android:text="@string/u4styleText175"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1942,7 +1942,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Warnings may be made stronger by using must / must not and in some cases should / should not."
+                android:text="@string/u4styleText176"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1951,7 +1951,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="For example:"
+                android:text="@string/u4styleText177"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1960,7 +1960,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="The wire linking a static earthingband to earthmust contain a resistor of at least 1 megohm."
+                android:text="@string/u4styleText178"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1969,7 +1969,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Language work:"
+                android:text="@string/u4styleText179"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1977,7 +1977,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Practice 1"
+                android:text="@string/u4styleText180"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -1985,7 +1985,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Direction: Rewrite each of these warnings according to the prompt."
+                android:text="@string/u4styleText181"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1994,7 +1994,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="1.Don’t give open access to PCs."
+                android:text="@string/u4styleText182"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2002,16 +2002,16 @@
                 android:id="@+id/unit4EdtLanguage1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto"
-                android:text="Avoid"
-                android:background="@drawable/edit"/>
+                android:text="@string/u4styleText183" />
 
             <!--2. You must not use your own programs on these machines.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="2. You must not use your own programs on these machines."
+                android:text="@string/u4styleText184"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2019,16 +2019,16 @@
                 android:id="@+id/unit4EdtLanguage2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto"
-                android:text="Never"
-                android:background="@drawable/edit"/>
+                android:text="@string/u4styleText185" />
 
             <!--3. No coffee in this lab.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="3. No coffee in this lab."
+                android:text="@string/u4styleText186"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2036,16 +2036,16 @@
                 android:id="@+id/unit4EdtLanguage3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto"
-                android:text="   must not"
-                android:background="@drawable/edit"/>
+                android:text="@string/u4styleText187" />
 
             <!--4. Avoid giving financial information in a chat room.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="4. Avoid giving financial information in a chat room."
+                android:text="@string/u4styleText188"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2053,16 +2053,16 @@
                 android:id="@+id/unit4EdtLanguage4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto"
-                android:text="Don’t"
-                android:background="@drawable/edit"/>
+                android:text="@string/u4styleText189" />
 
             <!--5. Never give out your password.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="5. Never give out your password."
+                android:text="@string/u4styleText190"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2070,16 +2070,16 @@
                 android:id="@+id/unit4EdtLanguage5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:focusable="auto"
                 android:background="@drawable/edit"
-                android:text="   must not" />
+                android:focusable="auto"
+                android:text="@string/u4styleText191" />
 
             <!--6. Don’t use out-of-date anti-virus software.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="6. Don’t use out-of-date anti-virus software."
+                android:text="@string/u4styleText192"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2087,15 +2087,15 @@
                 android:id="@+id/unit4EdtLanguage6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/edit"
                 android:focusable="auto"
-                android:background="@drawable/edit"
-                android:text="Avoid" />
+                android:text="@string/u4styleText193" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Language work:"
+                android:text="@string/u4styleText194"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -2103,7 +2103,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Practice 2"
+                android:text="@string/u4styleText195"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -2111,7 +2111,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Direction: Rewrite each of these warnings according to the prompt."
+                android:text="@string/u4styleText196"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -2119,77 +2119,154 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="1) must not, you, your, programs, these,machines,use, own,on"
+                android:text="1)"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
-            <EditText
-                android:id="@+id/unit4EdtLanguage7"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/edit"
-                android:focusable="auto" />
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="@string/u4styleText197"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/unit4EdtLanguage7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="2) in, coffee, this, room, no"
+                android:text="2)"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
-            <EditText
-                android:id="@+id/unit4EdtLanguage8"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/edit"
-                android:focusable="auto" />
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="@string/u4styleText198"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/unit4EdtLanguage8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="3) remove, ICs, don’t, with, screwdriver, a"
+                android:text="3)"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
-            <EditText
-                android:id="@+id/unit4EdtLanguage9"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/edit"
-                android:focusable="auto" />
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="@string/u4styleText199"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/unit4EdtLanguage9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
+
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="4) avoid, out-of-date, using, anti-virus, software"
+                android:text="4)"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
-            <EditText
-                android:id="@+id/unit4EdtLanguage10"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/edit"
-                android:focusable="auto" />
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="@string/u4styleText200"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/unit4EdtLanguage10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="5) turning off, avoid, power, while, main,is,computer, running"
+                android:text="5)"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
-            <EditText
-                android:id="@+id/unit4EdtLanguage11"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/edit"
-                android:focusable="auto" />
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:orientation="vertical">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="@string/u4styleText201"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/unit4EdtLanguage11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+
+            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>
