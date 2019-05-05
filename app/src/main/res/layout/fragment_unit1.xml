@@ -36,8 +36,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/u1styleText3"
                 android:layout_marginTop="16dp"
+                android:text="@string/u1styleText3"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -52,9 +52,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
                 android:text="@string/u1styleText5"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding"
                 android:textStyle="bold" />
 
             <TextView
@@ -663,7 +663,6 @@
                 android:background="@drawable/spin4" />
 
 
-
             <!--3. Match the names of digital devices with the pictures.-->
             <!--Group Items-->
             <TextView
@@ -1204,7 +1203,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="@string/u1styleText66"  />
+                    android:text="@string/u1styleText66" />
 
                 <RadioButton
                     android:id="@+id/unit1RbPractice01False"
@@ -1264,7 +1263,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="@string/u1styleText66"  />
+                    android:text="@string/u1styleText66" />
 
                 <RadioButton
                     android:id="@+id/unit1RbPractice03False"
@@ -1954,21 +1953,28 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
-                android:text="@string/u1styleText129"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText130"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding4"
+                    android:text="@string/u1styleText129"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding4"
+                    android:text="@string/u1styleText130"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+            </LinearLayout>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -1982,16 +1988,31 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="@string/u1styleText132"
+                android:text="1)"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
-            <EditText
-                android:id="@+id/unit1EdtLanguage1"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/edit"
-                android:focusable="auto" />
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding4"
+                    android:text="@string/u1styleText132"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/unit1EdtLanguage1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -2000,20 +2021,38 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="@string/u1styleText134"
+                android:text="2)"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
-            <EditText
-                android:id="@+id/unit1EdtLanguage2"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/edit"
-                android:focusable="auto" />
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="@string/u1styleText134"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+
+                <EditText
+                    android:id="@+id/unit1EdtLanguage2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+
+            </LinearLayout>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -2026,16 +2065,33 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="@string/u1styleText136"
+                android:text="3)"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
-            <EditText
-                android:id="@+id/unit1EdtLanguage3"
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/edit"
-                android:focusable="auto" />
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="@string/u1styleText136"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+                <EditText
+                    android:id="@+id/unit1EdtLanguage3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+
+            </LinearLayout>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -2044,20 +2100,38 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="@string/u1styleText138"
+                android:text="4)"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
-            <EditText
-                android:id="@+id/unit1EdtLanguage4"
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/edit"
-                android:focusable="auto" />
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="@string/u1styleText138"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+
+                <EditText
+                    android:id="@+id/unit1EdtLanguage4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -2070,16 +2144,33 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
-                android:text="@string/u1styleText140"
+                android:text="5)"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
-            <EditText
-                android:id="@+id/unit1EdtLanguage5"
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/edit"
-                android:focusable="auto" />
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="@string/u1styleText140"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+
+                <EditText
+                    android:id="@+id/unit1EdtLanguage5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -2650,7 +2741,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/padding"
-                    android:text="@string/u1styleText66"/>
+                    android:text="@string/u1styleText66" />
 
                 <RadioButton
                     android:id="@+id/unit1RbReading9False"
@@ -2686,7 +2777,7 @@
                     android:id="@+id/unit1RbReading10False"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/u1styleText67"/>
+                    android:text="@string/u1styleText67" />
             </RadioGroup>
 
             <!--8. Telecommute is using computers to stay in touch with the office while working at home.-->

@@ -333,15 +333,15 @@ public class Unit2Fragment extends Fragment {
         EditText editText8 = getView().findViewById(R.id.unit2EdtWarmUp8);
         EditText editText9 = getView().findViewById(R.id.unit2EdtWarmUp9);
 
-        strings[0] = editText1.getText().toString().trim();
-        strings[1] = editText2.getText().toString().trim();
-        strings[2] = editText3.getText().toString().trim();
-        strings[3] = editText4.getText().toString().trim();
-        strings[4] = editText5.getText().toString().trim();
-        strings[5] = editText6.getText().toString().trim();
-        strings[6] = editText7.getText().toString().trim();
-        strings[7] = editText8.getText().toString().trim();
-        strings[8] = editText9.getText().toString().trim();
+        strings[0] = editText1.getText().toString().toLowerCase().trim();
+        strings[1] = editText2.getText().toString().toLowerCase().trim();
+        strings[2] = editText3.getText().toString().toLowerCase().trim();
+        strings[3] = editText4.getText().toString().toLowerCase().trim();
+        strings[4] = editText5.getText().toString().toLowerCase().trim();
+        strings[5] = editText6.getText().toString().toLowerCase().trim();
+        strings[6] = editText7.getText().toString().toLowerCase().trim();
+        strings[7] = editText8.getText().toString().toLowerCase().trim();
+        strings[8] = editText9.getText().toString().toLowerCase().trim();
 
         for(int i=0;i<answerWarmUp2TrueStrings.length;i+=1){
             if (strings[i].equals(answerWarmUp2TrueStrings[i])) {

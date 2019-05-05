@@ -444,21 +444,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="Presentation"
+                android:text="@string/u2styleText15"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1. What is inside a PC system?"
+                android:text="@string/u2styleText16"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="The nerve center of a PC is the processor, also called the CPU, or central processing unit. This is built into a single chip which executes program instructions and coordinates. The activities that take place within the computer system. The chip itself is a small piece of silicon with a complex electrical circuit called integrated circuit."
+                android:text="@string/u2styleText17"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -466,7 +466,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
-                android:text="The processor consists of three main parts:"
+                android:text="@string/u2styleText18"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -506,7 +506,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
+                android:layout_marginTop="@dimen/padding"
                 android:text="@string/styleText9"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />

@@ -135,19 +135,19 @@
     <string name="u1styleText126">Language work: Practice</string>
     <string name="u1styleText127">Order these questions to the right form of wh-question-The present simple tense to appropriate with answers.</string>
     <string name="u1styleText128">Hint:</string>
-    <string name="u1styleText129">Example: she, come, home, When, does, ?</string>
-    <string name="u1styleText130">Correct: When does she come home?</string>
-    <string name="u1styleText131">Answer: She comes home late.</string>
-    <string name="u1styleText132">1) you, computer, your, use, in,do,How, free time,?</string>
-    <string name="u1styleText133">Answer: I usually use my computer to listen to music and watch a movie.</string>
-    <string name="u1styleText134">2) play, you, do, How often, computer game, ?</string>
-    <string name="u1styleText135">Answer: I sometimes play computer game.</string>
-    <string name="u1styleText136">3) does, What, CPU, for, ?, stand</string>
-    <string name="u1styleText137">Answer: It stands for central processing unit.</string>
-    <string name="u1styleText138">4) Where, do, you, use, ?, usually, a computer</string>
-    <string name="u1styleText139">Answer: I usually use a computer at computer center.</string>
-    <string name="u1styleText140">5) do, What, you, ?, do</string>
-    <string name="u1styleText141">Answer: I’m a university student.</string>
+    <string name="u1styleText129"><b>Example:</b> she come home When does ?</string>
+    <string name="u1styleText130"><b>Correct:</b> When does she come home?</string>
+    <string name="u1styleText131"><b>Answer:</b> She comes home late.</string>
+    <string name="u1styleText132">\tyou computer your use in do How free time ?</string>
+    <string name="u1styleText133"><b>Answer:</b> I usually use my computer to listen to music and watch a movie.</string>
+    <string name="u1styleText134">\tplay you do How often computer game ?</string>
+    <string name="u1styleText135"><b>Answer:</b> I sometimes play computer game.</string>
+    <string name="u1styleText136">\tdoes What CPU for ? stand</string>
+    <string name="u1styleText137"><b>Answer:</b> It stands for central processing unit.</string>
+    <string name="u1styleText138">\tWhere do you use ? usually a computer</string>
+    <string name="u1styleText139"><b>Answer:</b> I usually use a computer at computer center.</string>
+    <string name="u1styleText140">\tdo What you ? do</string>
+    <string name="u1styleText141"><b>Answer:</b> I’m a university student.</string>
     <string name="u1styleText142">Specialist Reading</string>
     <string name="u1styleText143">The ability of tiny computing devices to control complex operations has transformed the way many tasks are performed, ranging from scientific research to producing consumer products. Tiny \'computers on a chip\' are used in medical equipment, home appliances, cars and toys. Workers use handheld computing devices to collect data at a customer site, to generate forms, to control inventory, and to serve as desktop organizers.</string>
     <string name="u1styleText144">Not only is computing equipment getting smaller, it is getting more sophisticated. Computers are part of many machines and devices that once required continual human supervision and control. Today, computers in security systems result in safer environments, computers in cars improve energy efficiency, and computers in phones provide features such as call forwarding, call monitoring, and20call answering.</string>
@@ -216,6 +216,10 @@
     <string name="u2styleText12">6. graphic designer</string>
     <string name="u2styleText13">7. secretary doing general office work</string>
     <string name="u2styleText14">2. Label the parts of computer</string>
+    <string name="u2styleText15">Presentation</string>
+    <string name="u2styleText16">1. What is inside a PC system?</string>
+    <string name="u2styleText17">The nerve center of a PC is the processor, also called the CPU, or central processing unit. This is built into a single chip which executes program instructions and coordinates. The activities that take place within the computer system. The chip itself is a small piece of silicon with a complex electrical circuit called integrated circuit.</string>
+    <string name="u2styleText18">The processor consists of three main parts:</string>
     <string name="styleText4"><b>Direction:</b>Match the words with pictures.</string>
     <string name="styleText5"><b>The control unit</b> examines the instructions in the user’s program, in the user’s program, interprets each instruction and causes the circuits and the rest of the components-monitor disk drivers, etc-to execute the functions specified.</string>
     <string name="styleText6"><b>The arithmetic logic unit (ALU)</b>  performs mathematical calculations (+, -, etc) and logical operations (AND, OR, NOT)</string>
@@ -722,8 +726,6 @@
     <string name="preUnit3styleText52">b. business software</string>
     <string name="preUnit3styleText53">c. application software</string>
     <string name="preUnit3styleText54">d. project management software</string>
-
-
 
 
 

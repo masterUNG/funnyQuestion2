@@ -38,15 +38,15 @@ public class MyConstantUnit2 {
     private int[] answerWarmUp1TrueInts = new int[]{7, 2, 5, 1, 6, 4, 3};
 
     private String[] answerWarmUp2TrueStrings = new String[]{
-            "CD Rom",
-            "Printer",
-            "Headset",
-            "Scanner",
-            "Speakers",
-            "Tower",
-            "Mouse",
-            "Keyboard",
-            "Monitor"
+            "cd rom",
+            "printer",
+            "headset",
+            "scanner",
+            "speakers",
+            "tower",
+            "mouse",
+            "keyboard",
+            "monitor"
 
     };
 

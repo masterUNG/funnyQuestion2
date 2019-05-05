@@ -2029,7 +2029,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
+                android:layout_marginTop="@dimen/padding"
                 android:text="@string/u3styleText165"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
@@ -2038,7 +2038,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
+                android:layout_marginTop="@dimen/padding"
                 android:text="@string/u3styleText166"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
@@ -2046,7 +2046,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
+                android:layout_marginTop="@dimen/padding"
                 android:text="@string/u3styleText167"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
