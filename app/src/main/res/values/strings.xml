@@ -740,8 +740,8 @@
     <string name="u4styleText11">5 = always do on the Internet</string>
     <string name="u4styleText12">4 = usually do on the Internet</string>
     <string name="u4styleText13">3 = often do on the Internet</string>
-    <string name="u4styleText14">2= sometimes do on the Internet</string>
-    <string name="u4styleText15">1= occasionally do on the Internet</string>
+    <string name="u4styleText14">2 = sometimes do on the Internet</string>
+    <string name="u4styleText15">1 = occasionally do on the Internet</string>
     <string name="u4styleText16">• Look up information</string>
     <string name="u4styleText17">• Schoolwork, jobs, how-to, research, banking, directions, businesses, Email</string>
     <string name="u4styleText18">• Buy and sell products</string>
@@ -774,7 +774,7 @@
     <string name="u4styleText45">offers high-speed Internet connections to devices with built-in compatible technology or computers with wireless moderns.</string>
     <string name="u4styleText46">A Wi-Fi</string>
     <string name="u4styleText47">(wireless fidelity) network uses radio signals to provide high-speed Internet connections to compatible or properly equipped wireless computers and devices.</string>
-    <string name="u4styleText48">3.What are the types of Internet Access providers?</string>
+    <string name="u4styleText48">3. What are the types of Internet Access providers?</string>
     <string name="u4styleText49">An access provider is a business that provides access to the Internet free of for a fee.</string>
     <string name="u4styleText50">An ISP (Internet service provider)</string>
     <string name="u4styleText51">is a regional or national access provider.</string>
@@ -861,18 +861,18 @@
     <string name="u4styleText133">URL</string>
     <string name="u4styleText134">Practice 2</string>
     <string name="u4styleText135">Direction: Click T for True and F for False.</string>
-    <string name="u4styleText136">1.The Internet is a wide&#45;area network spanning the globe.</string>
+    <string name="u4styleText136">1. The Internet is a wide&#45;area network spanning the globe.</string>
     <string name="u4styleText137">True</string>
     <string name="u4styleText138">False</string>
-    <string name="u4styleText139">2.The Web is an infrastructure of distributed information combined with the software that uses networks as a vehicle to exchange that information.</string>
-    <string name="u4styleText140">3.A URL is the standard way of specifying the location of a web page.</string>
-    <string name="u4styleText141">4.The Internet and the Web are essentially two names for the same thing.</string>
-    <string name="u4styleText142">5.The computer that is set up to respond to web requests is a web browser.</string>
-    <string name="u4styleText143">6.When we visit a website, we actually bring the site to us.</string>
-    <string name="u4styleText144">7.Most search engines use a context-based approach for finding candidate pages.</string>
-    <string name="u4styleText145">8.You must have a web browser in order to access the Web.</string>
-    <string name="u4styleText146">9.DSL, provides high-speed Internet connections through the cable television network.</string>
-    <string name="u4styleText147">10.In general, the first portion of each IP address identifies the network and the last portion identifies the specific computer.</string>
+    <string name="u4styleText139">2. The Web is an infrastructure of distributed information combined with the software that uses networks as a vehicle to exchange that information.</string>
+    <string name="u4styleText140">3. A URL is the standard way of specifying the location of a web page.</string>
+    <string name="u4styleText141">4. The Internet and the Web are essentially two names for the same thing.</string>
+    <string name="u4styleText142">5. The computer that is set up to respond to web requests is a web browser.</string>
+    <string name="u4styleText143">6. When we visit a website, we actually bring the site to us.</string>
+    <string name="u4styleText144">7. Most search engines use a context-based approach for finding candidate pages.</string>
+    <string name="u4styleText145">8. You must have a web browser in order to access the Web.</string>
+    <string name="u4styleText146">9. DSL, provides high-speed Internet connections through the cable television network.</string>
+    <string name="u4styleText147">10. In general, the first portion of each IP address identifies the network and the last portion identifies the specific computer.</string>
     <string name="u4styleText148">Practice 4: Common domain name extensions include.</string>
     <string name="u4styleText149">Direction: Fill in the blanks.</string>
     <string name="u4styleText150">.com</string>
@@ -887,13 +887,13 @@
     <string name="u4styleText159">Language Work</string>
     <string name="u4styleText160">Warnings.</string>
     <string name="u4styleText161">Where might you see these warnings?</string>
-    <string name="u4styleText162">1.Never give out your home address or phone number?</string>
-    <string name="u4styleText163">2.This appliance must be earthed.</string>
-    <string name="u4styleText164">3.Avoid turning off main power while computer is running.</string>
-    <string name="u4styleText165">4.No smoking, eating or drinking at the computer.</string>
-    <string name="u4styleText166">5.A machine which has been exposed to a moist atmosphere should be given time to dry out before being put into use.</string>
+    <string name="u4styleText162">1. Never give out your home address or phone number?</string>
+    <string name="u4styleText163">2. This appliance must be earthed.</string>
+    <string name="u4styleText164">3. Avoid turning off main power while computer is running.</string>
+    <string name="u4styleText165">4. No smoking, eating or drinking at the computer.</string>
+    <string name="u4styleText166">5. A machine which has been exposed to a moist atmosphere should be given time to dry out before being put into use.</string>
     <string name="u4styleText167">Warnings are used to ensure safety, to prevent damage to equipment and breaches of security, and to ensure the law is not broken. The simplest warnings are basic instructions Not to do something:</string>
-    <string name="u4styleText168">* Don’t +V1</string>
+    <string name="u4styleText168">*Don’t +V1</string>
     <string name="u4styleText169">Example: Don’t give your password.</string>
     <string name="u4styleText170">*Avoid + Ving</string>
     <string name="u4styleText171">Example: Avoid drinking turning off main power while computer is running.</string>
@@ -907,7 +907,7 @@
     <string name="u4styleText179">Language work:</string>
     <string name="u4styleText180">Practice 1</string>
     <string name="u4styleText181">Direction: Rewrite each of these warnings according to the prompt.</string>
-    <string name="u4styleText182">1.Don’t give open access to PCs.</string>
+    <string name="u4styleText182">1. Don’t give open access to PCs.</string>
     <string name="u4styleText183">Avoid</string>
     <string name="u4styleText184">2. You must not use your own programs on these machines.</string>
     <string name="u4styleText185">Never</string>

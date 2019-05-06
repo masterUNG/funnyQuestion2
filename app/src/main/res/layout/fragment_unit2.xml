@@ -68,7 +68,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit200" />
@@ -227,7 +227,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit201" />
@@ -529,7 +529,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit202" />
@@ -593,7 +593,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit203" />
@@ -666,7 +666,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit204" />
@@ -778,7 +778,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit205" />
@@ -793,7 +793,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit206" />
@@ -876,7 +876,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit207" />
@@ -891,7 +891,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit208" />
@@ -906,7 +906,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit209" />
@@ -929,7 +929,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit210" />
@@ -1298,7 +1298,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit211" />
@@ -1858,7 +1858,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit212" />
@@ -1880,7 +1880,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit213" />
@@ -1903,7 +1903,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit214" />

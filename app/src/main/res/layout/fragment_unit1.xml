@@ -277,7 +277,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit106" />
@@ -316,14 +316,14 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit101" />
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit102" />
@@ -353,7 +353,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit103" />
@@ -406,7 +406,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit104" />
@@ -436,7 +436,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
+                android:layout_height="250dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit105" />
