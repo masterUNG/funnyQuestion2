@@ -85,12 +85,12 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         preUnit5TextView.setText(strings[4]);
         preUnit6TextView.setText(strings[5]);
 
-        unit1TextView.setText(strings[6]);
-        unit2TextView.setText(strings[7]);
-        unit3TextView.setText(strings[8]);
-        unit4TextView.setText(strings[9]);
-        unit5TextView.setText(strings[10]);
-        unit6TextView.setText(strings[11]);
+        unit1TextView.setText(strings[0]);
+        unit2TextView.setText(strings[1]);
+        unit3TextView.setText(strings[2]);
+        unit4TextView.setText(strings[3]);
+        unit5TextView.setText(strings[4]);
+        unit6TextView.setText(strings[5]);
 
 
         preUnit1TextView.setOnClickListener(ServiceActivity.this);

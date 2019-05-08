@@ -179,8 +179,8 @@
     <string name="u1styleText170">b. Improve energy efficiency</string>
     <string name="u1styleText171">c. Safer environment</string>
     <string name="u1styleText172">B: Re-read the text to find the answers to these question.</string>
-    <string name="u1styleText173">Edutainment, Multimedia,</string>
-    <string name="u1styleText174">Expert system, Telecommute,</string>
+    <string name="u1styleText173">Edutainment \t\t\t\tMultimedia</string>
+    <string name="u1styleText174">Expert system \t\t\tTelecommute</string>
     <string name="u1styleText175">Information Superhighway</string>
     <string name="u1styleText176">1. Multimedia materials with a combination of educational and entertainment context.</string>
     <string name="u1styleText177">2. A combination of text with sound, video, animation, and graphics.</string>
