@@ -10,6 +10,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -30,7 +31,12 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
     private DrawerLayout drawerLayout;
     private ActionBarDrawerToggle actionBarDrawerToggle;
     private TextView unit1TextView, unit2TextView, unit3TextView, unit4TextView, unit5TextView, unit6TextView,
-            preUnit1TextView,preUnit2TextView,preUnit3TextView,preUnit4TextView,preUnit5TextView,preUnit6TextView;
+            preUnit1TextView, preUnit2TextView, preUnit3TextView, preUnit4TextView, preUnit5TextView, preUnit6TextView,
+            postUnit1TextView, postUnit2TextView, postUnit3TextView, postUnit4TextView, postUnit5TextView, postUnit6TextView;
+
+    private ImageView unit1ImgView, unit2ImgView, unit3ImgView, unit4ImgView, unit5ImgView, unit6ImgView,
+            preUnit1ImgView, preUnit2ImgView, preUnit3ImgView, preUnit4ImgView, preUnit5ImgView, preUnit6ImgView,
+            postUnit1ImgView, postUnit2ImgView, postUnit3ImgView, postUnit4ImgView, postUnit5ImgView, postUnit6ImgView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,6 +81,35 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         unit5TextView = findViewById(R.id.txtUnit5);
         unit6TextView = findViewById(R.id.txtUnit6);
 
+        postUnit1TextView = findViewById(R.id.txtPostUnit1);
+        postUnit2TextView = findViewById(R.id.txtPostUnit2);
+        postUnit3TextView = findViewById(R.id.txtPostUnit3);
+        postUnit4TextView = findViewById(R.id.txtPostUnit4);
+        postUnit5TextView = findViewById(R.id.txtPostUnit5);
+        postUnit6TextView = findViewById(R.id.txtPostUnit6);
+
+        preUnit1ImgView = findViewById(R.id.imgPreUnit1);
+        preUnit2ImgView = findViewById(R.id.imgPreUnit2);
+        preUnit3ImgView = findViewById(R.id.imgPreUnit3);
+        preUnit4ImgView = findViewById(R.id.imgPreUnit4);
+        preUnit5ImgView = findViewById(R.id.imgPreUnit5);
+        preUnit6ImgView = findViewById(R.id.imgPreUnit6);
+
+        unit1ImgView = findViewById(R.id.imgUnit1);
+        unit2ImgView = findViewById(R.id.imgUnit2);
+        unit3ImgView = findViewById(R.id.imgUnit3);
+        unit4ImgView = findViewById(R.id.imgUnit4);
+        unit5ImgView = findViewById(R.id.imgUnit5);
+        unit6ImgView = findViewById(R.id.imgUnit6);
+
+        postUnit1ImgView = findViewById(R.id.imgPostUnit1);
+        postUnit2ImgView = findViewById(R.id.imgPostUnit2);
+        postUnit3ImgView = findViewById(R.id.imgPostUnit3);
+        postUnit4ImgView = findViewById(R.id.imgPostUnit4);
+        postUnit5ImgView = findViewById(R.id.imgPostUnit5);
+        postUnit6ImgView = findViewById(R.id.imgPostUnit6);
+
+
         MyConstant myConstant = new MyConstant();
         String[] strings = myConstant.getUnitTitleStrings();
 
@@ -92,6 +127,13 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         unit5TextView.setText(strings[4]);
         unit6TextView.setText(strings[5]);
 
+        postUnit1TextView.setText(strings[0]);
+        postUnit2TextView.setText(strings[1]);
+        postUnit3TextView.setText(strings[2]);
+        postUnit4TextView.setText(strings[3]);
+        postUnit5TextView.setText(strings[4]);
+        postUnit6TextView.setText(strings[5]);
+
 
         preUnit1TextView.setOnClickListener(ServiceActivity.this);
         preUnit2TextView.setOnClickListener(ServiceActivity.this);
@@ -106,6 +148,14 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         unit4TextView.setOnClickListener(ServiceActivity.this);
         unit5TextView.setOnClickListener(ServiceActivity.this);
         unit6TextView.setOnClickListener(ServiceActivity.this);
+
+        postUnit1TextView.setOnClickListener(ServiceActivity.this);
+        postUnit2TextView.setOnClickListener(ServiceActivity.this);
+        postUnit3TextView.setOnClickListener(ServiceActivity.this);
+        postUnit4TextView.setOnClickListener(ServiceActivity.this);
+        postUnit5TextView.setOnClickListener(ServiceActivity.this);
+        postUnit6TextView.setOnClickListener(ServiceActivity.this);
+
     }
 
 
@@ -188,6 +238,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
                         .beginTransaction()
                         .replace(R.id.contentServiceFragment, PreUnit1Fragment.preUnit1Fragment(uidUserString))
                         .commit();
+                setCheckImage("PreUnit1");
                 break;
 
 
@@ -196,6 +247,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
                         .beginTransaction()
                         .replace(R.id.contentServiceFragment, PreUnit2Fragment.preUnit2Fragment(uidUserString))
                         .commit();
+                setCheckImage("PreUnit2");
                 break;
 
             case R.id.txtPreUnit3:
@@ -203,6 +255,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
                         .beginTransaction()
                         .replace(R.id.contentServiceFragment, PreUnit3Fragment.preUnit3Fragment(uidUserString))
                         .commit();
+                setCheckImage("PreUnit3");
                 break;
 
             case R.id.txtPreUnit4:
@@ -222,25 +275,28 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
                         .beginTransaction()
                         .replace(R.id.contentServiceFragment, Unit1Fragment.unit1Instance(uidUserString))
                         .commit();
+                setCheckImage("Unit1");
                 break;
             case R.id.txtUnit2:
                 getSupportFragmentManager()
                         .beginTransaction()
                         .replace(R.id.contentServiceFragment, Unit2Fragment.unit2Fragment(uidUserString))
                         .commit();
+                setCheckImage("Unit2");
                 break;
             case R.id.txtUnit3:
                 getSupportFragmentManager()
                         .beginTransaction()
                         .replace(R.id.contentServiceFragment, Unit3Fragment.unit3Instance(uidUserString))
                         .commit();
-
+                setCheckImage("Unit3");
                 break;
             case R.id.txtUnit4:
                 getSupportFragmentManager()
                         .beginTransaction()
                         .replace(R.id.contentServiceFragment, Unit4Fragment.unit4Instance(uidUserString))
                         .commit();
+                setCheckImage("Unit4");
                 break;
             case R.id.txtUnit5:
 
@@ -252,4 +308,37 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
 
 
     } //onClick
+
+    private void setCheckImage(String position) {
+        if (position.equals("PreUnit1"))
+            preUnit1ImgView.setImageResource(R.drawable.ic_action_check_ok);
+        else preUnit1ImgView.setImageResource(R.drawable.ic_action_rectangle);
+
+        if (position.equals("PreUnit2"))
+            preUnit2ImgView.setImageResource(R.drawable.ic_action_check_ok);
+        else preUnit2ImgView.setImageResource(R.drawable.ic_action_rectangle);
+
+        if (position.equals("PreUnit3"))
+            preUnit3ImgView.setImageResource(R.drawable.ic_action_check_ok);
+        else preUnit3ImgView.setImageResource(R.drawable.ic_action_rectangle);
+
+        if (position.equals("Unit1"))
+            unit1ImgView.setImageResource(R.drawable.ic_action_check_ok);
+        else unit1ImgView.setImageResource(R.drawable.ic_action_rectangle);
+
+        if (position.equals("Unit2"))
+            unit2ImgView.setImageResource(R.drawable.ic_action_check_ok);
+        else unit2ImgView.setImageResource(R.drawable.ic_action_rectangle);
+
+        if (position.equals("Unit3"))
+            unit3ImgView.setImageResource(R.drawable.ic_action_check_ok);
+        else unit3ImgView.setImageResource(R.drawable.ic_action_rectangle);
+
+        if (position.equals("Unit4"))
+            unit4ImgView.setImageResource(R.drawable.ic_action_check_ok);
+        else unit4ImgView.setImageResource(R.drawable.ic_action_rectangle);
+
+    }
+
+
 } // Main Class

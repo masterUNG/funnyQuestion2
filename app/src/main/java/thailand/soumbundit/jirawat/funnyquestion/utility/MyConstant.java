@@ -230,12 +230,6 @@ public class MyConstant {
 
 
     private String[] unitTitleStrings = new String[]{
-           /* "Pre-test Unit1",
-            "Pre-test Unit2",
-            "Pre-test Unit3",
-            "Pre-test Unit4",
-            "Pre-test Unit5",
-            "Pre-test Unit6",*/
 
             "Unit1 Computer Users",
             "Unit2 Computer Architecture",
