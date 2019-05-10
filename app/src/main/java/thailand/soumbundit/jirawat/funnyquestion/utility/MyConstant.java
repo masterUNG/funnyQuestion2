@@ -235,8 +235,8 @@ public class MyConstant {
             "Unit2 Computer Architecture",
             "Unit3 Computer Applications",
             "Unit4 The Internet",
-            "Unit5",
-            "Unit6"
+            "Unit5 Communication Systems",
+            "Unit6 The Future of IT"
     };
 
     private String[] chioceSpinner5Strings = new String[]{
