@@ -3,11 +3,12 @@
     <string name="user">Email;</string>
     <string name="password">Password ;</string>
     <string name="name">Name ;</string>
+    <string name="title_activity_splash_sceen">SplashSceenActivity</string>
 
     <string name="open">Open Drawer</string>
     <string name="close">Close Drawer</string>
     <string name="stringEndLine">\n\n\n</string>
-<!--unit1-->
+    <!--unit1-->
     <string name="u1styleText1">Unit 1</string>
     <string name="u1styleText2">Computer Users</string>
     <string name="u1styleText3">Objective</string>
@@ -198,7 +199,6 @@
     <string name="u1styleText189">8. Telecommute is using computers to stay in touch with the office while working at home.</string>
     <string name="u1styleText190">9. Telecommute can be used of an electronic classroom or boardroom accessible.</string>
     <string name="u1styleText191">10. Vast data bases can help the people in remote location</string>
-
 
 
     <!--unit2-->
@@ -670,7 +670,6 @@
     <string name="preUnit2styleText49">d. An alphabet mouse</string>
 
 
-
     <!--pre unit3-->
     <string name="preUnit3styleText1">Pre-test</string>
     <string name="preUnit3styleText2">Unit 3</string>
@@ -927,6 +926,7 @@
     <string name="u4styleText199">\tremove, ICs, don’t, with, screwdriver, a</string>
     <string name="u4styleText200">\tavoid, out-of-date, using, anti-virus, software</string>
     <string name="u4styleText201">\tturning off, avoid, power, while, main, is, computer, running</string>
+
 
 
 </resources>
