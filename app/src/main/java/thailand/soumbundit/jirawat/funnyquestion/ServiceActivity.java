@@ -71,27 +71,23 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
     }
 
     private void unitController() {
+        MyConstant myConstant = new MyConstant();
+        String[] strings = myConstant.getUnitTitleStrings();
 
+        setPreUnitController(strings);
+        setUnitController(strings);
+        setPostUnitController(strings);
+
+    }
+
+
+    private void setPreUnitController(String[] strings) {
         preUnit1TextView = findViewById(R.id.txtPreUnit1);
         preUnit2TextView = findViewById(R.id.txtPreUnit2);
         preUnit3TextView = findViewById(R.id.txtPreUnit3);
         preUnit4TextView = findViewById(R.id.txtPreUnit4);
         preUnit5TextView = findViewById(R.id.txtPreUnit5);
         preUnit6TextView = findViewById(R.id.txtPreUnit6);
-
-        unit1TextView = findViewById(R.id.txtUnit1);
-        unit2TextView = findViewById(R.id.txtUnit2);
-        unit3TextView = findViewById(R.id.txtUnit3);
-        unit4TextView = findViewById(R.id.txtUnit4);
-        unit5TextView = findViewById(R.id.txtUnit5);
-        unit6TextView = findViewById(R.id.txtUnit6);
-
-        postUnit1TextView = findViewById(R.id.txtPostUnit1);
-        postUnit2TextView = findViewById(R.id.txtPostUnit2);
-        postUnit3TextView = findViewById(R.id.txtPostUnit3);
-        postUnit4TextView = findViewById(R.id.txtPostUnit4);
-        postUnit5TextView = findViewById(R.id.txtPostUnit5);
-        postUnit6TextView = findViewById(R.id.txtPostUnit6);
 
         preUnit1ImgView = findViewById(R.id.imgPreUnit1);
         preUnit2ImgView = findViewById(R.id.imgPreUnit2);
@@ -100,30 +96,35 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         preUnit5ImgView = findViewById(R.id.imgPreUnit5);
         preUnit6ImgView = findViewById(R.id.imgPreUnit6);
 
-        unit1ImgView = findViewById(R.id.imgUnit1);
-        unit2ImgView = findViewById(R.id.imgUnit2);
-        unit3ImgView = findViewById(R.id.imgUnit3);
-        unit4ImgView = findViewById(R.id.imgUnit4);
-        unit5ImgView = findViewById(R.id.imgUnit5);
-        unit6ImgView = findViewById(R.id.imgUnit6);
-
-        postUnit1ImgView = findViewById(R.id.imgPostUnit1);
-        postUnit2ImgView = findViewById(R.id.imgPostUnit2);
-        postUnit3ImgView = findViewById(R.id.imgPostUnit3);
-        postUnit4ImgView = findViewById(R.id.imgPostUnit4);
-        postUnit5ImgView = findViewById(R.id.imgPostUnit5);
-        postUnit6ImgView = findViewById(R.id.imgPostUnit6);
-
-
-        MyConstant myConstant = new MyConstant();
-        String[] strings = myConstant.getUnitTitleStrings();
-
         preUnit1TextView.setText(strings[0]);
         preUnit2TextView.setText(strings[1]);
         preUnit3TextView.setText(strings[2]);
         preUnit4TextView.setText(strings[3]);
         preUnit5TextView.setText(strings[4]);
         preUnit6TextView.setText(strings[5]);
+
+        preUnit1TextView.setOnClickListener(ServiceActivity.this);
+        preUnit2TextView.setOnClickListener(ServiceActivity.this);
+        preUnit3TextView.setOnClickListener(ServiceActivity.this);
+        preUnit4TextView.setOnClickListener(ServiceActivity.this);
+        preUnit5TextView.setOnClickListener(ServiceActivity.this);
+        preUnit6TextView.setOnClickListener(ServiceActivity.this);
+    }
+
+    private void setUnitController(String[] strings) {
+        unit1TextView = findViewById(R.id.txtUnit1);
+        unit2TextView = findViewById(R.id.txtUnit2);
+        unit3TextView = findViewById(R.id.txtUnit3);
+        unit4TextView = findViewById(R.id.txtUnit4);
+        unit5TextView = findViewById(R.id.txtUnit5);
+        unit6TextView = findViewById(R.id.txtUnit6);
+
+        unit1ImgView = findViewById(R.id.imgUnit1);
+        unit2ImgView = findViewById(R.id.imgUnit2);
+        unit3ImgView = findViewById(R.id.imgUnit3);
+        unit4ImgView = findViewById(R.id.imgUnit4);
+        unit5ImgView = findViewById(R.id.imgUnit5);
+        unit6ImgView = findViewById(R.id.imgUnit6);
 
         unit1TextView.setText(strings[0]);
         unit2TextView.setText(strings[1]);
@@ -132,6 +133,29 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         unit5TextView.setText(strings[4]);
         unit6TextView.setText(strings[5]);
 
+        unit1TextView.setOnClickListener(ServiceActivity.this);
+        unit2TextView.setOnClickListener(ServiceActivity.this);
+        unit3TextView.setOnClickListener(ServiceActivity.this);
+        unit4TextView.setOnClickListener(ServiceActivity.this);
+        unit5TextView.setOnClickListener(ServiceActivity.this);
+        unit6TextView.setOnClickListener(ServiceActivity.this);
+    }
+
+    private void setPostUnitController(String[] strings) {
+        postUnit1TextView = findViewById(R.id.txtPostUnit1);
+        postUnit2TextView = findViewById(R.id.txtPostUnit2);
+        postUnit3TextView = findViewById(R.id.txtPostUnit3);
+        postUnit4TextView = findViewById(R.id.txtPostUnit4);
+        postUnit5TextView = findViewById(R.id.txtPostUnit5);
+        postUnit6TextView = findViewById(R.id.txtPostUnit6);
+
+        postUnit1ImgView = findViewById(R.id.imgPostUnit1);
+        postUnit2ImgView = findViewById(R.id.imgPostUnit2);
+        postUnit3ImgView = findViewById(R.id.imgPostUnit3);
+        postUnit4ImgView = findViewById(R.id.imgPostUnit4);
+        postUnit5ImgView = findViewById(R.id.imgPostUnit5);
+        postUnit6ImgView = findViewById(R.id.imgPostUnit6);
+
         postUnit1TextView.setText(strings[0]);
         postUnit2TextView.setText(strings[1]);
         postUnit3TextView.setText(strings[2]);
@@ -139,30 +163,13 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         postUnit5TextView.setText(strings[4]);
         postUnit6TextView.setText(strings[5]);
 
-
-        preUnit1TextView.setOnClickListener(ServiceActivity.this);
-        preUnit2TextView.setOnClickListener(ServiceActivity.this);
-        preUnit3TextView.setOnClickListener(ServiceActivity.this);
-        preUnit4TextView.setOnClickListener(ServiceActivity.this);
-        preUnit5TextView.setOnClickListener(ServiceActivity.this);
-        preUnit6TextView.setOnClickListener(ServiceActivity.this);
-
-        unit1TextView.setOnClickListener(ServiceActivity.this);
-        unit2TextView.setOnClickListener(ServiceActivity.this);
-        unit3TextView.setOnClickListener(ServiceActivity.this);
-        unit4TextView.setOnClickListener(ServiceActivity.this);
-        unit5TextView.setOnClickListener(ServiceActivity.this);
-        unit6TextView.setOnClickListener(ServiceActivity.this);
-
         postUnit1TextView.setOnClickListener(ServiceActivity.this);
         postUnit2TextView.setOnClickListener(ServiceActivity.this);
         postUnit3TextView.setOnClickListener(ServiceActivity.this);
         postUnit4TextView.setOnClickListener(ServiceActivity.this);
         postUnit5TextView.setOnClickListener(ServiceActivity.this);
         postUnit6TextView.setOnClickListener(ServiceActivity.this);
-
     }
-
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
@@ -352,14 +359,6 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.txtPostUnit6:
 
                 break;
-
-
-
-
-
-
-
-
 
         }
 
