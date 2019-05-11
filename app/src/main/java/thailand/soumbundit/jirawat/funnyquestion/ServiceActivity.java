@@ -16,9 +16,13 @@ import android.widget.TextView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import thailand.soumbundit.jirawat.funnyquestion.fragment.PostUnit1Fragment;
+import thailand.soumbundit.jirawat.funnyquestion.fragment.PostUnit2Fragment;
+import thailand.soumbundit.jirawat.funnyquestion.fragment.PostUnit3Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit1Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit2Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit3Fragment;
+import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit4Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.Unit1Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.Unit2Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.Unit3Fragment;
@@ -62,6 +66,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
                     .beginTransaction()
                     .add(R.id.contentServiceFragment, Unit1Fragment.unit1Instance(uidUserString))
                     .commit();
+            unit1ImgView.setImageResource(R.drawable.ic_action_check_ok);
         }
     }
 
@@ -259,6 +264,11 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
                 break;
 
             case R.id.txtPreUnit4:
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.contentServiceFragment, PreUnit4Fragment.preUnit4Fragment(uidUserString))
+                        .commit();
+                setCheckImage("PreUnit4");
 
                 break;
 
@@ -304,6 +314,53 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.txtUnit6:
 
                 break;
+
+
+            case R.id.txtPostUnit1:
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.contentServiceFragment, PostUnit1Fragment.postUnit1Fragment(uidUserString))
+                        .commit();
+                setCheckImage("PostUnit1");
+                break;
+
+
+            case R.id.txtPostUnit2:
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.contentServiceFragment, PostUnit2Fragment.postUnit2Fragment(uidUserString))
+                        .commit();
+                setCheckImage("PostUnit2");
+                break;
+
+            case R.id.txtPostUnit3:
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.contentServiceFragment, PostUnit3Fragment.postUnit3Fragment(uidUserString))
+                        .commit();
+                setCheckImage("PostUnit3");
+                break;
+
+            case R.id.txtPostUnit4:
+
+                break;
+
+            case R.id.txtPostUnit5:
+
+                break;
+
+            case R.id.txtPostUnit6:
+
+                break;
+
+
+
+
+
+
+
+
+
         }
 
 
@@ -322,6 +379,10 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
             preUnit3ImgView.setImageResource(R.drawable.ic_action_check_ok);
         else preUnit3ImgView.setImageResource(R.drawable.ic_action_rectangle);
 
+        if (position.equals("PreUnit4"))
+            preUnit4ImgView.setImageResource(R.drawable.ic_action_check_ok);
+        else preUnit4ImgView.setImageResource(R.drawable.ic_action_rectangle);
+
         if (position.equals("Unit1"))
             unit1ImgView.setImageResource(R.drawable.ic_action_check_ok);
         else unit1ImgView.setImageResource(R.drawable.ic_action_rectangle);
@@ -337,6 +398,18 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         if (position.equals("Unit4"))
             unit4ImgView.setImageResource(R.drawable.ic_action_check_ok);
         else unit4ImgView.setImageResource(R.drawable.ic_action_rectangle);
+
+        if (position.equals("PostUnit1"))
+            postUnit1ImgView.setImageResource(R.drawable.ic_action_check_ok);
+        else postUnit1ImgView.setImageResource(R.drawable.ic_action_rectangle);
+
+        if (position.equals("PostUnit2"))
+            postUnit2ImgView.setImageResource(R.drawable.ic_action_check_ok);
+        else postUnit2ImgView.setImageResource(R.drawable.ic_action_rectangle);
+
+        if (position.equals("PostUnit3"))
+            postUnit3ImgView.setImageResource(R.drawable.ic_action_check_ok);
+        else postUnit3ImgView.setImageResource(R.drawable.ic_action_rectangle);
 
     }
 
