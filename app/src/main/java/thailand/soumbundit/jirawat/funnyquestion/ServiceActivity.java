@@ -19,6 +19,7 @@ import com.google.firebase.auth.FirebaseUser;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PostUnit1Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PostUnit2Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PostUnit3Fragment;
+import thailand.soumbundit.jirawat.funnyquestion.fragment.PostUnit4Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit1Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit2Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit3Fragment;
@@ -349,6 +350,11 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
                 break;
 
             case R.id.txtPostUnit4:
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.contentServiceFragment, PostUnit4Fragment.postUnit4Fragment(uidUserString))
+                        .commit();
+                setCheckImage("PostUnit4");
 
                 break;
 
@@ -409,6 +415,10 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         if (position.equals("PostUnit3"))
             postUnit3ImgView.setImageResource(R.drawable.ic_action_check_ok);
         else postUnit3ImgView.setImageResource(R.drawable.ic_action_rectangle);
+
+        if (position.equals("PostUnit4"))
+            postUnit4ImgView.setImageResource(R.drawable.ic_action_check_ok);
+        else postUnit4ImgView.setImageResource(R.drawable.ic_action_rectangle);
 
     }
 

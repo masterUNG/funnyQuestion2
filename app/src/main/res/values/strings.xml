@@ -969,4 +969,66 @@
 
 
 
+    <string name="postUnit4styleText1">Post-test</string>
+    <string name="postUnit4styleText5">3. The internet (often called simply \'the net\') is a global …………………………….of interconnected computers.</string>
+    <string name="postUnit4styleText10">1. ADSL* is more commonly known as ……………………………………</string>
+    <string name="postUnit4styleText15">10. Before you can connect to the internet for the first time, you have to …………………………………… an account with an ISP.</string>
+    <string name="postUnit4styleText20">9. Looking at web pages can be called \"navigating the Web\" but is more commonly called ………………………….</string>
+    <string name="postUnit4styleText25">2. Which can keep a public diary of your journey through South America?</string>
+    <string name="postUnit4styleText30">8. If you want to find out about the First World War, where should you find it?</string>
+    <string name="postUnit4styleText35">4. If you want to exchange messages in real time with friends or colleagues, which the Internet features should you use?</string>
+    <string name="postUnit4styleText42">5. Exchange messages in real time about anything you like with strangers.</string>
+    <string name="postUnit4styleText43">6. Exchange information and messages about saving a local wood from development with anybody who wants to join in.</string>
+    <string name="postUnit4styleText44">7. Post / download photos, video clips and messages among a group of friends.</string>
+
+
+
+
+    <!--pre unit 4-->
+    <string name="preUnit4styleText1">Pre-test</string>
+    <string name="preUnit4styleText2">Unit4</string>
+    <string name="preUnit4styleText3">The Internet</string>
+    <string name="preUnit4styleText4">Choose the best answer.</string>
+    <string name="preUnit4styleText5">1. The internet (often called simply \'the net\') is a global …………………………….of interconnected computers.</string>
+    <string name="preUnit4styleText6">a. net</string>
+    <string name="preUnit4styleText7">b. network</string>
+    <string name="preUnit4styleText8">c. warming</string>
+    <string name="preUnit4styleText9">d. Presenting</string>
+    <string name="preUnit4styleText10">2. ADSL* is more commonly known as ……………………………………</string>
+    <string name="preUnit4styleText11">a. longband</string>
+    <string name="preUnit4styleText12">b. broadband</string>
+    <string name="preUnit4styleText13">c. wideband</string>
+    <string name="preUnit4styleText14">d. webband</string>
+    <string name="preUnit4styleText15">3. Before you can connect to the internet for the first time, you have to …………………………………… an account with an ISP.</string>
+    <string name="preUnit4styleText16">a. set</string>
+    <string name="preUnit4styleText17">b. set up</string>
+    <string name="preUnit4styleText18">c. set in</string>
+    <string name="preUnit4styleText19">d. set out</string>
+    <string name="preUnit4styleText20">4. Looking at web pages can be called \"navigating the Web\" but is more commonly called ………………………….</string>
+    <string name="preUnit4styleText21">a. \"surfing the net\"</string>
+    <string name="preUnit4styleText22">b. \"skiing the net\"</string>
+    <string name="preUnit4styleText23">c. \"swimming the net\"</string>
+    <string name="preUnit4styleText24">d. \"searching the net\"</string>
+    <string name="preUnit4styleText25">5. Which can keep a public diary of your journey through South America?</string>
+    <string name="preUnit4styleText26">a. Blog</string>
+    <string name="preUnit4styleText27">b. Webmail</string>
+    <string name="preUnit4styleText28">c. Online radio</string>
+    <string name="preUnit4styleText29">d. Portal</string>
+    <string name="preUnit4styleText30">6. If you want to find out about the First World War, where should you find it?</string>
+    <string name="preUnit4styleText31">a. instant massaging</string>
+    <string name="preUnit4styleText32">b. online encyclopedia</string>
+    <string name="preUnit4styleText33">c. portal</string>
+    <string name="preUnit4styleText34">d. chatroom</string>
+    <string name="preUnit4styleText35">7. If you want to exchange messages in real time with friends or colleagues, which the Internet features should you use?</string>
+    <string name="preUnit4styleText36">a. currency converter</string>
+    <string name="preUnit4styleText37">b. instant messaging</string>
+    <string name="preUnit4styleText38">c. online casino</string>
+    <string name="preUnit4styleText39">d. Blog</string>
+    <string name="preUnit4styleText40">Match these activities with the Internet features. (8-10)</string>
+    <string name="preUnit4styleText41">\ta. Newsgroup \t\t\t\tb. forum\n\tc. discussing group\n\td. Bulletin board/ noticeboard\n\te. chat room</string>
+    <string name="preUnit4styleText42">8. Exchange messages in real time about anything you like with strangers.</string>
+    <string name="preUnit4styleText43">9. Exchange information and messages about saving a local wood from development with anybody who wants to join in.</string>
+    <string name="preUnit4styleText44">10. Post / download photos, video clips and messages among a group of friends.</string>
+
+
 </resources>

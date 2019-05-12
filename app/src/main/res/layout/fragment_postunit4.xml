@@ -1,6 +1,440 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+    <!--Contents-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/padding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/postUnit4styleText1"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/preUnit4styleText2"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/preUnit4styleText3"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit4styleText4"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+
+            <!--2. ADSL* is more commonly known as ……………………………………-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/postUnit4styleText10"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preunit4RdgPractice2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice2a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText11" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice2b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText12" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice2c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText13" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice2d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText14" />
+            </RadioGroup>
+
+            <!--5. Which can keep a public diary of your journey through South America?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/postUnit4styleText25"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preunit4RdgPractice5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice5a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText26" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice5b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText27" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice5c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText28" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice5d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText29" />
+            </RadioGroup>
+
+            <!--1. The internet (often called simply "the net") is a global …………………………….of interconnected computers.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/postUnit4styleText5"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preunit4RdgPractice1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice1a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText6" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice1b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText7" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice1c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText8" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice1d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText9" />
+            </RadioGroup>
+
+            <!--7. If you want to exchange messages in real time with friends or colleagues, which the Internet features should you use?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/postUnit4styleText35"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preunit4RdgPractice7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice7a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText36" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice7b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText37" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice7c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText38" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice7d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText39" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit4styleText40"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding4"
+                    android:text="@string/preUnit4styleText41"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+            <!--8,9,10.-->
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/padding8"
+                        android:text="@string/postUnit4styleText42" />
+
+                    <Spinner
+                        android:id="@+id/preunit4Choice1spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="100dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/postUnit4styleText43" />
+
+                    <Spinner
+                        android:id="@+id/preunit4Choice2spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="100dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/postUnit4styleText44" />
+
+                    <Spinner
+                        android:id="@+id/preunit4Choice3spinner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="100dp" />
+                </TableRow>
+            </TableLayout>
+
+            <!--6. If you want to find out about the First World War, where should you find it?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/postUnit4styleText30"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preunit4RdgPractice6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice6a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText31" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice6b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText32" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice6c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText33" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice6d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText34" />
+            </RadioGroup>
+
+            <!--4. Looking at web pages can be called 'navigating the Web' but is more commonly called ………………………….-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/postUnit4styleText20"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preunit4RdgPractice4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice4a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText21" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice4b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText22" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice4c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText23" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice4d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText24" />
+            </RadioGroup>
+
+            <!--3. Before you can connect to the internet for the first time, you have to …………………………………… an account with an ISP.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/postUnit4styleText15"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preunit4RdgPractice3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice3a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText16" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice3b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText17" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice3c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText18" />
+
+                <RadioButton
+                    android:id="@+id/preunit4RbPractice3d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit4styleText19" />
+            </RadioGroup>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stringEndLine" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <!--Floating-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_action_check"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+</RelativeLayout>
