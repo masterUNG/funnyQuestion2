@@ -68,7 +68,7 @@ public class MyConstant {
 
     private int[] practise3Ints = new int[]{22, 3, 7, 20, 16, 17, 15, 1, 12, 19, 21, 6, 11, 14, 23, 9, 2, 10, 8, 18};
 
-    private int[] listening1Ints = new int[]{1, 2, 3, 4, 5, 6, 7, 8};
+    private int[] listening1Ints = new int[]{5, 8, 2, 6, 7, 1, 3, 8};
 
     private int[] reading3Ints = new int[]{1, 2, 3, 4, 5};
 

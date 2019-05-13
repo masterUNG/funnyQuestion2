@@ -161,6 +161,43 @@
                     android:text="@string/preUnit2styleText19" />
             </RadioGroup>
 
+            <!--4. Scanners, printers and webcams are ……………………-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit2styleText50"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preunit2RdgPractice4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit2RbPractice4a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit2styleText51"/>
+                <RadioButton
+                    android:id="@+id/preunit2RbPractice4b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit2styleText52"/>
+                <RadioButton
+                    android:id="@+id/preunit2RbPractice4c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit2styleText53" />
+                <RadioButton
+                    android:id="@+id/preunit2RbPractice4d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit2styleText54" />
+            </RadioGroup>
+
             <!--5. What type of memory is temporary?-->
             <TextView
                 android:layout_width="wrap_content"

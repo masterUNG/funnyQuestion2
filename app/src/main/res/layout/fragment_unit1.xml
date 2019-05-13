@@ -1368,17 +1368,29 @@
                 android:layout_marginTop="@dimen/padding4"
                 android:background="@drawable/spin4" />
 
+
+            <!--A primary schoolteacher, spinner-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/u1styleText72"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
             <Spinner
                 android:id="@+id/unit1SpinnerListening2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
                 android:background="@drawable/spin4" />
-            <!--A primary schoolteacher, spinner-->
+
+
+            <!--A university student, spinner-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/u1styleText72"
+                android:text="@string/u1styleText73"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1395,13 +1407,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
                 android:background="@drawable/spin4" />
-            <!--A university student, spinner-->
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/u1styleText73"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
 
             <Spinner
                 android:id="@+id/unit1SpinnerListening5"
@@ -1410,12 +1415,9 @@
                 android:layout_marginTop="@dimen/padding4"
                 android:background="@drawable/spin4" />
 
-            <Spinner
-                android:id="@+id/unit1SpinnerListening6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:background="@drawable/spin4" />
+
+
+
             <!--An artist-->
             <TextView
                 android:layout_width="wrap_content"
@@ -1423,6 +1425,13 @@
                 android:text="@string/u1styleText74"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
+
+            <Spinner
+                android:id="@+id/unit1SpinnerListening6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:background="@drawable/spin4" />
 
             <Spinner
                 android:id="@+id/unit1SpinnerListening7"
@@ -1437,6 +1446,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
                 android:background="@drawable/spin4" />
+
 
             <!--Language work-->
             <TextView
@@ -2181,6 +2191,7 @@
 
 
             <!--Specialist Reading-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2268,8 +2279,11 @@
                 android:text="@string/u1styleText152"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
+            -->
+
 
             <!--A: Find the answers to these questions in the following text.-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2277,8 +2291,9 @@
                 android:text="@string/u1styleText153"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
-
+            -->
             <!--1. Name some types of devices that use 'computers on a chip'.-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2294,7 +2309,6 @@
                 android:background="@drawable/edit"
                 android:focusable="auto"
                 android:inputType="text" />
-
             <EditText
                 android:id="@+id/unit1EdtReading2"
                 android:layout_width="match_parent"
@@ -2302,7 +2316,6 @@
                 android:background="@drawable/edit"
                 android:focusable="auto"
                 android:inputType="text" />
-
             <EditText
                 android:id="@+id/unit1EdtReading3"
                 android:layout_width="match_parent"
@@ -2310,8 +2323,9 @@
                 android:background="@drawable/edit"
                 android:focusable="auto"
                 android:inputType="text" />
-
+            -->
             <!--2. Which is not the use of handheld computers are mentioned in the text?-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2351,8 +2365,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/u1styleText159" />
             </RadioGroup>
-
+            -->
             <!--3. What are smart cards used for?-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2392,8 +2407,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/u1styleText164" />
             </RadioGroup>
-
+            -->
             <!--4: What are the benefits of using computers with the following item?-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2451,8 +2467,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/u1styleText171" />
             </RadioGroup>
-
+            -->
             <!--B: Re-read the text to find the answers to these question.-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2460,7 +2477,6 @@
                 android:text="@string/u1styleText172"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2491,8 +2507,9 @@
                     android:textSize="@dimen/h2"
                     android:textStyle="normal" />
             </LinearLayout>
-
+            -->
             <!--1. Multimedia materials with a combination of educational and entertainment context.-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2500,75 +2517,75 @@
                 android:text="@string/u1styleText176"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
             <Spinner
                 android:id="@+id/unit1SpinnerReading1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:background="@drawable/spin4" />
-
+            -->
             <!--2. A combination of text with sound, video, animation, and graphics.-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/u1styleText177"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
             <Spinner
                 android:id="@+id/unit1SpinnerReading2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:background="@drawable/spin4" />
-
+             -->
             <!--3. Use computer to stay in touch with the office while working at home.-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/u1styleText178"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
             <Spinner
                 android:id="@+id/unit1SpinnerReading3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:background="@drawable/spin4" />
-
+             -->
             <!--4. Software that enables computers to “think” like experts-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/u1styleText179"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
             <Spinner
                 android:id="@+id/unit1SpinnerReading4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:background="@drawable/spin4" />
-
+            -->
             <!--5. Internet system designed to provide free interactive access to vast resources for people all over the world..-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/u1styleText180"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
             <Spinner
                 android:id="@+id/unit1SpinnerReading5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding8"
                 android:background="@drawable/spin4" />
-
+            -->
             <!--Choose the following statements as True or False.-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2576,8 +2593,9 @@
                 android:text="@string/u1styleText181"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
-
+            -->
             <!--1. Computers in security systems result in safer environment.-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2585,7 +2603,6 @@
                 android:text="@string/u1styleText182"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
             <RadioGroup
                 android:id="@+id/unit1RdgReading4"
                 android:layout_width="match_parent"
@@ -2606,8 +2623,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/u1styleText67" />
             </RadioGroup>
-
+            -->
             <!--2 .Computers in cars improve energy efficiency-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2615,7 +2633,6 @@
                 android:text="@string/u1styleText183"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
             <RadioGroup
                 android:id="@+id/unit1RdgReading5"
                 android:layout_width="match_parent"
@@ -2636,8 +2653,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/u1styleText67" />
             </RadioGroup>
-
+            -->
             <!--3. Smart cards store vital information.-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2645,7 +2663,6 @@
                 android:text="@string/u1styleText184"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
             <RadioGroup
                 android:id="@+id/unit1RdgReading6"
                 android:layout_width="match_parent"
@@ -2666,8 +2683,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/u1styleText67" />
             </RadioGroup>
-
+            -->
             <!--4. Smart cards are able to use for turning on and off the lights,-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2675,7 +2693,6 @@
                 android:text="@string/u1styleText185"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
             <RadioGroup
                 android:id="@+id/unit1RdgReading7"
                 android:layout_width="match_parent"
@@ -2696,8 +2713,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/u1styleText67" />
             </RadioGroup>
-
+            -->
             <!--5. Multimedia combines text with sound, video, animation and graphics are called videoconferencing-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2705,7 +2723,6 @@
                 android:text="@string/u1styleText186"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
             <RadioGroup
                 android:id="@+id/unit1RdgReading8"
                 android:layout_width="match_parent"
@@ -2726,8 +2743,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/u1styleText67" />
             </RadioGroup>
-
+            -->
             <!--6. A built-in monitoring system has been used in a smart car.-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2735,7 +2753,6 @@
                 android:text="@string/u1styleText187"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
             <RadioGroup
                 android:id="@+id/unit1RdgReading9"
                 android:layout_width="match_parent"
@@ -2756,8 +2773,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/u1styleText67" />
             </RadioGroup>
-
+            -->
             <!--7. Expert systems can help doctors pinpoints a patient’s illness.-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2765,7 +2783,6 @@
                 android:text="@string/u1styleText188"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
             <RadioGroup
                 android:id="@+id/unit1RdgReading10"
                 android:layout_width="match_parent"
@@ -2786,8 +2803,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/u1styleText67" />
             </RadioGroup>
-
+            -->
             <!--8. Telecommute is using computers to stay in touch with the office while working at home.-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2795,7 +2813,6 @@
                 android:text="@string/u1styleText189"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
             <RadioGroup
                 android:id="@+id/unit1RdgReading11"
                 android:layout_width="match_parent"
@@ -2816,8 +2833,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/u1styleText67" />
             </RadioGroup>
-
+            -->
             <!--9. Telecommute can be used of an electronic classroom or boardroom accessible.-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2825,7 +2843,6 @@
                 android:text="@string/u1styleText190"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
             <RadioGroup
                 android:id="@+id/unit1RdgReading12"
                 android:layout_width="match_parent"
@@ -2846,8 +2863,9 @@
                     android:layout_height="wrap_content"
                     android:text="@string/u1styleText67" />
             </RadioGroup>
-
+            -->
             <!--10. Vast data bases can help the people in remote location-->
+            <!--
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2855,7 +2873,6 @@
                 android:text="@string/u1styleText191"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
             <RadioGroup
                 android:id="@+id/unit1RdgReading13"
                 android:layout_width="match_parent"
@@ -2876,7 +2893,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/u1styleText67" />
             </RadioGroup>
-
+            -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

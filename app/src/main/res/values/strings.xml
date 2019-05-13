@@ -644,6 +644,7 @@
     <string name="postUnit2styleText35">1. If you want to change to capital letter, what should you do?</string>
     <string name="postUnit2styleText40">8. ........ appears to the right of the main keyboard. The NumLock key is used to switch from numbers to editing keys.</string>
     <string name="postUnit2styleText45">3. What do you call the mouse which doesn\'t have a ball?</string>
+    <string name="postUnit2styleText50">10. Scanners, printers and webcams are ……………………</string>
 
     <!--pre unit2-->
     <string name="preUnit2styleText1">Pre-test</string>
@@ -695,6 +696,11 @@
     <string name="preUnit2styleText47">b. An option mouse</string>
     <string name="preUnit2styleText48">c. An alternative mouse</string>
     <string name="preUnit2styleText49">d. An alphabet mouse</string>
+    <string name="preUnit2styleText50">4. Scanners, printers and webcams are ……………………</string>
+    <string name="preUnit2styleText51">a. extras</string>
+    <string name="preUnit2styleText52">b. peripherals</string>
+    <string name="preUnit2styleText53">c. externals</string>
+    <string name="preUnit2styleText54">d. internals</string>
 
 
     <!--post unit3-->
@@ -765,6 +771,8 @@
     <string name="preUnit3styleText52">b. business software</string>
     <string name="preUnit3styleText53">c. application software</string>
     <string name="preUnit3styleText54">d. project management software</string>
+
+
     <!--unit 4-->
     <string name="u4styleText1">Unit 4</string>
     <string name="u4styleText2">The internet</string>
@@ -1029,6 +1037,7 @@
     <string name="preUnit4styleText42">8. Exchange messages in real time about anything you like with strangers.</string>
     <string name="preUnit4styleText43">9. Exchange information and messages about saving a local wood from development with anybody who wants to join in.</string>
     <string name="preUnit4styleText44">10. Post / download photos, video clips and messages among a group of friends.</string>
+
 
 
 </resources>

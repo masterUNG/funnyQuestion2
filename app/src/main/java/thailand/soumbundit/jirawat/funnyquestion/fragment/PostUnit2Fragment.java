@@ -117,6 +117,7 @@ public class PostUnit2Fragment extends Fragment {
         RadioButton radioButton1 = getView().findViewById(R.id.preunit2RbPractice1a);
         RadioButton radioButton2 = getView().findViewById(R.id.preunit2RbPractice2b);
         RadioButton radioButton3 = getView().findViewById(R.id.preunit2RbPractice3c);
+        RadioButton radioButton4 = getView().findViewById(R.id.preunit2RbPractice4b);
         RadioButton radioButton5 = getView().findViewById(R.id.preunit2RbPractice5a);
         RadioButton radioButton6 = getView().findViewById(R.id.preunit2RbPractice6b);
         RadioButton radioButton7 = getView().findViewById(R.id.preunit2RbPractice7a);
@@ -127,6 +128,7 @@ public class PostUnit2Fragment extends Fragment {
         if (radioButton1.isChecked()) { sumScore +=1; }
         if (radioButton2.isChecked()) { sumScore +=1; }
         if (radioButton3.isChecked()) { sumScore +=1; }
+        if (radioButton4.isChecked()) { sumScore +=1; }
         if (radioButton5.isChecked()) { sumScore +=1; }
         if (radioButton6.isChecked()) { sumScore +=1; }
         if (radioButton7.isChecked()) { sumScore +=1; }
