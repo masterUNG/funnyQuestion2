@@ -925,6 +925,39 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
+            <!--The example of the web address in the address bar.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/u4styleText89a"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit401" />
+
+            <!--6. What's the difference between the Web and the internet?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/u4styleText89b"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/u4styleText89c"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+
             <!--6. How do you use a search engine to search for information on the web, and what is the difference between a search engine and a subject directory?-->
             <TextView
                 android:layout_width="wrap_content"
@@ -957,6 +990,27 @@
                 android:text="@string/u4styleText93"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit402" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit403" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit404" />
 
             <!--7. What are the types of web sites?-->
             <TextView
@@ -1776,6 +1830,63 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit405" />
+
+
+            <Spinner
+                android:id="@+id/unit4SpinnerListening1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spin4" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit406" />
+
+
+            <Spinner
+                android:id="@+id/unit4SpinnerListening2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spin4" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit407" />
+
+
+            <Spinner
+                android:id="@+id/unit4SpinnerListening3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spin4" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit408" />
+
+
+            <Spinner
+                android:id="@+id/unit4SpinnerListening4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spin4" />
+
+
             <!--Now listen how to use a search engine and match each with a picture.-->
             <TextView
                 android:layout_width="wrap_content"
@@ -1784,6 +1895,7 @@
                 android:text="@string/u4styleText158"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
+
 
             <!--Language Work-->
             <TextView

@@ -575,7 +575,6 @@
     <string name="postUnit1styleText45">1. Which is not a storage device?</string>
     <string name="postUnit1styleText50">4. Describe this diagram by using given words.</string>
 
-
     <!--pre unit1-->
     <string name="preUnit1styleText1">Pre-test</string>
     <string name="preUnit1styleText2">Unit 1</string>
@@ -863,6 +862,9 @@
     <string name="u4styleText87">is application software that allows users to access and view Web pages or access Web2.0 programs. With an Internet connection established, you start a Web browser, which then retrieves and displays a starting Web page, sometimes called a home page. The home page usually contains links to other Web pages.</string>
     <string name="u4styleText88">A link,</string>
     <string name="u4styleText89">short for hyperlink, is a built-in connection to another related Web page or part of a Web page. A another related Web page or part of a Web page. A web page has a unique address called a URL. (Uniform Resource locator), or Web address. A Web address consists of a protocol, a domain name, and sometimes the path to a specific Web page or location on a Web page.</string>
+    <string name="u4styleText89a">The example of the web address in the address bar.</string>
+    <string name="u4styleText89b">6. What\'s the difference between the Web and the internet?</string>
+    <string name="u4styleText89c">Some people think that the internet and the Web are the same thing, but in fact they are different. The internet (often called simply \"the net\") is a global network of interconnected computers. These computers communicate with each other over existing telecommunications networks – principally, the telephone system. The Word Wide Web (usually known as just \"the Web\") is the billions of web pages that are stored on large computers called web servers. To access the web, you need a computer and a modem. You then connect over your telephone line to an internet service provider (ISP), which sends your request to view a particular web page to the correct web server. Websites are not the only service available on the internet. It is also used for many other functions, including sending and receiving email, and connecting to newsgroups and 6 discussion groups. You could say that the internet is a system of roads, and web pages and emails are types of traffic that travel on those roads.</string>
     <string name="u4styleText90">6. How do you use a search engine to search for information on the web, and what is the difference between a search engine and a subject directory?</string>
     <string name="u4styleText91">A search engine</string>
     <string name="u4styleText92">is a program that finds Web sites, web pages, images, videos, news, maps and other information related to a specific topic. To use a search engine, you enter a word or phrase, called search text or a search query, that describes the item you want to find. Each word in the search text is known as a keyword. The search engine displays a list of bits. When clicked, each hit displays an associated Web site our Web page. A subject directory classifies Web pages in an organized set of categories and related subcategories. By clicking links, you move through levels to display a list of Web pages about a desired topic.</string>
