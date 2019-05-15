@@ -3,6 +3,7 @@ package thailand.soumbundit.jirawat.funnyquestion.utility;
 public class MyConstantUnit4 {
 
     private int[] answerPractice4Int = new int[]{5, 8, 3};
+    private  int[] answerListeningInt = new int[]{4, 2, 1, 3};
 
 
     //    chioceSpinnerItemStrings
@@ -71,7 +72,24 @@ public class MyConstantUnit4 {
 
 
 
+    private String[] choiceSpinnerListeningStrings = new String[]{
+            "...",
+            "A",
+            "B",
+            "C",
+            "D"};
+
+
     //    Getter
+
+    public String[] getChoiceSpinnerListeningStrings() {
+        return choiceSpinnerListeningStrings;
+    }
+
+    public int[] getAnswerListeningInt() {
+        return answerListeningInt;
+    }
+
     public String[] getLanguage2True() {
         return language2True;
     }

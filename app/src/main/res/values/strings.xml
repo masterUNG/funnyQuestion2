@@ -77,7 +77,7 @@
     <string name="u1styleText67">False</string>
     <string name="u1styleText68">Listening</string>
     <string name="u1styleText69">Listen and complete the table how they use computers.</string>
-    <string name="u1styleText70">Play media1</string>
+    <string name="u1styleText70">Play media</string>
     <string name="u1styleText71">Anda, age 8</string>
     <string name="u1styleText72">A primary school teacher</string>
     <string name="u1styleText73">A university student</string>
@@ -324,6 +324,7 @@
     <string name="styleText102">20. They are used to move the cursor, as an alternative to the mouse</string>
     <string name="styleText103">Listening</string>
     <string name="styleText104">Listen and fill in the blank..</string>
+    <string name="styleText104a">Play media</string>
     <string name="styleText105">1. To go back one space, hit the …………………</string>
     <string name="styleText106">2. To change to capital letters, press the …………………</string>
     <string name="styleText107">3. To change the capital letters permanently, hit the …………………</string>
@@ -772,7 +773,7 @@
     <string name="preUnit3styleText54">d. project management software</string>
 
 
-    <!--unit 4-->
+    <!--unit4-->
     <string name="u4styleText1">Unit 4</string>
     <string name="u4styleText2">The internet</string>
     <string name="u4styleText3">Objective</string>
@@ -933,6 +934,20 @@
     <string name="u4styleText156">Network providers or commercial companies</string>
     <string name="u4styleText157">Listening</string>
     <string name="u4styleText158">Now listen how to use a search engine and match each with a picture.</string>
+    <string name="u4styleText158a">• Click the Google Search button. When the results of the search are displayed, scroll through the links and read the descriptions. Point to the Aspen Snow mass link.</string>
+    <string name="u4styleText158b">• Type the search engine’s web address in the address bar in the web browser.</string>
+    <string name="u4styleText158c">• Click the Aspen Snowmass link to display a Web page with a description and links to skiing in Aspen.</string>
+    <string name="u4styleText158d">• Press the Enter key. When the Google home page is displayed type. Aspen Colorado ski resorts as the search text and then point to the Google Search button.</string>
+
+
+
+
+
+
+
+
+
+
     <string name="u4styleText159">Language Work</string>
     <string name="u4styleText160">Warnings.</string>
     <string name="u4styleText161">Where might you see these warnings?</string>
@@ -994,7 +1009,7 @@
 
 
 
-    <!--pre unit 4-->
+    <!--pre unit4-->
     <string name="preUnit4styleText1">Pre-test</string>
     <string name="preUnit4styleText2">Unit4</string>
     <string name="preUnit4styleText3">The Internet</string>
@@ -1039,7 +1054,6 @@
     <string name="preUnit4styleText42">8. Exchange messages in real time about anything you like with strangers.</string>
     <string name="preUnit4styleText43">9. Exchange information and messages about saving a local wood from development with anybody who wants to join in.</string>
     <string name="preUnit4styleText44">10. Post / download photos, video clips and messages among a group of friends.</string>
-
 
 
 </resources>

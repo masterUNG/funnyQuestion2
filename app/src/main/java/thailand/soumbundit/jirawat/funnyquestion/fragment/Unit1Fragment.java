@@ -18,6 +18,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Spinner;
 
+import java.math.BigDecimal;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -45,6 +46,9 @@ public class Unit1Fragment extends Fragment {
         unit1Fragment.setArguments(bundle);
         return unit1Fragment;
     }
+
+
+
 
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
@@ -138,7 +142,7 @@ public class Unit1Fragment extends Fragment {
         builder.setCancelable(false);
         builder.setIcon(R.drawable.ic_action_alert);
         builder.setTitle("Warning");
-        builder.setMessage("Need to Exit?");
+        builder.setMessage("Need to check answers?");
         builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
@@ -150,20 +154,54 @@ public class Unit1Fragment extends Fragment {
             public void onClick(DialogInterface dialog, int which) {
                 dialog.dismiss();
                 processCheckScore();
+                myAlertDialog2();
+            }
+        });
+        builder.show();
+    }
+
+    private void myAlertDialog2() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        String[]strings = new String[8];
+        builder.setCancelable(false);
+        builder.setIcon(R.drawable.ic_action_alert);
+        builder.setTitle("Summary Unit2 Score");
+
+        strings[0] = "Warm-up section";
+        strings[1] = "You got: " + warmUpString +"% of Score\n";
+        strings[2] = "Practice section";
+        strings[3] = "You got: " + practiseString +"% of Score\n";
+        strings[4] = "Listening section";
+        strings[5] = "You got: " + listeningString +"% of Score\n";
+        strings[6] = "Language section";
+        strings[7] = "You got: " + languageString+"% of Score\n";
+
+        builder.setItems(strings, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+
+            }
+        });
+
+        //builder.setMessage("You got: " + pretestScoreString +"/10");
+
+        builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
             }
         });
         builder.show();
     }
 
     public void processCheckScore() {
-        int scoreWarmUp = 0, scorePractice = 0, scoreListening = 0, scoreLanguage = 0, scoreReading = 0;
-        float calPercent;
+        int scoreWarmUp, scorePractice, scoreListening, scoreLanguage, scoreReading = 0;
 
         findTimeTest();
         scoreWarmUp = calculateWarmUp();
+        scoreWarmUp += calculatePractise1();
 
-        scorePractice = calculatePractise1();
-        scorePractice += calculatePractice2();
+        scorePractice = calculatePractice2();
         scorePractice += calculatePractice2a();
         scorePractice += calculatePractice3();
         scorePractice += calculatePractice4();
@@ -179,20 +217,21 @@ public class Unit1Fragment extends Fragment {
         scoreReading += calculateReading4();
 */
 
-        calPercent = scoreWarmUp * 100 / 3;
-        warmUpString = Float.toString(calPercent);
-
-        calPercent = scorePractice * 100 / 39;
-        practiseString = Float.toString(calPercent);
-
-        calPercent = scoreListening * 100 / 8;
-        listeningString = Float.toString(calPercent);
-
-        calPercent = scoreLanguage * 100 / 5;
-        languageString = Float.toString(calPercent);
+        warmUpString = calculatePercent(scoreWarmUp, 8);
+        practiseString = calculatePercent(scorePractice, 34);
+        listeningString = calculatePercent(scoreListening, 8);
+        languageString = calculatePercent(scoreLanguage, 5);
 
         //       readingString = Integer.toString(scoreReading);
 
+    }
+
+    private String calculatePercent(int score, int hiScore) {
+        float calPercent;
+        calPercent = (float) score * 100 / hiScore;
+        BigDecimal bd = new BigDecimal(calPercent);
+        BigDecimal bdSetScale = bd.setScale(1, BigDecimal.ROUND_HALF_UP);
+        return bdSetScale.toString();
     }
 
     private int calculatePractice2a() {
@@ -1390,5 +1429,13 @@ public class Unit1Fragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_unit1, container, false);
         return view;
+    }
+
+    @Override
+    public void setUserVisibleHint(boolean isVisibleToUser) {
+        super.setUserVisibleHint(isVisibleToUser);
+        if (!isVisibleToUser) {
+            mediaPlayer1.stop();
+        }
     }
 }

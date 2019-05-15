@@ -1,6 +1,7 @@
 package thailand.soumbundit.jirawat.funnyquestion.fragment;
 
 import android.content.DialogInterface;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
@@ -12,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Spinner;
@@ -34,6 +36,7 @@ import thailand.soumbundit.jirawat.funnyquestion.utility.MyConstantUnit3;
 public class Unit3Fragment extends Fragment {
     MyConstant myConstant = new MyConstant();
     MyConstantUnit3 myConstantUnit3 = new MyConstantUnit3();
+    private MediaPlayer mediaPlayer1;
     private String uidString, nameUnitString, timeTestString, warmUpString, practiseString, listeningString, languageString;
     Integer[] positionPractice1Ints = {0, 0, 0, 0};
     Integer[] positionPractice2Ints = {0, 0, 0, 0, 0, 0};
@@ -99,11 +102,30 @@ public class Unit3Fragment extends Fragment {
         choiceSpinnerListening3();
         choiceSpinnerListening4();
 
+        playMedia1();
 
         checkFloating();
 
     }//Main Method
 
+
+    private void playMedia1() {
+        mediaPlayer1 = MediaPlayer.create(Unit3Fragment.this.getActivity(), R.raw.unit3);
+
+        final Button button1 = getView().findViewById(R.id.playMedia1);///*****
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (mediaPlayer1.isPlaying()) {
+                    mediaPlayer1.pause();
+                    button1.setText("Resume");
+                } else {
+                    mediaPlayer1.start();
+                    button1.setText("Pause");
+                }
+            }
+        });
+    }//Play Media Clip1
 
     public void checkScoreListening1(int indexSpinner, int position) {
         int[] answerListening1Ints = myConstantUnit3.getAnswerListening1Ints();

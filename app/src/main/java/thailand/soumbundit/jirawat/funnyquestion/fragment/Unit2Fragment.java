@@ -1,6 +1,7 @@
 package thailand.soumbundit.jirawat.funnyquestion.fragment;
 
 import android.content.DialogInterface;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
@@ -12,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Spinner;
@@ -29,6 +31,7 @@ public class Unit2Fragment extends Fragment {
 
     MyConstant myConstant = new MyConstant();
     MyConstantUnit2 myConstantUnit2 = new MyConstantUnit2();
+    private MediaPlayer mediaPlayer1;
     private String uidString, nameUnitString, timeTestString, warmUpString,  practiseString, listeningString,languageString;
     int[] scoreWarmUp1Ints = {0, 0, 0, 0, 0, 0, 0};
     int[] scorePractice1Ints = {0, 0, 0, 0, 0, 0, 0, 0};
@@ -44,6 +47,7 @@ public class Unit2Fragment extends Fragment {
         return unit2Fragment;
     }
 
+
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
@@ -57,6 +61,9 @@ public class Unit2Fragment extends Fragment {
         choiceWarmUpSpinner5();
         choiceWarmUpSpinner6();
         choiceWarmUpSpinner7();
+
+
+        playMedia1();
 
         choicePracticeSpinner1();
         choicePracticeSpinner2();
@@ -72,6 +79,32 @@ public class Unit2Fragment extends Fragment {
 
 
     }//Main Method
+
+
+    private void playMedia1() {
+        mediaPlayer1 = MediaPlayer.create(Unit2Fragment.this.getActivity(), R.raw.unit2);
+
+        final Button button1 = getView().findViewById(R.id.playMedia1);///*****
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (mediaPlayer1.isPlaying()) {
+                    mediaPlayer1.pause();
+                    button1.setText("Resume");
+                } else {
+                    mediaPlayer1.start();
+                    button1.setText("Pause");
+                }
+            }
+        });
+    }//Play Media Clip1
+
+
+
+
+
+
+
 
 
     public void checkFloating() {
@@ -124,9 +157,6 @@ public class Unit2Fragment extends Fragment {
         strings[6] = "Language section";
         strings[7] = "You got: " + languageString+"% of Score\n";
 
-
-
-
         builder.setItems(strings, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
@@ -146,7 +176,7 @@ public class Unit2Fragment extends Fragment {
     }
 
     public void processCheckScore() {
-        int scoreWarmUp = 0, scorePractice =0, scoreListening =0, scoreLanguage =0;
+        int scoreWarmUp, scorePractice, scoreListening, scoreLanguage;
         findTimeTest();
 
         scoreWarmUp = calculateWarmUp1();

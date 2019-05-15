@@ -1830,63 +1830,6 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:layout_margin="@dimen/padding8"
-                android:scaleType="centerInside"
-                android:src="@drawable/unit405" />
-
-
-            <Spinner
-                android:id="@+id/unit4SpinnerListening1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/spin4" />
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:layout_margin="@dimen/padding8"
-                android:scaleType="centerInside"
-                android:src="@drawable/unit406" />
-
-
-            <Spinner
-                android:id="@+id/unit4SpinnerListening2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/spin4" />
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:layout_margin="@dimen/padding8"
-                android:scaleType="centerInside"
-                android:src="@drawable/unit407" />
-
-
-            <Spinner
-                android:id="@+id/unit4SpinnerListening3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/spin4" />
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="250dp"
-                android:layout_margin="@dimen/padding8"
-                android:scaleType="centerInside"
-                android:src="@drawable/unit408" />
-
-
-            <Spinner
-                android:id="@+id/unit4SpinnerListening4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/spin4" />
-
-
             <!--Now listen how to use a search engine and match each with a picture.-->
             <TextView
                 android:layout_width="wrap_content"
@@ -1895,6 +1838,188 @@
                 android:text="@string/u4styleText158"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/playMedia1"
+                android:layout_marginTop="@dimen/padding"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText104a" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/padding8">
+                <!--Roll1-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <!--Col1-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_margin="@dimen/padding8"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/unit415" />
+                    </LinearLayout>
+                    <!--Col2-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_margin="@dimen/padding8"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/unit414" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!--Roll2-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <!--Col1-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_margin="@dimen/padding8"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/unit416" />
+                    </LinearLayout>
+                    <!--Col2-->
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:padding="@dimen/padding4">
+
+                        <!--Icon-->
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_margin="@dimen/padding8"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/unit418" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/u4styleText158a" />
+                    <Spinner
+                        android:id="@+id/unit4SpinnerListening1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="100dp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/u4styleText158b" />
+                    <Spinner
+                        android:id="@+id/unit4SpinnerListening2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="100dp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/u4styleText158c" />
+                    <Spinner
+                        android:id="@+id/unit4SpinnerListening3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="100dp"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/u4styleText158d" />
+                    <Spinner
+                        android:id="@+id/unit4SpinnerListening4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="100dp"/>
+
+                </TableRow>
+            </TableLayout>
+
+
+
+
+
+
+
+
+
 
 
             <!--Language Work-->

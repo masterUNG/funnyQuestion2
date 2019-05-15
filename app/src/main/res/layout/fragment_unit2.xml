@@ -1613,6 +1613,12 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
+            <Button
+                android:id="@+id/playMedia1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText104a" />
+
             <!--1.To go back one space, hit the-->
             <TextView
                 android:layout_width="wrap_content"
