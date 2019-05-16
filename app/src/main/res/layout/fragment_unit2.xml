@@ -1608,7 +1608,6 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/padding8"
                 android:text="@string/styleText104"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
@@ -1617,7 +1616,8 @@
                 android:id="@+id/playMedia1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/styleText104a" />
+                android:text="@string/styleText104a"
+                android:layout_marginTop="@dimen/padding"/>
 
             <!--1.To go back one space, hit the-->
             <TextView
@@ -1625,6 +1625,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/styleText105"
                 android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <EditText

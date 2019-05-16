@@ -100,49 +100,58 @@
                 android:layout_height="wrap_content"
                 android:text="@string/u4styleText10"
                 android:textSize="@dimen/h2"
+                android:layout_marginBottom="@dimen/padding8"
                 android:textStyle="normal" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
-                android:text="@string/u4styleText11"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/u4styleText12"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding4"
+                    android:text="@string/u4styleText11"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/u4styleText13"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/u4styleText12"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/u4styleText14"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/u4styleText13"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/u4styleText15"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/u4styleText14"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/u4styleText15"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+            </LinearLayout>
 
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:shrinkColumns="*"
-                android:stretchColumns="*">
+                android:stretchColumns="*"
+                android:layout_marginTop="@dimen/padding8">
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -425,6 +434,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/u4styleText33"
                 android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <!--2. What are the various types of the Internet connections?-->
@@ -441,15 +451,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/u4styleText35"
                 android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText36"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -461,25 +464,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText38"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/u4styleText39"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText40"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -491,25 +478,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText42"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/u4styleText43"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText44"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -518,13 +489,6 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText46"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -547,15 +511,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/u4styleText49"
                 android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText50"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -567,25 +524,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText52"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/u4styleText53"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText54"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -606,33 +547,19 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/u4styleText57"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText58"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/u4styleText59"
                 android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText60"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -890,16 +817,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/u4styleText85"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText86"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -908,15 +827,8 @@
                 android:layout_height="wrap_content"
                 android:text="@string/u4styleText87"
                 android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText88"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -955,6 +867,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/u4styleText89c"
                 android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
 
@@ -970,16 +883,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText91"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/u4styleText92"
                 android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <!--How to use a Search Engine-->
@@ -1024,25 +930,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText95"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/u4styleText96"
+                android:layout_marginTop="@dimen/padding8"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText97"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -1054,25 +945,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText99"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/u4styleText100"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText101"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -1084,25 +959,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText103"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/u4styleText104"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText105"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -1124,16 +983,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/u4styleText108"
+                android:layout_marginTop="@dimen/padding8"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText109"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -1145,25 +997,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText111"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/u4styleText112"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText113"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -1175,14 +1011,6 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText115"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/u4styleText116"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
@@ -1190,25 +1018,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText117"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/u4styleText118"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText119"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -1229,15 +1041,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText122"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/u4styleText123"
+                android:layout_marginTop="@dimen/padding8"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1841,9 +1646,9 @@
 
             <Button
                 android:id="@+id/playMedia1"
-                android:layout_marginTop="@dimen/padding"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
                 android:text="@string/styleText104a" />
 
             <LinearLayout
@@ -1948,12 +1753,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/u4styleText158a" />
+
                     <Spinner
                         android:id="@+id/unit4SpinnerListening1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/spin4"
-                        android:minWidth="100dp"/>
+                        android:minWidth="100dp" />
 
                 </TableRow>
 
@@ -1966,12 +1772,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/u4styleText158b" />
+
                     <Spinner
                         android:id="@+id/unit4SpinnerListening2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/spin4"
-                        android:minWidth="100dp"/>
+                        android:minWidth="100dp" />
 
                 </TableRow>
 
@@ -1984,12 +1791,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/u4styleText158c" />
+
                     <Spinner
                         android:id="@+id/unit4SpinnerListening3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/spin4"
-                        android:minWidth="100dp"/>
+                        android:minWidth="100dp" />
 
                 </TableRow>
 
@@ -2002,24 +1810,16 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/u4styleText158d" />
+
                     <Spinner
                         android:id="@+id/unit4SpinnerListening4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:background="@drawable/spin4"
-                        android:minWidth="100dp"/>
+                        android:minWidth="100dp" />
 
                 </TableRow>
             </TableLayout>
-
-
-
-
-
-
-
-
-
 
 
             <!--Language Work-->

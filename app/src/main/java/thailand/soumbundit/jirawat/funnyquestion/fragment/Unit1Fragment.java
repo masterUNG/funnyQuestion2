@@ -211,9 +211,9 @@ public class Unit1Fragment extends Fragment {
 
         findTimeTest();
         scoreWarmUp = calculateWarmUp();
-        scoreWarmUp += calculatePractise1();
 
-        scorePractice = calculatePractice2();
+        scorePractice = calculatePractise1();
+        scorePractice += calculatePractice2();
         scorePractice += calculatePractice2a();
         scorePractice += calculatePractice3();
         scorePractice += calculatePractice4();
@@ -230,7 +230,7 @@ public class Unit1Fragment extends Fragment {
 */
 
         warmUpString = calculatePercent(scoreWarmUp, 8);
-        practiseString = calculatePercent(scorePractice, 34);
+        practiseString = calculatePercent(scorePractice, 39);
         listeningString = calculatePercent(scoreListening, 8);
         languageString = calculatePercent(scoreLanguage, 5);
 
@@ -479,31 +479,35 @@ public class Unit1Fragment extends Fragment {
     } //CalculatePractise1
 
     private int calculateWarmUp() {
+
+        //Warm up1
         int sumScoreInt = 0;
         for (int i = 0; i < scoreWarmUpInts.length; i += 1) {
             sumScoreInt = sumScoreInt + scoreWarmUpInts[i];
         }
+
+        //Warm up2
         String[] trueAnswerString = myConstant.getWarmupTrueString();
+        String[] strings = new String[5];
         EditText editWarmUpText1 = getView().findViewById(R.id.unit1EdtWarmUp1);
         EditText editWarmUpText2 = getView().findViewById(R.id.unit1EdtWarmUp2);
         EditText editWarmUpText3 = getView().findViewById(R.id.unit1EdtWarmUp3);
         EditText editWarmUpText4 = getView().findViewById(R.id.unit1EdtWarmUp4);
         EditText editWarmUpText5 = getView().findViewById(R.id.unit1EdtWarmUp5);
 
-        String[] strings = new String[5];
-        strings[0] = editWarmUpText1.getText().toString().trim();
-        strings[1] = editWarmUpText2.getText().toString().trim();
-        strings[2] = editWarmUpText3.getText().toString().trim();
-        strings[3] = editWarmUpText4.getText().toString().trim();
-        strings[4] = editWarmUpText5.getText().toString().trim();
+        strings[0] = editWarmUpText1.getText().toString().toLowerCase().trim();
+        strings[1] = editWarmUpText2.getText().toString().toLowerCase().trim();
+        strings[2] = editWarmUpText3.getText().toString().toLowerCase().trim();
+        strings[3] = editWarmUpText4.getText().toString().toLowerCase().trim();
+        strings[4] = editWarmUpText5.getText().toString().toLowerCase().trim();
 
         for (int i = 0; i < strings.length; i += 1) {
-            strings[i] = strings[i].toLowerCase();
             if (strings[i].equals(trueAnswerString[i])) {
                 sumScoreInt += 1;
             }
         }//for1
-        Log.d(tag, "warmUpString ==>" + warmUpString);
+
+        Log.d(tag, "warmUpString ==>" + sumScoreInt);
         return sumScoreInt;
     } //CalculateWarmUp
 

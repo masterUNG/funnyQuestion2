@@ -1354,13 +1354,16 @@
                 android:id="@+id/playMedia1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/u1styleText70" />
+                android:text="@string/u1styleText70"
+                android:layout_marginTop="@dimen/padding"/>
+
             <!--Anda, age 8, spinner-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/u1styleText71"
                 android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <Spinner
@@ -2931,7 +2934,7 @@
         android:scaleType="fitXY"
         app:backgroundTint="@android:color/transparent"
         app:borderWidth="0dp"
-
+        android:visibility="gone"
         />
 
 
