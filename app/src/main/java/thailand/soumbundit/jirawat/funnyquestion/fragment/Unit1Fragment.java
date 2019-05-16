@@ -1,7 +1,9 @@
 package thailand.soumbundit.jirawat.funnyquestion.fragment;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
@@ -46,8 +48,6 @@ public class Unit1Fragment extends Fragment {
         unit1Fragment.setArguments(bundle);
         return unit1Fragment;
     }
-
-
 
 
     @Override
@@ -122,9 +122,21 @@ public class Unit1Fragment extends Fragment {
 
 //        Check Floating
         checkFloating();
+        checkFloating2();
 
     } //Main Method
 
+    public void checkFloating2() {
+        FloatingActionButton floatingActionButton = getView().findViewById(R.id.floatingCheck2);
+        floatingActionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               // Uri uri = Uri.parse("http://line.me/ti/p/@so_jirawat");
+               // Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+               // startActivity(intent);
+            }
+        });
+    }
 
     public void checkFloating() {
         FloatingActionButton floatingActionButton = getView().findViewById(R.id.floatingCheck);
@@ -162,19 +174,19 @@ public class Unit1Fragment extends Fragment {
 
     private void myAlertDialog2() {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-        String[]strings = new String[8];
+        String[] strings = new String[8];
         builder.setCancelable(false);
         builder.setIcon(R.drawable.ic_action_alert);
         builder.setTitle("Summary Unit2 Score");
 
         strings[0] = "Warm-up section";
-        strings[1] = "You got: " + warmUpString +"% of Score\n";
+        strings[1] = "You got: " + warmUpString + "% of Score\n";
         strings[2] = "Practice section";
-        strings[3] = "You got: " + practiseString +"% of Score\n";
+        strings[3] = "You got: " + practiseString + "% of Score\n";
         strings[4] = "Listening section";
-        strings[5] = "You got: " + listeningString +"% of Score\n";
+        strings[5] = "You got: " + listeningString + "% of Score\n";
         strings[6] = "Language section";
-        strings[7] = "You got: " + languageString+"% of Score\n";
+        strings[7] = "You got: " + languageString + "% of Score\n";
 
         builder.setItems(strings, new DialogInterface.OnClickListener() {
             @Override
@@ -1431,11 +1443,12 @@ public class Unit1Fragment extends Fragment {
         return view;
     }
 
+
     @Override
-    public void setUserVisibleHint(boolean isVisibleToUser) {
-        super.setUserVisibleHint(isVisibleToUser);
-        if (!isVisibleToUser) {
-            mediaPlayer1.stop();
-        }
+    public void onStop() {
+        super.onStop();
+        mediaPlayer1.stop();
     }
+
+
 }

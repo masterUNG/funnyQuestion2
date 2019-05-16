@@ -724,4 +724,10 @@ public class Unit2Fragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_unit2, container, false);
         return view;
     }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        mediaPlayer1.stop();
+    }
 }
