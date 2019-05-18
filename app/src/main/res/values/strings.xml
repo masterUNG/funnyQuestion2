@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">English for IT</string>
-    <string name="user">Email;</string>
+    <string name="user">Email ;</string>
     <string name="password">Password ;</string>
     <string name="name">Name ;</string>
 
@@ -911,16 +911,6 @@
     <string name="u4styleText158b">• Type the search engine’s web address in the address bar in the web browser.</string>
     <string name="u4styleText158c">• Click the Aspen Snowmass link to display a Web page with a description and links to skiing in Aspen.</string>
     <string name="u4styleText158d">• Press the Enter key. When the Google home page is displayed type. Aspen Colorado ski resorts as the search text and then point to the Google Search button.</string>
-
-
-
-
-
-
-
-
-
-
     <string name="u4styleText159">Language Work</string>
     <string name="u4styleText160">Warnings.</string>
     <string name="u4styleText161">Where might you see these warnings?</string>
@@ -967,6 +957,7 @@
 
 
 
+    <!--post unit4-->
     <string name="postUnit4styleText1">Post-test</string>
     <string name="postUnit4styleText5">3. The internet (often called simply \'the net\') is a global …………………………….of interconnected computers.</string>
     <string name="postUnit4styleText10">1. ADSL* is more commonly known as ……………………………………</string>
@@ -978,9 +969,6 @@
     <string name="postUnit4styleText42">5. Exchange messages in real time about anything you like with strangers.</string>
     <string name="postUnit4styleText43">6. Exchange information and messages about saving a local wood from development with anybody who wants to join in.</string>
     <string name="postUnit4styleText44">7. Post / download photos, video clips and messages among a group of friends.</string>
-
-
-
 
     <!--pre unit4-->
     <string name="preUnit4styleText1">Pre-test</string>

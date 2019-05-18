@@ -18,7 +18,6 @@
             android:id="@+id/toolbarService"
             layout="@layout/toolbar_main" />
 
-
         <!--Content of Fragment-->
         <FrameLayout
             android:id="@+id/contentServiceFragment"
@@ -26,11 +25,15 @@
             android:layout_height="match_parent" />
     </LinearLayout>
 
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start">
+
         <!--Drawer Menu-->
         <LinearLayout
             android:layout_width="320dp"
             android:layout_height="match_parent"
-            android:layout_gravity="start"
             android:background="#ffffff"
             android:orientation="vertical">
 
@@ -42,6 +45,7 @@
                 android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
+
             <!--Pre-test header-->
             <LinearLayout
                 android:layout_width="match_parent"
@@ -49,306 +53,343 @@
                 android:orientation="horizontal">
 
                 <TextView
+                    android:id="@+id/preTestTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginTop="@dimen/padding4"
+                    android:clickable="true"
                     android:text="\tPre-test"
                     android:textSize="@dimen/h3"
                     android:textStyle="bold" />
 
-            </LinearLayout>
-
-            <!--Pretest Unit 1-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
                 <ImageView
-                    android:id="@+id/imgPreUnit1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_rectangle" />
+                android:id="@+id/preTestImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="150dp"
+                android:clickable="true"
+                android:src="@drawable/ic_action_more"/>
 
-                <TextView
-                    android:id="@+id/txtPreUnit1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:clickable="true"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
 
             </LinearLayout>
 
-            <!--Pretest Unit 2-->
             <LinearLayout
+                android:id="@+id/preTestLayoutGroup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imgPreUnit2"
-                    android:layout_width="wrap_content"
+                <!--Pretest Unit 1-->
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_rectangle" />
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/txtPreUnit2"
-                    android:layout_width="wrap_content"
+                    <ImageView
+                        android:id="@+id/imgPreUnit1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_rectangle" />
+
+                    <TextView
+                        android:id="@+id/txtPreUnit1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <!--Pretest Unit 2-->
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:clickable="true"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <ImageView
+                        android:id="@+id/imgPreUnit2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_rectangle" />
 
-            <!--Pretest Unit 3-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/txtPreUnit2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
 
-                <ImageView
-                    android:id="@+id/imgPreUnit3"
-                    android:layout_width="wrap_content"
+                </LinearLayout>
+
+                <!--Pretest Unit 3-->
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_rectangle" />
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/txtPreUnit3"
-                    android:layout_width="wrap_content"
+                    <ImageView
+                        android:id="@+id/imgPreUnit3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_rectangle" />
+
+                    <TextView
+                        android:id="@+id/txtPreUnit3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <!--Pretest Unit 4-->
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:clickable="true"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <ImageView
+                        android:id="@+id/imgPreUnit4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_rectangle" />
 
-            <!--Pretest Unit 4-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/txtPreUnit4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
 
-                <ImageView
-                    android:id="@+id/imgPreUnit4"
-                    android:layout_width="wrap_content"
+                </LinearLayout>
+
+                <!--Pretest Unit 5-->
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_rectangle" />
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/txtPreUnit4"
-                    android:layout_width="wrap_content"
+                    <ImageView
+                        android:id="@+id/imgPreUnit5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_rectangle" />
+
+                    <TextView
+                        android:id="@+id/txtPreUnit5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <!--Pretest Unit 6-->
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:clickable="true"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <ImageView
+                        android:id="@+id/imgPreUnit6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_rectangle" />
 
-            <!--Pretest Unit 5-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/txtPreUnit6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
 
-                <ImageView
-                    android:id="@+id/imgPreUnit5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_rectangle" />
-
-                <TextView
-                    android:id="@+id/txtPreUnit5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:clickable="true"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-            <!--Pretest Unit 6-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/imgPreUnit6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_rectangle" />
-
-                <TextView
-                    android:id="@+id/txtPreUnit6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:clickable="true"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
-
+                </LinearLayout>
             </LinearLayout>
 
             <!--Lesson header-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <TextView
+                    android:id="@+id/lessonTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginTop="@dimen/padding4"
+                    android:clickable="true"
                     android:text="\tLesson"
                     android:textSize="@dimen/h3"
                     android:textStyle="bold" />
 
-            </LinearLayout>
-
-            <!--Unit 1-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
                 <ImageView
-                    android:id="@+id/imgUnit1"
+                    android:id="@+id/lessonImage"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_rectangle" />
-
-                <TextView
-                    android:id="@+id/txtUnit1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="158dp"
                     android:clickable="true"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
+                    android:src="@drawable/ic_action_less"/>
 
             </LinearLayout>
 
-            <!--Unit 2-->
             <LinearLayout
+                android:id="@+id/lessonLayoutGroup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imgUnit2"
-                    android:layout_width="wrap_content"
+                <!--Unit 1-->
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_rectangle" />
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/txtUnit2"
-                    android:layout_width="wrap_content"
+                    <ImageView
+                        android:id="@+id/imgUnit1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_rectangle" />
+
+                    <TextView
+                        android:id="@+id/txtUnit1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <!--Unit 2-->
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:clickable="true"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <ImageView
+                        android:id="@+id/imgUnit2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_rectangle" />
 
-            <!--Unit 3-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/txtUnit2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
 
-                <ImageView
-                    android:id="@+id/imgUnit3"
-                    android:layout_width="wrap_content"
+                </LinearLayout>
+
+                <!--Unit 3-->
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_rectangle" />
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/txtUnit3"
-                    android:layout_width="wrap_content"
+                    <ImageView
+                        android:id="@+id/imgUnit3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_rectangle" />
+
+                    <TextView
+                        android:id="@+id/txtUnit3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <!--Unit 4-->
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:clickable="true"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <ImageView
+                        android:id="@+id/imgUnit4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_rectangle" />
 
-            <!--Unit 4-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/txtUnit4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
 
-                <ImageView
-                    android:id="@+id/imgUnit4"
-                    android:layout_width="wrap_content"
+                </LinearLayout>
+
+                <!--Unit 5-->
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_rectangle" />
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/txtUnit4"
-                    android:layout_width="wrap_content"
+                    <ImageView
+                        android:id="@+id/imgUnit5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_rectangle" />
+
+                    <TextView
+                        android:id="@+id/txtUnit5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <!--Unit 6-->
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:clickable="true"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal">
 
-            </LinearLayout>
+                    <ImageView
+                        android:id="@+id/imgUnit6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_rectangle" />
 
-            <!--Unit 5-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/txtUnit6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
 
-                <ImageView
-                    android:id="@+id/imgUnit5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_rectangle" />
-
-                <TextView
-                    android:id="@+id/txtUnit5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:clickable="true"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-            <!--Unit 6-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/imgUnit6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_rectangle" />
-
-                <TextView
-                    android:id="@+id/txtUnit6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:clickable="true"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
+                </LinearLayout>
 
             </LinearLayout>
 
@@ -356,161 +397,184 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:orientation="horizontal">
 
                 <TextView
+                    android:id="@+id/postTestTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginTop="@dimen/padding4"
+                    android:clickable="true"
                     android:text="\tPost-test"
                     android:textSize="@dimen/h3"
                     android:textStyle="bold" />
 
+                <ImageView
+                    android:id="@+id/postTestImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="140dp"
+                    android:clickable="true"
+                    android:src="@drawable/ic_action_more"/>
+
             </LinearLayout>
 
-            <!--Post-test Unit 1-->
             <LinearLayout
+                android:id="@+id/postTestLayoutGroup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imgPostUnit1"
-                    android:layout_width="wrap_content"
+                <!--Post-test Unit 1-->
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_rectangle" />
+                    android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/txtPostUnit1"
-                    android:layout_width="wrap_content"
+                    <ImageView
+                        android:id="@+id/imgPostUnit1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_rectangle" />
+
+                    <TextView
+                        android:id="@+id/txtPostUnit1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <!--Post-test Unit 2-->
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:clickable="true"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imgPostUnit2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_rectangle" />
+
+                    <TextView
+                        android:id="@+id/txtPostUnit2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <!--Post-test Unit 3-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imgPostUnit3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_rectangle" />
+
+                    <TextView
+                        android:id="@+id/txtPostUnit3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <!--Post-test Unit 4-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imgPostUnit4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_rectangle" />
+
+                    <TextView
+                        android:id="@+id/txtPostUnit4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <!--Post-test Unit 5-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imgPostUnit5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_rectangle" />
+
+                    <TextView
+                        android:id="@+id/txtPostUnit5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <!--Post-test Unit 6-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imgPostUnit6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_rectangle" />
+
+                    <TextView
+                        android:id="@+id/txtPostUnit6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:clickable="true"
+                        android:textSize="@dimen/h2"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
 
             </LinearLayout>
 
-            <!--Post-test Unit 2-->
-            <LinearLayout
+
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/imgPostUnit2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_rectangle" />
-
-                <TextView
-                    android:id="@+id/txtPostUnit2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:clickable="true"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-            <!--Post-test Unit 3-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/imgPostUnit3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_rectangle" />
-
-                <TextView
-                    android:id="@+id/txtPostUnit3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:clickable="true"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-            <!--Post-test Unit 4-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/imgPostUnit4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_rectangle" />
-
-                <TextView
-                    android:id="@+id/txtPostUnit4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:clickable="true"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-            <!--Post-test Unit 5-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/imgPostUnit5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_rectangle" />
-
-                <TextView
-                    android:id="@+id/txtPostUnit5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:clickable="true"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-            <!--Post-test Unit 6-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:id="@+id/imgPostUnit6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/ic_action_rectangle" />
-
-                <TextView
-                    android:id="@+id/txtPostUnit6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_vertical"
-                    android:clickable="true"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
+                android:text="@string/stringEndLine"/>
 
         </LinearLayout>
-
-
+    </ScrollView>
 
 
 </android.support.v4.widget.DrawerLayout>

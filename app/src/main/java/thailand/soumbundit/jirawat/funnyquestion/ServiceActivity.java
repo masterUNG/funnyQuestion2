@@ -10,7 +10,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -43,14 +46,21 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
             preUnit1ImgView, preUnit2ImgView, preUnit3ImgView, preUnit4ImgView, preUnit5ImgView, preUnit6ImgView,
             postUnit1ImgView, postUnit2ImgView, postUnit3ImgView, postUnit4ImgView, postUnit5ImgView, postUnit6ImgView;
 
+    private LinearLayout linearLayout1,linearLayout2, linearLayout3;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_service);
 
+//        SlideUpDown
+        preTestSlideUpDown();
+        lessonSlideUpDown();
+        postTestSlideUpDown();
+
+
 //        Find User
         findUser();
-
 //        Create Toolbar
         createToolbar();
 //          Unit Controller
@@ -60,6 +70,117 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         addFragment(savedInstanceState);
 
     }  //Main Method
+
+    private void preTestSlideUpDown() {
+        linearLayout1 = (LinearLayout) findViewById(R.id.preTestLayoutGroup);
+        TextView txtTitle = (TextView) findViewById(R.id.preTestTitle);
+        final ImageView imageView = findViewById(R.id.preTestImage);
+
+        linearLayout1.setVisibility(View.GONE);
+
+        txtTitle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(linearLayout1.isShown()){
+                    linearLayout1.setVisibility(View.GONE);
+                    imageView.setImageResource(R.drawable.ic_action_more);
+                }
+                else{
+                    linearLayout1.setVisibility(View.VISIBLE);
+                    imageView.setImageResource(R.drawable.ic_action_less);
+                }
+            }
+        });
+
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(linearLayout1.isShown()){
+                    linearLayout1.setVisibility(View.GONE);
+                    imageView.setImageResource(R.drawable.ic_action_more);
+                }
+                else{
+                    linearLayout1.setVisibility(View.VISIBLE);
+                    imageView.setImageResource(R.drawable.ic_action_less);
+                }
+                }
+        });
+
+    }
+
+    private void lessonSlideUpDown() {
+        linearLayout2 = (LinearLayout) findViewById(R.id.lessonLayoutGroup);
+        TextView txtTitle = (TextView) findViewById(R.id.lessonTitle);
+        final ImageView imageView = findViewById(R.id.lessonImage);
+
+        linearLayout2.setVisibility(View.VISIBLE);
+
+        txtTitle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(linearLayout2.isShown()){
+                    linearLayout2.setVisibility(View.GONE);
+                    imageView.setImageResource(R.drawable.ic_action_more);
+                }
+                else{
+                    linearLayout2.setVisibility(View.VISIBLE);
+                    imageView.setImageResource(R.drawable.ic_action_less);
+                }
+            }
+        });
+
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(linearLayout2.isShown()){
+                    linearLayout2.setVisibility(View.GONE);
+                    imageView.setImageResource(R.drawable.ic_action_more);
+                }
+                else{
+                    linearLayout2.setVisibility(View.VISIBLE);
+                    imageView.setImageResource(R.drawable.ic_action_less);
+                }
+            }
+        });
+    }
+
+    private void postTestSlideUpDown() {
+        linearLayout3 = (LinearLayout) findViewById(R.id.postTestLayoutGroup);
+        TextView txtTitle = (TextView) findViewById(R.id.postTestTitle);
+        linearLayout3.setVisibility(View.GONE);
+
+        final ImageView imageView = findViewById(R.id.postTestImage);
+
+        txtTitle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(linearLayout3.isShown()){
+                    linearLayout3.setVisibility(View.GONE);
+                    imageView.setImageResource(R.drawable.ic_action_more);
+                }
+                else{
+                    linearLayout3.setVisibility(View.VISIBLE);
+                    imageView.setImageResource(R.drawable.ic_action_less);
+                }
+            }
+        });
+
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(linearLayout3.isShown()){
+                    linearLayout3.setVisibility(View.GONE);
+                    imageView.setImageResource(R.drawable.ic_action_more);
+                }
+                else{
+                    linearLayout3.setVisibility(View.VISIBLE);
+                    imageView.setImageResource(R.drawable.ic_action_less);
+                }
+            }
+        });
+    }
+
+
 
     private void addFragment(Bundle savedInstanceState) {
         if (savedInstanceState == null) {

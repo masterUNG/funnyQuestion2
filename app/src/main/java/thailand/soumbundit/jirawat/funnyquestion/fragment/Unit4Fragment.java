@@ -145,7 +145,7 @@ public class Unit4Fragment extends Fragment {
         String[]strings = new String[8];
         builder.setCancelable(false);
         builder.setIcon(R.drawable.ic_action_alert);
-        builder.setTitle("Summary Unit2 Score");
+        builder.setTitle("Summary Unit4 Score");
 
         strings[0] = "Warm-up section";
         strings[1] = "You got: " + warmUpString +"% of Score\n";
