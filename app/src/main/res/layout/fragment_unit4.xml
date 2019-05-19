@@ -1470,7 +1470,7 @@
                     android:text="@string/u4styleText138" />
             </RadioGroup>
 
-            <!--Practice 4: Common domain name extensions include.-->
+            <!--Practice 3: Common domain name extensions include.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1501,11 +1501,11 @@
                     android:padding="5dp">
 
                     <TextView
-                        android:layout_width="100dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/table_cell_bg"
                         android:paddingLeft="@dimen/padding4"
                         android:text="@string/u4styleText150"
+                        android:minWidth="100dp"
                         android:textStyle="normal" />
 
                     <Spinner
@@ -1526,7 +1526,8 @@
                         android:id="@+id/unit4EdtPractise8"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/table_cell_bg" />
+                        android:background="@drawable/edit"
+                        android:minWidth="100dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -1545,10 +1546,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/table_cell_bg"
                         android:paddingLeft="@dimen/padding4"
                         android:text="@string/u4styleText152"
-                        android:textStyle="normal" />
+                        android:textStyle="normal"
+                        android:minWidth="100dp"/>
 
                     <Spinner
                         android:id="@+id/unit4SpinnerPractice2"
@@ -1567,10 +1568,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/table_cell_bg"
                         android:paddingLeft="@dimen/padding4"
                         android:text="@string/u4styleText153"
-                        android:textStyle="normal" />
+                        android:textStyle="normal"
+                        android:minWidth="100dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -1590,10 +1591,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/table_cell_bg"
                         android:paddingLeft="@dimen/padding4"
                         android:text="@string/u4styleText155"
-                        android:textStyle="normal" />
+                        android:textStyle="normal"
+                        android:minWidth="100dp"/>
 
                     <Spinner
                         android:id="@+id/unit4SpinnerPractice3"
@@ -1613,7 +1614,8 @@
                         android:id="@+id/unit4EdtPractise9"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/table_cell_bg" />
+                        android:background="@drawable/edit"
+                        android:minWidth="100dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"

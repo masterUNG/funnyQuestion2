@@ -21,7 +21,7 @@ public class MyConstantUnit3 {
 
     private String[] practiceChoiceSpinner2 = new String[]{
             "........",
-            "Data base", //1
+            "Database", //1
             "Blogging", //4
             "Web Page Authoring",//2
             "Tax Preparation", //3
@@ -59,8 +59,7 @@ public class MyConstantUnit3 {
     private String[] answerWarmUpString = new String[]{
             "business",
             "graphicsandmultimedia",  //"graphics and multimedia"
-            "home/personal/education",
-            "homepersonaleducation", //home personal education
+            "homepersonalandeducational", //home personal and educational
             "communications"
     };
     //  Practice
@@ -101,7 +100,7 @@ public class MyConstantUnit3 {
             "tony is not surfing the net.",
 
             "tony isn't surfing the internet",
-            "tony is not surfing the Internet",
+            "tony is not surfing the internet",
             "tony isn't surfing the net",
             "tony is not surfing the net"
     };

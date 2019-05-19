@@ -131,9 +131,9 @@ public class Unit1Fragment extends Fragment {
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               // Uri uri = Uri.parse("http://line.me/ti/p/@so_jirawat");
-               // Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-               // startActivity(intent);
+                Uri uri = Uri.parse("http://line.me/ti/p/@gmmgrammy");
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
             }
         });
     }

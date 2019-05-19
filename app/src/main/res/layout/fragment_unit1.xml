@@ -2934,7 +2934,6 @@
         android:scaleType="fitXY"
         app:backgroundTint="@android:color/transparent"
         app:borderWidth="0dp"
-        android:visibility="gone"
         />
 
 

@@ -356,7 +356,7 @@
     <string name="u3styleText5">Warm-up</string>
     <string name="u3styleText6">Application software consists of programs designed to make users more productive and/ or assist them with personal tasks. The majors categories of application software are</string>
     <string name="u3styleText7">1.What are the four categories of application software?</string>
-    <string name="u3styleText8">Application software consists of program designed to make users more productive and / or assist them with personal tasks personal tasks. The major categories of application software are <b>business software; graphics and multimedia software; home; personal, and educational software;</b> and <b>communications software.</b></string>
+    <string name="u3styleText8">Application software consists of program designed to make users more productive and / or assist them with personal tasks personal tasks. The major categories of application software are <b>business software; graphics and multimedia software; home, personal and educational software;</b> and <b>communications software.</b></string>
     <string name="u3styleText9">Four Categories of Application Software</string>
     <string name="u3styleText10">Business</string>
     <string name="u3styleText11">Graphics and Multimedia</string>
@@ -377,7 +377,7 @@
     <string name="u3styleText26">- Video and Audio editing (for the Professional)</string>
     <string name="u3styleText27">- Multimedia Authoring</string>
     <string name="u3styleText28">- Web Page Authoring</string>
-    <string name="u3styleText29">Home/ Personal / Educational</string>
+    <string name="u3styleText29">Home Personal and Educational</string>
     <string name="u3styleText30">Communications</string>
     <string name="u3styleText31">- Software Suite (for Personal Use)</string>
     <string name="u3styleText32">- Personal Finance</string>
@@ -896,7 +896,7 @@
     <string name="u4styleText145">8. You must have a web browser in order to access the Web.</string>
     <string name="u4styleText146">9. DSL, provides high-speed Internet connections through the cable television network.</string>
     <string name="u4styleText147">10. In general, the first portion of each IP address identifies the network and the last portion identifies the specific computer.</string>
-    <string name="u4styleText148">Practice 4: Common domain name extensions include.</string>
+    <string name="u4styleText148">Practice 3: Common domain name extensions include.</string>
     <string name="u4styleText149">Direction: Fill in the blanks.</string>
     <string name="u4styleText150">.com</string>
     <string name="u4styleText151">Education institutions</string>
