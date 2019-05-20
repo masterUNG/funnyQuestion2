@@ -1666,7 +1666,7 @@
                     android:text="@string/u3styleText123" />
             </RadioGroup>
 
-            <!--4. Multiple ChoiceSelect the best answer.-->
+            <!--4. Multiple Choice Select the best answer.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

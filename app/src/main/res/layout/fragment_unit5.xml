@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Contents-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/padding">
+            <!--title-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Unit 5"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Communications systems"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <!--Objective-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Objectives"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="At the end of this unit, students are able to describe these uses of computer communications; wireless messaging services, wireless Internet access points, cybercafé, global positioning system, groupware, voice mail, and Web services"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <!--head 1 Warm-up-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Warm-up"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--What is the purpose of the components required for successful communications?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What is the purpose of the components required for successful communications?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/unit5RdgWarmUp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/unit5RbWarmUp1A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="a. It is required a sending device, a communication channel and a receiving device." />
+
+            <RadioButton
+                android:id="@+id/unit5RbWarmUp1B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="b. It is required a sending device, a text channel and receiving device." />
+            </RadioGroup>
+
+            <!--Presentation-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Presentation"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <!--1.What is the purpose of the components required ....-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="1.What is the purpose of the components required for successful communications, and what are various sending and receiving devices?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Computer communication describes a process in which two or more computers or devices transfer data, instructions and information. Successful communications requires a sending device that initiates a transmission instruction, a communications device that connects the sending device to a communications channel to a receiving device, and a receiving device that accepts the transmission of data, instructions, or information. All types of computers and mobile devices serve as sending and receiving devices in a communication system"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <!--2. How are computer communications used?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="2. How are computer communications used?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Communications technologies include blogs, chat rooms, e-mail, fax, FTP, instant messaging , newsgroups, RSS, video conferencing, VoIP, Web, Web folders, and wikis. Users can send and receive wireless messages to and from smart phones, cell phones, handheld game consoles, and other mobile devices using text messaging, picture messaging and video messaging, and wireless instant messaging."
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="People connect wirelessly to the Internet through a wireless Internet access point. A bot spot is a wireless net-work that provides Internet connection to mobile computers and devices. A cybercafé is a coffeehouse, restaurant, or other location that provides computers with Internet access. A global positioning system (GPS) analyzes signals sent by satellites to determine and earth-based receiver’s geographic location. Many software products provide a means to collaborate, or work online with other users connected to a server. Groupware is a software that helps groups of people work on projects or share information over a net-work . Voice mail allows someone to leave a voice massage for one or more people. Web services describe standardized software that enables programmers to create applications that communicate with other remote computers."
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <!--3. What are the advantages of using a Network, and how are LANs, MANs, and WANs different?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="3. What are the advantages of using a Network, and how are LANs, MANs, and WANs different?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A network is a collection of computers and devices connected together via communications devices and transmission media. Advantages of using a network include facilitating communications, sharing hardware, sharing data and information, sharing software and transferring funds."
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Networks typically are classified as a local area network (LAN), which connects computers in devices in a limited geographical area; a metropolitan area network (MAN), which covers a large geographic area using a communications channel that combines many types of media."
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A wide area network (WAN) is a network that convers a large geographic area (such as a city, country, or the world) using a communication channel that combines many types of media such as telephone lines, cables, and radio waves. A Wan can be on large network on can consist of two or more LANs connected together. The Internet is the world’s largest WAN."
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <!--An example of a WAN-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="An example of a WAN"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--4. How are a client/ server and peer-to-peer Networks different, and how does a P2P Network work?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="4. How are a client/ server and peer-to-peer Networks different, and how does a P2P Network work?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="On a client/ server network , one or more computers are as a server, sometimes called a bust computer, which controls access to network resources and provides a centralized storage area, while the other computers and devices on the network are clients that rly on the server for resources. A peer-to-peer network is a simple network that typically connects fewer than 10 computers that have equal responsibilities and capabilities. P2Pis and Internet peer-to peer network on which users access each other’s hard disks directly and exchange files over the Internet."
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <!--On a client /server network, one or more computes act as a server, and the clients access the server(s).-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="On a client /server network, one or more computes act as a server, and the clients access the server(s)."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--Each computer on a peer-to-peer network shares its hardware and software with other computer on the network.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Each computer on a peer-to-peer network shares its hardware and software with other computer on the network."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--5. How are a star network, Bus network, and Ring network different??-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="5. How are a star network, Bus network, and Ring network different?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A network topology refers to the layout of computers and devices in a communications network. There commonly used network topologies are the star bus, and ring. On a star network, all computers and devices on the network connect to a central device, thus forming a star. A bus network consists of a single central cable so which all computers and other devices connect. On a ring network, a cable forms a closed loop (ring) with all computers and devices arranged along the ring."
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <!--6. A star network contains a single, centralized hub or switch through-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="6. A star network contains a single, centralized hub or switch through."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--Devices in a bus network share a single data path.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Devices in a bus network share a single data path."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--7. What are various Network Communication Standards?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="7. What are various Network Communication Standards?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A network standard defines guidelines that specify the way computers access a medium, the type(s) of networks, and the type of physical cable or wireless technology used. Network communications standards include the following. Ethernetspecifies that no central compute or device on the network should control when data can be transmitted. Token ring requires devices to share or pass a special signal, called a token. TCP/ IP divides data into packets. Wi-Fi identifies any network based on the 802.11standards for wireless communications. Bluetoothuses short-rang radio waves to transmit data. UWBspecifies how to UWBdevices use short-rang radio wave to communicate at high speeds. IrDatransmits data wirelessly via infrared light waves. RFID uses radio signals for communications. WiMAXis a network standard developed by IEEE, that specifies how wireless devices communicate over the air in a wide area. The Wireless Application Protocol (WAP) specifies how some mobile devices can devices can display Internet content."
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <!--How Electronic RFID Toll Collection Works.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="How Electronic RFID Toll Collection Works"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--8. What is the purpose of Communication Software?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="8. What is the purpose of Communication Software?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Communication software helps users establish a connection to another computer or network; manages the transmission of data, instructions, and information; and provides and interface for users to communicate with one another."
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <!--9. What are commonly used communications devices?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="9. What are commonly used communications devices?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A communications device is hardware capable of transmitting data between a sending device and a receiving device. A dial modem converts digital signals to analog signals and analog signals to digital signals so that data can travel along analog telephone lines. A digital modem sends and receives data and information to and from a digital line. An ISDN modem transits digital data to and from an ISDN line, while a DSL, modem transmits digital data to and from a DSL line. A cable modem, sometimes called a broadband modem, is a digital modem that sends and receives digital data over the cable television network. A wireless modem uses the cell phone network to connect to the Internet wirelessly from mobile computers an devices. A network card enables a computer and device that does not have built-in-networking capability to access a network. A wireless access point allows computers and devices to transfer data wirelessly. A router connects multiple computers or other routers together and transmits data to it correct destination on the network. A bub or switch is a device that provides a central point for cables in a network."
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <!--10. How can a Home Network be set up?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="10. How can a Home Network be set up?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A home network connects multiple computers and devices in a home. An Ethernet network connects each computer to a hub with a physical cable. A home powerline cable network uses the same lines that bring electricity into the house. A phone line network uses existing telephone lines in a home. Most home networks use a Wi-Fi network"
+            android:textSize="@dimen/h2"
+            android:layout_marginTop="@dimen/padding8"
+            android:textStyle="normal" />
+
+            <!--How to set up hardware for a Wi-Fi Home Network?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="How to set up hardware for a Wi-Fi Home Network?"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--Practice-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Practice"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <!--Direction: Click T for true and F for false.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Direction: Click T for true and F for false."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--1.A communication channel is channel is the media ...-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="1.A communication channel is channel is the media on which data, instructions, or information travel."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:id="@+id/unit5RdgPractice1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding8"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice1True"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
+                    android:text="@string/u4styleText137" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice1False"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/u4styleText138" />
+            </RadioGroup>
+
+            <!--2.A web video messaging, users can send short video clip, usually..-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="2.A web video messaging, users can send short video clip, usually about 15 minutes, in addition to all picture messaging services."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:id="@+id/unit5RdgPractice2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding8"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice2True"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
+                    android:text="@string/u4styleText137" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice2False"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/u4styleText138" />
+            </RadioGroup>
+
+            <!--3.A network is a collection of computers and devices..-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="3.A network is a collection of computers and devices connected together via communications devices and transmission media."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:id="@+id/unit5RdgPractice3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding8"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice3True"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
+                    android:text="@string/u4styleText137" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice3False"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/u4styleText138" />
+            </RadioGroup>
+
+            <!--4.A local area network (LAN) is a network that convers...-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="4.A local area network (LAN) is a network that convers a large geographic area using a communications channel that combines may types of media such as telephone lines, cables, and radio waves."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:id="@+id/unit5RdgPractice4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding8"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice4True"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
+                    android:text="@string/u4styleText137" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice4False"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/u4styleText138" />
+            </RadioGroup>
+
+            <!--5.A Web server is a computer that delivers....-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="5.A Web server is a computer that delivers requested Web pages to your computer."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:id="@+id/unit5RdgPractice5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding8"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice5True"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
+                    android:text="@string/u4styleText137" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice5False"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/u4styleText138" />
+            </RadioGroup>
+
+            <!--6.An intranet is an internal network that uses Internet technologies....-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="6.An intranet is an internal network that uses Internet technologies."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:id="@+id/unit5RdgPractice6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding8"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice6True"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
+                    android:text="@string/u4styleText137" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice6False"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/u4styleText138" />
+            </RadioGroup>
+
+            <!--7.The 40-Gigabit Ethernet standard is the fastest...-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="7.The 40-Gigabit Ethernet standard is the fastest of the Ethernet standards."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:id="@+id/unit5RdgPractice7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding8"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice7True"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
+                    android:text="@string/u4styleText137" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice7False"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/u4styleText138" />
+            </RadioGroup>
+
+            <!--8.Bluetooth does not require line-of-sight transmission.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="8.Bluetooth does not require line-of-sight transmission."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:id="@+id/unit5RdgPractice8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding8"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice8True"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
+                    android:text="@string/u4styleText137" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice8False"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/u4styleText138" />
+            </RadioGroup>
+
+            <!--9.At distance 0f 10 meters (about 33 feet)....-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="9.At distance 0f 10 meters (about 33 feet), the data transfer rate for UWB devices is 480 Mbps.."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:id="@+id/unit5RdgPractice9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding8"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice9True"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
+                    android:text="@string/u4styleText137" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice9False"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/u4styleText138" />
+            </RadioGroup>
+
+            <!--10.Fiber to the Premises (FTTP) uses fiber-optic cable to...-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="10.Fiber to the Premises (FTTP) uses fiber-optic cable to provide extremely high-speed Internet access to a user’s physical permanent location."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:id="@+id/unit5RdgPractice10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding8"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice10True"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/padding"
+                    android:text="@string/u4styleText137" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice10False"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/u4styleText138" />
+            </RadioGroup>
+
+            <!--Multiple Choice Direction: Select the best answer.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Direction: Select the best answer."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--1.With …………………, users can view message detail such as the le......-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="1.With …………………, users can view message detail such as the length of calls and, in some cases, read message contents instead of listening to them."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:id="@+id/unit5RdgPractice11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice11a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a.Web services" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice11b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b.Internet telephony" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice11c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c.Visual voice mail" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice11d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d.Video messaging" />
+            </RadioGroup>
+
+            <!--2. When an online meeting take place on the web, it is called …………………….-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="2. When an online meeting take place on the web, it is called ……………………."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:id="@+id/unit5RdgPractice12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice12a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a.video messaging" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice12b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b.a peer-to-peer network" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice12c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c.aWeb conference" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice12d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d.aWeb meeting" />
+            </RadioGroup>
+
+            <!--3. A document management system ……………………………..-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="3. A document management system …………………………….."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:id="@+id/unit5RdgPractice13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice13a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a.provides for storage and management of a company’s documents." />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice13b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b.allows users to share documents with other users in real time." />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice13c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c.prints to a Web address associated with a particular printer." />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice13d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d.Provides personal information manger functions." />
+            </RadioGroup>
+
+            <!--4. A …………………………is a Web application that combines services from two or more sources, creating a new application.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="4. A …………………………is a Web application that combines services from two or more sources, creating a new application."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:id="@+id/unit5RdgPractice14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice14a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a.document management system" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice14b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b.Peer-to peer network" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice14c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c.Web service" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice14d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d.Mashup" />
+            </RadioGroup>
+
+            <!--5. ……………….are devices that provide a common central connection point for nodes on the network.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="5. ……………….are devices that provide a common central connection point for nodes on the network."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:id="@+id/unit5RdgPractice15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice15a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a.Packets and tokens" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice15b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b.Hubs and switches" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice15c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c.T1 and T3 lines" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice15d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d.Routers and digital modems" />
+            </RadioGroup>
+
+            <!--6. ……………………….. Is a standard, specifically a protocol, that defines how a network uses radio signals to communicate with a tag placed in or attached to and object, and animal, or a person.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="6. ……………………….. Is a standard, specifically a protocol, that defines how a network uses radio signals to communicate with a tag placed in or attached to and object, and animal, or a person."
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <RadioGroup
+                android:id="@+id/unit5RdgPractice16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice16a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="a.RFID" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice16b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="b.WiMAX" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice16c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="c.Bluetooth" />
+
+                <RadioButton
+                    android:id="@+id/unit5RbPractice16d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="d.UWB" />
+            </RadioGroup>
+
+            <!--Listening-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Listening"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Listen how to install a Wi-Fi Home Network and then order the right steps."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/padding8"
+                android:gravity="center">
+
+                <Spinner
+                    android:id="@+id/unit5SpinListening1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spin4"
+                    android:minWidth="200dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="purchase the Wi-Fi equipment" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/padding8"
+                android:gravity="center">
+
+                <Spinner
+                    android:id="@+id/unit5SpinListening2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spin4"
+                    android:minWidth="200dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="subscribe to a high-speed Internet access provider" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/padding8"
+                android:gravity="center">
+
+                <Spinner
+                    android:id="@+id/uni5SpinListening3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spin4"
+                    android:minWidth="200dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="create the network through the use of software" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/padding8"
+                android:gravity="center">
+
+                <Spinner
+                    android:id="@+id/unit5SpinListening4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spin4"
+                    android:minWidth="200dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="connect the physical devices" />
+
+
+            </TableRow>
+
+            </TableLayout>
+
+            <!--Language work-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Language work"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <!--Study this list of certainly expressions;-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Study this list of certainly expressions;"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+
+
+            <!--Practice-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Practice"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <!--Direction: Order these sentences into future simple tense.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="Direction: Order these sentences into future simple tense."
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--1.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:layout_marginTop="@dimen/padding4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="1.will / people/ in / elections / online./ vote"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+
+                <EditText
+                    android:id="@+id/unit5EdtLanguage1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
+
+            <!--2.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:layout_marginTop="@dimen/padding4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="2. in/ children /my/ country/ have/ will/ all school / mobile phones."
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+
+                <EditText
+                    android:id="@+id/unit5EdtLanguage2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
+
+            <!--3.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:layout_marginTop="@dimen/padding4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="3. will/ robot/ taxis/ controlled./ be"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+
+                <EditText
+                    android:id="@+id/unit5EdtLanguage3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
+
+            <!--4.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:layout_marginTop="@dimen/padding4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="4. computers / most/ voice-controlled./ will / be"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+
+                <EditText
+                    android:id="@+id/unit5EdtLanguage4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
+
+            <!--5.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:layout_marginTop="@dimen/padding4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="5. will / be / replaced/ a voice-based/ system./ email/ by"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+
+                <EditText
+                    android:id="@+id/unit5EdtLanguage5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
+
+            <!--6.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:layout_marginTop="@dimen/padding4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="6. will/ computers/ become/ powerful/ more"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+
+                <EditText
+                    android:id="@+id/unit5EdtLanguage6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
+
+            <!--7.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:layout_marginTop="@dimen/padding4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="7. transmit/ will /TV journalists/ be/ able to/ what/ by they/ see/ using / in/ their/ sensors/ optic nerves."
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+
+                <EditText
+                    android:id="@+id/unit5EdtLanguage7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
+
+            <!--8.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:layout_marginTop="@dimen/padding4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="8. will /the / way/ we/ communicate/ VoIP phones/ revolutionize"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+
+                <EditText
+                    android:id="@+id/unit5EdtLanguage8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
+
+            <!--9.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:layout_marginTop="@dimen/padding4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="9. replace/ computers/ mobile phones/ will / as / access/ to/ commonest way/ the/ the Internet."
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+
+                <EditText
+                    android:id="@+id/unit5EdtLanguage9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
+
+            <!--10.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:layout_marginTop="@dimen/padding4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:text="10 . will / have / mobile phones./ pupils / the older/ many"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+
+                <EditText
+                    android:id="@+id/unit5EdtLanguage10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit"
+                    android:focusable="auto" />
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--Floating-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_action_check"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+</RelativeLayout>
