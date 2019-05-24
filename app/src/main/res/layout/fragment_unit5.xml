@@ -112,6 +112,49 @@
                 android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/Unit5styleText10"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Unit5styleText11"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+
+            <!--Communications system-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/Unit5styleText11a"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit500" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Unit5styleText11b"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+
+
             <!--2. How are computer communications used?-->
             <TextView
                 android:layout_width="wrap_content"
@@ -178,6 +221,12 @@
                 android:text="@string/Unit5styleText19"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit500a" />
 
             <!--4. How are a client/ server and peer-to-peer Networks different, and how does a P2P Network work?-->
             <TextView
@@ -205,6 +254,13 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit501" />
+
             <!--Each computer on a peer-to-peer network shares its hardware and software with other computer on the network.-->
             <TextView
                 android:layout_width="wrap_content"
@@ -213,6 +269,13 @@
                 android:text="@string/Unit5styleText23"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit502" />
 
             <!--5. How are a star network, Bus network, and Ring network different??-->
             <TextView
@@ -240,6 +303,13 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit503" />
+
             <!--Devices in a bus network share a single data path.-->
             <TextView
                 android:layout_width="wrap_content"
@@ -248,6 +318,20 @@
                 android:text="@string/Unit5styleText27"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit504" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit505" />
 
             <!--7. What are various Network Communication Standards?-->
             <TextView
@@ -274,6 +358,37 @@
                 android:text="@string/Unit5styleText30"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit507" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Unit5styleText30a"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Unit5styleText30b"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Unit5styleText30c"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
 
             <!--8. What is the purpose of Communication Software?-->
             <TextView
@@ -334,6 +449,61 @@
                 android:text="@string/Unit5styleText37"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit506" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Unit5styleText37a"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Unit5styleText37b"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Unit5styleText37c"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Unit5styleText37d"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Unit5styleText37e"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Unit5styleText37f"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
 
             <!--Practice-->
             <TextView
@@ -1035,7 +1205,68 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Unit5styleText87a"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Unit5styleText87b"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Unit5styleText87c"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Unit5styleText87d"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Unit5styleText87e"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Unit5styleText87f"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Unit5styleText87g"
+                android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit508" />
 
             <!--Practice-->
             <TextView
