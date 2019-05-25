@@ -23,10 +23,12 @@ import thailand.soumbundit.jirawat.funnyquestion.fragment.PostUnit1Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PostUnit2Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PostUnit3Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PostUnit4Fragment;
+import thailand.soumbundit.jirawat.funnyquestion.fragment.PostUnit5Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit1Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit2Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit3Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit4Fragment;
+import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit5Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.Unit1Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.Unit2Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.Unit3Fragment;
@@ -403,7 +405,11 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
                 break;
 
             case R.id.txtPreUnit5:
-
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.contentServiceFragment, PreUnit5Fragment.preUnit5Fragment(uidUserString))
+                        .commit();
+                setCheckImage("PreUnit5");
                 break;
 
             /*case R.id.txtPreUnit6:
@@ -485,6 +491,11 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
                 break;
 
             case R.id.txtPostUnit5:
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.contentServiceFragment, PostUnit5Fragment.postUnit5Fragment(uidUserString))
+                        .commit();
+                setCheckImage("PostUnit5");
 
                 break;
 

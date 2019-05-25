@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Spinner;
@@ -53,6 +54,7 @@ public class Unit5Fragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
         findUidNameUnit();
 
+        playMedia1();
         choiceSpinnerListen1();
         choiceSpinnerListen2();
         choiceSpinnerListen3();
@@ -61,6 +63,24 @@ public class Unit5Fragment extends Fragment {
 
         checkFloating();
     }
+
+    private void playMedia1() {
+        mediaPlayer1 = MediaPlayer.create(Unit5Fragment.this.getActivity(), R.raw.unit5);
+
+        final Button button1 = getView().findViewById(R.id.playMedia1);///*****
+        button1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (mediaPlayer1.isPlaying()) {
+                    mediaPlayer1.pause();
+                    button1.setText("Resume");
+                } else {
+                    mediaPlayer1.start();
+                    button1.setText("Pause");
+                }
+            }
+        });
+    }//Play Media Clip1
 
     public void checkFloating() {
         FloatingActionButton floatingActionButton = getView().findViewById(R.id.floatingCheck);
@@ -407,7 +427,7 @@ public class Unit5Fragment extends Fragment {
     @Override
     public void onStop() {
         super.onStop();
-        // mediaPlayer1.stop();
+        mediaPlayer1.stop();
     }
 
 

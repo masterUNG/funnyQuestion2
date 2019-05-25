@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Contents-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/padding">
+            <!--title-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/preUnit5styleText1"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/preUnit5styleText2"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/preUnit5styleText3"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit5styleText4"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--1. When an online meeting take place on the web, it is called ……………………. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit5styleText5"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preunit5RdgPractice1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice1a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText6" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice1b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText7" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice1c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText8" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice1d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText9" />
+            </RadioGroup>
+
+            <!--2. A document management system …………………………….. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit5styleText10"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preunit5RdgPractice2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice2a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText11" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice2b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText12" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice2c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText13" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice2d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText14" />
+            </RadioGroup>
+
+            <!--3. With …………………, users can view message detail such as the length of calls and, in some cases, read message contents instead of listening to them. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit5styleText15"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preunit5RdgPractice3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice3a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText16" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice3b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText17" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice3c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText18" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice3d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText19" />
+            </RadioGroup>
+
+            <!--4. ……………….are devices that provide a common central connection point for nodes on the network.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit5styleText20"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preunit5RdgPractice4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice4a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText21" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice4b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText22" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice4c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText23" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice4d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText24" />
+            </RadioGroup>
+
+            <!--5. ……………………….. Is a standard, specifically a protocol, that defines how a network uses radio signals to communicate with a tag placed in or attached to and object, and animal, or a person.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit5styleText25"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preunit5RdgPractice5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice5a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText26" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice5b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText27" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice5c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText28" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice5d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText29" />
+            </RadioGroup>
+
+            <!--6. A …………………………is a Web application that combines services from two or more sources, creating a new application.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit5styleText30"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preunit5RdgPractice6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice6a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText31" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice6b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText32" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice6c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText33" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice6d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText34" />
+            </RadioGroup>
+
+            <!--7. ……………….Is a wireless network that provides Internet connections to mobile computers or other devices.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit5styleText35"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preunit5RdgPractice7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice7a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText36" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice7b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText37" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice7c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText38" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice7d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText39" />
+            </RadioGroup>
+
+            <!--8. ……………………….. Is the Internet standard that permits users to upload and download files.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit5styleText40"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preunit5RdgPractice8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice8a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText41" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice8b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText42" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice8c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText43" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice8d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText44" />
+            </RadioGroup>
+
+            <!--9. What does LAN stand for?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit5styleText45"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preunit5RdgPractice9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice9a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText46" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice9b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText47" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice9c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText48" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice9d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText49" />
+            </RadioGroup>
+
+            <!--10. What does MAN stand for?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit5styleText50"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preunit5RdgPractice10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice10a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText51" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice10b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText52" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice10c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText53" />
+
+                <RadioButton
+                    android:id="@+id/preunit5RbPractice10d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit5styleText54" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/stringEndLine"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--Floating-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_action_check"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+</RelativeLayout>

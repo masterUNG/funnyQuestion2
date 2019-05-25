@@ -5,11 +5,11 @@ public class MyConstantUnit5 {
 
 
     private String[] choiceSpinnerListening = new String[]{
-            ".......",
-            "First,",
-            "Next,",
-            "After that,",
-            "Finally,"
+            "....",
+            "1",
+            "2",
+            "3",
+            "4"
     };
 
 

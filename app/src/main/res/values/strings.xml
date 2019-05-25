@@ -1031,7 +1031,6 @@
     <string name="Unit5styleText11"><b>Computer communication</b> describes a process in which two or more computers or devices transfer data, instructions and information. Successful communications requires <b>a sending device</b> that initiates a transmission instruction, a communications device that connects the sending device to a communications channel to a receiving device, and <b>a receiving device</b> that accepts the transmission of data, instructions, or information. All types of computers and mobile devices serve as sending and receiving devices in a communication system</string>
     <string name="Unit5styleText11a">Communications system</string>
     <string name="Unit5styleText11b"><b>Picture source:</b> https://techsources.us/communication-software/</string>
-
     <string name="Unit5styleText12">2. How are computer communications used?</string>
     <string name="Unit5styleText13">Communications technologies include blogs, chat rooms, e-mail, fax, FTP, instant messaging , newsgroups, RSS, video conferencing, VoIP, Web, Web folders, and wikis. Users can send and receive wireless messages to and from smart phones, cell phones, handheld game consoles, and other mobile devices using <b>text messaging, picture messaging</b> and <b>video messaging,</b> and <b>wireless instant messaging.</b></string>
     <string name="Unit5styleText14">People connect wirelessly to the Internet through <b>a wireless Internet access point.</b> A bot spot is a wireless net-work that provides Internet connection to mobile computers and devices. <b>A cybercafé</b> is a coffeehouse, restaurant, or other location that provides computers with Internet access. <b>A global positioning system (GPS)</b> analyzes signals sent by satellites to determine and earth-based receiver’s geographic location. Many software products provide a means to collaborate, or work online with other users connected to a server. <b>Groupware</b> is a software that helps groups of people work on projects or share information over a net-work . <b>Voice mail</b> allows someone to leave a voice massage for one or more people. Web services describe standardized software that enables programmers to create applications that communicate with other remote computers.</string>
@@ -1139,4 +1138,73 @@
     <string name="Unit5styleText101">10 . will / have / mobile phones./ pupils / the older/ many</string>
 
 
+    <!--post unit5-->
+    <string name="postUnit5styleText1">Post-test</string>
+    <string name="postUnit5styleText5">4. When an online meeting take place on the web, it is called …………………….</string>
+    <string name="postUnit5styleText10">2. A document management system ……………………………..</string>
+    <string name="postUnit5styleText15">7. With …………………, users can view message detail such as the length of calls and, in some cases, read message contents instead of listening to them.</string>
+    <string name="postUnit5styleText20">10. ……………….are devices that provide a common central connection point for nodes on the network.</string>
+    <string name="postUnit5styleText25">5. ……………………….. Is a standard, specifically a protocol, that defines how a network uses radio signals to communicate with a tag placed in or attached to and object, and animal, or a person.</string>
+    <string name="postUnit5styleText30">1. A …………………………is a Web application that combines services from two or more sources, creating a new application.</string>
+    <string name="postUnit5styleText35">9. ……………….Is a wireless network that provides Internet connections to mobile computers or other devices.</string>
+    <string name="postUnit5styleText40">6. ……………………….. Is the Internet standard that permits users to upload and download files.</string>
+    <string name="postUnit5styleText45">8. What does LAN stand for?</string>
+    <string name="postUnit5styleText50">3. What does MAN stand for?</string>
+
+
+    <!--pre unit5-->
+    <string name="preUnit5styleText1">Pre-test</string>
+    <string name="preUnit5styleText2">Unit 5</string>
+    <string name="preUnit5styleText3">Communications system</string>
+    <string name="preUnit5styleText4">Direction: Choose the best answer</string>
+    <string name="preUnit5styleText5">1. When an online meeting take place on the web, it is called …………………….</string>
+    <string name="preUnit5styleText6">a. video messaging</string>
+    <string name="preUnit5styleText7">b. a peer-to-peer network</string>
+    <string name="preUnit5styleText8">c. a Web conference</string>
+    <string name="preUnit5styleText9">d. a Web meeting</string>
+    <string name="preUnit5styleText10">2. A document management system ……………………………..</string>
+    <string name="preUnit5styleText11">a. provides for storage and management of a company’s documents.</string>
+    <string name="preUnit5styleText12">b. allows users to share documents with other users in real time.</string>
+    <string name="preUnit5styleText13">c. prints to a Web address associated with a particular printer.</string>
+    <string name="preUnit5styleText14">d. Provides personal information manger functions.</string>
+    <string name="preUnit5styleText15">3. With …………………, users can view message detail such as the length of calls and, in some cases, read message contents instead of listening to them.</string>
+    <string name="preUnit5styleText16">a. Web services</string>
+    <string name="preUnit5styleText17">b. Internet telephony</string>
+    <string name="preUnit5styleText18">c. Visual voice mail</string>
+    <string name="preUnit5styleText19">d. Video messaging</string>
+    <string name="preUnit5styleText20">4. ……………….are devices that provide a common central connection point for nodes on the network.</string>
+    <string name="preUnit5styleText21">a. Packets and tokens</string>
+    <string name="preUnit5styleText22">b. Hubs and switches</string>
+    <string name="preUnit5styleText23">c. T1 and T3 lines</string>
+    <string name="preUnit5styleText24">d. Routers and digital modems</string>
+    <string name="preUnit5styleText25">5. ……………………….. Is a standard, specifically a protocol, that defines how a network uses radio signals to communicate with a tag placed in or attached to and object, and animal, or a person.</string>
+    <string name="preUnit5styleText26">a. RFID</string>
+    <string name="preUnit5styleText27">b. WiMAX</string>
+    <string name="preUnit5styleText28">c. Bluetooth</string>
+    <string name="preUnit5styleText29">d. UWB</string>
+    <string name="preUnit5styleText30">6. A …………………………is a Web application that combines services from two or more sources, creating a new application.</string>
+    <string name="preUnit5styleText31">a. document management system</string>
+    <string name="preUnit5styleText32">b. Peer-to peer network</string>
+    <string name="preUnit5styleText33">c. Web service</string>
+    <string name="preUnit5styleText34">d. Mashup</string>
+    <string name="preUnit5styleText35">7. ……………….Is a wireless network that provides Internet connections to mobile computers or other devices.</string>
+    <string name="preUnit5styleText36">a. Web conference</string>
+    <string name="preUnit5styleText37">b. Voice mail</string>
+    <string name="preUnit5styleText38">c. A cyber café</string>
+    <string name="preUnit5styleText39">d. Internet</string>
+    <string name="preUnit5styleText40">8. ……………………….. Is the Internet standard that permits users to upload and download files.</string>
+    <string name="preUnit5styleText41">a. Bluetooth</string>
+    <string name="preUnit5styleText42">b. UWB</string>
+    <string name="preUnit5styleText43">c. FTP</string>
+    <string name="preUnit5styleText44">d. A Mashup</string>
+    <string name="preUnit5styleText45">9. What does LAN stand for?</string>
+    <string name="preUnit5styleText46">a. A Local area network</string>
+    <string name="preUnit5styleText47">b. A login area network</string>
+    <string name="preUnit5styleText48">c. A language area network</string>
+    <string name="preUnit5styleText49">d. A land around network</string>
+    <string name="preUnit5styleText50">10. What does MAN stand for?</string>
+    <string name="preUnit5styleText51">a. A microphone area network</string>
+    <string name="preUnit5styleText52">b. A metropolitan area network</string>
+    <string name="preUnit5styleText53">c. A methodology area network</string>
+    <string name="preUnit5styleText54">d. A management area network</string>
 </resources>

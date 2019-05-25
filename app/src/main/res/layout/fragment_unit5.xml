@@ -73,17 +73,17 @@
                 android:layout_marginTop="@dimen/padding8"
                 android:orientation="vertical">
 
-            <RadioButton
-                android:id="@+id/unit5RbWarmUp1A"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/Unit5styleText7" />
+                <RadioButton
+                    android:id="@+id/unit5RbWarmUp1A"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Unit5styleText7" />
 
-            <RadioButton
-                android:id="@+id/unit5RbWarmUp1B"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/Unit5styleText8" />
+                <RadioButton
+                    android:id="@+id/unit5RbWarmUp1B"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Unit5styleText8" />
             </RadioGroup>
 
             <!--Presentation-->
@@ -107,9 +107,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText11"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <TextView
@@ -123,11 +123,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText11"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
-
 
             <!--Communications system-->
             <TextView
@@ -148,12 +147,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText11b"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
-
-
 
             <!--2. How are computer communications used?-->
             <TextView
@@ -167,17 +164,17 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText13"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText14"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <!--3. What are the advantages of using a Network, and how are LANs, MANs, and WANs different?-->
@@ -192,25 +189,25 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText16"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText17"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText18"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <!--An example of a WAN-->
@@ -221,6 +218,7 @@
                 android:text="@string/Unit5styleText19"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
@@ -240,9 +238,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText21"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <!--On a client /server network, one or more computes act as a server, and the clients access the server(s).-->
@@ -289,9 +287,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText25"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <!--6. A star network contains a single, centralized hub or switch through-->
@@ -345,9 +343,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText29"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <!--How Electronic RFID Toll Collection Works.-->
@@ -369,25 +367,25 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText30a"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText30b"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText30c"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <!--8. What is the purpose of Communication Software?-->
@@ -402,9 +400,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText32"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <!--9. What are commonly used communications devices?-->
@@ -419,9 +417,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText34"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <!--10. How can a Home Network be set up?-->
@@ -435,11 +433,11 @@
 
             <TextView
                 android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/Unit5styleText36"
-            android:textSize="@dimen/h2"
-            android:layout_marginTop="@dimen/padding8"
-            android:textStyle="normal" />
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="@string/Unit5styleText36"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
 
             <!--How to set up hardware for a Wi-Fi Home Network?-->
             <TextView
@@ -460,49 +458,49 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText37a"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText37b"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText37c"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText37d"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText37e"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText37f"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <!--Practice-->
@@ -1095,95 +1093,102 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
+            <Button
+                android:id="@+id/playMedia1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/styleText104a" />
+
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:shrinkColumns="*"
                 android:stretchColumns="*">
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/padding8"
-                android:gravity="center">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:gravity="center">
 
-                <Spinner
-                    android:id="@+id/unit5SpinnerListening1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/spin4"
-                    android:minWidth="200dp" />
+                    <Spinner
+                        android:id="@+id/unit5SpinnerListening1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="200dp" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/Unit5styleText83" />
-
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/padding8"
-                android:gravity="center">
-
-                <Spinner
-                    android:id="@+id/unit5SpinnerListening2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/spin4"
-                    android:minWidth="200dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/Unit5styleText84" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Unit5styleText83" />
 
 
-            </TableRow>
+                </TableRow>
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/padding8"
-                android:gravity="center">
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:gravity="center">
 
-                <Spinner
-                    android:id="@+id/unit5SpinnerListening3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/spin4"
-                    android:minWidth="200dp" />
+                    <Spinner
+                        android:id="@+id/unit5SpinnerListening2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="200dp" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/Unit5styleText85" />
-
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/padding8"
-                android:gravity="center">
-
-                <Spinner
-                    android:id="@+id/unit5SpinnerListening4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/spin4"
-                    android:minWidth="200dp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/Unit5styleText86" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Unit5styleText84" />
 
 
-            </TableRow>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:gravity="center">
+
+                    <Spinner
+                        android:id="@+id/unit5SpinnerListening3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="200dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Unit5styleText85" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/padding8"
+                    android:gravity="center">
+
+                    <Spinner
+                        android:id="@+id/unit5SpinnerListening4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spin4"
+                        android:minWidth="200dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Unit5styleText86" />
+
+
+                </TableRow>
 
             </TableLayout>
 
@@ -1208,57 +1213,57 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText87a"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText87b"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText87c"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText87d"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText87e"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText87f"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText87g"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <ImageView
@@ -1290,8 +1295,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/bg_clear3"
                 android:layout_marginTop="@dimen/padding4"
+                android:background="@drawable/bg_clear3"
                 android:orientation="vertical">
 
                 <TextView
@@ -1315,8 +1320,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/bg_clear3"
                 android:layout_marginTop="@dimen/padding4"
+                android:background="@drawable/bg_clear3"
                 android:orientation="vertical">
 
                 <TextView
@@ -1340,8 +1345,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/bg_clear3"
                 android:layout_marginTop="@dimen/padding4"
+                android:background="@drawable/bg_clear3"
                 android:orientation="vertical">
 
                 <TextView
@@ -1365,8 +1370,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/bg_clear3"
                 android:layout_marginTop="@dimen/padding4"
+                android:background="@drawable/bg_clear3"
                 android:orientation="vertical">
 
                 <TextView
@@ -1375,7 +1380,7 @@
                     android:layout_marginTop="@dimen/padding8"
                     android:text="@string/Unit5styleText95"
                     android:textSize="@dimen/h2"
-                    android:textStyle="normal"/>
+                    android:textStyle="normal" />
 
 
                 <EditText
@@ -1390,8 +1395,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/bg_clear3"
                 android:layout_marginTop="@dimen/padding4"
+                android:background="@drawable/bg_clear3"
                 android:orientation="vertical">
 
                 <TextView
@@ -1415,8 +1420,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/bg_clear3"
                 android:layout_marginTop="@dimen/padding4"
+                android:background="@drawable/bg_clear3"
                 android:orientation="vertical">
 
                 <TextView
@@ -1440,8 +1445,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/bg_clear3"
                 android:layout_marginTop="@dimen/padding4"
+                android:background="@drawable/bg_clear3"
                 android:orientation="vertical">
 
                 <TextView
@@ -1465,8 +1470,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/bg_clear3"
                 android:layout_marginTop="@dimen/padding4"
+                android:background="@drawable/bg_clear3"
                 android:orientation="vertical">
 
                 <TextView
@@ -1490,8 +1495,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/bg_clear3"
                 android:layout_marginTop="@dimen/padding4"
+                android:background="@drawable/bg_clear3"
                 android:orientation="vertical">
 
                 <TextView
@@ -1515,8 +1520,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/bg_clear3"
                 android:layout_marginTop="@dimen/padding4"
+                android:background="@drawable/bg_clear3"
                 android:orientation="vertical">
 
                 <TextView
@@ -1535,39 +1540,6 @@
                     android:background="@drawable/edit"
                     android:focusable="auto" />
             </LinearLayout>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         </LinearLayout>
