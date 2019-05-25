@@ -20,11 +20,13 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PostUnit1Fragment;
+import thailand.soumbundit.jirawat.funnyquestion.fragment.PostUnit1to5Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PostUnit2Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PostUnit3Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PostUnit4Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PostUnit5Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit1Fragment;
+import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit1to5Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit2Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit3Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit4Fragment;
@@ -42,12 +44,12 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
     private DrawerLayout drawerLayout;
     private ActionBarDrawerToggle actionBarDrawerToggle;
     private TextView unit1TextView, unit2TextView, unit3TextView, unit4TextView, unit5TextView, unit6TextView,
-            preUnit1TextView, preUnit2TextView, preUnit3TextView, preUnit4TextView, preUnit5TextView, preUnit6TextView,
-            postUnit1TextView, postUnit2TextView, postUnit3TextView, postUnit4TextView, postUnit5TextView, postUnit6TextView;
+            preUnit1TextView, preUnit2TextView, preUnit3TextView, preUnit4TextView, preUnit5TextView, preUnit1to5TextView,
+            postUnit1TextView, postUnit2TextView, postUnit3TextView, postUnit4TextView, postUnit5TextView, postUnit1to5TextView;
 
     private ImageView unit1ImgView, unit2ImgView, unit3ImgView, unit4ImgView, unit5ImgView, unit6ImgView,
-            preUnit1ImgView, preUnit2ImgView, preUnit3ImgView, preUnit4ImgView, preUnit5ImgView, preUnit6ImgView,
-            postUnit1ImgView, postUnit2ImgView, postUnit3ImgView, postUnit4ImgView, postUnit5ImgView, postUnit6ImgView;
+            preUnit1ImgView, preUnit2ImgView, preUnit3ImgView, preUnit4ImgView, preUnit5ImgView, preUnit1to5ImgView,
+            postUnit1ImgView, postUnit2ImgView, postUnit3ImgView, postUnit4ImgView, postUnit5ImgView, postUnit1to5ImgView;
 
     private LinearLayout linearLayout1,linearLayout2, linearLayout3;
 
@@ -207,33 +209,35 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
 
 
     private void setPreUnitController(String[] strings) {
+        preUnit1to5TextView = findViewById(R.id.txtPreUnit1to5);
         preUnit1TextView = findViewById(R.id.txtPreUnit1);
         preUnit2TextView = findViewById(R.id.txtPreUnit2);
         preUnit3TextView = findViewById(R.id.txtPreUnit3);
         preUnit4TextView = findViewById(R.id.txtPreUnit4);
         preUnit5TextView = findViewById(R.id.txtPreUnit5);
-        //preUnit6TextView = findViewById(R.id.txtPreUnit6);
 
+        preUnit1to5ImgView = findViewById(R.id.imgPreUnit1to5);
         preUnit1ImgView = findViewById(R.id.imgPreUnit1);
         preUnit2ImgView = findViewById(R.id.imgPreUnit2);
         preUnit3ImgView = findViewById(R.id.imgPreUnit3);
         preUnit4ImgView = findViewById(R.id.imgPreUnit4);
         preUnit5ImgView = findViewById(R.id.imgPreUnit5);
-        //preUnit6ImgView = findViewById(R.id.imgPreUnit6);
 
+
+        preUnit1to5TextView.setText(strings[5]);
         preUnit1TextView.setText(strings[0]);
         preUnit2TextView.setText(strings[1]);
         preUnit3TextView.setText(strings[2]);
         preUnit4TextView.setText(strings[3]);
         preUnit5TextView.setText(strings[4]);
-        //preUnit6TextView.setText(strings[5]);
 
+
+        preUnit1to5TextView.setOnClickListener(ServiceActivity.this);
         preUnit1TextView.setOnClickListener(ServiceActivity.this);
         preUnit2TextView.setOnClickListener(ServiceActivity.this);
         preUnit3TextView.setOnClickListener(ServiceActivity.this);
         preUnit4TextView.setOnClickListener(ServiceActivity.this);
         preUnit5TextView.setOnClickListener(ServiceActivity.this);
-        //preUnit6TextView.setOnClickListener(ServiceActivity.this);
     }
 
     private void setUnitController(String[] strings) {
@@ -272,28 +276,28 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         postUnit3TextView = findViewById(R.id.txtPostUnit3);
         postUnit4TextView = findViewById(R.id.txtPostUnit4);
         postUnit5TextView = findViewById(R.id.txtPostUnit5);
-        //postUnit6TextView = findViewById(R.id.txtPostUnit6);
+        postUnit1to5TextView = findViewById(R.id.txtPostUnit1to5);
 
         postUnit1ImgView = findViewById(R.id.imgPostUnit1);
         postUnit2ImgView = findViewById(R.id.imgPostUnit2);
         postUnit3ImgView = findViewById(R.id.imgPostUnit3);
         postUnit4ImgView = findViewById(R.id.imgPostUnit4);
         postUnit5ImgView = findViewById(R.id.imgPostUnit5);
-        //postUnit6ImgView = findViewById(R.id.imgPostUnit6);
+        postUnit1to5ImgView = findViewById(R.id.imgPostUnit1to5);
 
         postUnit1TextView.setText(strings[0]);
         postUnit2TextView.setText(strings[1]);
         postUnit3TextView.setText(strings[2]);
         postUnit4TextView.setText(strings[3]);
         postUnit5TextView.setText(strings[4]);
-        //postUnit6TextView.setText(strings[5]);
+        postUnit1to5TextView.setText(strings[5]);
 
         postUnit1TextView.setOnClickListener(ServiceActivity.this);
         postUnit2TextView.setOnClickListener(ServiceActivity.this);
         postUnit3TextView.setOnClickListener(ServiceActivity.this);
         postUnit4TextView.setOnClickListener(ServiceActivity.this);
         postUnit5TextView.setOnClickListener(ServiceActivity.this);
-        //postUnit6TextView.setOnClickListener(ServiceActivity.this);
+        postUnit1to5TextView.setOnClickListener(ServiceActivity.this);
     }
 
     @Override
@@ -370,6 +374,16 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         drawerLayout.closeDrawers();
         int index = 0;
         switch (view.getId()) {
+
+            case R.id.txtPreUnit1to5:
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.contentServiceFragment, PreUnit1to5Fragment.preUnit1to5Fragment(uidUserString))
+                        .commit();
+                setCheckImage("PreUnit1to5");
+                break;
+
+
             case R.id.txtPreUnit1:
                 getSupportFragmentManager()
                         .beginTransaction()
@@ -499,6 +513,13 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
 
                 break;
 
+            case R.id.txtPostUnit1to5:
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.contentServiceFragment, PostUnit1to5Fragment.postUnit1to5Fragment(uidUserString))
+                        .commit();
+                setCheckImage("PostUnit1to5");
+
             /*case R.id.txtPostUnit6:
 
                 break;*/
@@ -509,6 +530,10 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
     } //onClick
 
     private void setCheckImage(String position) {
+        if (position.equals("PreUnit1to5"))
+            preUnit1to5ImgView.setImageResource(R.drawable.ic_action_check_ok);
+        else preUnit1to5ImgView.setImageResource(R.drawable.ic_action_rectangle);
+
         if (position.equals("PreUnit1"))
             preUnit1ImgView.setImageResource(R.drawable.ic_action_check_ok);
         else preUnit1ImgView.setImageResource(R.drawable.ic_action_rectangle);
@@ -572,6 +597,10 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         if (position.equals("PostUnit5"))
             postUnit5ImgView.setImageResource(R.drawable.ic_action_check_ok);
         else postUnit5ImgView.setImageResource(R.drawable.ic_action_rectangle);
+
+        if (position.equals("PostUnit1to5"))
+            postUnit1to5ImgView.setImageResource(R.drawable.ic_action_check_ok);
+        else postUnit1to5ImgView.setImageResource(R.drawable.ic_action_rectangle);
 
     }
 

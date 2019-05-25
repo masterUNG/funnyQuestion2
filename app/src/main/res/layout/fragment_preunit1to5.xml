@@ -1,0 +1,2278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--Contents-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/padding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/preUnit1to5styleText1"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/preUnit1to5styleText2"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText3"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+
+            <!--1.Computer literacy, also known as digital literacy, involves having a current knowledge and understanding of……………………………….-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText4"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb1a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText5" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb1b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText6" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb1c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText7" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb1d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText8" />
+            </RadioGroup>
+            <!--2. ……………………. is/ are a collection of unprocessed items, which can include text, numbers, images, audio, and video. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText9"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb2a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText10" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb2b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText11" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb2c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText12" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb2d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText13" />
+            </RadioGroup>
+            <!-- 3. A ……………………….is a specific type of social networking Web site that allows users to cerate a online photo album and store and share their digital photos.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText14"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb3a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText15" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb3b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText16" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb3c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText17" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb3d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText18" />
+            </RadioGroup>
+            <!--4. A ………………. Is recorded audio stored on a Web site that can be downloaded to a computer or portable media player. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText19"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb4a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText20" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb4b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText21" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb4c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText22" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb4d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText23" />
+            </RadioGroup>
+            <!--5. …………………….. consists of the programs that control or maintain the operations of the computer and its devices. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText24"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb5a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText25" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb5b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText26" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb5c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText27" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb5d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText28" />
+            </RadioGroup>
+            <!--6. A (n) ……………….message is a real-time Internet communication, where you exchange messages with other connected users. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText29"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb6a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText30" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb6b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText31" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb6c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText32" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb6d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText33" />
+            </RadioGroup>
+            <!--7. Many large companies use the word(s), …………………, to refer to the huge network of computers that meets their diverse computing needs. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText34"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb7a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText35" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb7b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText36" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb7c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText37" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb7d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText38" />
+            </RadioGroup>
+            <!--8. ………………is a system that attempts to imitate the behavior of the human brain.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText39"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb8a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText40" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb8b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText41" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb8c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText42" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb8d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText43" />
+            </RadioGroup>
+            <!--9. What is a computer? -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText44"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb9a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText45" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb9b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText46" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb9c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText47" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb9d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText48" />
+            </RadioGroup>
+            <!-- 10. What does CPU stand for?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText49"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb10a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText50" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb10b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText51" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb10c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText52" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb10d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText53" />
+            </RadioGroup>
+
+            <!--11. An ……………………….device is any hardware component that allows you to enter data and instructions into a computer.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText54"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb11a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText55" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb11b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText56" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb11c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText57" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb11d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText58" />
+            </RadioGroup>
+            <!--12. Three commonly used ……………………………device are a printer, a monitor, and speakers. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText59"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb12a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText60" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb12b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText61" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb12c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText62" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb12d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText63" />
+            </RadioGroup>
+            <!-- 13. ………………………..is any electronic or mechanical part you can see or touch.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText64"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb13a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText65" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb13b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText66" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb13c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText67" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb13d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText68" />
+            </RadioGroup>
+            <!--14. Which are the components of a computer? -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText69"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb14a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText70" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb14b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText71" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb14c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText72" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb14d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText73" />
+            </RadioGroup>
+            <!--15. Which are input devices? -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText74"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb15a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText75" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb15b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText76" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb15c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText77" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb15d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText78" />
+            </RadioGroup>
+            <!--16. Which is not an output device? -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText79"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb16a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText80" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb16b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText81" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb16c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText82" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb16d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText83" />
+            </RadioGroup>
+            <!--17. Which is not a storage device? -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText84"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb17a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText85" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb17b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText86" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb17c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText87" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb17d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText88" />
+            </RadioGroup>
+            <!--18. What are the main parts of the CPU? -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText89"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb18a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText90" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb18b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText91" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb18c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText92" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb18d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText93" />
+            </RadioGroup>
+            <!--19. What does ALU stand for? -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText94"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb19a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText95" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb19b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText96" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb19c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText97" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb19d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText98" />
+            </RadioGroup>
+            <!--20. What does ALU do? -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText99"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb20a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText100" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb20b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText101" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb20c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText102" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb20d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText103" />
+            </RadioGroup>
+
+            <!--21. What type of memory is temporary?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText104"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb21a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText105" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb21b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText106" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb21c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText107" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb21d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText108" />
+            </RadioGroup>
+            <!--22. What type of memory is permanent and includes instructions needed by the CPU? -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText109"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb22a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText105" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb22b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText106" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb22c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText107" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb22d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText108" />
+            </RadioGroup>
+            <!--23. If you want to change the capital letters permanently, what should you do? -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText110"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb23a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText111" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb23b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText112" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb23c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText113" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb23d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText114" />
+            </RadioGroup>
+            <!--24. Scanners, printers and webcams are …………………… -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText115"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb24a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText116" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb24b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText117" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb24c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText118" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb24d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText119" />
+            </RadioGroup>
+            <!--25. What do you call the mouse which doesn’t have a ball? -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText120"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb25a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText121" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb25b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText122" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb25c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText123" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb25d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText124" />
+            </RadioGroup>
+            <!--26. ……………….. appears to the right of the main keyboard. The NumLock key is used to switch from numbers to editing keys. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText125"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb26a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText126" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb26b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText127" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb26c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText128" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb26d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText129" />
+            </RadioGroup>
+            <!--27. The processor also is called the ………………………………. . -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText130"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb27a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText131" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb27b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText132" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb27c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText133" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb27d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText134" />
+            </RadioGroup>
+            <!--28. The ……………………. Is the component of the processor that directs and coordinates most of the operations in the computer. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText135"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb28a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText136" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb28b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText137" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb28c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText138" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb28d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText139" />
+            </RadioGroup>
+            <!--29. ROM chips called……………….., contain permanently written data, instructions, or information. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText140"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb29a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText141" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb29b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText142" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb29c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText143" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb29d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText144" />
+            </RadioGroup>
+            <!--30. A(n) …………………………… is an external device that provides connections to peripherals through ports built into the device. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText145"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb30a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText146" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb30b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText147" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb30c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText148" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb30d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText149" />
+            </RadioGroup>
+
+            <!--31. A(n) …………………………… is a part of motherboard and connects the processor to main memory.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText150"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb31a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText151" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb31b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText152" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb31c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText153" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb31d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText154" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/styleText4"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="247dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/preunit1to5" />
+
+            <!--32.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText155"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/preUnit1to5Spinner32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spin4" />
+
+            </LinearLayout>
+
+            <!--33.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText156"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/preUnit1to5Spinner33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spin4" />
+
+            </LinearLayout>
+
+            <!--34.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText157"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/preUnit1to5Spinner34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spin4" />
+
+
+            </LinearLayout>
+
+            <!--35.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText158"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/preUnit1to5Spinner35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spin4" />
+
+
+            </LinearLayout>
+
+            <!--36.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText159"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/preUnit1to5Spinner36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spin4" />
+
+
+            </LinearLayout>
+
+            <!--37.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText160"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/preUnit1to5Spinner37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spin4" />
+
+
+            </LinearLayout>
+
+            <!--38.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText161"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/preUnit1to5Spinner38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spin4" />
+
+
+            </LinearLayout>
+
+            <!--39.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText162"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/preUnit1to5Spinner39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spin4" />
+
+
+            </LinearLayout>
+
+            <!--40.-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText163"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/preUnit1to5Spinner40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spin4" />
+
+            </LinearLayout>
+
+            <!--41. ……………. is mass-produced, copyrighted retail software that meets the need of a wide variety of users, not just a single user or company.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText164"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb41a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText165" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb41b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText166" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb41c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText167" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb41d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText168" />
+            </RadioGroup>
+            <!--42. ………………….. is a collection of individual programs available together as a unit. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText169"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb42a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText170" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb42b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText171" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb42c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText172" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb42d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText173" />
+            </RadioGroup>
+            <!--43. Some …………………….is considered system software because it works with hardware and transmission media. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText174"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb43a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText175" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb43b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText176" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb43c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText177" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb43d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText178" />
+            </RadioGroup>
+
+            <!--44. ……………….helps home and small business users create newsletters, brochures, advertisements, postcards, greeting cards, letterhead, business cards, banners, calendars, logos, and Web pages. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText179"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb44a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText180" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb44b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText181" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb44c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText182" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb44d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText183" />
+            </RadioGroup>
+            <!--45. ………………… software is available to the public at no cost. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText184"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb45a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText185" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb45b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText186" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb45c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText187" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb45d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText188" />
+            </RadioGroup>
+            <!--46. With ……………., you can view, organize, sort, catalog, print and share digital photos. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText189"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb46a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText190" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb46b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText191" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb46c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText192" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb46d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText193" />
+            </RadioGroup>
+            <!--47. A(n)………………… is an online area where users have written discussions. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText194"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb47a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText195" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb47b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText196" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb47c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText197" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb47d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText198" />
+            </RadioGroup>
+
+            <!--48. …………………… is the electronic equivalent of a user manual.-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText199"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb48a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText200" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb48b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText201" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb48c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText202" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb48d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText203" />
+            </RadioGroup>
+            <!--49. ……………………allows a user to plan, schedule, track, and analyze the events, resources, and costs of a project. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText204"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb49a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText205" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb49b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText206" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb49c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText207" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb49d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText208" />
+            </RadioGroup>
+            <!--50. ………………… software provides a means for sharing, distributing, and searching through documents by converting them into a format that can be viewed by any user. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText209"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb50a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText210" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb50b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText211" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb50c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText212" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb50d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText213" />
+            </RadioGroup>
+            <!--51. Which is not Communication Software? -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText214"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb51a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText215" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb51b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText216" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb51c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText217" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb51d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText218" />
+            </RadioGroup>
+            <!--52. Which is Business Software? -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText219"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb52a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText220" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb52b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText221" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb52c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText222" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb52d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText223" />
+            </RadioGroup>
+            <!--53. The internet (often called simply "the net") is a global ………………….of interconnected computers. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText224"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb53a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText225" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb53b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText226" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb53c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText227" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb53d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText228" />
+            </RadioGroup>
+            <!--54. ADSL* is more commonly known as …………………………………… -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText229"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb54a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText230" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb54b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText231" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb54c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText232" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb54d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText233" />
+            </RadioGroup>
+            <!--55. Before you can connect to the internet for the first time, you have to __________ an account with an ISP. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText234"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb55a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText235" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb55b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText236" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb55c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText237" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb55d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText238" />
+            </RadioGroup>
+            <!--56. Looking at web pages can be called "navigating the Web" but is more commonly called ________. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText239"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb56a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText240" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb56b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText241" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb56c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText242" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb56d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText243" />
+            </RadioGroup>
+            <!--57. Which can keep a public diary of your journey through South America? -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText244"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb57a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText245" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb57b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText246" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb57c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText247" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb57d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText248" />
+            </RadioGroup>
+
+            <!--58. If you want to find out about the First World War, where should you find it?-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText249"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb58a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText250" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb58b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText251" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb58c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText252" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb58d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText253" />
+            </RadioGroup>
+            <!--59. What is the Internet? -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText254"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb59a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText255" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb59b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText256" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb59c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText257" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb59d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText258" />
+            </RadioGroup>
+            <!--60. With …………………, users can view message detail such as the length of calls and, in some cases, read message contents instead of listening to them. -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/preUnit1to5styleText259"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
+            <RadioGroup
+                android:id="@+id/preUnit1to5Rdg60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb60a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText260" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb60b"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText261" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb60c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText262" />
+
+                <RadioButton
+                    android:id="@+id/preUnit1to5Rb60d"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/preUnit1to5styleText263" />
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/stringEndLine"/>
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--Floating-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_action_check"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+</RelativeLayout>
