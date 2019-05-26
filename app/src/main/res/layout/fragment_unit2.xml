@@ -55,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u2styleText5"
-                android:textSize="@dimen/h2"
+                android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
             <TextView
@@ -445,13 +445,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u2styleText15"
-                android:textSize="@dimen/h2"
+                android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/u2styleText16"
+                android:layout_marginTop="@dimen/padding8"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -980,16 +981,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/styleText57"
-                android:textSize="@dimen/h2"
+                android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:layout_marginBottom="@dimen/padding8"
                 android:text="@string/styleText58"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2"/>
 
             <!--1. What is a computer?-->
             <TextView
@@ -1275,9 +1276,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
+                android:layout_marginBottom="@dimen/padding8"
                 android:text="@string/styleText91"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -1414,8 +1415,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/padding8"
                 android:text="@string/styleText93"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -1602,15 +1602,15 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/styleText103"
-                android:textSize="@dimen/h2"
+                android:textSize="@dimen/h1"
                 android:textStyle="bold" />
             <!--Listen and fill in the blank.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/styleText104"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:layout_marginTop="@dimen/padding8"
+                android:textSize="@dimen/h2" />
 
             <Button
                 android:id="@+id/playMedia1"
@@ -1777,13 +1777,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/styleText115"
-                android:textSize="@dimen/h2"
+                android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
             <!--Describing functions-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:layout_marginBottom="@dimen/padding8"
                 android:text="@string/styleText116"
                 android:textSize="@dimen/h2"
@@ -1829,12 +1830,12 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
-            <!--Practice-->
+            <!--Language work: Practice-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
-                android:text="@string/styleText57"
+                android:text="@string/styleText121a"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
             <!--Describing functions-->
@@ -1852,8 +1853,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/padding4"
                 android:text="@string/styleText123"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2" />
 
             <!--1. The Sony PlayStation 3 controller.-->
             <TextView

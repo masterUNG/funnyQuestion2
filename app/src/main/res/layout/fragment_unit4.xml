@@ -54,7 +54,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u4styleText5"
-                android:textSize="@dimen/h2"
+                android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
             <!--1.What is the Internet?-->
@@ -62,6 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/u4styleText6"
+                android:layout_marginTop="@dimen/padding8"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -424,7 +425,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/u4styleText32"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
@@ -1046,23 +1047,22 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
-            <!--Practice 1-->
+            <!--Practice-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u4styleText124"
-                android:textSize="@dimen/h2"
+                android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
             <!--Write the meaning of these abbreviations.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/u4styleText125"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -1162,14 +1162,6 @@
                 android:background="@drawable/edit"
                 android:focusable="auto" />
 
-            <!--Practice 2-->
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText134"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
 
             <!--Direction: Click T for True and F for False.-->
             <TextView
@@ -1177,8 +1169,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u4styleText135"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -1470,14 +1461,13 @@
                     android:text="@string/u4styleText138" />
             </RadioGroup>
 
-            <!--Practice 3: Common domain name extensions include.-->
+            <!-- Common domain name extensions include.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u4styleText148"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2" />
 
             <!--Direction: Fill in the blanks.-->
             <TextView
@@ -1485,8 +1475,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u4styleText149"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2" />
 
             <TableLayout
                 android:layout_width="match_parent"
@@ -1634,17 +1623,16 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u4styleText157"
-                android:textSize="@dimen/h2"
+                android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
             <!--Now listen how to use a search engine and match each with a picture.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/u4styleText158"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2" />
 
             <Button
                 android:id="@+id/playMedia1"
@@ -1830,14 +1818,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u4styleText159"
-                android:textSize="@dimen/h2"
+                android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
             <!--Warnings-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/u4styleText160"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
@@ -2015,18 +2003,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText180"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/u4styleText181"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
+                android:textSize="@dimen/h2" />
 
             <!--1.Don’t give open access to PCs.-->
             <TextView
@@ -2130,29 +2109,14 @@
                 android:focusable="auto"
                 android:text="@string/u4styleText193" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText194"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u4styleText195"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-
+            <!--Direction: Rewrite each of these warnings according to the prompt-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u4styleText196"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
+                android:textSize="@dimen/h2" />
 
             <TextView
                 android:layout_width="wrap_content"

@@ -56,7 +56,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u1styleText5"
-                android:textSize="@dimen/h2"
+                android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
             <TextView
@@ -224,7 +224,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/u1styleText20"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
@@ -454,7 +454,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/u1styleText43"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
@@ -542,8 +542,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u1styleText49"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2" />
             <!--software-->
             <TextView
                 android:layout_width="wrap_content"
@@ -672,8 +671,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u1styleText58"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -1182,8 +1180,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u1styleText59"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2" />
             <!--4.1.A keyboard is an output device.-->
             <TextView
                 android:layout_width="wrap_content"
@@ -1339,31 +1336,30 @@
                 android:layout_height="wrap_content"
                 android:paddingTop="@dimen/padding"
                 android:text="@string/u1styleText68"
-                android:textSize="@dimen/h2"
+                android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingTop="@dimen/padding"
+                android:paddingTop="@dimen/padding8"
                 android:text="@string/u1styleText69"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2" />
 
             <Button
                 android:id="@+id/playMedia1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/u1styleText70"
-                android:layout_marginTop="@dimen/padding"/>
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/u1styleText70" />
 
             <!--Anda, age 8, spinner-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/u1styleText71"
                 android:textSize="@dimen/h2"
-                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
 
             <Spinner
@@ -1421,8 +1417,6 @@
                 android:background="@drawable/spin4" />
 
 
-
-
             <!--An artist-->
             <TextView
                 android:layout_width="wrap_content"
@@ -1464,7 +1458,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/u1styleText76"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
@@ -1476,7 +1470,7 @@
                 android:text="@string/u1styleText77"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
-            <!--Whquestion word.....-->
+            <!--Wh question word.....-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1956,8 +1950,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u1styleText127"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2" />
 
             <!--Language work: Practice#1-->
             <TextView
@@ -2195,712 +2188,6 @@
                 android:textStyle="normal" />
 
 
-            <!--Specialist Reading-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u1styleText142"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText143"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText144"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText145"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText146"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText147"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText148"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText149"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText150"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText151"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText152"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-            -->
-
-
-            <!--A: Find the answers to these questions in the following text.-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
-                android:text="@string/u1styleText153"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-            -->
-            <!--1. Name some types of devices that use 'computers on a chip'.-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText154"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <EditText
-                android:id="@+id/unit1EdtReading1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/edit"
-                android:focusable="auto"
-                android:inputType="text" />
-            <EditText
-                android:id="@+id/unit1EdtReading2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/edit"
-                android:focusable="auto"
-                android:inputType="text" />
-            <EditText
-                android:id="@+id/unit1EdtReading3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/edit"
-                android:focusable="auto"
-                android:inputType="text" />
-            -->
-            <!--2. Which is not the use of handheld computers are mentioned in the text?-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText155"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <RadioGroup
-                android:id="@+id/unit1RdgReading1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
-                android:orientation="vertical">
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading1A"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText156" />
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading1B"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText157" />
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading1C"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText158" />
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading1D"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText159" />
-            </RadioGroup>
-            -->
-            <!--3. What are smart cards used for?-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText160"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <RadioGroup
-                android:id="@+id/unit1RdgReading2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
-                android:orientation="vertical">
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading2A"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText161" />
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading2B"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText162" />
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading2C"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText163" />
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading2D"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText164" />
-            </RadioGroup>
-            -->
-            <!--4: What are the benefits of using computers with the following item?-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText165"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/padding"
-                android:text="@string/u1styleText166"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/padding"
-                android:text="@string/u1styleText167"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/padding"
-                android:text="@string/u1styleText168"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <RadioGroup
-                android:id="@+id/unit1RdgReading3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
-                android:orientation="vertical">
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading3A"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText169" />
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading3B"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText170" />
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading3C"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText171" />
-            </RadioGroup>
-            -->
-            <!--B: Re-read the text to find the answers to these question.-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText172"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/bg_clear3"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/padding"
-                    android:text="@string/u1styleText173"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="normal" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/padding"
-                    android:text="@string/u1styleText174"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="normal" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/padding"
-                    android:text="@string/u1styleText175"
-                    android:textSize="@dimen/h2"
-                    android:textStyle="normal" />
-            </LinearLayout>
-            -->
-            <!--1. Multimedia materials with a combination of educational and entertainment context.-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
-                android:text="@string/u1styleText176"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-            <Spinner
-                android:id="@+id/unit1SpinnerReading1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
-                android:background="@drawable/spin4" />
-            -->
-            <!--2. A combination of text with sound, video, animation, and graphics.-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/u1styleText177"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-            <Spinner
-                android:id="@+id/unit1SpinnerReading2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
-                android:background="@drawable/spin4" />
-             -->
-            <!--3. Use computer to stay in touch with the office while working at home.-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/u1styleText178"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-            <Spinner
-                android:id="@+id/unit1SpinnerReading3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
-                android:background="@drawable/spin4" />
-             -->
-            <!--4. Software that enables computers to “think” like experts-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/u1styleText179"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-            <Spinner
-                android:id="@+id/unit1SpinnerReading4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
-                android:background="@drawable/spin4" />
-            -->
-            <!--5. Internet system designed to provide free interactive access to vast resources for people all over the world..-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/u1styleText180"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-            <Spinner
-                android:id="@+id/unit1SpinnerReading5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
-                android:background="@drawable/spin4" />
-            -->
-            <!--Choose the following statements as True or False.-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText181"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
-            -->
-            <!--1. Computers in security systems result in safer environment.-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText182"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-            <RadioGroup
-                android:id="@+id/unit1RdgReading4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/padding8"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading4True"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="@dimen/padding"
-                    android:text="@string/u1styleText66" />
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading4False"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText67" />
-            </RadioGroup>
-            -->
-            <!--2 .Computers in cars improve energy efficiency-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText183"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-            <RadioGroup
-                android:id="@+id/unit1RdgReading5"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/padding8"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading5True"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="@dimen/padding"
-                    android:text="@string/u1styleText66" />
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading5False"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText67" />
-            </RadioGroup>
-            -->
-            <!--3. Smart cards store vital information.-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText184"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-            <RadioGroup
-                android:id="@+id/unit1RdgReading6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/padding8"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading6True"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="@dimen/padding"
-                    android:text="@string/u1styleText66" />
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading6False"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText67" />
-            </RadioGroup>
-            -->
-            <!--4. Smart cards are able to use for turning on and off the lights,-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText185"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-            <RadioGroup
-                android:id="@+id/unit1RdgReading7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/padding8"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading7True"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="@dimen/padding"
-                    android:text="@string/u1styleText66" />
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading7False"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText67" />
-            </RadioGroup>
-            -->
-            <!--5. Multimedia combines text with sound, video, animation and graphics are called videoconferencing-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText186"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-            <RadioGroup
-                android:id="@+id/unit1RdgReading8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/padding8"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading8True"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="@dimen/padding"
-                    android:text="@string/u1styleText66" />
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading8False"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText67" />
-            </RadioGroup>
-            -->
-            <!--6. A built-in monitoring system has been used in a smart car.-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText187"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-            <RadioGroup
-                android:id="@+id/unit1RdgReading9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/padding8"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading9True"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="@dimen/padding"
-                    android:text="@string/u1styleText66" />
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading9False"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText67" />
-            </RadioGroup>
-            -->
-            <!--7. Expert systems can help doctors pinpoints a patient’s illness.-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText188"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-            <RadioGroup
-                android:id="@+id/unit1RdgReading10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/padding8"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading10True"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="@dimen/padding"
-                    android:text="@string/u1styleText66" />
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading10False"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText67" />
-            </RadioGroup>
-            -->
-            <!--8. Telecommute is using computers to stay in touch with the office while working at home.-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText189"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-            <RadioGroup
-                android:id="@+id/unit1RdgReading11"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/padding8"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading11True"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="@dimen/padding"
-                    android:text="@string/u1styleText66" />
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading11False"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText67" />
-            </RadioGroup>
-            -->
-            <!--9. Telecommute can be used of an electronic classroom or boardroom accessible.-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText190"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-            <RadioGroup
-                android:id="@+id/unit1RdgReading12"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/padding8"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading12True"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="@dimen/padding"
-                    android:text="@string/u1styleText66" />
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading12False"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText67" />
-            </RadioGroup>
-            -->
-            <!--10. Vast data bases can help the people in remote location-->
-            <!--
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding4"
-                android:text="@string/u1styleText191"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-            <RadioGroup
-                android:id="@+id/unit1RdgReading13"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="@dimen/padding8"
-                android:orientation="horizontal">
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading13True"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="@dimen/padding"
-                    android:text="@string/u1styleText66" />
-
-                <RadioButton
-                    android:id="@+id/unit1RbReading13False"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/u1styleText67" />
-            </RadioGroup>
-            -->
-
-
             <!--Production and Wrap-Up-->
             <TextView
                 android:layout_width="wrap_content"
@@ -2949,11 +2236,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_toLeftOf="@+id/floatingCheck"
-        android:src="@drawable/icon_line"
         android:scaleType="fitXY"
+        android:src="@drawable/icon_line"
         app:backgroundTint="@android:color/transparent"
-        app:borderWidth="0dp"
-        />
+        app:borderWidth="0dp" />
 
 
 </RelativeLayout>

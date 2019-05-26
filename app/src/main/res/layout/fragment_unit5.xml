@@ -55,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/Unit5styleText5"
-                android:textSize="@dimen/h2"
+                android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
             <!--What is the purpose of the components required for successful communications?-->
@@ -63,6 +63,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/Unit5styleText6"
+                android:layout_marginTop="@dimen/padding8"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
@@ -99,7 +100,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText10"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
@@ -526,10 +527,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText39"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2" />
 
             <!--1.A communication channel is channel is the media ...-->
             <TextView
@@ -837,8 +837,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/Unit5styleText50"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2" />
 
             <!--1.With …………………, users can view message detail such as the le......-->
             <TextView
@@ -1098,10 +1097,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText82"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2" />
 
             <Button
                 android:id="@+id/playMedia1"
@@ -1215,18 +1213,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/Unit5styleText88"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
-                android:text="@string/Unit5styleText87a"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -1248,7 +1238,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/Unit5styleText89"
-                android:textSize="@dimen/h1"
+                android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
             <!--Direction: Order these sentences into future simple tense.-->
@@ -1257,8 +1247,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/Unit5styleText91"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:layout_marginBottom="@dimen/padding8"
+                android:textSize="@dimen/h2" />
 
             <!--1.-->
             <LinearLayout

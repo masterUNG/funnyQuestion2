@@ -56,12 +56,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u3styleText5"
-                android:textSize="@dimen/h2"
+                android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/u3styleText6"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
@@ -152,11 +153,19 @@
             </LinearLayout>
 
 
+            <!--Presentation-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/u1styleText19"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
             <!--head 1.What are the four categories of application software?-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/u3styleText7"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
@@ -1090,7 +1099,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/u3styleText1104"
+                android:text="@string/u3styleText104"
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
@@ -1130,14 +1139,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u3styleText109"
-                android:textSize="@dimen/h2"
+                android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
             <!--head 1. What are the four categories of application?-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/u3styleText110"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
@@ -1173,8 +1182,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u3styleText111"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2"/>
 
             <!--Table layout -->
             <LinearLayout
@@ -1513,8 +1521,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u3styleText116"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2" />
 
             <!--3.1. The categories of application software are mutually exclusive.-->
             <TextView
@@ -1672,8 +1679,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding4"
                 android:text="@string/u3styleText124"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2" />
 
             <!--1. ………………….. Is mass-produced, copyrighted retail.....-->
             <TextView
@@ -2018,13 +2024,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u3styleText166"
-                android:textSize="@dimen/h2"
+                android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding"
+                android:layout_marginTop="@dimen/padding8"
                 android:text="@string/u3styleText167"
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
@@ -2043,8 +2049,7 @@
                 android:layout_marginTop="@dimen/padding"
                 android:layout_marginBottom="@dimen/padding"
                 android:text="@string/u3styleText169"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2"/>
 
             <Button
                 android:id="@+id/playMedia1"
@@ -2151,7 +2156,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding"
                 android:text="@string/u3styleText174"
-                android:textSize="@dimen/h2"
+                android:textSize="@dimen/h1"
                 android:textStyle="bold" />
 
 
@@ -2382,8 +2387,7 @@
                 android:layout_marginTop="@dimen/padding4"
                 android:layout_marginBottom="@dimen/padding4"
                 android:text="@string/u3styleText196"
-                android:textSize="@dimen/h2"
-                android:textStyle="bold" />
+                android:textSize="@dimen/h2" />
 
             <!--Example-->
             <TextView
