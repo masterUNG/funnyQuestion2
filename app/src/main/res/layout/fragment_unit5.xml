@@ -139,7 +139,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="300dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit500" />
@@ -221,7 +221,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="300dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit500a" />
@@ -323,6 +323,16 @@
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit504" />
+
+            <!--On a ring network, all connected devices from a continuous loop.  -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/Unit5styleText27a"
+                android:textSize="@dimen/h2"
+                android:textStyle="bold" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -450,7 +460,7 @@
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="250dp"
+                android:layout_height="300dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
                 android:src="@drawable/unit506" />
@@ -1218,53 +1228,12 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
-                android:text="@string/Unit5styleText87b"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
-                android:text="@string/Unit5styleText87c"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
-                android:text="@string/Unit5styleText87d"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
-                android:text="@string/Unit5styleText87e"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
-                android:text="@string/Unit5styleText87f"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/padding8"
-                android:text="@string/Unit5styleText87g"
-                android:textSize="@dimen/h2"
-                android:textStyle="normal" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="@dimen/padding8"
+                android:scaleType="centerInside"
+                android:src="@drawable/unit509" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -1532,7 +1501,6 @@
                     android:textSize="@dimen/h2"
                     android:textStyle="normal" />
 
-
                 <EditText
                     android:id="@+id/unit5EdtLanguage10"
                     android:layout_width="match_parent"
@@ -1541,6 +1509,31 @@
                     android:focusable="auto" />
             </LinearLayout>
 
+
+            <!--Production and Wrap-Up-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding"
+                android:text="@string/command1"
+                android:textSize="@dimen/h1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="@string/command2"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding4"
+                android:text="@string/stringEndLine"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
 
         </LinearLayout>
     </ScrollView>

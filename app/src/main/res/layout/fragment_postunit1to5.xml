@@ -40,7 +40,7 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="bold" />
 
-            <!--26. ……………….. appears to the right of the main keyboard. The NumLock key is used to switch from numbers to editing keys. -->
+            <!--1. ……………….. appears to the right of the main keyboard. The NumLock key is used to switch from numbers to editing keys. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -79,7 +79,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText129" />
             </RadioGroup>
-            <!--28. The ……………………. Is the component of the processor that directs and coordinates most of the operations in the computer. -->
+            <!--2. The ……………………. Is the component of the processor that directs and coordinates most of the operations in the computer. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -118,7 +118,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText139" />
             </RadioGroup>
-            <!--15. Which are input devices? -->
+            <!--3. Which are input devices? -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -157,7 +157,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText78" />
             </RadioGroup>
-            <!--11. An ……………………….device is any hardware component that allows you to enter data and instructions into a computer.-->
+            <!--4. An ……………………….device is any hardware component that allows you to enter data and instructions into a computer.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -196,7 +196,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText58" />
             </RadioGroup>
-            <!--2. ……………………. is/ are a collection of unprocessed items, which can include text, numbers, images, audio, and video. -->
+            <!--5. ……………………. is/ are a collection of unprocessed items, which can include text, numbers, images, audio, and video. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -235,7 +235,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText13" />
             </RadioGroup>
-            <!--4. A ………………. Is recorded audio stored on a Web site that can be downloaded to a computer or portable media player. -->
+            <!--6. A ………………. Is recorded audio stored on a Web site that can be downloaded to a computer or portable media player. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -274,7 +274,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText23" />
             </RadioGroup>
-            <!--58. If you want to find out about the First World War, where should you find it?-->
+            <!--7. If you want to find out about the First World War, where should you find it?-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -313,7 +313,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText253" />
             </RadioGroup>
-            <!--25. What do you call the mouse which doesn’t have a ball? -->
+            <!--8. What do you call the mouse which doesn’t have a ball? -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -352,7 +352,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText124" />
             </RadioGroup>
-            <!--29. ROM chips called……………….., contain permanently written data, instructions, or information. -->
+            <!--9. ROM chips called……………….., contain permanently written data, instructions, or information. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -391,7 +391,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText144" />
             </RadioGroup>
-            <!--59. What is the Internet? -->
+            <!--10. What is the Internet? -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -430,7 +430,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText258" />
             </RadioGroup>
-            <!--5. …………………….. consists of the programs that control or maintain the operations of the computer and its devices. -->
+            <!--11. …………………….. consists of the programs that control or maintain the operations of the computer and its devices. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -469,7 +469,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText28" />
             </RadioGroup>
-            <!--9. What is a computer? -->
+            <!--12. What is a computer? -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -508,7 +508,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText48" />
             </RadioGroup>
-            <!-- 10. What does CPU stand for?-->
+            <!--13. What does CPU stand for?-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -547,7 +547,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText53" />
             </RadioGroup>
-            <!--12. Three commonly used ……………………………device are a printer, a monitor, and speakers. -->
+            <!--14. Three commonly used ……………………………device are a printer, a monitor, and speakers. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -586,7 +586,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText63" />
             </RadioGroup>
-            <!--49. ……………………allows a user to plan, schedule, track, and analyze the events, resources, and costs of a project. -->
+            <!--15. ……………………allows a user to plan, schedule, track, and analyze the events, resources, and costs of a project. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -625,7 +625,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText208" />
             </RadioGroup>
-            <!--27. The processor also is called the ………………………………. . -->
+            <!--16. The processor also is called the ………………………………. . -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -664,7 +664,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText134" />
             </RadioGroup>
-            <!--50. ………………… software provides a means for sharing, distributing, and searching through documents by converting them into a format that can be viewed by any user. -->
+            <!--17. ………………… software provides a means for sharing, distributing, and searching through documents by converting them into a format that can be viewed by any user. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -703,7 +703,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText213" />
             </RadioGroup>
-            <!--51. Which is not Communication Software? -->
+            <!--18. Which is not Communication Software? -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -742,7 +742,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText218" />
             </RadioGroup>
-            <!-- 13. ………………………..is any electronic or mechanical part you can see or touch.-->
+            <!--19. ………………………..is any electronic or mechanical part you can see or touch.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -781,7 +781,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText68" />
             </RadioGroup>
-            <!--14. Which are the components of a computer? -->
+            <!--20. Which are the components of a computer? -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -820,7 +820,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText73" />
             </RadioGroup>
-            <!--1.Computer literacy, also known as digital literacy, involves having a current knowledge and understanding of……………………………….-->
+            <!--21.Computer literacy, also known as digital literacy, involves having a current knowledge and understanding of……………………………….-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -859,7 +859,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText8" />
             </RadioGroup>
-            <!--16. Which is not an output device? -->
+            <!--22. Which is not an output device? -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -898,7 +898,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText83" />
             </RadioGroup>
-            <!--22. What type of memory is permanent and includes instructions needed by the CPU? -->
+            <!--23. What type of memory is permanent and includes instructions needed by the CPU? -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -937,7 +937,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText108" />
             </RadioGroup>
-            <!--52. Which is Business Software? -->
+            <!--24. Which is Business Software? -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -976,7 +976,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText223" />
             </RadioGroup>
-            <!--53. The internet (often called simply "the net") is a global ………………….of interconnected computers. -->
+            <!--25. The internet (often called simply "the net") is a global ………………….of interconnected computers. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1015,7 +1015,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText228" />
             </RadioGroup>
-            <!--17. Which is not a storage device? -->
+            <!--26. Which is not a storage device? -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1054,7 +1054,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText88" />
             </RadioGroup>
-            <!-- 3. A ……………………….is a specific type of social networking Web site that allows users to cerate a online photo album and store and share their digital photos.-->
+            <!--27. A ……………………….is a specific type of social networking Web site that allows users to cerate a online photo album and store and share their digital photos.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1093,7 +1093,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText18" />
             </RadioGroup>
-            <!--18. What are the main parts of the CPU? -->
+            <!--28. What are the main parts of the CPU? -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1132,7 +1132,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText93" />
             </RadioGroup>
-            <!--6. A (n) ……………….message is a real-time Internet communication, where you exchange messages with other connected users. -->
+            <!--29. A (n) ……………….message is a real-time Internet communication, where you exchange messages with other connected users. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1171,7 +1171,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText33" />
             </RadioGroup>
-            <!--7. Many large companies use the word(s), …………………, to refer to the huge network of computers that meets their diverse computing needs. -->
+            <!--30. Many large companies use the word(s), …………………, to refer to the huge network of computers that meets their diverse computing needs. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1210,7 +1210,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText38" />
             </RadioGroup>
-            <!--41. ……………. is mass-produced, copyrighted retail software that meets the need of a wide variety of users, not just a single user or company.-->
+            <!--31. ……………. is mass-produced, copyrighted retail software that meets the need of a wide variety of users, not just a single user or company.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1249,7 +1249,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText168" />
             </RadioGroup>
-            <!--8. ………………is a system that attempts to imitate the behavior of the human brain.-->
+            <!--32. ………………is a system that attempts to imitate the behavior of the human brain.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1288,7 +1288,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText43" />
             </RadioGroup>
-            <!--46. With ……………., you can view, organize, sort, catalog, print and share digital photos. -->
+            <!--33. With ……………., you can view, organize, sort, catalog, print and share digital photos. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1327,7 +1327,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText193" />
             </RadioGroup>
-            <!--47. A(n)………………… is an online area where users have written discussions. -->
+            <!--34. A(n)………………… is an online area where users have written discussions. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1366,7 +1366,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText198" />
             </RadioGroup>
-            <!--31. A(n) …………………………… is a part of motherboard and connects the processor to main memory.-->
+            <!--35. A(n) …………………………… is a part of motherboard and connects the processor to main memory.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1405,7 +1405,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText154" />
             </RadioGroup>
-            <!--48. …………………… is the electronic equivalent of a user manual.-->
+            <!--36. …………………… is the electronic equivalent of a user manual.-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1444,7 +1444,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText203" />
             </RadioGroup>
-            <!--60. With …………………, users can view message detail such as the length of calls and, in some cases, read message contents instead of listening to them. -->
+            <!--37. With …………………, users can view message detail such as the length of calls and, in some cases, read message contents instead of listening to them. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1483,7 +1483,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText263" />
             </RadioGroup>
-            <!--19. What does ALU stand for? -->
+            <!--38. What does ALU stand for? -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1522,7 +1522,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText98" />
             </RadioGroup>
-            <!--44. ……………….helps home and small business users create newsletters, brochures, advertisements, postcards, greeting cards, letterhead, business cards, banners, calendars, logos, and Web pages. -->
+            <!--39. ……………….helps home and small business users create newsletters, brochures, advertisements, postcards, greeting cards, letterhead, business cards, banners, calendars, logos, and Web pages. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1561,7 +1561,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText183" />
             </RadioGroup>
-            <!--42. ………………….. is a collection of individual programs available together as a unit. -->
+            <!--40. ………………….. is a collection of individual programs available together as a unit. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1600,7 +1600,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText173" />
             </RadioGroup>
-            <!--20. What does ALU do? -->
+            <!--41. What does ALU do? -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1639,7 +1639,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText103" />
             </RadioGroup>
-            <!--43. Some …………………….is considered system software because it works with hardware and transmission media. -->
+            <!--42. Some …………………….is considered system software because it works with hardware and transmission media. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1678,7 +1678,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText178" />
             </RadioGroup>
-            <!--57. Which can keep a public diary of your journey through South America? -->
+            <!--43. Which can keep a public diary of your journey through South America? -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1717,7 +1717,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText248" />
             </RadioGroup>
-            <!--23. If you want to change the capital letters permanently, what should you do? -->
+            <!--44. If you want to change the capital letters permanently, what should you do? -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1756,7 +1756,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText114" />
             </RadioGroup>
-            <!--54. ADSL* is more commonly known as …………………………………… -->
+            <!--45. ADSL* is more commonly known as …………………………………… -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1795,7 +1795,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText233" />
             </RadioGroup>
-            <!--45. ………………… software is available to the public at no cost. -->
+            <!--46. ………………… software is available to the public at no cost. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1834,7 +1834,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText188" />
             </RadioGroup>
-            <!--21. What type of memory is temporary?-->
+            <!--47. What type of memory is temporary?-->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1873,7 +1873,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText108" />
             </RadioGroup>
-            <!--55. Before you can connect to the internet for the first time, you have to __________ an account with an ISP. -->
+            <!--48. Before you can connect to the internet for the first time, you have to __________ an account with an ISP. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1912,7 +1912,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText238" />
             </RadioGroup>
-            <!--56. Looking at web pages can be called "navigating the Web" but is more commonly called ________. -->
+            <!--49. Looking at web pages can be called "navigating the Web" but is more commonly called ________. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1951,7 +1951,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText243" />
             </RadioGroup>
-            <!--24. Scanners, printers and webcams are …………………… -->
+            <!--50. Scanners, printers and webcams are …………………… -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -1990,7 +1990,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/preUnit1to5styleText119" />
             </RadioGroup>
-            <!--30. A(n) …………………………… is an external device that provides connections to peripherals through ports built into the device. -->
+            <!--51. A(n) …………………………… is an external device that provides connections to peripherals through ports built into the device. -->
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -2036,15 +2036,16 @@
                 android:layout_height="wrap_content"
                 android:text="@string/styleText4"
                 android:textSize="@dimen/h2"
+                android:layout_marginTop="@dimen/padding8"
                 android:textStyle="normal" />
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="247dp"
                 android:layout_margin="@dimen/padding8"
                 android:scaleType="centerInside"
-                android:src="@drawable/preunit1to5" />
+                android:src="@drawable/postunit1to5" />
 
-            <!--32.-->
+            <!--52.-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2065,7 +2066,7 @@
 
             </LinearLayout>
 
-            <!--33.-->
+            <!--53.-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2086,7 +2087,7 @@
 
             </LinearLayout>
 
-            <!--34.-->
+            <!--54.-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2108,7 +2109,7 @@
 
             </LinearLayout>
 
-            <!--35.-->
+            <!--55.-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2130,7 +2131,7 @@
 
             </LinearLayout>
 
-            <!--36.-->
+            <!--56.-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2152,7 +2153,7 @@
 
             </LinearLayout>
 
-            <!--37.-->
+            <!--57.-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2174,7 +2175,7 @@
 
             </LinearLayout>
 
-            <!--38.-->
+            <!--58.-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2196,7 +2197,7 @@
 
             </LinearLayout>
 
-            <!--39.-->
+            <!--59.-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2218,7 +2219,7 @@
 
             </LinearLayout>
 
-            <!--40.-->
+            <!--60.-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

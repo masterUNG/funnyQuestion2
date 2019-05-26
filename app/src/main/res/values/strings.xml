@@ -4,10 +4,15 @@
     <string name="password">Password ;</string>
     <string name="name">Name ;</string>
 
-
     <string name="open">Open Drawer</string>
     <string name="close">Close Drawer</string>
     <string name="stringEndLine">\n\n\n</string>
+
+    <string name="command1">Production and Wrap-Up</string>
+    <string name="command2"><b>Direction:</b> Study the test again and then summarize into infographic.</string>
+
+
+
     <!--unit1-->
     <string name="u1styleText1">Unit 1</string>
     <string name="u1styleText2">Computer Users</string>
@@ -1047,6 +1052,7 @@
     <string name="Unit5styleText25"><b>A network topology</b> refers to the layout of computers and devices in a communications network. There commonly used network topologies are the star bus, and ring. On <b>a star network,</b> all computers and devices on the network connect to a central device, thus forming a star. <b>A bus network</b> consists of a single central cable so which all computers and other devices connect. <b>On a ring network,</b> a cable forms a closed loop (ring) with all computers and devices arranged along the ring.</string>
     <string name="Unit5styleText26">6. A star network contains a single, centralized hub or switch through.</string>
     <string name="Unit5styleText27">Devices in a bus network share a single data path.</string>
+    <string name="Unit5styleText27a">On a ring network, all connected devices from a continuous loop.</string>
     <string name="Unit5styleText28">7. What are various Network Communication Standards?</string>
     <string name="Unit5styleText29">A network standard defines guidelines that specify the way computers access a medium, the type(s) of networks, and the type of physical cable or wireless technology used. Network communications standards include the following. <b>Ethernet</b> specifies that no central compute or device on the network should control when data can be transmitted. <b>Token ring</b> requires devices to share or pass a special signal, called a token. <b>TCP/ IP</b>  divides data into packets. <b>Wi-Fi</b> identifies any network based on the 802.11standards for wireless communications. <b>Bluetooth</b> uses short-rang radio waves to transmit data. <b>UWB</b> specifies how to UWB devices use short-rang radio wave to communicate at high speeds. <b>IrDa</b> transmits data wirelessly via infrared light waves. <b>RFID</b> uses radio signals for communications. <b>WiMAX</b> is a network standard developed by IEEE, that specifies how wireless devices communicate over the air in a wide area. The <b>Wireless Application Protocol (WAP)</b> specifies how some mobile devices can devices can display Internet content.</string>
     <string name="Unit5styleText30">How Electronic RFID Toll Collection Works</string>
@@ -1207,7 +1213,6 @@
     <string name="preUnit5styleText54">d. A management area network</string>
 
 
-
     <!--post unit1-5-->
     <string name="postUnit1to5styleText1">Post-test</string>
     <string name="postUnit1to5styleText4">21. Computer literacy, also known as digital literacy, involves having a current knowledge and understanding of……………………………….</string>
@@ -1224,7 +1229,7 @@
     <string name="postUnit1to5styleText59">14. Three commonly used ……………………………device are a printer, a monitor, and speakers.</string>
     <string name="postUnit1to5styleText64">19. ………………………..is any electronic or mechanical part you can see or touch.</string>
     <string name="postUnit1to5styleText69">20. Which are the components of a computer?</string>
-    <string name="postUnit1to5styleText74">27. Which are input devices?</string>
+    <string name="postUnit1to5styleText74">3. Which are input devices?</string>
     <string name="postUnit1to5styleText79">22. Which is not an output device?</string>
     <string name="postUnit1to5styleText84">26. Which is not a storage device?</string>
     <string name="postUnit1to5styleText89">28. What are the main parts of the CPU?</string>
