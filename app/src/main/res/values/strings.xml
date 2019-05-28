@@ -172,11 +172,13 @@
     <string name="u2styleText12">6. graphic designer</string>
     <string name="u2styleText13">7. secretary doing general office work</string>
     <string name="u2styleText14">2. Label the parts of computer</string>
+
     <string name="u2styleText15">Presentation</string>
     <string name="u2styleText16">1. What is inside a PC system?</string>
     <string name="u2styleText17">The nerve center of a PC is the processor, also called the CPU, or central processing unit. This is built into a single chip which executes program instructions and coordinates. The activities that take place within the computer system. The chip itself is a small piece of silicon with a complex electrical circuit called integrated circuit.</string>
     <string name="u2styleText18">The processor consists of three main parts:</string>
     <string name="styleText4"><b>Direction:</b> Match the words with pictures.</string>
+    <string name="styleText4a">\tmouse\t\t\t\t\ttower\t\t\t\t\t\tmonitor\n\tcd rom\t\t\t\t\tkeyboard\t\t\theadset\n\tspeakers\t\t\tscanner\t\t\t\tprinter</string>
     <string name="styleText5"><b>The control unit</b> examines the instructions in the user’s program, in the user’s program, interprets each instruction and causes the circuits and the rest of the components-monitor disk drivers, etc-to execute the functions specified.</string>
     <string name="styleText6"><b>The arithmetic logic unit (ALU)</b>  performs mathematical calculations (+, -, etc) and logical operations (AND, OR, NOT)</string>
     <string name="styleText7"><b>The registers</b> are high-speed units of memory used to store and control data. One of the registers (the program counter, or PC) keeps track of the next instruction to be performed in the main memory. The other (the instruction register, or IR) holds the instruction that is being executed.</string>

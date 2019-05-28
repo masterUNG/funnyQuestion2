@@ -31,7 +31,7 @@ public class PreUnit1Fragment extends Fragment {
     private String tag2 = "11NovV2";
     private int[] spinnerAnswerInts = new int[]{0,0,0,0,0,0,0,0};
 
-    public static PreUnit1Fragment preUnit1Fragment(String uidString) {
+    public static PreUnit1Fragment preUnit1Instance(String uidString) {
         PreUnit1Fragment preUnit1Fragment = new PreUnit1Fragment();
         Bundle bundle = new Bundle();
         bundle.putString("Uid", uidString);

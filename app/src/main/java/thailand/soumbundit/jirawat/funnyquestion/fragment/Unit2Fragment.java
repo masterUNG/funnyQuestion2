@@ -39,7 +39,7 @@ public class Unit2Fragment extends Fragment {
     private String tag2 = "11NovV2";
 
 
-    public static Unit2Fragment unit2Fragment(String uidString) {
+    public static Unit2Fragment unit2Instance(String uidString) {
         Unit2Fragment unit2Fragment = new Unit2Fragment();
         Bundle bundle = new Bundle();
         bundle.putString("Uid", uidString);

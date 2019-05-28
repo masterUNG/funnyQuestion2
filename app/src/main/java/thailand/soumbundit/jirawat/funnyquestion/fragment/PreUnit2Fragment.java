@@ -31,7 +31,7 @@ public class PreUnit2Fragment extends Fragment {
     private String tag = "11NovV1";
     private String tag2 = "11NovV2";
 
-    public static PreUnit2Fragment preUnit2Fragment(String uidString) {
+    public static PreUnit2Fragment preUnit2Instance(String uidString) {
         PreUnit2Fragment preUnit2Fragment = new PreUnit2Fragment();
         Bundle bundle = new Bundle();
         bundle.putString("Uid", uidString);

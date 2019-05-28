@@ -30,7 +30,7 @@ public class PostUnit1to5Fragment extends Fragment {
     private String tag = "11NovV1";
     private String tag2 = "11NovV2";
     private int[] scorePracticeSpinner = new int[]{0,0,0,0,0,0,0,0,0};
-    public static PostUnit1to5Fragment postUnit1to5Fragment(String uidString) {
+    public static PostUnit1to5Fragment postUnit1to5Instance(String uidString) {
         PostUnit1to5Fragment postUnit1to5Fragment = new PostUnit1to5Fragment();
         Bundle bundle = new Bundle();
         bundle.putString("Uid", uidString);

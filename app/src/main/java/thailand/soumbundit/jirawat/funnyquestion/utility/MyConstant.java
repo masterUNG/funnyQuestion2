@@ -200,7 +200,7 @@ public class MyConstant {
             "Selling things" //correct
     };
 
-    private String[] warmupTrue = new String[]{
+    private String[] warmUpTrue = new String[]{
             "input",
             "output",
             "system",
@@ -210,11 +210,11 @@ public class MyConstant {
 
 
     private String[] languageTrue = new String[]{
-            "How do you use computer in your free time?",
-            "How often do you play computer game?",
-            "What does CPU stand for?",
-            "Where do you usually use a computer?",
-            "What do you do?"
+            "how do you use computer in your free time?",
+            "how often do you play computer game?",
+            "what does cpu stand for?",
+            "where do you usually use a computer?",
+            "what do you do?"
     };
 
 
@@ -320,8 +320,8 @@ public class MyConstant {
         return choiceSpinnerItemStrings;
     }
 
-    public String[] getWarmupTrueString() {
-        return warmupTrue;
+    public String[] getWarmUpTrueString() {
+        return warmUpTrue;
     }
 
     public String[] getChoiceSpinner1Strings() {

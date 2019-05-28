@@ -28,7 +28,7 @@ public class PostUnit2Fragment extends Fragment {
     private String tag = "11NovV1";
     private String tag2 = "11NovV2";
 
-    public static PostUnit2Fragment postUnit2Fragment(String uidString) {
+    public static PostUnit2Fragment postUnit2Instance(String uidString) {
         PostUnit2Fragment postUnit2Fragment = new PostUnit2Fragment();
         Bundle bundle = new Bundle();
         bundle.putString("Uid", uidString);

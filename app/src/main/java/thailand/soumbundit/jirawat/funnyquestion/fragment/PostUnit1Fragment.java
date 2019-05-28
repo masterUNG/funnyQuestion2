@@ -31,7 +31,7 @@ public class PostUnit1Fragment extends Fragment {
     private String tag2 = "11NovV2";
     private int[] spinnerAnswerInts = new int[]{0,0,0,0,0,0,0,0};
 
-    public static PostUnit1Fragment postUnit1Fragment(String uidString) {
+    public static PostUnit1Fragment postUnit1Instance(String uidString) {
         PostUnit1Fragment postUnit1Fragment = new PostUnit1Fragment();
         Bundle bundle = new Bundle();
         bundle.putString("Uid", uidString);

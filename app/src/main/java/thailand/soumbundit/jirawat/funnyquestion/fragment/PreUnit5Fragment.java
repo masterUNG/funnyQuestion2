@@ -34,7 +34,7 @@ public class PreUnit5Fragment extends Fragment {
     private String tag = "11NovV1";
     private String tag2 = "11NovV2";
 
-    public static PreUnit5Fragment preUnit5Fragment(String uidString) {
+    public static PreUnit5Fragment preUnit5Instance(String uidString) {
         PreUnit5Fragment preUnit5Fragment = new PreUnit5Fragment();
         Bundle bundle = new Bundle();
         bundle.putString("Uid", uidString);

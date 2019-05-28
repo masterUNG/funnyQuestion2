@@ -32,7 +32,7 @@ public class PostUnit4Fragment extends Fragment {
     private String tag2 = "11NovV2";
     private int[] spinnerAnswerInts = new int[]{0,0,0};
 
-    public static PostUnit4Fragment postUnit4Fragment(String uidString) {
+    public static PostUnit4Fragment postUnit4Instance(String uidString) {
         PostUnit4Fragment postUnit4Fragment = new PostUnit4Fragment();
         Bundle bundle = new Bundle();
         bundle.putString("Uid", uidString);

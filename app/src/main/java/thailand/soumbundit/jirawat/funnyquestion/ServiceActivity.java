@@ -10,8 +10,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -378,7 +376,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.txtPreUnit1to5:
                 getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.contentServiceFragment, PreUnit1to5Fragment.preUnit1to5Fragment(uidUserString))
+                        .replace(R.id.contentServiceFragment, PreUnit1to5Fragment.preUnit1to5Instance(uidUserString))
                         .commit();
                 setCheckImage("PreUnit1to5");
                 break;
@@ -387,7 +385,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.txtPreUnit1:
                 getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.contentServiceFragment, PreUnit1Fragment.preUnit1Fragment(uidUserString))
+                        .replace(R.id.contentServiceFragment, PreUnit1Fragment.preUnit1Instance(uidUserString))
                         .commit();
                 setCheckImage("PreUnit1");
                 break;
@@ -396,7 +394,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.txtPreUnit2:
                 getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.contentServiceFragment, PreUnit2Fragment.preUnit2Fragment(uidUserString))
+                        .replace(R.id.contentServiceFragment, PreUnit2Fragment.preUnit2Instance(uidUserString))
                         .commit();
                 setCheckImage("PreUnit2");
                 break;
@@ -404,7 +402,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.txtPreUnit3:
                 getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.contentServiceFragment, PreUnit3Fragment.preUnit3Fragment(uidUserString))
+                        .replace(R.id.contentServiceFragment, PreUnit3Fragment.preUnit3Instance(uidUserString))
                         .commit();
                 setCheckImage("PreUnit3");
                 break;
@@ -412,7 +410,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.txtPreUnit4:
                 getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.contentServiceFragment, PreUnit4Fragment.preUnit4Fragment(uidUserString))
+                        .replace(R.id.contentServiceFragment, PreUnit4Fragment.preUnit4Instance(uidUserString))
                         .commit();
                 setCheckImage("PreUnit4");
 
@@ -421,7 +419,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.txtPreUnit5:
                 getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.contentServiceFragment, PreUnit5Fragment.preUnit5Fragment(uidUserString))
+                        .replace(R.id.contentServiceFragment, PreUnit5Fragment.preUnit5Instance(uidUserString))
                         .commit();
                 setCheckImage("PreUnit5");
                 break;
@@ -440,7 +438,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.txtUnit2:
                 getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.contentServiceFragment, Unit2Fragment.unit2Fragment(uidUserString))
+                        .replace(R.id.contentServiceFragment, Unit2Fragment.unit2Instance(uidUserString))
                         .commit();
                 setCheckImage("Unit2");
                 break;
@@ -473,7 +471,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.txtPostUnit1:
                 getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.contentServiceFragment, PostUnit1Fragment.postUnit1Fragment(uidUserString))
+                        .replace(R.id.contentServiceFragment, PostUnit1Fragment.postUnit1Instance(uidUserString))
                         .commit();
                 setCheckImage("PostUnit1");
                 break;
@@ -482,7 +480,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.txtPostUnit2:
                 getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.contentServiceFragment, PostUnit2Fragment.postUnit2Fragment(uidUserString))
+                        .replace(R.id.contentServiceFragment, PostUnit2Fragment.postUnit2Instance(uidUserString))
                         .commit();
                 setCheckImage("PostUnit2");
                 break;
@@ -490,7 +488,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.txtPostUnit3:
                 getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.contentServiceFragment, PostUnit3Fragment.postUnit3Fragment(uidUserString))
+                        .replace(R.id.contentServiceFragment, PostUnit3Fragment.postUnit3Instance(uidUserString))
                         .commit();
                 setCheckImage("PostUnit3");
                 break;
@@ -498,7 +496,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.txtPostUnit4:
                 getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.contentServiceFragment, PostUnit4Fragment.postUnit4Fragment(uidUserString))
+                        .replace(R.id.contentServiceFragment, PostUnit4Fragment.postUnit4Instance(uidUserString))
                         .commit();
                 setCheckImage("PostUnit4");
 
@@ -507,7 +505,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.txtPostUnit5:
                 getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.contentServiceFragment, PostUnit5Fragment.postUnit5Fragment(uidUserString))
+                        .replace(R.id.contentServiceFragment, PostUnit5Fragment.postUnit5Instance(uidUserString))
                         .commit();
                 setCheckImage("PostUnit5");
 
@@ -516,7 +514,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.txtPostUnit1to5:
                 getSupportFragmentManager()
                         .beginTransaction()
-                        .replace(R.id.contentServiceFragment, PostUnit1to5Fragment.postUnit1to5Fragment(uidUserString))
+                        .replace(R.id.contentServiceFragment, PostUnit1to5Fragment.postUnit1to5Instance(uidUserString))
                         .commit();
                 setCheckImage("PostUnit1to5");
 

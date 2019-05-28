@@ -223,7 +223,26 @@
                 android:layout_height="wrap_content"
                 android:text="@string/styleText4"
                 android:textSize="@dimen/h2"
+                android:layout_marginBottom="@dimen/padding4"
                 android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_clear3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding4"
+                    android:layout_marginBottom="@dimen/padding4"
+                    android:text="@string/styleText4a"
+                    android:textSize="@dimen/h2"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
 
             <ImageView
                 android:layout_width="match_parent"
