@@ -144,15 +144,15 @@
     <string name="u1styleText129"><b>Example:</b> she come home When does ?</string>
     <string name="u1styleText130"><b>Correct:</b> When does she come home?</string>
     <string name="u1styleText131"><b>Answer:</b> She comes home late.</string>
-    <string name="u1styleText132">\tyou computer your use in do How free time ?</string>
+    <string name="u1styleText132">\tyou/ computer/ your/ use/ in/ do/ How/ free time/ ?</string>
     <string name="u1styleText133"><b>Answer:</b> I usually use my computer to listen to music and watch a movie.</string>
-    <string name="u1styleText134">\tplay you do How often computer game ?</string>
+    <string name="u1styleText134">\tplay/ you/ do/ How/ often/ computer game/ ?</string>
     <string name="u1styleText135"><b>Answer:</b> I sometimes play computer game.</string>
-    <string name="u1styleText136">\tdoes What CPU for ? stand</string>
+    <string name="u1styleText136">\tdoes/ What/ CPU/ for/ ?/ stand</string>
     <string name="u1styleText137"><b>Answer:</b> It stands for central processing unit.</string>
-    <string name="u1styleText138">\tWhere do you use ? usually a computer</string>
+    <string name="u1styleText138">\tWhere/ do/ you/ use/ ?/ usually/ a computer</string>
     <string name="u1styleText139"><b>Answer:</b> I usually use a computer at computer center.</string>
-    <string name="u1styleText140">\tdo What you ? do</string>
+    <string name="u1styleText140">\tdo/ What/ you/ ?/ do</string>
     <string name="u1styleText141"><b>Answer:</b> I’m a university student.</string>
 
 
@@ -514,12 +514,18 @@
     <string name="u3styleText203">\t\t\tIs Nan playing computer games?</string>
     <string name="u3styleText204">4. Negative sentence</string>
     <string name="u3styleText205">\t\t\tNan isn’t playing computer games.</string>
-    <string name="u3styleText197e">5. They .......</string>
-    <string name="u3styleText197d">4. Windy .......</string>
-    <string name="u3styleText197c">3. Emily .......</string>
-    <string name="u3styleText197b">2. Colin .......</string>
     <string name="u3styleText197a">1. Tony .......</string>
+    <string name="u3styleText197a1"><b>Hint:</b>\tTony surfs the net.\n\t\t\t\tTony surfs the internet.</string>
+    <string name="u3styleText197b">2. Colin .......</string>
+    <string name="u3styleText197b2"><b>Hint:</b>\tColin sends E-mail.\n\t\t\t\tColin sends Email.</string>
+    <string name="u3styleText197c">3. Emily .......</string>
+    <string name="u3styleText197c2"><b>Hint:</b>\tEmily writes a program.\n\t\t\t\tEmily writes programs.</string>
+    <string name="u3styleText197d">4. Windy .......</string>
+    <string name="u3styleText197d2"><b>Hint:</b>\tWindy listens to music.\n\t\t\t\tWindy listens to music and sings.\n\t\t\t\tWindy listens.\n\t\t\t\tWindy sings a song and listens to music.\n\t\t\t\tWindy sings and listens.</string>
+    <string name="u3styleText197e">5. They .......</string>
+    <string name="u3styleText197e2"><b>Hint:</b>\tThey watch TV.\n\t\t\t\tThey watch television</string>
     <string name="u3styleText197f">Nan ........</string>
+    <string name="u3styleText197f2"><b>Hint:</b>\tNan plays computer games.</string>
 
 
     <!--post unit1-->
@@ -908,11 +914,11 @@
     <string name="u4styleText194">Language work:</string>
     <string name="u4styleText195">Practice 2</string>
     <string name="u4styleText196"><b>Direction:</b> Rewrite each of these warnings according to the prompt.</string>
-    <string name="u4styleText197">\tmust not, you, your, programs, these, machines, use, own,on</string>
-    <string name="u4styleText198">\tin, coffee, this, room, no</string>
-    <string name="u4styleText199">\tremove, ICs, don’t, with, screwdriver, a</string>
-    <string name="u4styleText200">\tavoid, out-of-date, using, anti-virus, software</string>
-    <string name="u4styleText201">\tturning off, avoid, power, while, main, is, computer, running</string>
+    <string name="u4styleText197">\tmust not/ you/ your/ programs/ these/ machines/ use/ own/ on</string>
+    <string name="u4styleText198">\tin/ coffee/ this/ room/ no</string>
+    <string name="u4styleText199">\tremove/ ICs/ don’t/ with/ screwdriver/ a</string>
+    <string name="u4styleText200">\tavoid/ out-of-date/ using/ anti-virus/ software</string>
+    <string name="u4styleText201">\tturning off/ avoid/ power/ while/ main/ is/ computer/ running</string>
 
 
 

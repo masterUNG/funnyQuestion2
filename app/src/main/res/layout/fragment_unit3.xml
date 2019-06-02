@@ -2413,9 +2413,18 @@
                 android:scaleType="centerInside"
                 android:src="@drawable/unit303" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="@string/u3styleText197f2"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/padding8"
                 android:background="@drawable/bg_clear2"
                 android:orientation="vertical">
 
@@ -2500,9 +2509,18 @@
                 android:scaleType="centerInside"
                 android:src="@drawable/unit304" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="@string/u3styleText197a1"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/padding8"
                 android:background="@drawable/bg_clear2"
                 android:orientation="vertical">
 
@@ -2583,9 +2601,18 @@
                 android:scaleType="centerInside"
                 android:src="@drawable/unit305" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="@string/u3styleText197b2"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/padding8"
                 android:background="@drawable/bg_clear2"
                 android:orientation="vertical">
 
@@ -2667,9 +2694,18 @@
                 android:scaleType="centerInside"
                 android:src="@drawable/unit306" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="@string/u3styleText197c2"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/padding8"
                 android:background="@drawable/bg_clear2"
                 android:orientation="vertical">
 
@@ -2750,9 +2786,18 @@
                 android:scaleType="centerInside"
                 android:src="@drawable/unit307" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="@string/u3styleText197d2"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/padding8"
                 android:background="@drawable/bg_clear2"
                 android:orientation="vertical">
 
@@ -2833,16 +2878,33 @@
                 android:scaleType="centerInside"
                 android:src="@drawable/unit308" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text=""
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/padding8"
+                android:text="@string/u3styleText197e2"
+                android:textSize="@dimen/h2"
+                android:textStyle="normal" />
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/padding8"
                 android:background="@drawable/bg_clear2"
                 android:orientation="vertical">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/padding4"
+                    android:layout_marginTop="@dimen/padding8"
                     android:text="@string/u3styleText198"
                     android:textSize="@dimen/h2"
                     android:textStyle="normal" />
