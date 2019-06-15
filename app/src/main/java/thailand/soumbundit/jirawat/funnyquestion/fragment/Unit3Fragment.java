@@ -1197,7 +1197,7 @@ public class Unit3Fragment extends Fragment {
         Log.d(tag, "uidSting ==> " + uidString);
         // find UnitID, Name Unit
         String[] strings = myConstant.getUnitTitleStrings();
-        nameUnitString = strings[0];
+        nameUnitString = strings[2];
         Log.d(tag, "nameUnitStirng ==> " + nameUnitString);
     }
 

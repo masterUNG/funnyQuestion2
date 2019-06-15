@@ -29,6 +29,7 @@ import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit2Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit3Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit4Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.PreUnit5Fragment;
+import thailand.soumbundit.jirawat.funnyquestion.fragment.ReportFragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.Unit1Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.Unit2Fragment;
 import thailand.soumbundit.jirawat.funnyquestion.fragment.Unit3Fragment;
@@ -43,13 +44,15 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
     private ActionBarDrawerToggle actionBarDrawerToggle;
     private TextView unit1TextView, unit2TextView, unit3TextView, unit4TextView, unit5TextView, unit6TextView,
             preUnit1TextView, preUnit2TextView, preUnit3TextView, preUnit4TextView, preUnit5TextView, preUnit1to5TextView,
-            postUnit1TextView, postUnit2TextView, postUnit3TextView, postUnit4TextView, postUnit5TextView, postUnit1to5TextView;
+            postUnit1TextView, postUnit2TextView, postUnit3TextView, postUnit4TextView, postUnit5TextView, postUnit1to5TextView,
+            reportView;
 
     private ImageView unit1ImgView, unit2ImgView, unit3ImgView, unit4ImgView, unit5ImgView, unit6ImgView,
             preUnit1ImgView, preUnit2ImgView, preUnit3ImgView, preUnit4ImgView, preUnit5ImgView, preUnit1to5ImgView,
-            postUnit1ImgView, postUnit2ImgView, postUnit3ImgView, postUnit4ImgView, postUnit5ImgView, postUnit1to5ImgView;
+            postUnit1ImgView, postUnit2ImgView, postUnit3ImgView, postUnit4ImgView, postUnit5ImgView, postUnit1to5ImgView,
+            reportImgView;
 
-    private LinearLayout linearLayout1,linearLayout2, linearLayout3;
+    private LinearLayout linearLayout1, linearLayout2, linearLayout3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,7 +69,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         findUser();
 //        Create Toolbar
         createToolbar();
-//          Unit Controller
+//        All Units Controller
         unitController();
 
 //        Add Fragment
@@ -84,11 +87,10 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         txtTitle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(linearLayout1.isShown()){
+                if (linearLayout1.isShown()) {
                     linearLayout1.setVisibility(View.GONE);
                     imageView.setImageResource(R.drawable.ic_action_more);
-                }
-                else{
+                } else {
                     linearLayout1.setVisibility(View.VISIBLE);
                     imageView.setImageResource(R.drawable.ic_action_less);
                 }
@@ -98,15 +100,14 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(linearLayout1.isShown()){
+                if (linearLayout1.isShown()) {
                     linearLayout1.setVisibility(View.GONE);
                     imageView.setImageResource(R.drawable.ic_action_more);
-                }
-                else{
+                } else {
                     linearLayout1.setVisibility(View.VISIBLE);
                     imageView.setImageResource(R.drawable.ic_action_less);
                 }
-                }
+            }
         });
 
     }
@@ -121,11 +122,10 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         txtTitle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(linearLayout2.isShown()){
+                if (linearLayout2.isShown()) {
                     linearLayout2.setVisibility(View.GONE);
                     imageView.setImageResource(R.drawable.ic_action_more);
-                }
-                else{
+                } else {
                     linearLayout2.setVisibility(View.VISIBLE);
                     imageView.setImageResource(R.drawable.ic_action_less);
                 }
@@ -135,11 +135,10 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(linearLayout2.isShown()){
+                if (linearLayout2.isShown()) {
                     linearLayout2.setVisibility(View.GONE);
                     imageView.setImageResource(R.drawable.ic_action_more);
-                }
-                else{
+                } else {
                     linearLayout2.setVisibility(View.VISIBLE);
                     imageView.setImageResource(R.drawable.ic_action_less);
                 }
@@ -157,11 +156,10 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         txtTitle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(linearLayout3.isShown()){
+                if (linearLayout3.isShown()) {
                     linearLayout3.setVisibility(View.GONE);
                     imageView.setImageResource(R.drawable.ic_action_more);
-                }
-                else{
+                } else {
                     linearLayout3.setVisibility(View.VISIBLE);
                     imageView.setImageResource(R.drawable.ic_action_less);
                 }
@@ -171,18 +169,16 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(linearLayout3.isShown()){
+                if (linearLayout3.isShown()) {
                     linearLayout3.setVisibility(View.GONE);
                     imageView.setImageResource(R.drawable.ic_action_more);
-                }
-                else{
+                } else {
                     linearLayout3.setVisibility(View.VISIBLE);
                     imageView.setImageResource(R.drawable.ic_action_less);
                 }
             }
         });
     }
-
 
 
     private void addFragment(Bundle savedInstanceState) {
@@ -203,8 +199,16 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         setUnitController(strings);
         setPostUnitController(strings);
 
+        setReportController(strings[18]);
+
     }
 
+    private void setReportController(String string) {
+        reportView = findViewById(R.id.txtReport);
+        reportImgView = findViewById(R.id.imgReport);
+        reportView.setText(string);
+        reportView.setOnClickListener(ServiceActivity.this);
+    }
 
     private void setPreUnitController(String[] strings) {
         preUnit1to5TextView = findViewById(R.id.txtPreUnit1to5);
@@ -517,10 +521,15 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
                         .replace(R.id.contentServiceFragment, PostUnit1to5Fragment.postUnit1to5Instance(uidUserString))
                         .commit();
                 setCheckImage("PostUnit1to5");
+                break;
 
-            /*case R.id.txtPostUnit6:
-
-                break;*/
+            case  R.id.txtReport:
+                getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.contentServiceFragment, ReportFragment.reportFragment(uidUserString))
+                        .commit();
+                setCheckImage("Report");
+                break;
 
         }
 
@@ -553,7 +562,6 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         else preUnit5ImgView.setImageResource(R.drawable.ic_action_rectangle);
 
 
-
         if (position.equals("Unit1"))
             unit1ImgView.setImageResource(R.drawable.ic_action_check_ok);
         else unit1ImgView.setImageResource(R.drawable.ic_action_rectangle);
@@ -573,7 +581,6 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         if (position.equals("Unit5"))
             unit5ImgView.setImageResource(R.drawable.ic_action_check_ok);
         else unit5ImgView.setImageResource(R.drawable.ic_action_rectangle);
-
 
 
         if (position.equals("PostUnit1"))
@@ -599,6 +606,10 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
         if (position.equals("PostUnit1to5"))
             postUnit1to5ImgView.setImageResource(R.drawable.ic_action_check_ok);
         else postUnit1to5ImgView.setImageResource(R.drawable.ic_action_rectangle);
+
+        if (position.equals("Report"))
+            reportImgView.setImageResource(R.drawable.ic_action_check_ok);
+        else reportImgView.setImageResource(R.drawable.ic_action_rectangle);
 
     }
 

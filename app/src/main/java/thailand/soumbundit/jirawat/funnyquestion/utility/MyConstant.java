@@ -230,12 +230,29 @@ public class MyConstant {
 
 
     private String[] unitTitleStrings = new String[]{
-            "Unit1 Computer Users",
+            "Unit1 Computer Users", //0
             "Unit2 Computer Architecture",
             "Unit3 Computer Applications",
             "Unit4 The Internet",
             "Unit5 Communication Systems",
-            "Unit1-5"
+            "Unit1-5",
+
+            "Pre-test Unit1",//6
+            "Pre-test Unit2",
+            "Pre-test Unit3",
+            "Pre-test Unit4",
+            "Pre-test Unit5",
+            "Pre-test Unit1-5",
+
+            "Post-test Unit1",//12
+            "Post-test Unit2",
+            "Post-test Unit3",
+            "Post-test Unit4",
+            "Post-test Unit5",
+            "Post-test Unit1-5",
+
+            "Score Report"//18
+
     };
 
     private String[] chioceSpinner5Strings = new String[]{

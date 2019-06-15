@@ -45,7 +45,7 @@ public class PreUnit5Fragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        findTimeTest();
+
         findUidNameUnit();
         checkFloating();
     }
@@ -112,6 +112,9 @@ public class PreUnit5Fragment extends Fragment {
 
     public void processCheckScore() {
         int scoreInt = 0;
+
+        findTimeTest();
+
         scoreInt += calculatePractice();
         scoreInt = scoreInt * 10;
         pretestScoreString = Integer.toString(scoreInt);
@@ -177,7 +180,7 @@ public class PreUnit5Fragment extends Fragment {
         Log.d(tag, "uidSting ==> " + uidString);
 // find UnitID, Name Unit
         String[] strings = myConstant.getUnitTitleStrings();
-        nameUnitString = strings[0];
+        nameUnitString = strings[10];
         Log.d(tag, "nameUnitStirng ==> " + nameUnitString);
     }
 
