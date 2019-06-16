@@ -20,6 +20,10 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Spinner;
 
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 import java.math.BigDecimal;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -27,6 +31,7 @@ import java.util.Calendar;
 
 import thailand.soumbundit.jirawat.funnyquestion.R;
 import thailand.soumbundit.jirawat.funnyquestion.utility.MyConstant;
+import thailand.soumbundit.jirawat.funnyquestion.utility.ScoreTestModel;
 
 public class Unit1Fragment extends Fragment {
     //    Explicit
@@ -193,6 +198,7 @@ public class Unit1Fragment extends Fragment {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
 
+
             }
         });
 
@@ -201,10 +207,43 @@ public class Unit1Fragment extends Fragment {
         builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
+
+                Log.d("16JuneV1", "uid ==> " + uidString);
+                Log.d("16JuneV1", "date ==> " + timeTestString);
+                Log.d("16JuneV1", "NameUnit ==> " + nameUnitString);
+
+                sentValueToFirebase();
+
                 dialog.dismiss();
             }
         });
         builder.show();
+    }
+
+    private void sentValueToFirebase() {
+
+        String[] strings = timeTestString.split(" ");
+        String dateString = "d" + strings[0] + "_" + strings[1].trim();
+        Log.d("16JuneV1", "dateString ==> " + dateString);
+
+//        Create Child on Firebase
+        FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
+        DatabaseReference databaseReference = firebaseDatabase.getReference()
+                .child("ScoreTest")
+                .child(uidString)
+                .child(dateString);
+
+//        Create Model
+        ScoreTestModel scoreTestModel = new ScoreTestModel(languageString, listeningString, nameUnitString, practiseString, warmUpString);
+
+//        Insert Data
+        databaseReference.setValue(scoreTestModel).addOnSuccessListener(new OnSuccessListener<Void>() {
+            @Override
+            public void onSuccess(Void aVoid) {
+                Log.d("16JuneV1", "Success Upload");
+            }
+        });
+
     }
 
     public void processCheckScore() {
@@ -431,7 +470,7 @@ public class Unit1Fragment extends Fragment {
 
     public void findTimeTest() {
         Calendar calendar = Calendar.getInstance();
-        DateFormat dateFormat = new SimpleDateFormat("dd/MM/yy HH:mm");
+        DateFormat dateFormat = new SimpleDateFormat("dd-MM-yy HH:mm");
         timeTestString = dateFormat.format(calendar.getTime());
         Log.d(tag, "TimeTestString ==> " + timeTestString);
     }
