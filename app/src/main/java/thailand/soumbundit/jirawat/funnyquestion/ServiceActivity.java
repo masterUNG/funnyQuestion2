@@ -597,6 +597,7 @@ public class ServiceActivity extends AppCompatActivity implements View.OnClickLi
 
         if (position.equals("PostUnit4"))
             postUnit4ImgView.setImageResource(R.drawable.ic_action_check_ok);
+
         else postUnit4ImgView.setImageResource(R.drawable.ic_action_rectangle);
 
         if (position.equals("PostUnit5"))
