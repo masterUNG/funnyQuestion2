@@ -223,7 +223,7 @@ public class Unit1Fragment extends Fragment {
     private void sentValueToFirebase() {
 
         String[] strings = timeTestString.split(" ");
-        String dateString = "d" + strings[0] + "_" + strings[1].trim();
+        String dateString = "Unit1_" + strings[0] + "_" + strings[1].trim();
         Log.d("16JuneV1", "dateString ==> " + dateString);
 
 //        Create Child on Firebase
